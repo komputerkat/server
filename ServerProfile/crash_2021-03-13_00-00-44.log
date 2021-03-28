@@ -1,0 +1,35 @@
+---------------------------------------------
+Log C:\Program Files (x86)\Steam\steamapps\common\DayZServer\ServerProfile\crash_2021-03-13_00-00-44.log started at 13.03. 02:45:59
+
+
+
+------------------------------------
+42MA-SERVER, 13.03 2021 02:45:59
+
+[desync] HandleInputData man=SurvivorM_Manua:02 CANNOT move cmd=SYNC_MOVE src={ type=GROUND item=DenimJacket:023363 pos=(4952.06, 9.6184, 2439.5) dir=(-0.681208, -0.189654, -0.189654, 0.681193) } dst={ type=CARGO item=DenimJacket:023363 parent=MVS_Assault_Pack_Multicam_Black:024731 idx=0 row=4 col=0 f=false }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:553
+scripts/4_World/systems\inventory\dayzplayerinventory.c:870
+scripts/4_World/systems\inventory\dayzplayerinventory.c:455
+
+Runtime mode
+CLI params: config serverDZ.cfg port 2302 mod @CF;@CommunityOnlineTools;@DayZEditorLoader;@42MonthsAfter;@CodeLock;@zSpawnSelection;@ZTVendingMachine;@KillFeed;@MasssManyItemOverhaul;@SpecialistWeaponPack;@CannabisPlus;@MunghardsItempack;@ZeroyFishingZ;@NatureOverhaul;@BuilderItems;@ModularVestSystem;@CamoTents;@BaseBuildingPlus;@MortysWeapons;@EarPlugs;@BuildAnywhere_v3;@AirdropUpgraded;@ToxicZone;@TeddysWeaponPack;@survivorsrpfoods;@VanillaPlusPlusMap;@TrolleyKart;@IRP-Land-Rover-Defender-110;@Trader; profiles ServerProfile dologs  adminlog  netlog  
+
+
+------------------------------------
+42MA-SERVER, 13.03 2021 02:46:03
+
+[desync] HandleInputData man=SurvivorM_Manua:02 CANNOT move cmd=SYNC_MOVE src={ type=GROUND item=DenimJacket:023363 pos=(4952.06, 9.6184, 2439.5) dir=(-0.681208, -0.189654, -0.189654, 0.681193) } dst={ type=CARGO item=DenimJacket:023363 parent=MVS_Assault_Pack_Multicam_Black:024731 idx=0 row=4 col=0 f=false }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:553
+scripts/4_World/systems\inventory\dayzplayerinventory.c:870
+scripts/4_World/systems\inventory\dayzplayerinventory.c:455
+
+Runtime mode
+CLI params: config serverDZ.cfg port 2302 mod @CF;@CommunityOnlineTools;@DayZEditorLoader;@42MonthsAfter;@CodeLock;@zSpawnSelection;@ZTVendingMachine;@KillFeed;@MasssManyItemOverhaul;@SpecialistWeaponPack;@CannabisPlus;@MunghardsItempack;@ZeroyFishingZ;@NatureOverhaul;@BuilderItems;@ModularVestSystem;@CamoTents;@BaseBuildingPlus;@MortysWeapons;@EarPlugs;@BuildAnywhere_v3;@AirdropUpgraded;@ToxicZone;@TeddysWeaponPack;@survivorsrpfoods;@VanillaPlusPlusMap;@TrolleyKart;@IRP-Land-Rover-Defender-110;@Trader; profiles ServerProfile dologs  adminlog  netlog  

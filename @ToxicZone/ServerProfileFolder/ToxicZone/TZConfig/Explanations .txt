@@ -1,0 +1,911 @@
+{
+    "IsMsgActive": 1,									//Set to 0 to disable warning msg when you get in a toxiczone
+    "IsDynZoneActive": 1,								//Set t0 0 to disable every Moving Zone
+    "IsToxicZoneActive": 1,								//Set to 0 to dosable every Toxic Zone
+    "MsgEnterZone": "YOU ARE IN A TOXIC AREA!",			//Message that appear when you get in a zone
+    "MsgExitZone": "YOU LEFT THE TOXIC AREA!",			//Message that appear when you leave a zone
+    "CheckNBC": 45000,									//Every 45s (45000ms), the server check if the player is in a toxiczone, if you reduce it you will decrease server performance, if you increase it you will do the opposite
+    "CheckDynNBC": 60000,								//Every 60s, Every Moving Zone move and the server check if the player is inside one of them
+    "ToxicBloodLoss": 5,								//Once you're higher that 100 in the quantity of toxicity in your character, you get sick then you start loosing 5 blood per time (every 3s I think). With that value, your character can survive about 25 min before falling uncounscious, so find the cure quickly or die ;)
+    "NbSickGiven": 34,									//Every [CheckNBC]\[CheckDynNBC] if the server find that your character is unprotected, your charachter absorb/take 34 toxicity sickness (knowing that you get sick at 100), it means that by default, it takes 2m15s to get sick without protection in a zone
+    "SuitsDamage": 20,									//To reduce the cost of performance on the server, the damage of the suit are taken only when you enter a zone so by default, you can enter 4 times with a set without
+    "GP5DamageGrenade": 10,								//Every 15s, the gasmask take 10 health point as damage by the toxicgrenade
+    "NbSickGivenforToxicSmoke": 51,							//With this value, it takes less than a min to get sick without gasmask protection agasint a toxic grenade
+    "IsCharcoalTabNeeded": 1,                                                   	//If set to 1: you will need to have a filter or tablets into your gasmask (Filter are for GP5Gasmask and CharcoalTablet are for GasMask)
+	"ToxicAreaLocation": [								//This is where you can set a new ToxicZone, you can copy one and make new parameters for your needs. (cf the example at the end)
+        {
+            "ToxicZoneStatut": "TZKamensk",				//Name of your toxic zone
+            "ContainerName": "ToxicCase",				//You can change the container where you will find loot even if I don't see the point of changing it. ALSO NOW THE DESPAWN IS FORCED JUST BEFORE THE NEW RESPAWN OF THE CRATE. So don't let people keep the crate
+            "X": 7890,									//X coordonate of the center of the zone
+            "Y": 14697,									//Y coordonate of the center of the zone (IN DAYZ IT'S THE THIRD VALUE, Y=Z, sorry for that, dayz is not logic about math )
+            "Radius": 300,								//Radius of the zone
+            "X1": -1,									//X coordonate of the 1rst corner of the zone - Don't use those unless you want a square toxic zone
+            "Y1": -1,									//Y coordonate of the 1rst corner of the zone - Don't use those unless you want a square toxic zone
+            "X2": -1,									//X coordonate of the 2nd corner of the zone - Don't use those unless you want a square toxic zone
+            "Y2": -1,									//Y coordonate of the 2nd corner of the zone - Don't use those unless you want a square toxic zone
+            "NumbCratePerTime": 1,						//Number of crate that spawn every [TimerLoot] (cf LootConfig.json) =>everytime you increase that value, you should increase the number of crate position to avoid stacking
+            "MaxLoot": 8,							//MaxLoot in crate
+            "IsSquareZone": 0,							//Set to 1 to make this toxic zone square
+            "IsLootActive": 1,							//Set to 0 to disable loot drop in this toxiczone
+            "IsOnlyGasMask": 1,							//Set to 1 to allow only gas mask as protection (don't forget to set the IsCharcoalTabNeed if you want to use the Filter or the charcoaltablets in order to make the gasmask work)
+            "ToxicCratePosition": [
+                {
+                    "Name": "Army1",					//Name of the loot preset configured in TZLootConfigV4.json
+                    "POS": [
+                        8029.16,						//Vector position of the crate
+                        0.82309,
+                        14642.8
+                    ],
+                    "ORI": [
+                        -90,							//Vector orientation of the crate
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "Name": "Army2",
+                    "POS": [
+                        8028.43,
+                        339.823,
+                        14642.8
+                    ],
+                    "ORI": [
+                        -90,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "Name": "Army1",
+                    "POS": [
+                        7812.99,
+                        356.012,
+                        14783.9
+                    ],
+                    "ORI": [
+                        50,
+                        0.386834,
+                        1.18161
+                    ]
+                },
+                {
+                    "Name": "Army2",
+                    "POS": [
+                        7832.35,
+                        357.1,
+                        14794
+                    ],
+                    "ORI": [
+                        -176,
+                        0,
+                        -9
+                    ]
+                },
+                {
+                    "Name": "Army1",
+                    "POS": [
+                        7895.69,
+                        344.4,
+                        14680.6
+                    ],
+                    "ORI": [
+                        -150,
+                        3.20419,
+                        -9.82913
+                    ]
+                },
+                {
+                    "Name": "Army2",
+                    "POS": [
+                        7903.3,
+                        339.05,
+                        14637.4
+                    ],
+                    "ORI": [
+                        -80,
+                        6,
+                        0
+                    ]
+                },
+                {
+                    "Name": "Army1",
+                    "POS": [
+                        8040.3,
+                        340.252,
+                        14611.3
+                    ],
+                    "ORI": [
+                        145,
+                        -0.365324,
+                        1.12054
+                    ]
+                },
+                {
+                    "Name": "Army2",
+                    "POS": [
+                        7928.9,
+                        340.478,
+                        14670
+                    ],
+                    "ORI": [
+                        21.5348,
+                        0.493056,
+                        2.38246
+                    ]
+                },
+                {
+                    "Name": "Army1",
+                    "POS": [
+                        8010.2,
+                        340.288,
+                        14654.2
+                    ],
+                    "ORI": [
+                        150,
+                        0.153955,
+                        -1.17489
+                    ]
+                }
+            ],
+            "ParticlesPosition": [
+                {
+                    "NName": "GreenSmoke",					 //Name of the Smoke particle your using (there is also BlueSmoke, RedSmoke ,GreySmoke, PurpleSmoke, GreenSmoke2, MustardSmoke and WhiteSmoke) : Each of them are available as LongParticle (ex: WhiteSmokeLong)
+                    "PPos": [							     //Vector position of the particle
+                        8010,
+                        0,
+                        14625
+                    ]
+                },
+                {
+                    "NName": "GreenSmoke",
+                    "PPos": [
+                        7794,
+                        0,
+                        14788
+                    ]
+                },
+                {
+                    "NName": "GreenSmoke",
+                    "PPos": [
+                        7871,
+                        0,
+                        14700
+                    ]
+                },
+                {
+                    "NName": "GreenSmoke",
+                    "PPos": [
+                        7691,
+                        0,
+                        14855
+                    ]
+                },
+                {
+                    "NName": "GreenSmoke",
+                    "PPos": [
+                        7904,
+                        0,
+                        14585
+                    ]
+                },
+                {
+                    "NName": "GreenSmoke",
+                    "PPos": [
+                        7814,
+                        0,
+                        14542
+                    ]
+                },
+                {
+                    "NName": "GreenSmoke",
+                    "PPos": [
+                        7766,
+                        0,
+                        14639
+                    ]
+                },
+                {
+                    "NName": "GreenSmoke",
+                    "PPos": [
+                        7725,
+                        0,
+                        14706
+                    ]
+                },
+                {
+                    "NName": "GreenSmoke",
+                    "PPos": [
+                        8019,
+                        0,
+                        14758
+                    ]
+                },
+                {
+                    "NName": "GreenSmoke",
+                    "PPos": [
+                        7644,
+                        0,
+                        14750
+                    ]
+                },
+                {
+                    "NName": "GreenSmoke",
+                    "PPos": [
+                        7910,
+                        0,
+                        14724
+                    ]
+                },
+                {
+                    "NName": "GreenSmoke",
+                    "PPos": [
+                        7916,
+                        0,
+                        14627
+                    ]
+                },
+                {
+                    "NName": "GreenSmoke",
+                    "PPos": [
+                        8115,
+                        0,
+                        14563
+                    ]
+                },
+                {
+                    "NName": "GreenSmoke",
+                    "PPos": [
+                        8161,
+                        0,
+                        14706
+                    ]
+                },
+                {
+                    "NName": "GreenSmoke",
+                    "PPos": [
+                        8003,
+                        0,
+                        14538
+                    ]
+                }
+            ],
+            "CreatureList": [										   //Creature that will spawn to defend the crate that spawn with loot
+                {
+                    "CreatureName": "Animal_CanisLupus_Grey",         //Creature name 1
+                    "Max": 5										  //Number of creature 1 that spawn
+                },
+                {
+                    "CreatureName": "Animal_CanisLupus_Grey",         //Creature name 2
+                    "Max": 2									      //Number of creature 2 that spawn
+                }
+            ]
+        },
+        {
+            "ToxicZoneStatut": "TZTisy",
+            "ContainerName": "ToxicChest",
+            "X": 1655,
+            "Y": 14068,
+            "Radius": 600,
+            "X1": -1,
+            "Y1": -1,
+            "X2": -1,
+            "Y2": -1,
+            "NumbCratePerTime": 1,
+            "MaxLoot": 8,
+            "IsSquareZone": 0,
+            "IsLootActive": 1,
+            "IsOnlyGasMask": 1,
+            "ToxicCratePosition": [
+                {
+                    "Name": "Army1",
+                    "POS": [
+                        1386.16,
+                        464.569,
+                        14422.1
+                    ],
+                    "ORI": [
+                        115,
+                        0,
+                        -0
+                    ]
+                },
+                {
+                    "Name": "Army2",
+                    "POS": [
+                        1380.56,
+                        464.444,
+                        14427.8
+                    ],
+                    "ORI": [
+                        1380.56,
+                        464.444,
+                        14427.8
+                    ]
+                },
+                {
+                    "Name": "Army1",
+                    "POS": [
+                        1694.4,
+                        448.403,
+                        14210
+                    ],
+                    "ORI": [
+                        -108,
+                        0,
+                        -0
+                    ]
+                },
+                {
+                    "Name": "Army2",
+                    "POS": [
+                        1396.58,
+                        464.58,
+                        14450.6
+                    ],
+                    "ORI": [
+                        115,
+                        0,
+                        -0
+                    ]
+                },
+                {
+                    "Name": "Army1",
+                    "POS": [
+                        1390.25,
+                        464.569,
+                        14428.6
+                    ],
+                    "ORI": [
+                        115,
+                        0,
+                        -0
+                    ]
+                },
+                {
+                    "Name": "Army2",
+                    "POS": [
+                        1696.09,
+                        456.485,
+                        14179.1
+                    ],
+                    "ORI": [
+                        73,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "Name": "Army1",
+                    "POS": [
+                        1705.52,
+                        456.485,
+                        14167.8
+                    ],
+                    "ORI": [
+                        -110,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "Name": "Army2",
+                    "POS": [
+                        1705.13,
+                        452.415,
+                        14171.1
+                    ],
+                    "ORI": [
+                        -20,
+                        -3e-06,
+                        2e-06
+                    ]
+                },
+                {
+                    "Name": "Army1",
+                    "POS": [
+                        1534.48,
+                        452.701,
+                        14176.8
+                    ],
+                    "ORI": [
+                        111.493,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "Name": "Army2",
+                    "POS": [
+                        1674.71,
+                        445.625,
+                        13883.6
+                    ],
+                    "ORI": [
+                        -60,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "Name": "Army1",
+                    "POS": [
+                        1678.46,
+                        445.741,
+                        13823.8
+                    ],
+                    "ORI": [
+                        34,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "Name": "Army2",
+                    "POS": [
+                        1722.44,
+                        451.94,
+                        13721.4
+                    ],
+                    "ORI": [
+                        125,
+                        -0.005424,
+                        0.0047
+                    ]
+                },
+                {
+                    "Name": "Army1",
+                    "POS": [
+                        1896.77,
+                        448.958,
+                        13707.8
+                    ],
+                    "ORI": [
+                        -134,
+                        -0.083319,
+                        -0.042664
+                    ]
+                },
+                {
+                    "Name": "Army2",
+                    "POS": [
+                        1888.66,
+                        449.046,
+                        13704.1
+                    ],
+                    "ORI": [
+                        45,
+                        -0.031207,
+                        -0.014148
+                    ]
+                },
+                {
+                    "Name": "Army1",
+                    "POS": [
+                        1991.67,
+                        450.258,
+                        13825.1
+                    ],
+                    "ORI": [
+                        -180,
+                        -0.083759,
+                        0.079992
+                    ]
+                },
+                {
+                    "Name": "Army2",
+                    "POS": [
+                        1988.6,
+                        450.254,
+                        13817
+                    ],
+                    "ORI": [
+                        0,
+                        -0.002396,
+                        -0.006766
+                    ]
+                }
+            ],
+            "ParticlesPosition": [
+                {
+                    "NName": "GreenSmoke",
+                    "PPos": [
+                        1647.65,
+                        451.73,
+                        14193.6
+                    ]
+                },
+                {
+                    "NName": "GreenSmoke",
+                    "PPos": [
+                        1660.05,
+                        451.753,
+                        14362.3
+                    ]
+                },
+                {
+                    "NName": "GreenSmoke",
+                    "PPos": [
+                        1811.86,
+                        449.522,
+                        14249.5
+                    ]
+                },
+                {
+                    "NName": "GreenSmoke",
+                    "PPos": [
+                        1482.53,
+                        462.749,
+                        14415.7
+                    ]
+                },
+                {
+                    "NName": "GreenSmoke",
+                    "PPos": [
+                        1558.28,
+                        452.77,
+                        14066.5
+                    ]
+                },
+                {
+                    "NName": "GreenSmoke",
+                    "PPos": [
+                        1764.74,
+                        450.321,
+                        14057.1
+                    ]
+                },
+                {
+                    "NName": "GreenSmoke",
+                    "PPos": [
+                        1721.75,
+                        445.441,
+                        13882.5
+                    ]
+                },
+                {
+                    "NName": "GreenSmoke",
+                    "PPos": [
+                        1471.98,
+                        473.017,
+                        14243.7
+                    ]
+                },
+                {
+                    "NName": "GreenSmoke",
+                    "PPos": [
+                        1647.9,
+                        451.227,
+                        13994
+                    ]
+                },
+                {
+                    "NName": "GreenSmoke",
+                    "PPos": [
+                        1870.52,
+                        432.153,
+                        13778.7
+                    ]
+                },
+                {
+                    "NName": "GreenSmoke",
+                    "PPos": [
+                        1740.96,
+                        433.674,
+                        13654.4
+                    ]
+                },
+                {
+                    "NName": "GreenSmoke",
+                    "PPos": [
+                        1510.25,
+                        439.792,
+                        13603.6
+                    ]
+                },
+                {
+                    "NName": "GreenSmoke",
+                    "PPos": [
+                        1402.81,
+                        449.133,
+                        13687.3
+                    ]
+                },
+                {
+                    "NName": "GreenSmoke",
+                    "PPos": [
+                        1340.24,
+                        463.933,
+                        14049.6
+                    ]
+                },
+                {
+                    "NName": "GreenSmoke",
+                    "PPos": [
+                        1264.25,
+                        462.462,
+                        14009.9
+                    ]
+                },
+                {
+                    "NName": "GreenSmoke",
+                    "PPos": [
+                        1058.68,
+                        470.138,
+                        13907.3
+                    ]
+                },
+                {
+                    "NName": "GreenSmoke",
+                    "PPos": [
+                        1635.71,
+                        443.326,
+                        13750.5
+                    ]
+                },
+                {
+                    "NName": "GreenSmoke",
+                    "PPos": [
+                        1534.73,
+                        455.119,
+                        13780
+                    ]
+                },
+                {
+                    "NName": "GreenSmoke",
+                    "PPos": [
+                        1509.31,
+                        456.668,
+                        13892.9
+                    ]
+                }
+            ],
+            "CreatureList": [
+                {
+                    "CreatureName": "Animal_CanisLupus_Grey",
+                    "Max": 5
+                },
+                {
+                    "CreatureName": "Animal_CanisLupus_Grey",
+                    "Max": 2
+                }
+            ]
+        }
+    ],
+    "DynToxicAreaLocation": [                                          //You can create Dynamic ToxicZone that move along a trajectory
+        {
+            "DynToxicZoneStatut": "ZelenToNovy",                       //Name of the DynToxicZone
+            "StartX": 2000,											   //Starting point X
+            "StartY": 5000,											   //Starting point Y
+            "EndX": 7442,											   //Ending point X
+            "EndY": 8330,											   //Ending point X
+            "Radius": 150,											   //Radius
+            "Coeff": 0.611907,										   //Coeff to calcule : (EndY-StartY)/(EndX-StartX);
+            "YtoOrigin": 3776.19,									   //YtoOrigin to calcule: StartY-Coeff*StartX;
+            "Chance": 0.25,                                            						//chance to appear at restart
+            "Speed": 30,											   //Every 60s, the zone move of 30m.
+            "norme": 6379,											   //not used 
+            "IsOnlyGasMask": 1,										   //Set to 1 to allow only gas mask as protection
+            "ParticleName": "GreenSmokeLong"						   //A bigger particles that is about 150m radius.
+        }	
+    ],
+    "AdminUID": [
+        "76561198047475641"											   /Put your steam64ID to have the position of MovingZone in real time in the chat
+    ]
+}
+New Loot drop system ! Now, there is no minimum quantity required, this is a probability system, you add an item like an AKM, you define is chance to spawn in the crate then you add the attachment that can spawn with the weapon also with a chance
+{
+    "TimerLoot": 2700000,
+    "IsActive": 1,
+    "ListLoots": [
+        {
+            "Name": "Army1",                                         //Name of the loot preset to use for each crate
+            "Loots": [
+                {
+                    "LootName": "AKM",
+                    "ProbToSpawn": 0.6,                              //60% chance to spawn
+                    "AttachmentsToLoot": [
+                        {
+                            "AttachName": "Mag_AKM_30Rnd",
+                            "ProbAttachToSpawn": 0.5                 //50% chance to spawn so 3% chance to find an AKM with a Mag
+                        },
+                        {
+                            "AttachName": "Mag_AKM_30Rnd",
+                            "ProbAttachToSpawn": 0.5
+                        },
+                        {
+                            "AttachName": "PSO1Optic",
+                            "ProbAttachToSpawn": 0.5
+                        },
+                        {
+                            "AttachName": "Mag_AKM_Drum75Rnd",
+                            "ProbAttachToSpawn": 0.2
+                        },
+                        {
+                            "AttachName": "AK_Suppressor",
+                            "ProbAttachToSpawn": 0.3
+                        },
+                        {
+                            "AttachName": "AK_PlasticHndgrd",
+                            "ProbAttachToSpawn": 0.85
+                        },
+                        {
+                            "AttachName": "AK_RailHndgrd_Black",
+                            "ProbAttachToSpawn": 0.85
+                        },
+                        {
+                            "AttachName": "AK_Bayonet",
+                            "ProbAttachToSpawn": 0.4
+                        },
+                        {
+                            "AttachName": "AK_FoldingBttstck_Black",
+                            "ProbAttachToSpawn": 0.6
+                        }
+                    ]
+                },
+                {
+                    "LootName": "M4A1",
+                    "ProbToSpawn": 0.6,
+                    "AttachmentsToLoot": [
+                        {
+                            "AttachName": "Mag_STANAG_30Rnd",
+                            "ProbAttachToSpawn": 0.5
+                        },
+                        {
+                            "AttachName": "Mag_STANAGCoupled_30Rnd",
+                            "ProbAttachToSpawn": 0.3
+                        },
+                        {
+                            "AttachName": "ACOGOptic",
+                            "ProbAttachToSpawn": 0.4
+                        },
+                        {
+                            "AttachName": "M4_CarryHandleOptic",
+                            "ProbAttachToSpawn": 0.6
+                        },
+                        {
+                            "AttachName": "M4_CQBBttstck",
+                            "ProbAttachToSpawn": 0.7
+                        },
+                        {
+                            "AttachName": "M4_MPBttstck",
+                            "ProbAttachToSpawn": 0.4
+                        },
+                        {
+                            "AttachName": "M4_MPHndgrd",
+                            "ProbAttachToSpawn": 0.7
+                        },
+                        {
+                            "AttachName": "M4_RISHndgrd",
+                            "ProbAttachToSpawn": 0.5
+                        },
+                        {
+                            "AttachName": "M4_Suppressor",
+                            "ProbAttachToSpawn": 0.4
+                        }
+                    ]
+                },
+                {
+                    "LootName": "ToxicCure",
+                    "ProbToSpawn": 0.7,
+                    "AttachmentsToLoot": []
+                },
+                {
+                    "LootName": "AmmoBox_545x39_20Rnd",
+                    "ProbToSpawn": 0.8,
+                    "AttachmentsToLoot": []
+                },
+                {
+                    "LootName": "AmmoBox_556x45_20Rnd",
+                    "ProbToSpawn": 0.8,
+                    "AttachmentsToLoot": []
+                },
+                {
+                    "LootName": "AmmoBox_762x39_20Rnd",
+                    "ProbToSpawn": 0.8,
+                    "AttachmentsToLoot": []
+                },
+                {
+                    "LootName": "AmmoBox_762x54_20Rnd",
+                    "ProbToSpawn": 0.8,
+                    "AttachmentsToLoot": []
+                }
+            ]
+        },
+        {
+            "Name": "Army2",
+            "Loots": [
+                {
+                    "LootName": "SVD",
+                    "ProbToSpawn": 0.4,
+                    "AttachmentsToLoot": [
+                        {
+                            "AttachName": "PSO1Optic",
+                            "ProbAttachToSpawn": 0.35
+                        },
+                        {
+                            "AttachName": "Mag_SVD_10Rnd",
+                            "ProbAttachToSpawn": 0.5
+                        }
+                    ]
+                },
+                {
+                    "LootName": "AK74",
+                    "ProbToSpawn": 0.6,
+                    "AttachmentsToLoot": [
+                        {
+                            "AttachName": "AK_RailHndgrd_Black",
+                            "ProbAttachToSpawn": 0.7
+                        },
+                        {
+                            "AttachName": "AK74_WoodBttstck",
+                            "ProbAttachToSpawn": 0.7
+                        },
+                        {
+                            "AttachName": "AK_Bayonet",
+                            "ProbAttachToSpawn": 0.6
+                        },
+                        {
+                            "AttachName": "AK_FoldingBttstck_Black",
+                            "ProbAttachToSpawn": 0.7
+                        },
+                        {
+                            "AttachName": "AK_Suppressor",
+                            "ProbAttachToSpawn": 0.45
+                        },
+                        {
+                            "AttachName": "Mag_AK74_30Rnd",
+                            "ProbAttachToSpawn": 0.6
+                        }
+                    ]
+                },
+                {
+                    "LootName": "FAL",
+                    "ProbToSpawn": 0.3,
+                    "AttachmentsToLoot": [
+                        {
+                            "AttachName": "Fal_FoldingBttstck",
+                            "ProbAttachToSpawn": 0.85
+                        },
+                        {
+                            "AttachName": "Fal_OeBttstck",
+                            "ProbAttachToSpawn": 0.75
+                        },
+                        {
+                            "AttachName": "Mag_FAL_20Rnd",
+                            "ProbAttachToSpawn": 0.6
+                        },
+                        {
+                            "AttachName": "ACOGOptic",
+                            "ProbAttachToSpawn": 0.45
+                        }
+                    ]
+                },
+                {
+                    "LootName": "ToxicCure",
+                    "ProbToSpawn": 0.7,
+                    "AttachmentsToLoot": []
+                },
+                {
+                    "LootName": "AmmoBox_545x39_20Rnd",
+                    "ProbToSpawn": 0.8,
+                    "AttachmentsToLoot": []
+                },
+                {
+                    "LootName": "AmmoBox_556x45_20Rnd",
+                    "ProbToSpawn": 0.8,
+                    "AttachmentsToLoot": []
+                },
+                {
+                    "LootName": "AmmoBox_762x39_20Rnd",
+                    "ProbToSpawn": 0.8,
+                    "AttachmentsToLoot": []
+                },
+                {
+                    "LootName": "AmmoBox_762x54_20Rnd",
+                    "ProbToSpawn": 0.8,
+                    "AttachmentsToLoot": []
+                }
+            ]
+        }
+    ]
+}

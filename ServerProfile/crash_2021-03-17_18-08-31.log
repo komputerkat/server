@@ -1,0 +1,62 @@
+---------------------------------------------
+Log C:\Program Files (x86)\Steam\steamapps\common\DayZServer\ServerProfile\crash_2021-03-17_18-08-31.log started at 17.03. 18:27:44
+
+
+
+------------------------------------
+42MA-SERVER, 17.03 2021 18:27:44
+
+[wpnfsm] ValidateAndRepair Attempting to repair: TWP_RemingtonMSR:044943 - ChamberRepair - CZ527_CLO_BU0_MA0<4e34fad0> - state: false != weapon: true
+Class:      'WeaponFSM'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/entities\firearms\weaponfsm.c:257
+scripts/4_World/entities\firearms\weaponfsm.c:243
+scripts/4_World/entities\firearms\weaponfsm.c:203
+scripts/4_World/entities\firearms\weaponfsm.c:36
+scripts/3_Game/systems\hfsmbase.c:512
+scripts/3_Game/systems\hfsmbase.c:364
+scripts/4_World/entities\firearms\weapon_base.c:157
+scripts/4_World/systems\inventory\dayzplayerinventory.c:276
+scripts/4_World/entities\dayzplayerimplement.c:656
+scripts/4_World/entities\dayzplayerimplement.c:1708
+scripts/4_World/entities\manbase\playerbase.c:2331
+
+Runtime mode
+CLI params: config serverDZ.cfg port 2302 mod @CF;@CommunityOnlineTools;@DayZEditorLoader;@42MonthsAfter;@CodeLock;@zSpawnSelection;@ZTVendingMachine;@KillFeed;@MasssManyItemOverhaul;@CannabisPlus;@MunghardsItempack;@ZeroyFishingZ;@Nehr_Pickup_Lada;@NatureOverhaul;@BuilderItems;@ModularVestSystem;@BaseBuildingPlus;@MortysWeapons;@EarPlugs;@BuildAnywhere_v3;@AirdropUpgraded;@ToxicZone;@TeddysWeaponPack;@VanillaPlusPlusMap;@NehrPickupLada;@IRP-Land-Rover-Defender-110;@Trader; profiles ServerProfile dologs  adminlog  netlog  
+
+
+------------------------------------
+42MA-SERVER, 17.03 2021 19:42:09
+
+[hndfsm] HandSelectAnimationOfForceSwapInHandsEvent - no room at dst={ type=CARGO item=Hatchet:026666 parent=DryBag_Blue:027825 idx=0 row=0 col=0 f=false }
+Class:      'HandSelectAnimationOfForceSwapInHandsEvent'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/3_Game/systems\inventory\handanimated_guards.c:250
+scripts/3_Game/systems\hfsmbase.c:393
+scripts/3_Game/systems\hfsmbase.c:351
+scripts/3_Game/systems\inventory\humaninventorywithfsm.c:97
+scripts/4_World/systems\inventory\dayzplayerinventory.c:366
+scripts/4_World/entities\manbase\playerbase.c:2345
+
+Runtime mode
+CLI params: config serverDZ.cfg port 2302 mod @CF;@CommunityOnlineTools;@DayZEditorLoader;@42MonthsAfter;@CodeLock;@zSpawnSelection;@ZTVendingMachine;@KillFeed;@MasssManyItemOverhaul;@CannabisPlus;@MunghardsItempack;@ZeroyFishingZ;@Nehr_Pickup_Lada;@NatureOverhaul;@BuilderItems;@ModularVestSystem;@BaseBuildingPlus;@MortysWeapons;@EarPlugs;@BuildAnywhere_v3;@AirdropUpgraded;@ToxicZone;@TeddysWeaponPack;@VanillaPlusPlusMap;@NehrPickupLada;@IRP-Land-Rover-Defender-110;@Trader; profiles ServerProfile dologs  adminlog  netlog  
+
+
+------------------------------------
+42MA-SERVER, 17.03 2021 20:22:35
+
+[desync] HandleInputData man=SurvivorM_Niki:03 CANNOT move cmd=SYNC_MOVE src={ type=CARGO item=BallisticHelmet_Black:022932 parent=LargeTent:042299 idx=0 row=12 col=2 f=false } dst={ type=CARGO item=BallisticHelmet_Black:022932 parent=LargeTent:042299 idx=0 row=2 col=4 f=false }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:553
+scripts/4_World/systems\inventory\dayzplayerinventory.c:870
+scripts/4_World/systems\inventory\dayzplayerinventory.c:455
+
+Runtime mode
+CLI params: config serverDZ.cfg port 2302 mod @CF;@CommunityOnlineTools;@DayZEditorLoader;@42MonthsAfter;@CodeLock;@zSpawnSelection;@ZTVendingMachine;@KillFeed;@MasssManyItemOverhaul;@CannabisPlus;@MunghardsItempack;@ZeroyFishingZ;@Nehr_Pickup_Lada;@NatureOverhaul;@BuilderItems;@ModularVestSystem;@BaseBuildingPlus;@MortysWeapons;@EarPlugs;@BuildAnywhere_v3;@AirdropUpgraded;@ToxicZone;@TeddysWeaponPack;@VanillaPlusPlusMap;@NehrPickupLada;@IRP-Land-Rover-Defender-110;@Trader; profiles ServerProfile dologs  adminlog  netlog  
