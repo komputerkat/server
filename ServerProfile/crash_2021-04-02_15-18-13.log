@@ -1,0 +1,47 @@
+---------------------------------------------
+Log C:\Program Files (x86)\Steam\steamapps\common\DayZServer\ServerProfile\crash_2021-04-02_15-18-13.log started at 02.04. 15:18:23
+
+
+
+------------------------------------
+42MA-SERVER, 02.04 2021 15:18:23
+
+JSON ERROR:
+Invalid value.
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/3_Game/tools\jsonfileloader.c:29
+ToxicZone/scripts/3_Game/toxicconfig\config\loot\cratesystemconfig.c:129
+ToxicZone/scripts/4_World/classes\systemtzhandler\core\tztoxiczonecore.c:39
+ToxicZone/scripts/4_World/classes\systemtzhandler\helpers\toxiczonehelpers.c:12
+ToxicZone/scripts/5_Mission/missionserver.c:6
+$CurrentDir:mpmissions\dayzOffline.chernarusplus\init.c:118
+
+Runtime mode
+CLI params: config serverDZ.cfg port 2302 mod @CF;@CommunityOnlineTools;@DayZEditorLoader;@42MonthsAfter;@CodeLock;@zSpawnSelection;@ZTVendingMachine;@KillFeed;@MasssManyItemOverhaul;@CannabisPlus;@MunghardsItempack;@ZeroyFishingZ;@NatureOverhaul;@BuilderItems;@ModularVestSystem;@BaseBuildingPlus;@MortysWeapons;@EarPlugs;@BuildAnywhere_v3;@AirdropUpgraded;@ToxicZone;@TeddysWeaponPack;@VanillaPlusPlusMap;@IRP-Land-Rover-Defender-110;@Trader; profiles ServerProfile dologs  adminlog  netlog  
+
+
+------------------------------------
+42MA-SERVER, 02.04 2021 15:21:40
+
+JSON ERROR:
+The document is empty.
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/3_Game/tools\jsonfileloader.c:29
+JM/COT/Scripts/4_World/communityonlinetools\classes\permissionsold\jmplayerserialize.c:34
+JM/COT/Scripts/4_World/communityonlinetools\classes\permissionsold\jmplayerinstance.c:447
+JM/COT/Scripts/4_World/communityonlinetools\classes\permissionsold\jmpermissionmanager.c:266
+JM/COT/Scripts/4_World/communityonlinetools\classes\cotmodule.c:292
+JM/CF/Scripts/4_World/communityframework\module\jmmodulemanager.c:387
+JM/CF/Scripts/5_Mission/communityframework\mission\missionserver.c:75
+ToxicZone/scripts/5_Mission/missionserver.c:14
+BaseBuildingPlus/scripts/5_Mission/mission\missionserver.c:11
+scripts/5_Mission/mission\missionserver.c:158
+JM/CF/Scripts/5_Mission/communityframework\mission\missionserver.c:18
+scripts/3_Game/dayzgame.c:1358
+
+Runtime mode
+CLI params: config serverDZ.cfg port 2302 mod @CF;@CommunityOnlineTools;@DayZEditorLoader;@42MonthsAfter;@CodeLock;@zSpawnSelection;@ZTVendingMachine;@KillFeed;@MasssManyItemOverhaul;@CannabisPlus;@MunghardsItempack;@ZeroyFishingZ;@NatureOverhaul;@BuilderItems;@ModularVestSystem;@BaseBuildingPlus;@MortysWeapons;@EarPlugs;@BuildAnywhere_v3;@AirdropUpgraded;@ToxicZone;@TeddysWeaponPack;@VanillaPlusPlusMap;@IRP-Land-Rover-Defender-110;@Trader; profiles ServerProfile dologs  adminlog  netlog  

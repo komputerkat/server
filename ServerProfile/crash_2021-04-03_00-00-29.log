@@ -1,0 +1,38 @@
+---------------------------------------------
+Log C:\Program Files (x86)\Steam\steamapps\common\DayZServer\ServerProfile\crash_2021-04-03_00-00-29.log started at 03.04. 00:00:40
+
+
+
+------------------------------------
+42MA-SERVER, 03.04 2021 00:00:40
+
+JSON ERROR:
+Invalid value.
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/3_Game/tools\jsonfileloader.c:29
+ToxicZone/scripts/3_Game/toxicconfig\config\loot\cratesystemconfig.c:129
+ToxicZone/scripts/4_World/classes\systemtzhandler\core\tztoxiczonecore.c:39
+ToxicZone/scripts/4_World/classes\systemtzhandler\helpers\toxiczonehelpers.c:12
+ToxicZone/scripts/5_Mission/missionserver.c:6
+$CurrentDir:mpmissions\dayzOffline.chernarusplus\init.c:118
+
+Runtime mode
+CLI params: config serverDZ.cfg port 2302 mod @CF;@CommunityOnlineTools;@DayZEditorLoader;@42MonthsAfter;@CodeLock;@zSpawnSelection;@ZTVendingMachine;@KillFeed;@MasssManyItemOverhaul;@CannabisPlus;@MunghardsItempack;@ZeroyFishingZ;@NatureOverhaul;@BuilderItems;@ModularVestSystem;@BaseBuildingPlus;@MortysWeapons;@EarPlugs;@BuildAnywhere_v3;@AirdropUpgraded;@ToxicZone;@TeddysWeaponPack;@VanillaPlusPlusMap;@IRP-Land-Rover-Defender-110;@Trader; profiles ServerProfile dologs  adminlog  netlog  
+
+
+------------------------------------
+42MA-SERVER, 03.04 2021 02:06:31
+
+[desync] HandleInputData man=SurvivorM_Mirek:01 CANNOT move cmd=SYNC_MOVE src={ type=GROUND item=CableReel:048091 pos=(2942.72, 220.817, 12636.6) dir=(0.000274662, 0.650477, -0.000350952, 0.759503) } dst={ type=CARGO item=CableReel:048091 parent=M65Jacket_Black:033264 idx=0 row=2 col=3 f=false }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:553
+scripts/4_World/systems\inventory\dayzplayerinventory.c:870
+scripts/4_World/systems\inventory\dayzplayerinventory.c:455
+
+Runtime mode
+CLI params: config serverDZ.cfg port 2302 mod @CF;@CommunityOnlineTools;@DayZEditorLoader;@42MonthsAfter;@CodeLock;@zSpawnSelection;@ZTVendingMachine;@KillFeed;@MasssManyItemOverhaul;@CannabisPlus;@MunghardsItempack;@ZeroyFishingZ;@NatureOverhaul;@BuilderItems;@ModularVestSystem;@BaseBuildingPlus;@MortysWeapons;@EarPlugs;@BuildAnywhere_v3;@AirdropUpgraded;@ToxicZone;@TeddysWeaponPack;@VanillaPlusPlusMap;@IRP-Land-Rover-Defender-110;@Trader; profiles ServerProfile dologs  adminlog  netlog  

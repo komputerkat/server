@@ -1,0 +1,19 @@
+---------------------------------------------
+Log C:\Program Files (x86)\Steam\steamapps\common\DayZServer\ServerProfile\crash_2021-03-31_00-01-40.log started at 31.03. 05:33:59
+
+
+
+------------------------------------
+42MA-SERVER, 31.03 2021 05:33:59
+
+[desync] HandleInputData man=SurvivorM_Quinn:01 CANNOT move cmd=SYNC_MOVE src={ type=CARGO item=Ammo_308WinTracer:017042 parent=M65Jacket_Khaki:041404 idx=0 row=5 col=1 f=false } dst={ type=CARGO item=Ammo_308WinTracer:017042 parent=MVS_Magazine_Pouch_Multicam_Black:048308 idx=0 row=2 col=1 f=false }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:553
+scripts/4_World/systems\inventory\dayzplayerinventory.c:870
+scripts/4_World/systems\inventory\dayzplayerinventory.c:455
+
+Runtime mode
+CLI params: config serverDZ.cfg port 2302 mod @CF;@CommunityOnlineTools;@DayZEditorLoader;@42MonthsAfter;@CodeLock;@zSpawnSelection;@ZTVendingMachine;@KillFeed;@MasssManyItemOverhaul;@CannabisPlus;@MunghardsItempack;@ZeroyFishingZ;@NatureOverhaul;@BuilderItems;@ModularVestSystem;@BaseBuildingPlus;@MortysWeapons;@EarPlugs;@BuildAnywhere_v3;@AirdropUpgraded;@ToxicZone;@TeddysWeaponPack;@VanillaPlusPlusMap;@IRP-Land-Rover-Defender-110;@Trader; profiles ServerProfile dologs  adminlog  netlog  

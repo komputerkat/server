@@ -1,0 +1,135 @@
+---------------------------------------------
+Log C:\Program Files (x86)\Steam\steamapps\common\DayZServer\ServerProfile\crash_2021-03-28_18-01-56.log started at 28.03. 18:06:12
+
+
+
+------------------------------------
+42MA-SERVER, 28.03 2021 18:06:12
+
+[desync] HandleInputData man=SurvivorF_Linda:01 CANNOT move cmd=SYNC_MOVE src={ type=CARGO item=TWP_Glock18Egyptian_mag_17Rnd:046657 parent=hardigg_Mung:046527 idx=0 row=21 col=7 f=false } dst={ type=CARGO item=TWP_Glock18Egyptian_mag_17Rnd:046657 parent=MVS_Magazine_Pouch_Multicam_Black:047593 idx=0 row=3 col=4 f=true }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:553
+scripts/4_World/systems\inventory\dayzplayerinventory.c:870
+scripts/4_World/systems\inventory\dayzplayerinventory.c:421
+
+Runtime mode
+CLI params: config serverDZ.cfg port 2302 mod @CF;@CommunityOnlineTools;@DayZEditorLoader;@42MonthsAfter;@CodeLock;@zSpawnSelection;@ZTVendingMachine;@KillFeed;@MasssManyItemOverhaul;@CannabisPlus;@MunghardsItempack;@ZeroyFishingZ;@NatureOverhaul;@BuilderItems;@ModularVestSystem;@BaseBuildingPlus;@MortysWeapons;@EarPlugs;@BuildAnywhere_v3;@AirdropUpgraded;@ToxicZone;@TeddysWeaponPack;@VanillaPlusPlusMap;@IRP-Land-Rover-Defender-110;@Trader; profiles ServerProfile dologs  adminlog  netlog  
+
+
+------------------------------------
+42MA-SERVER, 28.03 2021 19:10:49
+NULL pointer to instance
+Class:      'DayZPlayerInventory'
+Function: 'ProccessInputData'
+Stack trace:
+scripts/4_World/systems\inventory\dayzplayerinventory.c:506
+scripts/4_World/systems\inventory\dayzplayerinventory.c:870
+scripts/4_World/systems\inventory\dayzplayerinventory.c:421
+
+Runtime mode
+CLI params: config serverDZ.cfg port 2302 mod @CF;@CommunityOnlineTools;@DayZEditorLoader;@42MonthsAfter;@CodeLock;@zSpawnSelection;@ZTVendingMachine;@KillFeed;@MasssManyItemOverhaul;@CannabisPlus;@MunghardsItempack;@ZeroyFishingZ;@NatureOverhaul;@BuilderItems;@ModularVestSystem;@BaseBuildingPlus;@MortysWeapons;@EarPlugs;@BuildAnywhere_v3;@AirdropUpgraded;@ToxicZone;@TeddysWeaponPack;@VanillaPlusPlusMap;@IRP-Land-Rover-Defender-110;@Trader; profiles ServerProfile dologs  adminlog  netlog  
+
+
+------------------------------------
+42MA-SERVER, 28.03 2021 19:10:49
+NULL pointer to instance
+Class:      'ActionDeployObject'
+Function: 'OnEndServer'
+Stack trace:
+ModularVestSystem/scripts/4_World/armorrack_actiondeployobject.c:5
+BaseBuildingPlus/scripts/4_World/actions\vanilla\actiondeployobject.c:200
+scripts/4_World/classes\useractionscomponent\animatedactionbase.c:461
+scripts/4_World/classes\useractionscomponent\animatedactionbase.c:42
+
+Runtime mode
+CLI params: config serverDZ.cfg port 2302 mod @CF;@CommunityOnlineTools;@DayZEditorLoader;@42MonthsAfter;@CodeLock;@zSpawnSelection;@ZTVendingMachine;@KillFeed;@MasssManyItemOverhaul;@CannabisPlus;@MunghardsItempack;@ZeroyFishingZ;@NatureOverhaul;@BuilderItems;@ModularVestSystem;@BaseBuildingPlus;@MortysWeapons;@EarPlugs;@BuildAnywhere_v3;@AirdropUpgraded;@ToxicZone;@TeddysWeaponPack;@VanillaPlusPlusMap;@IRP-Land-Rover-Defender-110;@Trader; profiles ServerProfile dologs  adminlog  netlog  
+
+
+------------------------------------
+42MA-SERVER, 28.03 2021 19:31:17
+NULL pointer to instance
+Class:      'DayZPlayerInventory'
+Function: 'ProccessInputData'
+Stack trace:
+scripts/4_World/systems\inventory\dayzplayerinventory.c:506
+scripts/4_World/systems\inventory\dayzplayerinventory.c:870
+scripts/4_World/systems\inventory\dayzplayerinventory.c:421
+
+Runtime mode
+CLI params: config serverDZ.cfg port 2302 mod @CF;@CommunityOnlineTools;@DayZEditorLoader;@42MonthsAfter;@CodeLock;@zSpawnSelection;@ZTVendingMachine;@KillFeed;@MasssManyItemOverhaul;@CannabisPlus;@MunghardsItempack;@ZeroyFishingZ;@NatureOverhaul;@BuilderItems;@ModularVestSystem;@BaseBuildingPlus;@MortysWeapons;@EarPlugs;@BuildAnywhere_v3;@AirdropUpgraded;@ToxicZone;@TeddysWeaponPack;@VanillaPlusPlusMap;@IRP-Land-Rover-Defender-110;@Trader; profiles ServerProfile dologs  adminlog  netlog  
+
+
+------------------------------------
+42MA-SERVER, 28.03 2021 19:31:18
+NULL pointer to instance
+Class:      'ActionDeployObject'
+Function: 'OnEndServer'
+Stack trace:
+ModularVestSystem/scripts/4_World/armorrack_actiondeployobject.c:5
+BaseBuildingPlus/scripts/4_World/actions\vanilla\actiondeployobject.c:200
+scripts/4_World/classes\useractionscomponent\animatedactionbase.c:461
+scripts/4_World/classes\useractionscomponent\animatedactionbase.c:42
+
+Runtime mode
+CLI params: config serverDZ.cfg port 2302 mod @CF;@CommunityOnlineTools;@DayZEditorLoader;@42MonthsAfter;@CodeLock;@zSpawnSelection;@ZTVendingMachine;@KillFeed;@MasssManyItemOverhaul;@CannabisPlus;@MunghardsItempack;@ZeroyFishingZ;@NatureOverhaul;@BuilderItems;@ModularVestSystem;@BaseBuildingPlus;@MortysWeapons;@EarPlugs;@BuildAnywhere_v3;@AirdropUpgraded;@ToxicZone;@TeddysWeaponPack;@VanillaPlusPlusMap;@IRP-Land-Rover-Defender-110;@Trader; profiles ServerProfile dologs  adminlog  netlog  
+
+
+------------------------------------
+42MA-SERVER, 28.03 2021 19:32:45
+NULL pointer to instance
+Class:      'DayZPlayerInventory'
+Function: 'ProccessInputData'
+Stack trace:
+scripts/4_World/systems\inventory\dayzplayerinventory.c:506
+scripts/4_World/systems\inventory\dayzplayerinventory.c:870
+scripts/4_World/systems\inventory\dayzplayerinventory.c:421
+
+Runtime mode
+CLI params: config serverDZ.cfg port 2302 mod @CF;@CommunityOnlineTools;@DayZEditorLoader;@42MonthsAfter;@CodeLock;@zSpawnSelection;@ZTVendingMachine;@KillFeed;@MasssManyItemOverhaul;@CannabisPlus;@MunghardsItempack;@ZeroyFishingZ;@NatureOverhaul;@BuilderItems;@ModularVestSystem;@BaseBuildingPlus;@MortysWeapons;@EarPlugs;@BuildAnywhere_v3;@AirdropUpgraded;@ToxicZone;@TeddysWeaponPack;@VanillaPlusPlusMap;@IRP-Land-Rover-Defender-110;@Trader; profiles ServerProfile dologs  adminlog  netlog  
+
+
+------------------------------------
+42MA-SERVER, 28.03 2021 19:32:45
+NULL pointer to instance
+Class:      'ActionDeployObject'
+Function: 'OnEndServer'
+Stack trace:
+ModularVestSystem/scripts/4_World/armorrack_actiondeployobject.c:5
+BaseBuildingPlus/scripts/4_World/actions\vanilla\actiondeployobject.c:200
+scripts/4_World/classes\useractionscomponent\animatedactionbase.c:461
+scripts/4_World/classes\useractionscomponent\animatedactionbase.c:42
+
+Runtime mode
+CLI params: config serverDZ.cfg port 2302 mod @CF;@CommunityOnlineTools;@DayZEditorLoader;@42MonthsAfter;@CodeLock;@zSpawnSelection;@ZTVendingMachine;@KillFeed;@MasssManyItemOverhaul;@CannabisPlus;@MunghardsItempack;@ZeroyFishingZ;@NatureOverhaul;@BuilderItems;@ModularVestSystem;@BaseBuildingPlus;@MortysWeapons;@EarPlugs;@BuildAnywhere_v3;@AirdropUpgraded;@ToxicZone;@TeddysWeaponPack;@VanillaPlusPlusMap;@IRP-Land-Rover-Defender-110;@Trader; profiles ServerProfile dologs  adminlog  netlog  
+
+
+------------------------------------
+42MA-SERVER, 28.03 2021 19:34:36
+NULL pointer to instance
+Class:      'DayZPlayerInventory'
+Function: 'ProccessInputData'
+Stack trace:
+scripts/4_World/systems\inventory\dayzplayerinventory.c:506
+scripts/4_World/systems\inventory\dayzplayerinventory.c:870
+scripts/4_World/systems\inventory\dayzplayerinventory.c:421
+
+Runtime mode
+CLI params: config serverDZ.cfg port 2302 mod @CF;@CommunityOnlineTools;@DayZEditorLoader;@42MonthsAfter;@CodeLock;@zSpawnSelection;@ZTVendingMachine;@KillFeed;@MasssManyItemOverhaul;@CannabisPlus;@MunghardsItempack;@ZeroyFishingZ;@NatureOverhaul;@BuilderItems;@ModularVestSystem;@BaseBuildingPlus;@MortysWeapons;@EarPlugs;@BuildAnywhere_v3;@AirdropUpgraded;@ToxicZone;@TeddysWeaponPack;@VanillaPlusPlusMap;@IRP-Land-Rover-Defender-110;@Trader; profiles ServerProfile dologs  adminlog  netlog  
+
+
+------------------------------------
+42MA-SERVER, 28.03 2021 19:34:37
+NULL pointer to instance
+Class:      'ActionDeployObject'
+Function: 'OnEndServer'
+Stack trace:
+ModularVestSystem/scripts/4_World/armorrack_actiondeployobject.c:5
+BaseBuildingPlus/scripts/4_World/actions\vanilla\actiondeployobject.c:200
+scripts/4_World/classes\useractionscomponent\animatedactionbase.c:461
+scripts/4_World/classes\useractionscomponent\animatedactionbase.c:42
+
+Runtime mode
+CLI params: config serverDZ.cfg port 2302 mod @CF;@CommunityOnlineTools;@DayZEditorLoader;@42MonthsAfter;@CodeLock;@zSpawnSelection;@ZTVendingMachine;@KillFeed;@MasssManyItemOverhaul;@CannabisPlus;@MunghardsItempack;@ZeroyFishingZ;@NatureOverhaul;@BuilderItems;@ModularVestSystem;@BaseBuildingPlus;@MortysWeapons;@EarPlugs;@BuildAnywhere_v3;@AirdropUpgraded;@ToxicZone;@TeddysWeaponPack;@VanillaPlusPlusMap;@IRP-Land-Rover-Defender-110;@Trader; profiles ServerProfile dologs  adminlog  netlog  
