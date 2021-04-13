@@ -1,0 +1,54 @@
+---------------------------------------------
+Log C:\Program Files (x86)\Steam\steamapps\common\DayZServer\ServerProfile\crash_2021-04-11_12-03-04.log started at 11.04. 12:03:20
+
+
+
+------------------------------------
+42MA-SERVER, 11.04 2021 12:03:20
+
+JSON ERROR:
+Invalid value.
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/3_Game/tools\jsonfileloader.c:29
+ToxicZone/scripts/3_Game/toxicconfig\config\loot\cratesystemconfig.c:129
+ToxicZone/scripts/4_World/classes\systemtzhandler\core\tztoxiczonecore.c:39
+ToxicZone/scripts/4_World/classes\systemtzhandler\helpers\toxiczonehelpers.c:12
+ToxicZone/scripts/5_Mission/missionserver.c:6
+$CurrentDir:mpmissions\dayzOffline.chernarusplus\init.c:118
+
+Runtime mode
+CLI params: config serverDZ.cfg port 2302 mod @CF;@CommunityOnlineTools;@DayZEditorLoader;@42MonthsAfter;@CodeLock;@zSpawnSelection;@ZTVendingMachine;@KillFeed;@AirSoftGuns;@TranquilizerGun;@RubberBullets;@ToFuAirsoftGuns;@MasssManyItemOverhaul;@CannabisPlus;@MunghardsItempack;@ZeroyFishingZ;@NatureOverhaul;@BuilderItems;@ModularVestSystem;@BaseBuildingPlus;@MortysWeapons;@EarPlugs;@BuildAnywhere_v3;@AirdropUpgraded;@ToxicZone;@TeddysWeaponPack;@Dartguns;@VanillaPlusPlusMap;@IRP-Land-Rover-Defender-110;@Trader; profiles ServerProfile dologs  adminlog  netlog  
+
+
+------------------------------------
+42MA-SERVER, 11.04 2021 12:28:41
+
+[desync] HandleInputData man=SurvivorM_Niki:01 CANNOT move cmd=SYNC_MOVE src={ type=CARGO item=Ammo_12gaPellets:050941 parent=MVS_Admin_Pouch_OD:050935 idx=0 row=2 col=0 f=false } dst={ type=CARGO item=Ammo_12gaPellets:050941 parent=MVS_Magazine_Pouch_OD:050922 idx=0 row=3 col=4 f=false }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:553
+scripts/4_World/systems\inventory\dayzplayerinventory.c:870
+scripts/4_World/systems\inventory\dayzplayerinventory.c:455
+
+Runtime mode
+CLI params: config serverDZ.cfg port 2302 mod @CF;@CommunityOnlineTools;@DayZEditorLoader;@42MonthsAfter;@CodeLock;@zSpawnSelection;@ZTVendingMachine;@KillFeed;@AirSoftGuns;@TranquilizerGun;@RubberBullets;@ToFuAirsoftGuns;@MasssManyItemOverhaul;@CannabisPlus;@MunghardsItempack;@ZeroyFishingZ;@NatureOverhaul;@BuilderItems;@ModularVestSystem;@BaseBuildingPlus;@MortysWeapons;@EarPlugs;@BuildAnywhere_v3;@AirdropUpgraded;@ToxicZone;@TeddysWeaponPack;@Dartguns;@VanillaPlusPlusMap;@IRP-Land-Rover-Defender-110;@Trader; profiles ServerProfile dologs  adminlog  netlog  
+
+
+------------------------------------
+42MA-SERVER, 11.04 2021 12:32:59
+
+[desync] HandleInputData man=SurvivorM_Niki:01 CANNOT move cmd=SYNC_MOVE src={ type=CARGO item=Whetstone:050936 parent=MVS_Admin_Pouch_OD:050935 idx=0 row=0 col=0 f=false } dst={ type=CARGO item=Whetstone:050936 parent=MVS_Admin_Pouch_OD:050935 idx=0 row=2 col=0 f=true }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:553
+scripts/4_World/systems\inventory\dayzplayerinventory.c:870
+scripts/4_World/systems\inventory\dayzplayerinventory.c:455
+
+Runtime mode
+CLI params: config serverDZ.cfg port 2302 mod @CF;@CommunityOnlineTools;@DayZEditorLoader;@42MonthsAfter;@CodeLock;@zSpawnSelection;@ZTVendingMachine;@KillFeed;@AirSoftGuns;@TranquilizerGun;@RubberBullets;@ToFuAirsoftGuns;@MasssManyItemOverhaul;@CannabisPlus;@MunghardsItempack;@ZeroyFishingZ;@NatureOverhaul;@BuilderItems;@ModularVestSystem;@BaseBuildingPlus;@MortysWeapons;@EarPlugs;@BuildAnywhere_v3;@AirdropUpgraded;@ToxicZone;@TeddysWeaponPack;@Dartguns;@VanillaPlusPlusMap;@IRP-Land-Rover-Defender-110;@Trader; profiles ServerProfile dologs  adminlog  netlog  
