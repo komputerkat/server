@@ -1,0 +1,426 @@
+
+
+=====================================================================
+== C:\Program Files (x86)\Steam\steamapps\common\DayZServer\DayZServer_x64.exe
+== DayZServer_x64.exe  -cpuCount=4 -mod=@DeerIsle;@CF;@CommunityOnlineTools;@DayZ-Expansion;@DayZ-Expansion-Core;@DayZ-Expansion-Licensed;@DayZ-Expansion-Vehicles; -config=serverDZ.cfg -port=2302 -noFilePatching -profiles=myprofile -scrAllowFileWrite -adminlog
+=====================================================================
+Exe timestamp: 2021/04/21 17:17:53
+Current time:  2021/04/21 17:40:49
+
+Version 1.12.153862
+17:40:49.864 [Inputs] Loading inputs default "bin/constants.xml"
+17:40:49.867 [Inputs] Loading inputs default "bin/specific.xml"
+17:40:49.867 [Inputs] Loading inputs default "LBmaster_UndergroundLighting/inputsLBmaster.xml"
+17:40:49.867 [Inputs] Loading inputs default "DayZExpansion/Vehicles/Scripts/Data/Inputs.xml"
+17:40:49.868 [Inputs] Loading inputs default "DayZExpansion/Scripts/Data/Inputs.xml"
+17:40:49.869 [Inputs] Loading inputs cfg "myprofile\Users\Survivor\Server.core.xml"
+17:40:49.869 !!! [Inputs] Cannot read inputs cfg "myprofile\Users\Survivor\Server.core.xml", parser error
+17:40:49.869 [Inputs] Loading inputs cfg "bin/core.xml"
+17:40:49.869 !!! [Inputs] Cannot load input preset "user", file does not exist
+17:40:49.870 [Inputs] Exporting inputs cfg "myprofile\Users\Survivor\Server.core.xml"
+=======================================================
+-------------------------------------------------------
+Time: 17:44:13
+Exception code: C0000005 ACCESS_VIOLATION at 23764060
+Allocator: system
+graphics:  No
+resolution:  160x120x32
+Addons:
+  DayZExpansion_Objects_BaseBuilding_Safes in DayZExpansion\Objects\Basebuilding\Safes\
+  BuilderItems_Parts in DayZExpansion\Objects\Structures\BuilderItems\DZ\parts\
+  BuilderItems_Sidewalks in DayZExpansion\Objects\Structures\BuilderItems\DZ\sidewalks\
+  DeerIsle_Ruinwalls in deerisle\objects\jmc_di_objects\ruinedwalls\
+  DZ_Anims_Anm_Player in DZ\anims\anm\player\
+  DZ_Weapons_Shotguns_MP133 in DZ\weapons\shotguns\mp133\
+  DayZExpansion_Weapons_Firearms_Vanilla_Skins in DayZExpansion\Objects\Weapons\Firearms\Vanilla\Skins\
+  DayZExpansion_EXPS3HoloOptic in DayZExpansion\Objects\Weapons\Attachments\Optics\exps3\
+  DayZExpansion_Objects_BaseBuilding_Data in DayZExpansion\Objects\Basebuilding\Data\
+  DZ_Anims_Cfg in DZ\anims\cfg\
+  DZ_Weapons_Supports in DZ\weapons\attachments\support\, DZ_Scripts in scripts\
+  DayZExpansion_Dta_World in DayZExpansion\Dta\World\
+  Animal_JMC_PolarBear in deerisle\animals\polarbear\
+  DeerIsle_Subway in deerisle\objects\jmc_di_objects\subway\
+  smpl_structures_doors in deerisle\Deerisle_Security_System\items\testhouse\
+  BuilderItems_Expansion_BaseBuilding in DayZExpansion\Objects\Structures\BuilderItems\Expansion\BaseBuilding\
+  DayZExpansion_Sounds_Vehicles_Air_Mh6 in DayZExpansion\Sounds\Vehicles\Air\Mh6\
+  DayZExpansion_Worlds_ExpansionTest_World in DayZExpansion\Worlds\ExpansionTest\world\
+  DayZExpansion_Zombies in DayZExpansion\Zombies\
+  DayZExpansion_Worlds_enoch_Gloom in DayZExpansion\Worlds\enoch\Gloom\
+  JM_CF_GUI in JM\CF\GUI\, DZ_Surfaces_Deerisle in deerisle\surfaces\
+  DZ_Worlds_Enoch_Navmesh in DZ\worlds\enoch\navmesh\
+  DZ_Weapons_Firearms in DZ\weapons\firearms\
+  DayZExpansion_Objects_BaseBuilding_Ramps in DayZExpansion\Objects\Basebuilding\Ramps\
+  Leuchtturm in deerisle\objects\leuchtturm\
+  BuilderItems_Whywouldanyoneusethese in DayZExpansion\Objects\Structures\BuilderItems\DZ\water\
+  DayZExpansion_Objects_Explosives in DayZExpansion\Objects\Weapons\Explosives\
+  DayZExpansion_Vehicles_Air_Mh6 in DayZExpansion\Vehicles\Air\Mh6\
+  DayZExpansion_Sounds_Vehicles_Air_Uh1h in DayZExpansion\Sounds\Vehicles\Air\Uh1h\
+  DayZExpansion_Animations_Animals in DayZExpansion\Animations\Animals\
+  Expansion_Armbands in DayZExpansion\Data\Characters\Armbands\
+  deerisle_data in deerisle\data\
+  DayZExpansion_Sounds_Vehicles_Air_Gyro in DayZExpansion\Sounds\Vehicles\Air\Gyro\
+  BuilderItems_Bliss_Ruins in DayZExpansion\Objects\Structures\BuilderItems\Bliss\ruins\
+  zisb_modular_caves_for_deerisle in deerisle\objects\zisb_modular_caves_for_deerisle\
+  BuilderItems_Plants in DayZExpansion\Objects\Structures\BuilderItems\DZ\plants\
+  BuilderItems_Panels in DayZExpansion\Objects\Structures\BuilderItems\DZ\panels\
+  DayZExpansion_Kar98ScopeOptic in DayZExpansion\Objects\Weapons\Attachments\Optics\Kar98Scope\
+  DZ_Structures_Bliss_Specific in DZ\structures_bliss\specific\
+  DZ_Animals_AnimConfig in DZ\animals\animconfig\
+  DZ_Gear_Consumables in DZ\gear\consumables\
+  DZ_Weapons_Archery_Crossbow in DZ\weapons\archery\crossbow\
+  DZ_Pistols_mkii in DZ\weapons\pistols\mkii\
+  DZ_Weapons_Firearms_SaigaK in DZ\weapons\shotguns\saiga\
+  DayZExpansion_Animals_lepus_europaeus in DayZExpansion\Animals\lepus_europaeus\
+  DayZExpansion_Objects_Structures_IvyAutomn in DayZExpansion\Objects\Structures\IvyAutomn\
+  DayZExpansion_HAMROptic in DayZExpansion\Objects\Weapons\Attachments\Optics\Hamr\
+  DayZExpansion_PlayerList_Scripts in DayZExpansion\PlayerList\Scripts\
+  DayZExpansion_Objects_BaseBuilding_Items in DayZExpansion\Objects\Basebuilding\Items\
+  DayZExpansion_Weapons_Rifles_M1A in DayZExpansion\Objects\Weapons\Firearms\Rifles\M1A\
+  DayZExpansion_Weapons_Rifles_G36 in DayZExpansion\Objects\Weapons\Firearms\Rifles\G36\
+  DayZExpansion_Sounds_Explosions in DayZExpansion\Sounds\Explosions\
+  BuilderItems_Rocks in DayZExpansion\Objects\Structures\BuilderItems\DZ\rocks\
+  DayZExpansion_Weapons_Pistols_Taser in DayZExpansion\Objects\Weapons\Firearms\Pistols\X2Taser\
+  DZ_Data_Bliss in DZ\data_bliss\, DZ_AI in DZ\AI\, DZ_Gear_Books in DZ\gear\books\
+  DZ_Weapons_Launchers_RPG7 in DZ\weapons\launchers\rpg7\
+  DayZExpansion_Crossbow in DayZExpansion\Objects\Weapons\Firearms\Archery\Crossbow\
+  DayZExpansion_Sounds_Ground_TT650 in DayZExpansion\Sounds\Vehicles\Ground\TT650\
+  DayZExpansion_Dta_Game in DayZExpansion\Dta\Game\
+  DayZExpansion_Kar98Bayonet in DayZExpansion\Objects\Weapons\Attachments\Support\kar98bayonet\
+  DayZExpansion_Sounds_Vehicles_Water_LHD in DayZExpansion\Sounds\Vehicles\Water\LHD\
+  BuilderItems_Bliss_Residential in DayZExpansion\Objects\Structures\BuilderItems\Bliss\residential\
+  DayZExpansion_Weapons_Shotguns_DT11 in DayZExpansion\Objects\Weapons\Firearms\Shotguns\DT11\
+  BuilderItems_Items in DayZExpansion\Objects\Structures\BuilderItems\DZ\statics\vanillaitems\
+  DayZExpansion_M79 in DayZExpansion\Objects\Weapons\Firearms\M79\
+  BuilderItemsBliss_Plants in DayZExpansion\Objects\Structures\BuilderItems\Bliss\plants\
+  DZ_Structures_Bliss_Industrial in DZ\structures_bliss\industrial\
+  DZ_Characters_Vests in DZ\characters\vests\
+  DZ_Structures_Rail in DZ\structures\rail\
+  DZ_Vehicles_Wheeled in DZ\vehicles\wheeled\, DZ_Water in DZ\water\
+  DZ_Weapons_Firearms_M249Para in DZ\weapons\firearms\m249\
+  DZ_Weapons_Melee_Blunt in DZ\weapons\melee\blunt\
+  DZ_Pistols_CZ75 in DZ\weapons\pistols\cz75\
+  DZ_Pistols_Flaregun in DZ\weapons\pistols\flaregun\
+  DayZExpansion_Objects_Airdrop in DayZExpansion\Objects\Airdrop\
+  deerisle_ai_spawner in deerisle\ai\spawner\
+  BuilderItems_Bliss_Industrial in DayZExpansion\Objects\Structures\BuilderItems\Bliss\industrial\
+  DayZExpansion_Sounds_Book in DayZExpansion\Sounds\Book\
+  DayZExpansion_Core in DayZExpansion\Core\, DZ_data_aiconfigs in DZ\data\aiconfigs\
+  DZ_Sounds_Weapons in DZ\sounds\weapons\
+  DZ_Structures_BuildingParts in DZ\structures\Proxy_BuildingParts\
+  DZ_Weapons_Firearms_M4 in DZ\weapons\firearms\m4\
+  DZ_Weapons_Firearms_VSS in DZ\weapons\firearms\vss\
+  DayZExpansion_Sounds_Weapons_Crossbow in DayZExpansion\Sounds\Weapons\Crossbow\
+  DayZExpansion_Objects_Firearms_Flaregun in DayZExpansion\Objects\Weapons\Firearms\Flaregun\
+  DayZExpansion_Objects_Structures_Debug in DayZExpansion\Objects\Structures\Debug\
+  DeerIsle_Deadbodies in deerisle\objects\jmc_di_objects\deadbodies\
+  BuilderItems_Expansion_Airdrop in DayZExpansion\Objects\Structures\BuilderItems\Expansion\Airdrop\
+  DZ_Animals_capra_hircus in DZ\animals\capra_hircus\
+  DZ_Animals_ovis_aries in DZ\animals\ovis_aries\
+  DZ_Animals_ovis_aries_fem in DZ\animals\ovis_aries_fem\
+  DZ_Characters_Glasses in DZ\characters\glasses\
+  DZ_Characters_Gloves in DZ\characters\gloves\
+  DZ_Structures_Walls in DZ\structures\walls\
+  DZ_Weapons_Archery_Bow_pvc in DZ\weapons\archery\bow_pvc\
+  DZ_Pistols_pb6p9 in DZ\weapons\pistols\pb6p9\
+  DayZExpansion_Vehicles_Scripts in DayZExpansion\Vehicles\Scripts\
+  DayZExpansion_Sounds_Ground_N250 in DayZExpansion\Sounds\Vehicles\Ground\N250\
+  DayZExpansion_Objects_BaseBuilding_Pillars in DayZExpansion\Objects\Basebuilding\Pillars\
+  BuilderItems_Residential in DayZExpansion\Objects\Structures\BuilderItems\DZ\residential\
+  DayZExpansion_Dta_Core in DayZExpansion\Dta\Core\
+  DayZExpansion_Objects_Structures_Grass_Sample in DayZExpansion\Objects\Structures\Grass_Sample\
+  BuilderItems_Bliss_Signs in DayZExpansion\Objects\Structures\BuilderItems\Bliss\signs\
+  DZ_AI_Bliss in DZ\AI_bliss\
+  DayZExpansion_Sounds_Items_Spraycan in DayZExpansion\Sounds\Items\SprayCan\
+  DayZExpansion_Objects_Structures_Grass in DayZExpansion\Objects\Structures\Grass\
+  DayZExpansion_Vehicles_Ground_Tractor in DayZExpansion\Vehicles\Ground\Tractor\
+  DZ_Gear_Camping in DZ\gear\camping\, DZ_Gear_Crafting in DZ\gear\crafting\
+  DZ_Structures_Wrecks in DZ\structures\wrecks\
+  DZ_Weapons_Firearms_CZ527 in DZ\weapons\firearms\cz527\
+  DZ_Weapons_Firearms_AK74 in DZ\weapons\firearms\ak74\
+  DayZExpansion_Objects_Misc in DayZExpansion\Objects\Misc\
+  Expansion_Lasers_Impacts in DayZExpansion\Objects\Weapons\Attachments\Lasers\impacts\
+  DayZExpansion_Weapons_SMG_VityazSN in DayZExpansion\Objects\Weapons\Firearms\SMG\VityazSN\
+  Expansion_Backpacks in DayZExpansion\Data\Characters\Backpacks\
+  DayZExpansion_Longhorn in DayZExpansion\Objects\Weapons\Firearms\Pistols\Longhorn\
+  DayZExpansion_Objects_BaseBuilding_Walls in DayZExpansion\Objects\Basebuilding\Walls\
+  DeerIsle_Textures in deerisle\objects\jmc_di_objects\textures\
+  DZ_Structures_Bliss_Residential in DZ\structures_bliss\residential\
+  DZ_Animals_bos_taurus in DZ\animals\bos_taurus\
+  DZ_Characters_Zombies in DZ\characters\zombies\, DZ_Data in DZ\data\
+  DZ_Sounds_Effects in DZ\sounds\hpp\
+  DZ_Weapons_Firearms_SKS in DZ\weapons\firearms\sks\
+  DZ_Weapons_Firearms_Winchester70 in DZ\weapons\firearms\winchester70\
+  DZ_Weapons_Muzzles in DZ\weapons\attachments\muzzle\
+  BuilderItems_Walls in DayZExpansion\Objects\Structures\BuilderItems\DZ\walls\
+  BuilderItems_Military in DayZExpansion\Objects\Structures\BuilderItems\DZ\military\
+  DZ_Water_Bliss in DZ\water_bliss\
+  DZ_Animals_gallus_gallus_domesticus in DZ\animals\gallus_gallus_domesticus\
+  DZ_Animals_capreolus_capreolus_fem in DZ\animals\capreolus_capreolus_fem\
+  DZ_Gear_Cooking in DZ\gear\cooking\, DZ_Structures_Roads in DZ\structures\roads\
+  DZ_Surfaces in DZ\surfaces\
+  DZ_Weapons_Firearms_Trumpet in DZ\weapons\firearms\trumpet\
+  DZ_Weapons_Misc in DZ\weapons\misc\, RPC_Scripts in JM\CF\Legacy\
+  DayZExpansion_Objects_Gear_Box in DayZExpansion\Objects\Gear\Box\
+  DZ_Characters_Headgear in DZ\characters\headgear\
+  DZ_Structures_Industrial in DZ\structures\industrial\
+  DZ_Weapons_Launchers_M203 in DZ\weapons\launchers\m203\
+  DZ_Weapons_Projectiles in DZ\weapons\projectiles\
+  DayZExpansion_Vehicles_Ground_Vodnik in DayZExpansion\Vehicles\Ground\Vodnik\
+  BuilderItems_Bridges in DayZExpansion\Objects\Structures\BuilderItems\DZ\bridges\
+  BuilderItems_Expansion_Vehicles in DayZExpansion\Objects\Structures\BuilderItems\Expansion\Vehicles\
+  DayZExpansion_Objects_BaseBuilding_Misc in DayZExpansion\Objects\Basebuilding\Misc\
+  DZ_Rocks_Bliss in DZ\rocks_bliss\
+  DZ_Animals_bos_taurus_fem in DZ\animals\bos_taurus_fem\
+  DZ_Characters_Pants in DZ\characters\pants\
+  DZ_Weapons_Firearms_MosinNagant in DZ\weapons\firearms\mosin9130\
+  DZ_Pistols_DE in DZ\weapons\pistols\de\
+  DZ_Weapons_Attachments_Data in DZ\weapons\attachments\data\
+  DayZExpansion_Objects_Structures_Flags in DayZExpansion\Objects\Structures\Flags\
+  DayZExpansion_Vehicles_Ground_Hatchback_02 in DayZExpansion\Vehicles\Ground\Hatchback_02\
+  DZ_Worlds_ChernarusPlus_CE in deerisle\ce\
+  Expansion_Tops in DayZExpansion\Data\Characters\Tops\
+  DayZExpansion_Vehicles_Ground_UAZ in DayZExpansion\Vehicles\Ground\UAZ\
+  DayZExpansion_Vehicles_Skins in DayZExpansion\Skins\Vehicles\
+  DayZExpansion_Sounds_Vehicles_Water_Zodiac in DayZExpansion\Sounds\Vehicles\Water\Zodiac\
+  DayZExpansion_Skins in DayZExpansion\Skins\Weapons\
+  DayZExpansion_Sounds_Common in DayZExpansion\Sounds\Vehicles\Common\
+  DZ_Spawn_Proxies in DZ\data\proxies\, DZ_Rocks in DZ\rocks\
+  DZ_Structures_Military in DZ\structures\military\, DZ_UI in DZ\ui\
+  BuilderItems_Military_Misc in DayZExpansion\Objects\Structures\BuilderItems\DZ\military\misc\
+  DayZExpansion_Sounds_Weapons_M79 in DayZExpansion\Sounds\Weapons\M79\
+  DeerIsle_Shaman in deerisle\objects\shaman\
+  DayZExpansion_Weapons_SMG_MP5 in DayZExpansion\Objects\Weapons\Firearms\SMG\MP5\
+  BuilderItems_Wrecks in DayZExpansion\Objects\Structures\BuilderItems\DZ\wrecks\
+  DayZExpansion_PlayerList_GUI in DayZExpansion\PlayerList\GUI\
+  DeerIsle_Signs in deerisle\objects\jmc_di_objects\signs\
+  jmc_military_lootcases in deerisle\objects\militarycases\
+  deerisle_objects_FW190 in deerisle\objects\fw190\
+  DZ_Structures_Bliss_Walls in DZ\structures_bliss\walls\
+  DZ_Worlds_Enoch_Data in DZ\worlds\enoch\data\
+  DZ_Gear_Containers in DZ\gear\containers\, DZ_Structures in DZ\structures\data\
+  DZ_Weapons_Firearms_aug in DZ\weapons\firearms\aug\
+  DZ_Weapons_Melee_Blade in DZ\weapons\melee\blade\
+  DZ_Weapons_Magazines in DZ\weapons\attachments\magazine\
+  zeroy_custom_buildings in deerisle\objects\wind_turbine\
+  DayZExpansion_PMII25Optic in DayZExpansion\Objects\Weapons\Attachments\Optics\PMII25x\
+  DZ_Surfaces_Bliss in DZ\surfaces_bliss\, DZ_Gear_Tools in DZ\gear\tools\
+  DZ_Weapons_Archery_Bow_Recurve in DZ\weapons\archery\bow_recurve\
+  DZ_Pistols_Red9 in DZ\weapons\pistols\red9\
+  JMC_Mjolnir in deerisle\objects\mjolnir\
+  DayZExpansion_Vehicles_Ground_Hatchback in DayZExpansion\Vehicles\Ground\OffroadHatchback\
+  Expansion_Gloves in DayZExpansion\Data\Characters\Gloves\
+  Expasnsion_Parachute in DayZExpansion\Objects\Gear\Parachute\
+  DayZExpansion_Objects_Structures_Props in DayZExpansion\Objects\Structures\Props\
+  BuilderItems_Rail in DayZExpansion\Objects\Structures\BuilderItems\DZ\rail\
+  DayZExpansion_BaseBuilding_Electricity in DayZExpansion\Objects\Basebuilding\Electricity\
+  BuilderItems_Furniture in DayZExpansion\Objects\Structures\BuilderItems\DZ\furniture\
+  DayZExpansion_Sounds_BaseBuilding in DayZExpansion\Sounds\BaseBuilding\
+  DayZExpansion_Weapons_SMG_MP7 in DayZExpansion\Objects\Weapons\Firearms\SMG\mp7\
+  DayZExpansion_Objects_BaseBuilding_Floors in DayZExpansion\Objects\Basebuilding\Floors\
+  BuilderItems_Bliss_Specific in DayZExpansion\Objects\Structures\BuilderItems\Bliss\specific\
+  DZ_Animals_capra_hircus_fem in DZ\animals\capra_hircus_fem\
+  DZ_Structures_Furniture in DZ\structures\furniture\
+  DZ_Weapons_Firearms_SVD in DZ\weapons\firearms\svd\
+  DZ_Weapons_Firearms_groza in DZ\weapons\firearms\ots14\
+  DZ_Weapons_Firearms_AK101 in DZ\weapons\firearms\ak101\
+  DayZExpansion_Weapons_SMG_Kedr in DayZExpansion\Objects\Weapons\Firearms\SMG\P99\
+  DayZExpansion_Objects_Gear_Electricity in DayZExpansion\Objects\Gear\Electricity\
+  DayZExpansion_Objects_BaseBuilding_Tents in DayZExpansion\Objects\Basebuilding\Tents\
+  DayZExpansion_Kar98 in DayZExpansion\Objects\Weapons\Firearms\Sniper\Kar98\
+  DayZExpansion_Weapons_Firearms_Vanilla_Override in DayZExpansion\Objects\Weapons\Firearms\Vanilla\Override\
+  DZ_Structures_Bliss_Roads in dz\structures_bliss\roads\
+  DayZExpansion_Sounds_Church in DayZExpansion\Sounds\Church\
+  jmc_rocks in deerisle\objects\rocks\
+  DayZExpansion_Vehicles_Ground_TT650 in DayZExpansion\Vehicles\Ground\TT650\
+  DZ_Structures_Bliss_Military in DZ\structures_bliss\military\
+  DZ_Worlds_Enoch_CE in DZ\worlds\enoch\ce\
+  DZ_Structures_Ruins in DZ\structures\ruins\
+  DZ_Weapons_Archery in DZ\weapons\archery\
+  DZ_Weapons_Firearms_pm73rak in DZ\weapons\firearms\pm73rak\
+  DZ_Weapons_Firearms_Ruger1022 in DZ\weapons\firearms\ruger1022\
+  DayZExpansion_Objects_Structures_Signs in DayZExpansion\Objects\Structures\Signs\
+  DayZExpansion_Worlds_ExpansionTest_Data in DayZExpansion\Worlds\ExpansionTest\data\
+  DayZExpansion_Worlds_ChernarusPlus in DayZExpansion\Worlds\ChernarusPlus\Vanilla\
+  Expansion_Headgear in DayZExpansion\Data\Characters\Headgear\
+  DeerIsle_Classic_Objects in deerisle\objects\classic_objects\
+  DayZExpansion_Weapons_SMG_MPX in DayZExpansion\Objects\Weapons\Firearms\SMG\GTM\
+  DayZExpansion_Particles in DayZExpansion\Particles\
+  DZ_Structures_Bliss_Rail in DZ\structures_bliss\rail\
+  DZ_Characters_Heads in DZ\characters\heads\, DZ_Gear_Optics in DZ\gear\optics\
+  DZ_Server_Data in DZ\server\
+  DZ_Weapons_Firearms_UMP in DZ\weapons\firearms\ump45\
+  DZ_Pistols_p1 in DZ\weapons\pistols\p1\
+  DayZExpansion_Vehicles_Air_C130J in DayZExpansion\Vehicles\Air\C130J\
+  DeerIsle_Data in deerisle\objects\jmc_di_objects\data\
+  Deerisle_Security_System in deerisle\Deerisle_Security_System\
+  DayZExpansion_Objects_BaseBuilding_Flags in DayZExpansion\Objects\Basebuilding\Flags\
+  DayZExpansion_Weapons_Shotguns_BenelliM4 in DayZExpansion\Objects\Weapons\Firearms\Shotguns\Remore\
+  BuilderItems_Misc in DayZExpansion\Objects\Structures\BuilderItems\DZ\misc\
+  JM_CF_Scripts in JM\CF\Scripts\
+  DayZExpansion_Objects_BaseBuilding_Gates in DayZExpansion\Objects\Basebuilding\Gates\
+  LBmaster_UndergroundLighting in LBmaster_UndergroundLighting\
+  DZ_Animals_Bliss in DZ\animals_bliss\, DZ_Gear_Medical in DZ\gear\medical\
+  DZ_Weapons_Explosives in DZ\weapons\explosives\
+  DZ_Weapons_Firearms_Scout in DZ\weapons\firearms\scout\
+  DZ_Worlds_Chernarusplus_World in DZ\worlds\chernarusplus\world\
+  DayZExpansion_Sounds_Vehicles_Water_Utility in DayZExpansion\Sounds\Vehicles\Water\Utility\
+  BuilderItems_Expansion_Items in DayZExpansion\Objects\Structures\BuilderItems\Expansion\Items\
+  Expansion_Lasers_ANPEQ15 in DayZExpansion\Objects\Weapons\Attachments\Lasers\ANPEQ\
+  DayZExpansion_Stanag60RND in DayZExpansion\Objects\Weapons\Attachments\Support\Stanag60\
+  DayZExpansion_Objects_Firearms_LAW in DayZExpansion\Objects\Weapons\Firearms\LAW\
+  DeerIsle_AncientRuin in deerisle\objects\jmc_di_objects\ancientruin\
+  BuilderItems_Ruins in DayZExpansion\Objects\Structures\BuilderItems\DZ\ruins\
+  DayZExpansion_Worlds_ExpansionTest_Navmesh in DayZExpansion\Worlds\ExpansionTest\navmesh\
+  DZ_Weapons_Animations in DZ\weapons\animations\
+  DZ_Weapons_Archery_Bow_Quickie in DZ\weapons\archery\bow_quickie\
+  DayZExpansion_Vehicles_Ground_Ikarus in DayZExpansion\Vehicles\Ground\Bus\
+  BuilderItems_Military_Imp in DayZExpansion\Objects\Structures\BuilderItems\DZ\military\improvised\
+  DayZExpansion_Objects_Structures_ExpansionFlag in DayZExpansion\Objects\Structures\ExpansionFlag\
+  DayZExpansion_SmokeGrenades in DayZExpansion\Objects\Weapons\Throwables\Smokes\
+  DayZExpansion_Sounds_Weapons_Kar98 in DayZExpansion\Sounds\Weapons\Kar98\
+  DayZExpansion_Worlds_ChernarusPlus_Rays in DayZExpansion\Worlds\ChernarusPlus\VanillaRays\
+  deerisle in deerisle\world\
+  DayZExpansion_Objects_Structures_BuilderItems_Bliss in DayZExpansion\Objects\Structures\BuilderItems\Bliss\
+  DayZExpansion_Weapons_Sniper_AWM in DayZExpansion\Objects\Weapons\Firearms\Sniper\AWM\
+  DayZExpansion_Objects_Gear_Spraycans in DayZExpansion\Objects\Gear\Spraycans\
+  DayZExpansion_Objects_BaseBuilding_Stairs in DayZExpansion\Objects\Basebuilding\Stairs\
+  BuilderItems_Industrial in DayZExpansion\Objects\Structures\BuilderItems\DZ\industrial\
+  DeerIsle_Aeggs in deerisle\objects\jmc_di_objects\aeggs\
+  DZ_Radio in DZ\gear\radio\, DZ_Vehicles_Parts in DZ\vehicles\parts\
+  DZ_Weapons_Shotguns in DZ\weapons\shotguns\
+  DayZExpansion_Vehicles_Air_Uh1h in DayZExpansion\Vehicles\Air\Uh1h\
+  DayZExpansion_M9 in DayZExpansion\Objects\Weapons\Firearms\Pistols\M9\
+  DayZExpansion_Sounds_Vehicles_Water_Vodnik in DayZExpansion\Sounds\Vehicles\Ground\Vodnik\
+  DayZExpansion_Objects_Structures_Editor in DayZExpansion\Objects\Structures\Editor\
+  DayZExpansion_Vehicles_Air_Gyro in DayZExpansion\Vehicles\Air\Gyro\
+  DayZExpansion_Objects_Structures_BuilderItems_DZ in DayZExpansion\Objects\Structures\BuilderItems\DZ\
+  deerisle_navmesh in deerisle\navmesh\
+  DayZExpansion_Weapons_Rifles_M14 in DayZExpansion\Objects\Weapons\Firearms\Rifles\M14\
+  DeerIsle_Proxies in deerisle\objects\jmc_di_objects\proxies\
+  BuilderItems_StaticItems_Backpacks in DayZExpansion\Objects\Structures\BuilderItems\DZ\statics\backpacks\
+  DayZExpansion_Objects_Structures_IndustrialProps in DayZExpansion\Objects\Structures\IndustrialProps\
+  DayZExpansion_Objects_Gear_Traders in DayZExpansion\Objects\Gear\Traders\
+  JMC_DeerIsle_Scripts in deerisle\scripts\, DZ_Sounds_Bliss in DZ\sounds_bliss\
+  DZ_Characters_Backpacks in DZ\characters\backpacks\
+  DZ_Gear_Drinks in DZ\gear\drinks\, DZ_Gear_Traps in DZ\gear\traps\
+  DZ_Structures_Signs in DZ\structures\signs\
+  DayZExpansion_Sounds_Airdrop in DayZExpansion\Sounds\Airdrop\
+  DayZExpansion_Sounds_Music in DayZExpansion\Sounds\Music\
+  DayZExpansion_Vehicles_Air_Merlin in DayZExpansion\Vehicles\Air\Merlin\
+  BuilderItems_Specific in DayZExpansion\Objects\Structures\BuilderItems\DZ\specific\
+  DayZExpansion_Objects_Gear_Guitar in DayZExpansion\Objects\Gear\Guitar\
+  jmc_objects in deerisle\objects\jmc_di_objects\
+  DayZExpansion_Scripts in DayZExpansion\Scripts\
+  DayZExpansion_Vehicles_Water_Boat_Utility in DayZExpansion\Vehicles\Water\Utility\
+  DayZExpansion_Objects_Structures_Wreck in DayZExpansion\Objects\Structures\Wreck\
+  DZ_Animals_cervus_elaphus in DZ\animals\cervus_elaphus\
+  DZ_Gear_Cultivation in DZ\gear\cultivation\
+  DZ_Gear_Navigation in DZ\gear\navigation\
+  DZ_Weapons_Firearms_FAL in DZ\weapons\firearms\fal\
+  DZ_Weapons_Launchers in DZ\weapons\launchers\
+  DZ_Pistols_1911 in DZ\weapons\pistols\1911\
+  DayZExpansion_Sounds_Vehicles_Air_An2 in DayZExpansion\Sounds\Vehicles\Air\An2\
+  BuilderItems_Bliss_Walls in DayZExpansion\Objects\Structures\BuilderItems\Bliss\walls\
+  DayZExpansion_Objects_Firearms_RPG7 in DayZExpansion\Objects\Weapons\Firearms\RPG7\
+  BuilderItems_Traffic in DayZExpansion\Objects\Structures\BuilderItems\DZ\traffic\
+  DayZExpansion_Objects_Gravecross in DayZExpansion\Objects\Gear\GraveCross\
+  DayZExpansion_Weapons_Rifles_M16 in DayZExpansion\Objects\Weapons\Firearms\Rifles\M16\
+  DZ_Structures_Bliss_Ruins in DZ\structures_bliss\ruins\
+  DZ_data_trackingconfigs in DZ\data\trackingconfigs\, DZ_Gear_Food in DZ\gear\food\
+  DZ_Weapons_Firearms_AKM in DZ\weapons\firearms\akm\
+  DZ_Weapons_Firearms_IZH18 in DZ\weapons\firearms\izh18\
+  DZ_Weapons_Melee_Powered in DZ\weapons\melee\powered\
+  DZ_Pistols_FNX45 in DZ\weapons\pistols\fnx45\
+  DZ_Pistols_Glock in DZ\weapons\pistols\glock\
+  DZ_Weapons_Lights in DZ\weapons\attachments\light\
+  DayZExpansion_Vehicles_Air_An2 in DayZExpansion\Vehicles\Air\An2\
+  JM_CF_Defines in JM\CF\Defines\
+  DayZExpansion_Worlds_IntroScenes in DayZExpansion\Worlds\IntroScenes\
+  BuilderItems_StaticItems_Books in DayZExpansion\Objects\Structures\BuilderItems\DZ\statics\books\
+  DayZExpansion_Sounds_Weapons_RPG7 in DayZExpansion\Sounds\Weapons\RPG7\
+  DayZExpansion_Sounds_Vehicles_Air_Merlin in DayZExpansion\Sounds\Vehicles\Air\Merlin\
+  BuilderItems_StaticItems_Expansion in DayZExpansion\Objects\Structures\BuilderItems\DZ\statics\expansion\
+  DZ_Animals in DZ\animals\, DZ_Pistols_Derringer in DZ\weapons\pistols\derringer\
+  BuilderItems_StaticItems_Core in DayZExpansion\Objects\Structures\BuilderItems\DZ\statics\core\
+  DayZExpansion_Objects_BaseBuilding_Vanilla_Tents in DayZExpansion\Objects\Basebuilding\Vanilla\Tents\
+  DayZExpansion_GUI in DayZExpansion\GUI\
+  DayZExpansion_Vehicles_Objects_Gear in DayZExpansion\Vehicles\Objects\Gear\
+  DayZExpansion_Objects_Gear_Consumables in DayZExpansion\Objects\Gear\Consumables\
+  JM_CF_XML in JM\CF\XML\, DZ_Pistols_Magnum in DZ\weapons\pistols\magnum\
+  DayZExpansion_Sounds_UI in DayZExpansion\Sounds\UI\
+  DeerIsle_Sewer in deerisle\objects\jmc_di_objects\sewer\
+  BuilderItems_Bliss_Roads in DayZExpansion\Objects\Structures\BuilderItems\Bliss\roads\
+  DayZExpansion_Vehicles_Ground_Truck_01 in DayZExpansion\Vehicles\Ground\Truck_01\
+  DayZExpansion_Objects_Structures_HangedBody in DayZExpansion\Objects\Structures\hanged_body\
+  DayZExpansion_Objects_Gear_Camping in DayZExpansion\Objects\Gear\Camping\
+  DayZExpansion_LanguageCore in DayZExpansion\languagecore\
+  DZ_Weapons_Optics in DayZExpansion\Objects\Weapons\Attachments\Optics\Deltapoint\
+  DZ_data_aiconfigs_bliss in DZ\data_bliss\aiconfigs\
+  DZ_Plants_Bliss in DZ\plants_bliss\
+  DZ_Structures_Data_Bliss in DZ\structures_bliss\data\
+  DZ_Animals_cervus_elaphus_feminam in DZ\animals\cervus_elaphus_fem\
+  DZ_Animals_sus_scrofa in DZ\animals\sus_scrofa\
+  DZ_Animals_canis_lupus in DZ\animals\canis_lupus\
+  DZ_Characters_Tops in DZ\characters\tops\, DZ_ModuleZ in DZ\modulesDayz\
+  DZ_Weapons_Firearms_MP5 in DZ\weapons\firearms\mp5\
+  DZ_Weapons_Launchers_LAW in DZ\weapons\launchers\law\
+  DZ_Weapons_Launchers_GP25 in DZ\weapons\launchers\gp25\
+  DZ_Pistols in DZ\weapons\pistols\
+  BuilderItems_Bliss_Rail in DayZExpansion\Objects\Structures\BuilderItems\Bliss\rail\
+  DayZExpansion_Vehicles_Water_Carrier in DayZExpansion\Vehicles\Water\Carrier\
+  jmc_skeletons in deerisle\objects\skeleton\
+  DayZExpansion_Objects_Gear_Gps in DayZExpansion\Objects\Gear\Gps\
+  DeerIsle_Basement in deerisle\objects\jmc_di_objects\basement\
+  DZ_Structures_Bliss_Wrecks in DZ\structures_bliss\wrecks\
+  DZ_Worlds_Enoch in DZ\worlds\enoch\world\
+  DZ_Animals_sus_domesticus in DZ\animals\sus_domesticus\
+  DZ_Characters_Masks in DZ\characters\masks\
+  DZ_Characters_Shoes in DZ\characters\shoes\
+  DZ_Data_Data_ParticleEffects in DZ\data\data\particleeffects\
+  DZ_Plants in DZ\plants\, DZ_Weapons_Ammunition in DZ\weapons\ammunition\
+  DZ_Weapons_Firearms_Repeater in DZ\weapons\firearms\repeater\
+  DZ_Nonlethal in DZ\weapons\nonlethal\
+  DayZExpansion_Vehicles_Ground_Sedan_02 in DayZExpansion\Vehicles\Ground\CivillianSedan\
+  DayZExpansion_Objects_Structures_BMX in DayZExpansion\Objects\Structures\BMX\
+  BuilderItemsBliss_Rocks in DayZExpansion\Objects\Structures\BuilderItems\Bliss\rocks\
+  DayZExpansion_Vehicles_Data in DayZExpansion\Vehicles\Data\
+  BuilderItems_StaticItems_Weapons in DayZExpansion\Objects\Structures\BuilderItems\DZ\statics\weapons\
+  DayZExpansion_Vehicles_Water_Boat_Zodiac in DayZExpansion\Vehicles\Water\Zodiac\
+  DayZExpansion_Vehicles_Ground_250N in DayZExpansion\Vehicles\Ground\250N\
+  DayZExpansion_Worlds_ChernarusPlus_Gloom in DayZExpansion\Worlds\ChernarusPlus\Gloom\
+  BuilderItems_Garbage in DayZExpansion\Objects\Structures\BuilderItems\DZ\garbage\
+  DZ_Animals_ursus_arctos in DZ\animals_bliss\ursus_arctos\
+  DZ_Structures_Bliss_Signs in DZ\structures_bliss\signs\
+  DZ_Animals_gallus_gallus_domesticus_feminam in DZ\animals\gallus_gallus_domesticus_feminam\
+  DZ_Animals_capreolus_capreolus in DZ\animals\capreolus_capreolus\
+  DZ_Characters_Belts in DZ\characters\belts\
+  DZ_Structures_Residential in DZ\structures\residential\
+  DZ_Weapons_Firearms_cz61 in DZ\weapons\firearms\cz61\
+  DZ_weapons_nonlethal_DartGun in DZ\weapons\nonlethal\dartgun\
+  DZ_Pistols_Encore in DZ\weapons\pistols\longhorn\
+  DZ_Pistols_pmm in DZ\weapons\pistols\pmm\
+  DZ_Weapons_Shotguns_Izh43 in DZ\weapons\shotguns\izh43\
+  Benni_CatFood in deerisle\objects\catfood\
+  DayZExpansion_Vehicles_GUI in DayZExpansion\Vehicles\GUI\
+  DeerIsle_Fences in deerisle\objects\fences\
+  DayZExpansion_Sounds_PropaneTorch in DayZExpansion\Sounds\Items\PropaneTorch\
+  DayZExpansion_Vehicles_Ground_oldbike in DayZExpansion\Vehicles\Ground\OldBike\
+  DayZExpansion_Animations_Player in DayZExpansion\Animations\Player\
+  DayZExpansion_ReflexOptic in DayZExpansion\Objects\Weapons\Attachments\Optics\Reflex\
+  BuilderItems_Billboards in DayZExpansion\Objects\Structures\BuilderItems\DZ\billboards\
+  BuilderItems_Bliss_Military in DayZExpansion\Objects\Structures\BuilderItems\Bliss\military\
+  Fwinkies_OBJECT in deerisle\objects\Fwinkies\
+  DZ_Characters in DZ\characters\data\
+  DZ_Structures_Specific in DZ\structures\specific\
+  DZ_Weapons_Firearms_B95 in DZ\weapons\firearms\b95\
+  DZ_Weapons_Melee in DZ\weapons\melee\
+  DZ_Nonlethal_Shockpistol in DZ\weapons\nonlethal\shockpistol\
+Mods: @DayZ-Expansion-Vehicles
+Version 1.12.153862
+Fault address:  23764060 00:23764060 Unknown module
+file:     
+world:    ChernarusPlus
+Prev. code bytes: 24 00 75 0C 48 3B 59 18 72 06 48 3B 59 08 72 16
+Fault code bytes: 80 3B 00 75 06 48 8B 41 28 EB 0E 48 8B 01 48 8B
+=======================================================
+note: Minidump has been generated into the file myprofile\DayZServer_x64_2021-04-21_17-40-47_2021-04-21_17-44-13.mdmp

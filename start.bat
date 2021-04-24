@@ -1,5 +1,5 @@
 @echo off
 :START
-DayZServer_x64.exe -config=serverDZ.cfg -port=2302 -mod=@CF;@CommunityOnlineTools;@DayZEditorLoader;@42MonthsAfter;@CodeLock;@zSpawnSelection;@ZTVendingMachine;@KillFeed;@AirSoftGuns;@TranquilizerGun;@RubberBullets;@ToFuAirsoftGuns;@MasssManyItemOverhaul;@CannabisPlus;@MunghardsItempack;@ZeroyFishingZ;@NatureOverhaul;@BuilderItems;@ModularVestSystem;@BaseBuildingPlus;@MortysWeapons;@EarPlugs;@BuildAnywhere_v3;@AirdropUpgraded;@ToxicZone;@TeddysWeaponPack;@Dartguns;@VanillaPlusPlusMap;@IRP-Land-Rover-Defender-110;@Trader; -profiles=ServerProfile -dologs -adminlog -netlog
-timeout 30
+DayZServer_x64.exe -cpuCount=4 -mod=@42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@CodeLock;@BuilderItems;@BuildAnywhere_v3;@Ear-Plugs;@BaseBuildingPlus;@DayZEditorLoader;@IRPLandRoverDefender110;@TeddysWeaponPack;@CannabisPlus;@ModularVestSystem;@VanillaPlusPlusMap;@VendingMachine;@TraderPlus; -config=serverDZ.cfg -port=2302 -noFilePatching -profiles=myprofile -scrAllowFileWrite -adminlog
+timeout 15
 goto START

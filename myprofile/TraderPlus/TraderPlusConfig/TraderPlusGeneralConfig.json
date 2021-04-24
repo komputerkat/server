@@ -1,0 +1,118 @@
+{
+    "ConvertTraderConfigToTraderPlus": 0,
+    "TraderUIText": "It cannot be sold !,Trade Quantity is superior to item quantity !,Trade Quantity is over stock capacity!,Trade Quantity is below wanted quantity!,Item quantity:,Not too fast !,You cannot trade that item!,You need to empty that item first !,You can't trade that!,Trade Quantity is superior to Stock,STOCK QUANTITY:,PRICE:,INVENTORY, STOCK, PRODUCT INFORMATIONS, TRADE QUANTITY: ,INVENTORY COUNT: ,STORAGE COUNT: ,ALL,SELLABLE,You don't have enough money!,There is not enough quantity in stock!,The sell was a success ! thanks again !,The sell has failed ! try again !,You successfully got your good ! thanks again !,Your good wasn't being able to be given to you ! try again !,SLOTS:,HAND ATTACHMENTS",
+    "MaxItemsStockPerId": 500,
+    "MaxPlayerPerID": 3,
+    "IsReceiptTraderOnly": 1,
+    "LockPickChance": 0.30000001192092898,
+    "UITimer": 60,
+    "AcceptedStates": {
+        "AcceptWorn": 1,
+        "AcceptDamaged": 1,
+        "AcceptBadlyDamaged": 1
+    },
+    "Currencies": [
+        {
+            "ClassName": "TraderPlus_Money_Euro500,TraderPlus_Money_Ruble500",
+            "Value": 500
+        },
+        {
+            "ClassName": "TraderPlus_Money_Dollar100,TraderPlus_Money_Euro100,TraderPlus_Money_Ruble100",
+            "Value": 100
+        },
+        {
+            "ClassName": "TraderPlus_Money_Dollar50,TraderPlus_Money_Euro50,TraderPlus_Money_Ruble50,CustomMoney50,CustomMoney50",
+            "Value": 50
+        },
+        {
+            "ClassName": "TraderPlus_Money_Dollar20,TraderPlus_Money_Euro20",
+            "Value": 20
+        },
+        {
+            "ClassName": "TraderPlus_Money_Dollar10,TraderPlus_Money_Euro10,TraderPlus_Money_Ruble10",
+            "Value": 10
+        },
+        {
+            "ClassName": "TraderPlus_Money_Dollar5,TraderPlus_Money_Euro5,TraderPlus_Money_Ruble5,TraderPlus_Money_Ruble5_Coin",
+            "Value": 5
+        },
+        {
+            "ClassName": "TraderPlus_Money_Dollar2,TraderPlus_Money_Ruble2_Coin,TraderPlus_Money_Euro2",
+            "Value": 2
+        },
+        {
+            "ClassName": "TraderPlus_Money_Dollar1,TraderPlus_Coin,TraderPlus_Money_Ruble1_Coin,TraderPlus_Money_Euro1",
+            "Value": 1
+        }
+    ],
+    "Traders": [
+        {
+            "Id": 0,
+            "Name": "bldr_sign_rail_platformend",
+            "GivenName": "QuickStop",
+            "Role": "Food Trader",
+            "Position": [
+                6252.1201171875,
+                5.823890209197998,
+                9653.5
+            ],
+            "Orientation": [
+                -172.0,
+                -0.0,
+                -0.0
+            ],
+            "Clothes": []
+        },
+        {
+            "Id": 1,
+            "Name": "bldr_sign_rail_platformend",
+            "GivenName": "QuickStop",
+            "Role": "Weapon Trader",
+            "Position": [
+                6247.27978515625,
+                5.828770160675049,
+                9654.5400390625
+            ],
+            "Orientation": [
+                -81.0,
+                0.0,
+                0.0
+            ],
+            "Clothes": []
+        },
+        {
+            "Id": 2,
+            "Name": "bldr_sign_rail_platformend",
+            "GivenName": "QuickStop",
+            "Role": "Tool Trader",
+            "Position": [
+                6248.0400390625,
+                5.813350200653076,
+                9659.6298828125
+            ],
+            "Orientation": [
+                -81.0,
+                0.0,
+                0.0
+            ],
+            "Clothes": []
+        },
+        {
+            "Id": 3,
+            "Name": "bldr_sign_rail_platformend",
+            "GivenName": "QuickStop",
+            "Role": "Clothes Trader",
+            "Position": [
+                6251.6201171875,
+                5.833960056304932,
+                9659.1103515625
+            ],
+            "Orientation": [
+                7.5,
+                0.0,
+                0.0
+            ],
+            "Clothes": []
+        }
+    ]
+}

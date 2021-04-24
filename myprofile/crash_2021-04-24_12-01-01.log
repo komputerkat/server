@@ -1,0 +1,457 @@
+---------------------------------------------
+Log C:\Program Files (x86)\Steam\steamapps\common\DayZServer\myprofile\crash_2021-04-24_12-01-01.log started at 24.04. 12:54:54
+
+
+
+------------------------------------
+42MA-SERVER, 24.04 2021 12:54:54
+[DamageSystemData::GetMaxHealth] :: [CivilianSedan] :: Could not find zone "Radiator"
+Class:      'CivilianSedan'
+Entity id:2252940
+
+Function: 'EEItemDetached'
+Stack trace:
+scripts/4_World/entities\vehicles\carscript.c:449
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@CodeLock;@BuilderItems;@BuildAnywhere_v3;@Ear-Plugs;@BaseBuildingPlus;@DayZEditorLoader;@IRPLandRoverDefender110;@TeddysWeaponPack;@CannabisPlus;@ModularVestSystem;@VanillaPlusPlusMap;@VendingMachine;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 24.04 2021 15:06:56
+NULL pointer to instance
+Class:      'HandEventDestroy'
+Function: 'ReserveInventory'
+Stack trace:
+scripts/3_Game/systems\inventory\hand_events.c:144
+scripts/4_World/systems\inventory\dayzplayerinventory.c:122
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1589
+scripts/3_Game/systems\inventory\humaninventory.c:432
+TraderPlus/scripts/4_World/classes\tradersystemhandler\helpers\traderplushelpers.c:164
+TraderPlus/scripts/4_World/classes\tradersystemhandler\helpers\traderplushelpers.c:794
+TraderPlus/scripts/4_World/classes\tradersystemhandler\core\traderplusserver.c:184
+TraderPlus/scripts/4_World/classes\tradersystemhandler\core\traderplusserver.c:124
+TraderPlus/scripts/4_World/classes\tradersystemhandler\core\traderplusserver.c:34
+TraderPlus/scripts/5_Mission/missionserver.c:222
+JM/CF/Scripts/5_Mission/communityframework\mission\missionserver.c:66
+scripts/3_Game/dayzgame.c:2407
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@CodeLock;@BuilderItems;@BuildAnywhere_v3;@Ear-Plugs;@BaseBuildingPlus;@DayZEditorLoader;@IRPLandRoverDefender110;@TeddysWeaponPack;@CannabisPlus;@ModularVestSystem;@VanillaPlusPlusMap;@VendingMachine;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 24.04 2021 15:06:56
+NULL pointer to instance
+Class:      'HandEventDestroy'
+Function: 'ClearInventoryReservation'
+Stack trace:
+scripts/3_Game/systems\inventory\hand_events.c:154
+scripts/4_World/systems\inventory\dayzplayerinventory.c:127
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1628
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1660
+scripts/3_Game/systems\inventory\humaninventory.c:584
+scripts/4_World/entities\manbase\playerbase.c:2421
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@CodeLock;@BuilderItems;@BuildAnywhere_v3;@Ear-Plugs;@BaseBuildingPlus;@DayZEditorLoader;@IRPLandRoverDefender110;@TeddysWeaponPack;@CannabisPlus;@ModularVestSystem;@VanillaPlusPlusMap;@VendingMachine;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 24.04 2021 15:06:59
+NULL pointer to instance
+Class:      'HandEventDestroy'
+Function: 'ReserveInventory'
+Stack trace:
+scripts/3_Game/systems\inventory\hand_events.c:144
+scripts/4_World/systems\inventory\dayzplayerinventory.c:122
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1589
+scripts/3_Game/systems\inventory\humaninventory.c:432
+TraderPlus/scripts/4_World/classes\tradersystemhandler\helpers\traderplushelpers.c:164
+TraderPlus/scripts/4_World/classes\tradersystemhandler\helpers\traderplushelpers.c:794
+TraderPlus/scripts/4_World/classes\tradersystemhandler\core\traderplusserver.c:184
+TraderPlus/scripts/4_World/classes\tradersystemhandler\core\traderplusserver.c:124
+TraderPlus/scripts/4_World/classes\tradersystemhandler\core\traderplusserver.c:34
+TraderPlus/scripts/5_Mission/missionserver.c:222
+JM/CF/Scripts/5_Mission/communityframework\mission\missionserver.c:66
+scripts/3_Game/dayzgame.c:2407
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@CodeLock;@BuilderItems;@BuildAnywhere_v3;@Ear-Plugs;@BaseBuildingPlus;@DayZEditorLoader;@IRPLandRoverDefender110;@TeddysWeaponPack;@CannabisPlus;@ModularVestSystem;@VanillaPlusPlusMap;@VendingMachine;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 24.04 2021 15:06:59
+NULL pointer to instance
+Class:      'HandEventDestroy'
+Function: 'ClearInventoryReservation'
+Stack trace:
+scripts/3_Game/systems\inventory\hand_events.c:154
+scripts/4_World/systems\inventory\dayzplayerinventory.c:127
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1628
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1660
+scripts/3_Game/systems\inventory\humaninventory.c:584
+scripts/4_World/entities\manbase\playerbase.c:2421
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@CodeLock;@BuilderItems;@BuildAnywhere_v3;@Ear-Plugs;@BaseBuildingPlus;@DayZEditorLoader;@IRPLandRoverDefender110;@TeddysWeaponPack;@CannabisPlus;@ModularVestSystem;@VanillaPlusPlusMap;@VendingMachine;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 24.04 2021 15:07:01
+NULL pointer to instance
+Class:      'HandEventDestroy'
+Function: 'ReserveInventory'
+Stack trace:
+scripts/3_Game/systems\inventory\hand_events.c:144
+scripts/4_World/systems\inventory\dayzplayerinventory.c:122
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1589
+scripts/3_Game/systems\inventory\humaninventory.c:432
+TraderPlus/scripts/4_World/classes\tradersystemhandler\helpers\traderplushelpers.c:164
+TraderPlus/scripts/4_World/classes\tradersystemhandler\helpers\traderplushelpers.c:794
+TraderPlus/scripts/4_World/classes\tradersystemhandler\core\traderplusserver.c:184
+TraderPlus/scripts/4_World/classes\tradersystemhandler\core\traderplusserver.c:124
+TraderPlus/scripts/4_World/classes\tradersystemhandler\core\traderplusserver.c:34
+TraderPlus/scripts/5_Mission/missionserver.c:222
+JM/CF/Scripts/5_Mission/communityframework\mission\missionserver.c:66
+scripts/3_Game/dayzgame.c:2407
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@CodeLock;@BuilderItems;@BuildAnywhere_v3;@Ear-Plugs;@BaseBuildingPlus;@DayZEditorLoader;@IRPLandRoverDefender110;@TeddysWeaponPack;@CannabisPlus;@ModularVestSystem;@VanillaPlusPlusMap;@VendingMachine;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 24.04 2021 15:07:01
+NULL pointer to instance
+Class:      'HandEventDestroy'
+Function: 'ClearInventoryReservation'
+Stack trace:
+scripts/3_Game/systems\inventory\hand_events.c:154
+scripts/4_World/systems\inventory\dayzplayerinventory.c:127
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1628
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1660
+scripts/3_Game/systems\inventory\humaninventory.c:584
+scripts/4_World/entities\manbase\playerbase.c:2421
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@CodeLock;@BuilderItems;@BuildAnywhere_v3;@Ear-Plugs;@BaseBuildingPlus;@DayZEditorLoader;@IRPLandRoverDefender110;@TeddysWeaponPack;@CannabisPlus;@ModularVestSystem;@VanillaPlusPlusMap;@VendingMachine;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 24.04 2021 15:08:42
+NULL pointer to instance
+Class:      'HandEventDestroy'
+Function: 'ReserveInventory'
+Stack trace:
+scripts/3_Game/systems\inventory\hand_events.c:144
+scripts/4_World/systems\inventory\dayzplayerinventory.c:122
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1589
+scripts/3_Game/systems\inventory\humaninventory.c:432
+TraderPlus/scripts/4_World/classes\tradersystemhandler\helpers\traderplushelpers.c:164
+TraderPlus/scripts/4_World/classes\tradersystemhandler\helpers\traderplushelpers.c:794
+TraderPlus/scripts/4_World/classes\tradersystemhandler\core\traderplusserver.c:184
+TraderPlus/scripts/4_World/classes\tradersystemhandler\core\traderplusserver.c:124
+TraderPlus/scripts/4_World/classes\tradersystemhandler\core\traderplusserver.c:34
+TraderPlus/scripts/5_Mission/missionserver.c:222
+JM/CF/Scripts/5_Mission/communityframework\mission\missionserver.c:66
+scripts/3_Game/dayzgame.c:2407
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@CodeLock;@BuilderItems;@BuildAnywhere_v3;@Ear-Plugs;@BaseBuildingPlus;@DayZEditorLoader;@IRPLandRoverDefender110;@TeddysWeaponPack;@CannabisPlus;@ModularVestSystem;@VanillaPlusPlusMap;@VendingMachine;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 24.04 2021 15:08:42
+NULL pointer to instance
+Class:      'HandEventDestroy'
+Function: 'ClearInventoryReservation'
+Stack trace:
+scripts/3_Game/systems\inventory\hand_events.c:154
+scripts/4_World/systems\inventory\dayzplayerinventory.c:127
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1628
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1660
+scripts/3_Game/systems\inventory\humaninventory.c:584
+scripts/4_World/entities\manbase\playerbase.c:2421
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@CodeLock;@BuilderItems;@BuildAnywhere_v3;@Ear-Plugs;@BaseBuildingPlus;@DayZEditorLoader;@IRPLandRoverDefender110;@TeddysWeaponPack;@CannabisPlus;@ModularVestSystem;@VanillaPlusPlusMap;@VendingMachine;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 24.04 2021 15:09:17
+NULL pointer to instance
+Class:      'HandEventDestroy'
+Function: 'ReserveInventory'
+Stack trace:
+scripts/3_Game/systems\inventory\hand_events.c:144
+scripts/4_World/systems\inventory\dayzplayerinventory.c:122
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1589
+scripts/3_Game/systems\inventory\humaninventory.c:432
+TraderPlus/scripts/4_World/classes\tradersystemhandler\helpers\traderplushelpers.c:164
+TraderPlus/scripts/4_World/classes\tradersystemhandler\helpers\traderplushelpers.c:794
+TraderPlus/scripts/4_World/classes\tradersystemhandler\core\traderplusserver.c:184
+TraderPlus/scripts/4_World/classes\tradersystemhandler\core\traderplusserver.c:124
+TraderPlus/scripts/4_World/classes\tradersystemhandler\core\traderplusserver.c:34
+TraderPlus/scripts/5_Mission/missionserver.c:222
+JM/CF/Scripts/5_Mission/communityframework\mission\missionserver.c:66
+scripts/3_Game/dayzgame.c:2407
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@CodeLock;@BuilderItems;@BuildAnywhere_v3;@Ear-Plugs;@BaseBuildingPlus;@DayZEditorLoader;@IRPLandRoverDefender110;@TeddysWeaponPack;@CannabisPlus;@ModularVestSystem;@VanillaPlusPlusMap;@VendingMachine;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 24.04 2021 15:09:17
+NULL pointer to instance
+Class:      'HandEventDestroy'
+Function: 'ClearInventoryReservation'
+Stack trace:
+scripts/3_Game/systems\inventory\hand_events.c:154
+scripts/4_World/systems\inventory\dayzplayerinventory.c:127
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1628
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1660
+scripts/3_Game/systems\inventory\humaninventory.c:584
+scripts/4_World/entities\manbase\playerbase.c:2421
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@CodeLock;@BuilderItems;@BuildAnywhere_v3;@Ear-Plugs;@BaseBuildingPlus;@DayZEditorLoader;@IRPLandRoverDefender110;@TeddysWeaponPack;@CannabisPlus;@ModularVestSystem;@VanillaPlusPlusMap;@VendingMachine;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 24.04 2021 15:09:19
+NULL pointer to instance
+Class:      'HandEventDestroy'
+Function: 'ReserveInventory'
+Stack trace:
+scripts/3_Game/systems\inventory\hand_events.c:144
+scripts/4_World/systems\inventory\dayzplayerinventory.c:122
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1589
+scripts/3_Game/systems\inventory\humaninventory.c:432
+TraderPlus/scripts/4_World/classes\tradersystemhandler\helpers\traderplushelpers.c:164
+TraderPlus/scripts/4_World/classes\tradersystemhandler\helpers\traderplushelpers.c:794
+TraderPlus/scripts/4_World/classes\tradersystemhandler\core\traderplusserver.c:184
+TraderPlus/scripts/4_World/classes\tradersystemhandler\core\traderplusserver.c:124
+TraderPlus/scripts/4_World/classes\tradersystemhandler\core\traderplusserver.c:34
+TraderPlus/scripts/5_Mission/missionserver.c:222
+JM/CF/Scripts/5_Mission/communityframework\mission\missionserver.c:66
+scripts/3_Game/dayzgame.c:2407
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@CodeLock;@BuilderItems;@BuildAnywhere_v3;@Ear-Plugs;@BaseBuildingPlus;@DayZEditorLoader;@IRPLandRoverDefender110;@TeddysWeaponPack;@CannabisPlus;@ModularVestSystem;@VanillaPlusPlusMap;@VendingMachine;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 24.04 2021 15:09:19
+NULL pointer to instance
+Class:      'HandEventDestroy'
+Function: 'ClearInventoryReservation'
+Stack trace:
+scripts/3_Game/systems\inventory\hand_events.c:154
+scripts/4_World/systems\inventory\dayzplayerinventory.c:127
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1628
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1660
+scripts/3_Game/systems\inventory\humaninventory.c:584
+scripts/4_World/entities\manbase\playerbase.c:2421
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@CodeLock;@BuilderItems;@BuildAnywhere_v3;@Ear-Plugs;@BaseBuildingPlus;@DayZEditorLoader;@IRPLandRoverDefender110;@TeddysWeaponPack;@CannabisPlus;@ModularVestSystem;@VanillaPlusPlusMap;@VendingMachine;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 24.04 2021 15:10:51
+NULL pointer to instance
+Class:      'HandEventDestroy'
+Function: 'ReserveInventory'
+Stack trace:
+scripts/3_Game/systems\inventory\hand_events.c:144
+scripts/4_World/systems\inventory\dayzplayerinventory.c:122
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1589
+scripts/3_Game/systems\inventory\humaninventory.c:432
+TraderPlus/scripts/4_World/classes\tradersystemhandler\helpers\traderplushelpers.c:164
+TraderPlus/scripts/4_World/classes\tradersystemhandler\helpers\traderplushelpers.c:794
+TraderPlus/scripts/4_World/classes\tradersystemhandler\core\traderplusserver.c:184
+TraderPlus/scripts/4_World/classes\tradersystemhandler\core\traderplusserver.c:124
+TraderPlus/scripts/4_World/classes\tradersystemhandler\core\traderplusserver.c:34
+TraderPlus/scripts/5_Mission/missionserver.c:222
+JM/CF/Scripts/5_Mission/communityframework\mission\missionserver.c:66
+scripts/3_Game/dayzgame.c:2407
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@CodeLock;@BuilderItems;@BuildAnywhere_v3;@Ear-Plugs;@BaseBuildingPlus;@DayZEditorLoader;@IRPLandRoverDefender110;@TeddysWeaponPack;@CannabisPlus;@ModularVestSystem;@VanillaPlusPlusMap;@VendingMachine;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 24.04 2021 15:10:51
+NULL pointer to instance
+Class:      'HandEventDestroy'
+Function: 'ClearInventoryReservation'
+Stack trace:
+scripts/3_Game/systems\inventory\hand_events.c:154
+scripts/4_World/systems\inventory\dayzplayerinventory.c:127
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1628
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1660
+scripts/3_Game/systems\inventory\humaninventory.c:584
+scripts/4_World/entities\manbase\playerbase.c:2421
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@CodeLock;@BuilderItems;@BuildAnywhere_v3;@Ear-Plugs;@BaseBuildingPlus;@DayZEditorLoader;@IRPLandRoverDefender110;@TeddysWeaponPack;@CannabisPlus;@ModularVestSystem;@VanillaPlusPlusMap;@VendingMachine;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 24.04 2021 15:10:56
+NULL pointer to instance
+Class:      'HandEventDestroy'
+Function: 'ReserveInventory'
+Stack trace:
+scripts/3_Game/systems\inventory\hand_events.c:144
+scripts/4_World/systems\inventory\dayzplayerinventory.c:122
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1589
+scripts/3_Game/systems\inventory\humaninventory.c:432
+TraderPlus/scripts/4_World/classes\tradersystemhandler\helpers\traderplushelpers.c:164
+TraderPlus/scripts/4_World/classes\tradersystemhandler\helpers\traderplushelpers.c:794
+TraderPlus/scripts/4_World/classes\tradersystemhandler\core\traderplusserver.c:184
+TraderPlus/scripts/4_World/classes\tradersystemhandler\core\traderplusserver.c:124
+TraderPlus/scripts/4_World/classes\tradersystemhandler\core\traderplusserver.c:34
+TraderPlus/scripts/5_Mission/missionserver.c:222
+JM/CF/Scripts/5_Mission/communityframework\mission\missionserver.c:66
+scripts/3_Game/dayzgame.c:2407
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@CodeLock;@BuilderItems;@BuildAnywhere_v3;@Ear-Plugs;@BaseBuildingPlus;@DayZEditorLoader;@IRPLandRoverDefender110;@TeddysWeaponPack;@CannabisPlus;@ModularVestSystem;@VanillaPlusPlusMap;@VendingMachine;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 24.04 2021 15:10:56
+NULL pointer to instance
+Class:      'HandEventDestroy'
+Function: 'ClearInventoryReservation'
+Stack trace:
+scripts/3_Game/systems\inventory\hand_events.c:154
+scripts/4_World/systems\inventory\dayzplayerinventory.c:127
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1628
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1660
+scripts/3_Game/systems\inventory\humaninventory.c:584
+scripts/4_World/entities\manbase\playerbase.c:2421
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@CodeLock;@BuilderItems;@BuildAnywhere_v3;@Ear-Plugs;@BaseBuildingPlus;@DayZEditorLoader;@IRPLandRoverDefender110;@TeddysWeaponPack;@CannabisPlus;@ModularVestSystem;@VanillaPlusPlusMap;@VendingMachine;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 24.04 2021 15:10:57
+NULL pointer to instance
+Class:      'HandEventDestroy'
+Function: 'ReserveInventory'
+Stack trace:
+scripts/3_Game/systems\inventory\hand_events.c:144
+scripts/4_World/systems\inventory\dayzplayerinventory.c:122
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1589
+scripts/3_Game/systems\inventory\humaninventory.c:432
+TraderPlus/scripts/4_World/classes\tradersystemhandler\helpers\traderplushelpers.c:164
+TraderPlus/scripts/4_World/classes\tradersystemhandler\helpers\traderplushelpers.c:794
+TraderPlus/scripts/4_World/classes\tradersystemhandler\core\traderplusserver.c:184
+TraderPlus/scripts/4_World/classes\tradersystemhandler\core\traderplusserver.c:124
+TraderPlus/scripts/4_World/classes\tradersystemhandler\core\traderplusserver.c:34
+TraderPlus/scripts/5_Mission/missionserver.c:222
+JM/CF/Scripts/5_Mission/communityframework\mission\missionserver.c:66
+scripts/3_Game/dayzgame.c:2407
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@CodeLock;@BuilderItems;@BuildAnywhere_v3;@Ear-Plugs;@BaseBuildingPlus;@DayZEditorLoader;@IRPLandRoverDefender110;@TeddysWeaponPack;@CannabisPlus;@ModularVestSystem;@VanillaPlusPlusMap;@VendingMachine;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 24.04 2021 15:10:57
+NULL pointer to instance
+Class:      'HandEventDestroy'
+Function: 'ClearInventoryReservation'
+Stack trace:
+scripts/3_Game/systems\inventory\hand_events.c:154
+scripts/4_World/systems\inventory\dayzplayerinventory.c:127
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1628
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1660
+scripts/3_Game/systems\inventory\humaninventory.c:584
+scripts/4_World/entities\manbase\playerbase.c:2421
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@CodeLock;@BuilderItems;@BuildAnywhere_v3;@Ear-Plugs;@BaseBuildingPlus;@DayZEditorLoader;@IRPLandRoverDefender110;@TeddysWeaponPack;@CannabisPlus;@ModularVestSystem;@VanillaPlusPlusMap;@VendingMachine;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 24.04 2021 15:11:07
+NULL pointer to instance
+Class:      'HandEventDestroy'
+Function: 'ReserveInventory'
+Stack trace:
+scripts/3_Game/systems\inventory\hand_events.c:144
+scripts/4_World/systems\inventory\dayzplayerinventory.c:122
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1589
+scripts/3_Game/systems\inventory\humaninventory.c:432
+TraderPlus/scripts/4_World/classes\tradersystemhandler\helpers\traderplushelpers.c:164
+TraderPlus/scripts/4_World/classes\tradersystemhandler\helpers\traderplushelpers.c:794
+TraderPlus/scripts/4_World/classes\tradersystemhandler\core\traderplusserver.c:184
+TraderPlus/scripts/4_World/classes\tradersystemhandler\core\traderplusserver.c:124
+TraderPlus/scripts/4_World/classes\tradersystemhandler\core\traderplusserver.c:34
+TraderPlus/scripts/5_Mission/missionserver.c:222
+JM/CF/Scripts/5_Mission/communityframework\mission\missionserver.c:66
+scripts/3_Game/dayzgame.c:2407
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@CodeLock;@BuilderItems;@BuildAnywhere_v3;@Ear-Plugs;@BaseBuildingPlus;@DayZEditorLoader;@IRPLandRoverDefender110;@TeddysWeaponPack;@CannabisPlus;@ModularVestSystem;@VanillaPlusPlusMap;@VendingMachine;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 24.04 2021 15:11:07
+NULL pointer to instance
+Class:      'HandEventDestroy'
+Function: 'ClearInventoryReservation'
+Stack trace:
+scripts/3_Game/systems\inventory\hand_events.c:154
+scripts/4_World/systems\inventory\dayzplayerinventory.c:127
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1628
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1660
+scripts/3_Game/systems\inventory\humaninventory.c:584
+scripts/4_World/entities\manbase\playerbase.c:2421
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@CodeLock;@BuilderItems;@BuildAnywhere_v3;@Ear-Plugs;@BaseBuildingPlus;@DayZEditorLoader;@IRPLandRoverDefender110;@TeddysWeaponPack;@CannabisPlus;@ModularVestSystem;@VanillaPlusPlusMap;@VendingMachine;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 24.04 2021 15:12:37
+NULL pointer to instance
+Class:      'HandEventDestroy'
+Function: 'ReserveInventory'
+Stack trace:
+scripts/3_Game/systems\inventory\hand_events.c:144
+scripts/4_World/systems\inventory\dayzplayerinventory.c:122
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1589
+scripts/3_Game/systems\inventory\humaninventory.c:432
+TraderPlus/scripts/4_World/classes\tradersystemhandler\helpers\traderplushelpers.c:164
+TraderPlus/scripts/4_World/classes\tradersystemhandler\helpers\traderplushelpers.c:794
+TraderPlus/scripts/4_World/classes\tradersystemhandler\core\traderplusserver.c:173
+TraderPlus/scripts/4_World/classes\tradersystemhandler\core\traderplusserver.c:124
+TraderPlus/scripts/4_World/classes\tradersystemhandler\core\traderplusserver.c:34
+TraderPlus/scripts/5_Mission/missionserver.c:222
+JM/CF/Scripts/5_Mission/communityframework\mission\missionserver.c:66
+scripts/3_Game/dayzgame.c:2407
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@CodeLock;@BuilderItems;@BuildAnywhere_v3;@Ear-Plugs;@BaseBuildingPlus;@DayZEditorLoader;@IRPLandRoverDefender110;@TeddysWeaponPack;@CannabisPlus;@ModularVestSystem;@VanillaPlusPlusMap;@VendingMachine;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 24.04 2021 15:12:37
+NULL pointer to instance
+Class:      'HandEventDestroy'
+Function: 'ClearInventoryReservation'
+Stack trace:
+scripts/3_Game/systems\inventory\hand_events.c:154
+scripts/4_World/systems\inventory\dayzplayerinventory.c:127
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1628
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1660
+scripts/3_Game/systems\inventory\humaninventory.c:584
+scripts/4_World/entities\manbase\playerbase.c:2421
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@CodeLock;@BuilderItems;@BuildAnywhere_v3;@Ear-Plugs;@BaseBuildingPlus;@DayZEditorLoader;@IRPLandRoverDefender110;@TeddysWeaponPack;@CannabisPlus;@ModularVestSystem;@VanillaPlusPlusMap;@VendingMachine;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  

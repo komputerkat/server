@@ -1,0 +1,22 @@
+---------------------------------------------
+Log C:\Program Files (x86)\Steam\steamapps\common\DayZServer\myprofile\crash_2021-04-23_13-12-45.log started at 23.04. 13:12:59
+
+
+
+------------------------------------
+42MA-SERVER, 23.04 2021 13:12:59
+
+JSON ERROR:
+Invalid value.
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/3_Game/tools\jsonfileloader.c:29
+VanillaPPMap/3_Game/json\jsoncachemanager.c:14
+VanillaPPMap/3_Game/json\jsoncachemanager.c:9
+VanillaPPMap/3_Game/json\servermarkerscache.c:5
+VanillaPPMap/5_Mission/missionserver.c:4
+$CurrentDir:mpmissions\Expansion.deerisle\init.c:130
+
+Runtime mode
+CLI params: cpuCount 4 mod @DeerIsle;@CF;@ZomBerryAdminTools;@BuilderItems;@TeddysWeaponPack;@CannabisPlus;@ModularVestSystem;@@IRPLandRoverDefender110;@VanillaPlusPlusMap; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  

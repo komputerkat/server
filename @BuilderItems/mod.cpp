@@ -1,0 +1,10 @@
+name      = "@BuilderItems";
+picture   = "";
+logoSmall = "";
+logo      = "";
+logoOver  = "";
+tooltip   = "Created by BnYrB for 42MonthsAfter.com";
+action    = "https://steamcommunity.com/sharedfiles/filedetails/?id=2395829441";
+author    = "BnYrB";
+overview  = "Special mods for the 42 Months After server.";
+version   = "00.00.01";
