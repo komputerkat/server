@@ -1,0 +1,48 @@
+Patch notes:
+
+Removed:
+*All old fridges (the new ones remain) - If you have issues, wipe your server
+*Some classes and items not finished
+
+New:
+*Snowball  fridge (thanks Creep for model)
+*Integrated codelock. If you had it repacked before, you will want to remove it. You have a month to remove any repacked Codelock pbos i made for MSP, DMCA will be given after.
+
+Changed:
+*Greenhouses made compatibile with 1.12 - I recommend wiping due to the big changes of garden plots and greenhouses.
+
+New Item list:
+Msp_SnowballFridge_Kit
+Msp_SnowballFridge
+
+Codelock config:
+MSP_CodeLockConfig.json found in CodeLock folder
+```
+{
+    "RaidTimeInSeconds": 10.0,
+    "CanAttach": "true",
+    "CanRaid": "true",
+    "DeleteLockOnRaid": "true",
+    "ToolDamageOnRaid": 100,
+    "RaidTools": [
+        "Hacksaw"
+    ]
+}
+```
+
+RaidTimeInSeconds -> How long each wheel will take in seconds
+CanAttach -> put "false" if you don't want to show the codelock category or give ability to attach codelock
+CanRaid -> "true"/"false" enables raiding with the "RaidTools"
+DeleteLockOnRaid -> If the CodeLock should be deleted on raid finish. Even if this is false, the codelock is still ruined
+ToolDamageOnRaid -> How much damage the tool should take on completion of each wheel. Should be relative to the total health of the tool. E.g. If tool has 500 total health, and ToolDamageOnRaid is 100 then it will take 5 wheels to finish raiding.
+RaidTools -> List of compatibile tools to raid with
+
+NOTE: New key was used to sign the pbos. Make sure you copy the new one from Keys folder
+
+
+22.04.2021
+Patch Notes:
+- Fix for greenhouse wood  not being able to be dismantled
+- Fix planter full model (the new model creeped in when it shouldn't have yet)
+- Added mod.cpp which might help with some of the errors for mod mismatch
+- Fix for codelock bugging your hands when attaching it to an MSP item

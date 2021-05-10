@@ -1,0 +1,10 @@
+name = "Spurgles Trolley Kart";
+picture = "Spur_TrolleyKart/data/Spur_TrolleyKart_logo.edds";
+logo = "Spur_TrolleyKart/data/Spur_TrolleyKart_logo.edds";
+logoSmall = "Spur_TrolleyKart/data/Spur_TrolleyKart_logo.edds";
+logoOver = "Spur_TrolleyKart/data/Spur_TrolleyKart_logo.edds";
+tooltip = "Spurgles Trolley Kart";
+overview = "A Gokart made from a wonky old trolley...";
+action = "https://discord.gg/KuJZDvP";
+author = "Spurgle";
+authorID = "76561198120653239";

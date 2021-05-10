@@ -1,0 +1,516 @@
+
+
+=====================================================================
+== C:\Program Files (x86)\Steam\steamapps\common\DayZServer\DayZServer_x64.exe
+== DayZServer_x64.exe  -cpuCount=4 -mod=@42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@CannabisPlus;@DayZEditorLoader;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@CodeLock;@BaseBuildingPlus;@MoreDoors;@PowerPoleLight;@IRPLandRoverDefender110;@TrolleyKart;@CarCover;@EarPlugs;@ModularVestSystem;@KillFeed;@VendingMachine; -config=serverDZ.cfg -port=2302 -noFilePatching -profiles=myprofile -scrAllowFileWrite -adminlog
+=====================================================================
+Exe timestamp: 2021/05/04 20:25:42
+Current time:  2021/05/04 23:47:39
+
+Version 1.12.153895
+23:47:39.529 [Inputs] Loading inputs default "bin/constants.xml"
+23:47:39.531 [Inputs] Loading inputs default "bin/specific.xml"
+23:47:39.531 [Inputs] Loading inputs default "EarPlugs\data\inputs.xml"
+23:47:39.532 [Inputs] Loading inputs default "KillFeed/inputs/Inputs.xml"
+23:47:39.532 [Inputs] Loading inputs default "LBmaster_UndergroundLighting/inputsLBmaster.xml"
+23:47:39.532 [Inputs] Loading inputs default "VanillaPPMap/data/modded_Inputs.xml"
+23:47:39.533 [Inputs] Loading inputs default "ZomBerry/AT/scripts/data/inputs.xml"
+23:47:39.533 [Inputs] Loading inputs default "DayZEditorLoader/Scripts/Data/Inputs.xml"
+23:47:39.533 [Inputs] Loading inputs default "BaseBuildingPlus/Scripts/Data/Inputs.xml"
+23:47:39.533 [Inputs] Loading inputs cfg "myprofile\Users\Survivor\Server.core.xml"
+23:47:39.534 !!! [Inputs] Cannot read inputs cfg "myprofile\Users\Survivor\Server.core.xml", parser error
+23:47:39.534 [Inputs] Loading inputs cfg "bin/core.xml"
+23:47:39.534 !!! [Inputs] Cannot load input preset "user", file does not exist
+23:47:39.535 [Inputs] Exporting inputs cfg "myprofile\Users\Survivor\Server.core.xml"
+23:47:57.492 [CE][Hive] :: Initializing OFFLINE
+23:47:57.492 [CE][Hive] :: Loading core data ... 
+23:47:57.492 [CE][CoreData] :: 7 root classes, 18 defaults, 0 updaters...
+23:48:01.749 [CE] :: WARNING :: Preset map "optics" is EMPTY.
+23:48:01.751 [CE][TypeSetup] :: 481 classes setuped...
+23:48:02.275 [CE][RegisterBind] :: 0 classes binded...
+23:48:02.275 [CE][RegisterConfig] :: 8592 config classes registered, 1 sub-counters...
+23:48:02.275 [CE][Hive] :: Loading map data ... 
+23:48:02.316 [CE][LoadPrototype] :: loaded 345 prototypes
+23:48:02.316   665 containers, 8761 points
+23:48:02.316   0 dispatches, 0 proxies
+23:48:02.316 !!! [CE][LoadPrototype] 7 groups have no points...
+23:48:02.316 [CE][LoadPrototype] :: last group name: Land_Garage_Tall...
+23:48:02.320 [CE][LoadPrototype] :: loaded 0 prototypes
+23:48:02.320   0 containers, 0 points
+23:48:02.320   0 dispatches, 0 proxies
+23:48:02.320 [CE][LoadPrototype] :: last group name: Rail9...
+23:48:02.817 [CE][LoadMap] "Group" :: loaded 7506 groups, largest group range: 34.0
+23:48:02.819 [CE][LoadMap] "Dirt" :: loaded 0 groups, largest group range: 34.0
+23:48:02.924 [CE][Links] found 2124 total links between groups, of 7506
+23:48:02.924 [CE][LoadClusters] "Cluster" :: Loading files...
+23:48:03.79 [CE][LoadClusters] :: file: "mapgroupcluster.xml", 9 types, 50000 instances
+23:48:03.244 [CE][LoadClusters] :: file: "mapgroupcluster01", 9 types, 50000 instances
+23:48:03.244   5940 failed - check Matrix "default" grid size !!!
+23:48:03.408 [CE][LoadClusters] :: file: "mapgroupcluster02", 9 types, 50000 instances
+23:48:03.408   12307 failed - check Matrix "default" grid size !!!
+23:48:03.467 [CE][LoadClusters] :: file: "mapgroupcluster03", 9 types, 15277 instances
+23:48:03.467   1372 failed - check Matrix "default" grid size !!!
+23:48:03.473 [CE][Storage] ver:21 stamp:602, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\types.bin"
+23:48:03.477 [CE][Storage] ver:21 stamp:598, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\types.001"
+23:48:03.490 [CE][Storage] ver:21 stamp:599, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\types.002"
+23:48:03.490 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\types.bin".
+23:48:03.550 !!! File "DZ\worlds\chernarusplus\ce\db/messages.xml" does not exist...
+23:48:03.550 !!! [CE][offlineDB] :: Failed to read messages file 'db/messages.xml'.
+23:48:03.550 !!! [CE][offlineDB] :: No Shutdown message present.
+23:48:03.553 [DynEvent] "LandRoverDefender" will be ignored :: failed to determine spawner type!
+23:48:03.553 valid types are:
+23:48:03.553   01 - Vehicle 
+23:48:03.553   02 - Static 
+23:48:03.553   03 - Loot 
+23:48:03.553   04 - Infected 
+23:48:03.553   05 - Animal 
+23:48:03.553   06 - Ambient 
+23:48:03.553   07 - Item 
+23:48:03.553   08 - Trajectory 
+23:48:03.553 [DynEvent] "LandRoverDefender" failed to initialize spawner - unknown type?!
+23:48:03.553 [CE][offlineDB] :: Loaded 42 dynamic events 249 total types 0 total positions.
+23:48:03.598 [CE][Storage] ver:21 stamp:602, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\events.bin"
+23:48:03.598 [CE][Storage] ver:21 stamp:598, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\events.001"
+23:48:03.599 [CE][Storage] ver:21 stamp:599, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\events.002"
+23:48:03.599 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\events.bin".
+23:48:03.599 [CE][DynamicEvent] Load  Events:[42] Primary spawners: 41 Secondary spawners: 1
+23:48:03.599 [CE][Storage] ver:25 stamp:602, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_000.bin"
+23:48:03.600 [CE][Storage] ver:25 stamp:598, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_000.001"
+23:48:03.600 [CE][Storage] ver:25 stamp:599, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_000.002"
+23:48:03.600 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_000.bin" 362 items.
+23:48:03.723   362 items loaded.
+23:48:03.723 [CE][Storage] ver:25 stamp:602, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_001.bin"
+23:48:03.724 [CE][Storage] ver:25 stamp:598, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_001.001"
+23:48:03.724 [CE][Storage] ver:25 stamp:599, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_001.002"
+23:48:03.724 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_001.bin" 1431 items.
+23:48:04.159   1431 items loaded.
+23:48:04.159 [CE][Storage] ver:25 stamp:602, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_002.bin"
+23:48:04.160 [CE][Storage] ver:25 stamp:598, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_002.001"
+23:48:04.160 [CE][Storage] ver:25 stamp:599, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_002.002"
+23:48:04.160 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_002.bin" 2768 items.
+23:48:04.801   2768 items loaded.
+23:48:04.802 [CE][Storage] ver:25 stamp:602, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_003.bin"
+23:48:04.802 !!! [CE][Storage] Failed to read [Storage] data file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_003.001".
+23:48:04.802   File not closed...
+23:48:04.802 [CE][Storage] ver:25 stamp:601, valid:NO, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_003.001"
+23:48:04.803 [CE][Storage] ver:25 stamp:599, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_003.002"
+23:48:04.803 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_003.bin" 3716 items.
+23:48:05.567   3716 items loaded.
+23:48:05.568 [CE][Storage] ver:25 stamp:602, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_004.bin"
+23:48:05.569 [CE][Storage] ver:25 stamp:601, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_004.001"
+23:48:05.569 [CE][Storage] ver:25 stamp:599, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_004.002"
+23:48:05.569 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_004.bin" 5635 items.
+23:48:06.697   5635 items loaded.
+23:48:06.698 [CE][Storage] ver:25 stamp:602, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_005.bin"
+23:48:06.699 [CE][Storage] ver:25 stamp:601, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_005.001"
+23:48:06.701 [CE][Storage] ver:25 stamp:599, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_005.002"
+23:48:06.701 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_005.bin" 4891 items.
+23:48:07.828   4891 items loaded.
+23:48:07.830 [CE][Storage] ver:25 stamp:602, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_006.bin"
+23:48:07.830 [CE][Storage] ver:25 stamp:601, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_006.001"
+23:48:07.831 [CE][Storage] ver:25 stamp:599, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_006.002"
+23:48:07.831 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_006.bin" 3390 items.
+23:48:08.546   3390 items loaded.
+23:48:08.547 [CE][Storage] ver:25 stamp:602, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_007.bin"
+23:48:08.548 [CE][Storage] ver:25 stamp:601, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_007.001"
+23:48:08.548 [CE][Storage] ver:25 stamp:599, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_007.002"
+23:48:08.549 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_007.bin" 2570 items.
+23:48:09.114   2570 items loaded.
+23:48:09.115 [CE][Storage] ver:25 stamp:602, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_008.bin"
+23:48:09.116 [CE][Storage] ver:25 stamp:601, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_008.001"
+23:48:09.117 [CE][Storage] ver:25 stamp:599, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_008.002"
+23:48:09.117 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_008.bin" 1254 items.
+23:48:09.453   1254 items loaded.
+23:48:09.454 [CE][Storage] ver:25 stamp:602, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_009.bin"
+23:48:09.454 [CE][Storage] ver:25 stamp:601, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_009.001"
+23:48:09.454 [CE][Storage] ver:25 stamp:599, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_009.002"
+23:48:09.454 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_009.bin" 627 items.
+23:48:09.597   627 items loaded.
+23:48:09.598 [CE][Storage] ver:25 stamp:602, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_010.bin"
+23:48:09.598 [CE][Storage] ver:25 stamp:601, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_010.001"
+23:48:09.599 [CE][Storage] ver:25 stamp:599, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_010.002"
+23:48:09.599 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_010.bin" 865 items.
+23:48:09.784   865 items loaded.
+23:48:09.785 [CE][Storage] ver:25 stamp:602, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_011.bin"
+23:48:09.785 [CE][Storage] ver:25 stamp:601, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_011.001"
+23:48:09.785 [CE][Storage] ver:25 stamp:599, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_011.002"
+23:48:09.785 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_011.bin" 0 items.
+23:48:09.785   0 items loaded.
+23:48:09.786 [CE][Storage] ver:26 stamp:602, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\building.bin"
+23:48:09.786 [CE][Storage] ver:26 stamp:598, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\building.001"
+23:48:09.786 [CE][Storage] ver:26 stamp:599, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\building.002"
+23:48:09.786 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\building.bin" 0 items.
+23:48:09.786   0 items loaded.
+23:48:09.786 [CE][Storage] ver:25 stamp:602, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\vehicles.bin"
+23:48:09.787 [CE][Storage] ver:25 stamp:598, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\vehicles.001"
+23:48:09.787 [CE][Storage] ver:25 stamp:599, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\vehicles.002"
+23:48:09.787 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\vehicles.bin" 161 items.
+23:48:10.315   161 items loaded.
+23:48:10.368 [CE][Hive] :: Storage load took:6.77 seconds, recovery stamp:602
+23:48:10.368   entity: 29516, building: 0
+23:48:10.368   no lifetime: 21
+23:48:10.368   pathgraph's: 888
+23:48:10.368 [CE][Hive] :: Initializing ... 
+23:48:10.412 [CE][InitializeMap] :: initialized: 0
+23:48:10.412 [CE][Hive] :: Initializing spawners ... 
+23:48:11.389 [CE][LootRespawner] (PRIDummy) :: Initially (re)spawned:0, Nominal:29636, Total in Map: 27665 at 0 (sec)
+23:48:11.389   tests:0, repeats:0 fails:0, overtime:0
+23:48:11.390 [CE][DynEvent] :: 42 types
+23:48:11.390 [00] LandRoverDefender
+23:48:11.390 [01] AmbientHen
+23:48:11.390   Primary Spawner: "Ambient", active: yes, repeat: 1
+23:48:11.390 [02] AnimalBear
+23:48:11.390   Primary Spawner: "Animal", active: yes, repeat: 1
+23:48:11.390 [03] AnimalCow
+23:48:11.390   Primary Spawner: "Animal", active: yes, repeat: 1
+23:48:11.390 [04] AnimalDeer
+23:48:11.390   Primary Spawner: "Animal", active: yes, repeat: 1
+23:48:11.390 [05] AnimalGoat
+23:48:11.390   Primary Spawner: "Animal", active: yes, repeat: 1
+23:48:11.390 [06] AnimalPig
+23:48:11.390   Primary Spawner: "Animal", active: yes, repeat: 1
+23:48:11.390 [07] AnimalRoeDeer
+23:48:11.390   Primary Spawner: "Animal", active: yes, repeat: 1
+23:48:11.390 [08] AnimalSheep
+23:48:11.390   Primary Spawner: "Animal", active: yes, repeat: 1
+23:48:11.390 [09] AnimalWildBoar
+23:48:11.390   Primary Spawner: "Animal", active: yes, repeat: 1
+23:48:11.390 [10] AnimalWolf
+23:48:11.390   Primary Spawner: "Animal", active: yes, repeat: 1
+23:48:11.390 [11] InfectedArmy
+23:48:11.390   Primary Spawner: "Infected", active: yes, repeat: 1
+23:48:11.390 [12] InfectedCity
+23:48:11.390   Primary Spawner: "Infected", active: yes, repeat: 1
+23:48:11.390 [13] InfectedFirefighter
+23:48:11.390   Primary Spawner: "Infected", active: yes, repeat: 1
+23:48:11.390 [14] InfectedIndustrial
+23:48:11.390   Primary Spawner: "Infected", active: yes, repeat: 1
+23:48:11.390 [15] InfectedMedic
+23:48:11.390   Primary Spawner: "Infected", active: yes, repeat: 1
+23:48:11.390 [16] InfectedPolice
+23:48:11.390   Primary Spawner: "Infected", active: yes, repeat: 1
+23:48:11.390 [17] InfectedPrisoner
+23:48:11.390   Primary Spawner: "Infected", active: yes, repeat: 1
+23:48:11.390 [18] InfectedReligious
+23:48:11.390   Primary Spawner: "Infected", active: yes, repeat: 1
+23:48:11.390 [19] InfectedSolitude
+23:48:11.390   Primary Spawner: "Infected", active: yes, repeat: 1
+23:48:11.390 [20] InfectedVillage
+23:48:11.390   Primary Spawner: "Infected", active: yes, repeat: 1
+23:48:11.390 [21] ItemPlanks
+23:48:11.390   Primary Spawner: "Item", active: yes, repeat: 1
+23:48:11.390 [22] Loot
+23:48:11.390   Primary Spawner: "Loot", active: yes, repeat: 2
+23:48:11.390 [23] StaticHeliCrash
+23:48:11.390   Primary Spawner: "Vehicle", active: yes, repeat: 1
+23:48:11.390   Secondary Spawner: "Infected", active: yes, repeat: 1
+23:48:11.390 [24] StaticPoliceCar
+23:48:11.390   Primary Spawner: "Vehicle", active: yes, repeat: 1
+23:48:11.390 [25] TrajectoryApple
+23:48:11.390   Primary Spawner: "Trajectory", active: yes, repeat: 1
+23:48:11.390 [26] TrajectoryCanina
+23:48:11.390   Primary Spawner: "Trajectory", active: yes, repeat: 1
+23:48:11.390 [27] TrajectoryConiferous
+23:48:11.390   Primary Spawner: "Trajectory", active: yes, repeat: 1
+23:48:11.390 [28] TrajectoryDeciduous
+23:48:11.390   Primary Spawner: "Trajectory", active: yes, repeat: 1
+23:48:11.390 [29] TrajectoryHumus
+23:48:11.390   Primary Spawner: "Trajectory", active: yes, repeat: 1
+23:48:11.390 [30] TrajectoryPear
+23:48:11.390   Primary Spawner: "Trajectory", active: yes, repeat: 1
+23:48:11.390 [31] TrajectoryPlum
+23:48:11.390   Primary Spawner: "Trajectory", active: yes, repeat: 1
+23:48:11.390 [32] TrajectorySambucus
+23:48:11.390   Primary Spawner: "Trajectory", active: yes, repeat: 1
+23:48:11.390 [33] TrajectoryStones
+23:48:11.390   Primary Spawner: "Trajectory", active: yes, repeat: 1
+23:48:11.390 [34] VehicleCivilianSedan
+23:48:11.390   Primary Spawner: "Vehicle", active: yes, repeat: 1
+23:48:11.390 [35] VehicleHatchback02
+23:48:11.390   Primary Spawner: "Vehicle", active: yes, repeat: 1
+23:48:11.390 [36] VehicleOffroadHatchback
+23:48:11.390   Primary Spawner: "Vehicle", active: yes, repeat: 1
+23:48:11.390 [37] VehicleSedan02
+23:48:11.390   Primary Spawner: "Vehicle", active: yes, repeat: 1
+23:48:11.390 [38] VehicleTruck01
+23:48:11.390   Primary Spawner: "Vehicle", active: yes, repeat: 1
+23:48:11.390 [39] StaticVanPinkies
+23:48:11.390   Primary Spawner: "Vehicle", active: yes, repeat: 1
+23:48:11.390 [40] StaticVanAmbulance
+23:48:11.390   Primary Spawner: "Vehicle", active: yes, repeat: 1
+23:48:11.390 [41] StaticSkeletonEventspawn
+23:48:11.390   Primary Spawner: "Vehicle", active: yes, repeat: 1
+23:48:11.390 [CE][Hive] :: Initializing of spawners done.
+23:48:11.397 [CE][Hive] :: Init sequence finished.
+23:48:11.397 Player connect enabled
+23:48:12.63 [IdleMode] Entering IN - save processed
+=======================================================
+-------------------------------------------------------
+Time: 23:52:05
+Exception code: C0000005 ACCESS_VIOLATION at 1D695950
+Allocator: system
+graphics:  No
+resolution:  160x120x32
+Addons:
+  DZ_Anims_Anm_Player in DZ\anims\anm\player\
+  BuilderItems_Parts in @BuilderItems\Addons\parts\
+  BuilderItems_Sidewalks in @BuilderItems\Addons\sidewalks\
+  DeerIsle_Ruinwalls in deerisle\objects\jmc_di_objects\ruinedwalls\
+  DZ_Weapons_Shotguns_MP133 in DZ\weapons\shotguns\mp133\
+  DZ_Anims_Cfg in DZ\anims\cfg\
+  DZ_Weapons_Supports in DZ\weapons\attachments\support\, DZ_Scripts in scripts\
+  Animal_JMC_PolarBear in deerisle\animals\polarbear\
+  DeerIsle_Subway in deerisle\objects\jmc_di_objects\subway\
+  smpl_structures_doors in deerisle\Deerisle_Security_System\items\testhouse\
+  YourPatchesHere in Loadingscreen\, CP_CBD in CannabisPlus\cbd\
+  DZ_Worlds_Enoch_Navmesh in DZ\worlds\enoch\navmesh\, KillFeed_scripts in KillFeed\
+  CrSk_Land_Rover_Defender_110 in CrSk_Land_Rover_Defender_110\
+  JM_CF_GUI in JM\CF\GUI\, DZ_Surfaces_Deerisle in deerisle\surfaces\
+  CP_Seeds in CannabisPlus\seeds\, DZ_Weapons_Firearms in DZ\weapons\firearms\
+  TZDefine in TZDefine\, Leuchtturm in deerisle\objects\leuchtturm\
+  BuilderItems_Whywouldanyoneusethese in @BuilderItems\Addons\water\
+  DZ_Weapons_Archery_Crossbow in DZ\weapons\archery\crossbow\
+  DZ_Animals_AnimConfig in DZ\animals\animconfig\
+  GDZ_Codelock in CodeLock\codelock\, deerisle_data in deerisle\data\
+  DZ_Gear_Consumables in DZ\gear\consumables\
+  BuilderItems_Bliss_Ruins in BuilderItemsBliss\ruins_bliss\
+  zisb_modular_caves_for_deerisle in deerisle\objects\zisb_modular_caves_for_deerisle\
+  BuilderItems_Panels in @BuilderItems\Addons\panels\
+  BuilderItems_Plants in @BuilderItems\Addons\plants\
+  DZ_Structures_Bliss_Specific in DZ\structures_bliss\specific\
+  DZ_Pistols_mkii in DZ\weapons\pistols\mkii\
+  DZ_Weapons_Firearms_SaigaK in DZ\weapons\shotguns\saiga\, DZ_AI in DZ\AI\
+  DZ_Gear_Books in DZ\gear\books\, Spur_Trolley_E_Kart in Spur_Troll_E_Kart\
+  CP_Rollingpaper in CannabisPlus\rolling\
+  BuilderItems_Rocks in @BuilderItems\Addons\rocks\, DZ_Data_Bliss in DZ\data_bliss\
+  DZ_Weapons_Launchers_RPG7 in DZ\weapons\launchers\rpg7\
+  BuilderItems_StaticItems in @BuilderItems\Addons\staticitems\weapons\
+  DZ_Structures_Rail in DZ\structures\rail\, Spur_TrolleyKart in Spur_TrolleyKart\
+  BuilderItems_Bliss_Residential in BuilderItemsBliss\residential_bliss\
+  DZ_Characters_Vests in DZ\characters\vests\, DZ_Water in DZ\water\
+  DZ_Vehicles_Wheeled in DZ\vehicles\wheeled\, CP_Bricks in CannabisPlus\bricks\
+  Kryptons_TraderMachines in Kryptons_TraderMachines\
+  BuilderItems_Items in BuilderItems\VanillaItems\
+  DZ_Structures_Bliss_Industrial in DZ\structures_bliss\industrial\
+  BuilderItemsBliss_Plants in BuilderItemsBliss\plants_bliss\
+  DZ_Weapons_Firearms_M249Para in DZ\weapons\firearms\m249\
+  DZ_Weapons_Melee_Blunt in DZ\weapons\melee\blunt\
+  DZ_Pistols_CZ75 in DZ\weapons\pistols\cz75\
+  DZ_Pistols_Flaregun in DZ\weapons\pistols\flaregun\
+  DZ_Weapons_Firearms_M4 in DZ\weapons\firearms\m4\
+  deerisle_ai_spawner in deerisle\ai\spawner\
+  BuilderItems_Bliss_Industrial in BuilderItemsBliss\industrial_bliss\
+  DZ_data_aiconfigs in DZ\data\aiconfigs\
+  DZ_Structures_BuildingParts in DZ\structures\Proxy_BuildingParts\
+  ToxicZone_Script in ToxicZone\, CannabisPlus_Joint in CannabisPlus\joints\
+  DZ_Sounds_Weapons in DZ\sounds\weapons\
+  DZ_Weapons_Firearms_VSS in DZ\weapons\firearms\vss\
+  DZ_Structures_Walls in DZ\structures\walls\
+  DZ_Weapons_Archery_Bow_pvc in DZ\weapons\archery\bow_pvc\
+  DZ_Animals_ovis_aries in DZ\animals\ovis_aries\
+  DZ_Animals_ovis_aries_fem in DZ\animals\ovis_aries_fem\
+  DZ_Characters_Glasses in DZ\characters\glasses\
+  DZ_Characters_Gloves in DZ\characters\gloves\
+  DeerIsle_Deadbodies in deerisle\objects\jmc_di_objects\deadbodies\
+  DZ_Animals_capra_hircus in DZ\animals\capra_hircus\
+  DZ_Pistols_pb6p9 in DZ\weapons\pistols\pb6p9\, CP_Bags in CannabisPlus\bags\
+  BuilderItems_Residential in @BuilderItems\Addons\residential\
+  DZ_Gear_Crafting in DZ\gear\crafting\, DZ_Gear_Camping in DZ\gear\camping\
+  DZ_Weapons_Firearms_AK74 in DZ\weapons\firearms\ak74\
+  BaseBuildingPlus_Letters in BaseBuildingPlus\models\letters\
+  BuilderItems_Bliss_Signs in BuilderItemsBliss\signs_bliss\
+  DZ_AI_Bliss in DZ\AI_bliss\, ToxicZone_Data_Script in ToxicZone_Data\
+  DZ_Weapons_Firearms_CZ527 in DZ\weapons\firearms\cz527\
+  DZ_Structures_Wrecks in DZ\structures\wrecks\
+  DZ_Characters_Zombies in DZ\characters\zombies\
+  DZ_Structures_Bliss_Residential in DZ\structures_bliss\residential\
+  DZ_Data in DZ\data\, DZ_Animals_bos_taurus in DZ\animals\bos_taurus\
+  DZ_Sounds_Effects in DZ\sounds\hpp\
+  DeerIsle_Textures in deerisle\objects\jmc_di_objects\textures\
+  DZ_Weapons_Firearms_SKS in DZ\weapons\firearms\sks\
+  DZ_Weapons_Firearms_Winchester70 in DZ\weapons\firearms\winchester70\
+  DZ_Weapons_Muzzles in DZ\weapons\attachments\muzzle\
+  DZ_Water_Bliss in DZ\water_bliss\, DZ_Structures_Roads in DZ\structures\roads\
+  BuilderItems_Walls in @BuilderItems\Addons\walls\
+  DZ_Animals_capreolus_capreolus_fem in DZ\animals\capreolus_capreolus_fem\
+  EarPlugs in EarPlugs\
+  DZ_Animals_gallus_gallus_domesticus in DZ\animals\gallus_gallus_domesticus\
+  BuilderItems_Military in @BuilderItems\Addons\Military\
+  DZ_Surfaces in DZ\surfaces\, DZ_Gear_Cooking in DZ\gear\cooking\
+  DZ_Weapons_Firearms_Trumpet in DZ\weapons\firearms\trumpet\
+  DZ_Weapons_Misc in DZ\weapons\misc\, E_Kart_Sounds in Spur_Troll_E_Kart\sounds\
+  MoreDoors_Sounds in MoreDoors\data\sound\, RPC_Scripts in JM\CF\Legacy\
+  DZ_Structures_Industrial in DZ\structures\industrial\
+  DZ_Characters_Headgear in DZ\characters\headgear\
+  DZ_Weapons_Launchers_M203 in DZ\weapons\launchers\m203\
+  DZ_Weapons_Projectiles in DZ\weapons\projectiles\
+  DZ_Rocks_Bliss in DZ\rocks_bliss\
+  DZ_Weapons_Firearms_MosinNagant in DZ\weapons\firearms\mosin9130\
+  DZ_Animals_bos_taurus_fem in DZ\animals\bos_taurus_fem\
+  BuilderItems_Bridges in @BuilderItems\Addons\bridges\
+  DZ_Characters_Pants in DZ\characters\pants\
+  DZ_Pistols_DE in DZ\weapons\pistols\de\
+  DZ_Weapons_Attachments_Data in DZ\weapons\attachments\data\
+  DZ_Spawn_Proxies in DZ\data\proxies\
+  CP_Cigarettepacks in CannabisPlus\cigarettepacks\, DZ_UI in DZ\ui\
+  BaseBuildingPlus_Workbench in BaseBuildingPlus\models\workbench\
+  CannabisPlus_Cigarette in CannabisPlus\cigarettes\
+  DZ_Structures_Military in DZ\structures\military\
+  BuilderItems_Scripts in BuilderItems\scripts\
+  DZ_Worlds_ChernarusPlus_CE in deerisle\ce\, DZ_Rocks in DZ\rocks\
+  CP_Plants in CannabisPlus\plants\, DZ_Worlds_Enoch_Data in DZ\worlds\enoch\data\
+  DZ_Gear_Containers in DZ\gear\containers\
+  BuilderItems_Military_Misc in @BuilderItems\Addons\Military\misc\
+  DZ_Weapons_Firearms_aug in DZ\weapons\firearms\aug\
+  DeerIsle_Shaman in deerisle\objects\shaman\
+  BuilderItems_Wrecks in @BuilderItems\Addons\wrecks\
+  Editor_Loader_Buildings in DayZEditorLoader\Buildings\
+  DeerIsle_Signs in deerisle\objects\jmc_di_objects\signs\
+  DZ_Structures in DZ\structures\data\
+  DZ_Structures_Bliss_Walls in DZ\structures_bliss\walls\
+  jmc_military_lootcases in deerisle\objects\militarycases\
+  deerisle_objects_FW190 in deerisle\objects\fw190\
+  zomberry_scripts in ZomBerry\AT\scripts\
+  DZ_Weapons_Melee_Blade in DZ\weapons\melee\blade\
+  DZ_Weapons_Magazines in DZ\weapons\attachments\magazine\
+  zeroy_custom_buildings in deerisle\objects\wind_turbine\
+  VanillaPlusPlus in VanillaPPMap\
+  DZ_Weapons_Archery_Bow_Recurve in DZ\weapons\archery\bow_recurve\
+  DZ_Surfaces_Bliss in DZ\surfaces_bliss\, DZ_Gear_Tools in DZ\gear\tools\
+  ModularVestSystem in ModularVestSystem\
+  DZ_Pistols_Red9 in DZ\weapons\pistols\red9\
+  JMC_Mjolnir in deerisle\objects\mjolnir\
+  DZ_Structures_Furniture in DZ\structures\furniture\
+  BuilderItems_Rail in @BuilderItems\Addons\rail\
+  DZ_Weapons_Firearms_SVD in DZ\weapons\firearms\svd\
+  DZ_Weapons_Firearms_groza in DZ\weapons\firearms\ots14\
+  BuilderItems_Furniture in @BuilderItems\Addons\furniture\
+  DZ_Animals_capra_hircus_fem in DZ\animals\capra_hircus_fem\
+  BuilderItems_Bliss_Specific in BuilderItemsBliss\specific_bliss\
+  DZ_Weapons_Firearms_AK101 in DZ\weapons\firearms\ak101\, CarCover in CarCover\
+  DZ_Weapons_Archery in DZ\weapons\archery\
+  DZ_Structures_Bliss_Roads in dz\structures_bliss\roads\
+  DZ_Structures_Ruins in DZ\structures\ruins\, jmc_rocks in deerisle\objects\rocks\
+  DZ_Worlds_Enoch_CE in DZ\worlds\enoch\ce\
+  DZ_Structures_Bliss_Military in DZ\structures_bliss\military\
+  Editor_Loader_Scripts in DayZEditorLoader\Scripts\
+  DZ_Weapons_Firearms_pm73rak in DZ\weapons\firearms\pm73rak\
+  DZ_Weapons_Firearms_Ruger1022 in DZ\weapons\firearms\ruger1022\
+  DZ_Server_Data in DZ\server\
+  DeerIsle_Classic_Objects in deerisle\objects\classic_objects\
+  DZ_Structures_Bliss_Rail in DZ\structures_bliss\rail\
+  DZ_Weapons_Firearms_UMP in DZ\weapons\firearms\ump45\
+  DZ_Gear_Optics in DZ\gear\optics\, DZ_Characters_Heads in DZ\characters\heads\
+  CompatibilityStaticObjectTraderPlus_Script in Loadingscreen\
+  DZ_Pistols_p1 in DZ\weapons\pistols\p1\
+  DeerIsle_Data in deerisle\objects\jmc_di_objects\data\
+  Deerisle_Security_System in deerisle\Deerisle_Security_System\
+  CP_scripts in CannabisPlus\, BuilderItems_Misc in @BuilderItems\Addons\misc\
+  DZ_Weapons_Explosives in DZ\weapons\explosives\, JM_CF_Scripts in JM\CF\Scripts\
+  DZ_Gear_Medical in DZ\gear\medical\
+  LBmaster_UndergroundLighting in LBmaster_UndergroundLighting\
+  DZ_Animals_Bliss in DZ\animals_bliss\
+  DZ_Weapons_Firearms_Scout in DZ\weapons\firearms\scout\
+  DZ_Worlds_Chernarusplus_World in DZ\worlds\chernarusplus\world\
+  Kart_Sounds in Spur_TrolleyKart\sounds\
+  DZ_Weapons_Archery_Bow_Quickie in DZ\weapons\archery\bow_quickie\
+  DZ_Weapons_Animations in DZ\weapons\animations\
+  DeerIsle_AncientRuin in deerisle\objects\jmc_di_objects\ancientruin\
+  BuilderItems_Ruins in @BuilderItems\Addons\ruins\
+  BuilderItems_Military_Imp in @BuilderItems\Addons\Military\improvised\
+  BaseBuildingPlus in BaseBuildingPlus\, DZ_Radio in DZ\gear\radio\
+  PoleLight in PowerPoleLight\, deerisle in deerisle\world\
+  BuilderItems_Industrial in @BuilderItems\Addons\industrial\
+  DeerIsle_Aeggs in deerisle\objects\jmc_di_objects\aeggs\
+  DZ_Vehicles_Parts in DZ\vehicles\parts\
+  DZ_Weapons_Shotguns in DZ\weapons\shotguns\, DZ_Gear_Drinks in DZ\gear\drinks\
+  DZ_Characters_Backpacks in DZ\characters\backpacks\
+  DZ_Structures_Signs in DZ\structures\signs\, DZ_Gear_Traps in DZ\gear\traps\
+  deerisle_navmesh in deerisle\navmesh\
+  DeerIsle_Proxies in deerisle\objects\jmc_di_objects\proxies\
+  DZ_Sounds_Bliss in DZ\sounds_bliss\, CPtoken in CPTOKENS\
+  BuildAnywhere_V3 in BuildAnywhere_v3\, JMC_DeerIsle_Scripts in deerisle\scripts\
+  BaseBuildingPlus_Concrete in BaseBuildingPlus\models\cement_mixer\
+  CodeLock in CodeLock\, CP_Fruits in CannabisPlus\fruits\
+  DZ_Animals_cervus_elaphus in DZ\animals\cervus_elaphus\
+  DZ_Gear_Cultivation in DZ\gear\cultivation\
+  BuilderItems_Specific in @BuilderItems\Addons\specific\
+  jmc_objects in deerisle\objects\jmc_di_objects\
+  DZ_Gear_Navigation in DZ\gear\navigation\
+  DZ_Weapons_Firearms_FAL in DZ\weapons\firearms\fal\
+  DZ_Weapons_Launchers in DZ\weapons\launchers\
+  DZ_Pistols_1911 in DZ\weapons\pistols\1911\
+  DZ_Weapons_Firearms_AKM in DZ\weapons\firearms\akm\
+  BuilderItems_Bliss_Walls in BuilderItemsBliss\walls_bliss\
+  DZ_Structures_Bliss_Ruins in DZ\structures_bliss\ruins\
+  DZ_Gear_Food in DZ\gear\food\
+  BuilderItems_Traffic in @BuilderItems\Addons\traffic\
+  DZ_data_trackingconfigs in DZ\data\trackingconfigs\
+  DZ_Weapons_Firearms_IZH18 in DZ\weapons\firearms\izh18\
+  DZ_Weapons_Melee_Powered in DZ\weapons\melee\powered\
+  DZ_Pistols_FNX45 in DZ\weapons\pistols\fnx45\
+  DZ_Pistols_Glock in DZ\weapons\pistols\glock\
+  DZ_Weapons_Lights in DZ\weapons\attachments\light\, DZ_Animals in DZ\animals\
+  JM_CF_Defines in JM\CF\Defines\
+  DZ_Pistols_Derringer in DZ\weapons\pistols\derringer\, JM_CF_XML in JM\CF\XML\
+  DZ_Pistols_Magnum in DZ\weapons\pistols\magnum\
+  DZ_Animals_sus_scrofa in DZ\animals\sus_scrofa\
+  DeerIsle_Sewer in deerisle\objects\jmc_di_objects\sewer\
+  DZ_ModuleZ in DZ\modulesDayz\
+  BuilderItems_Bliss_Roads in BuilderItemsBliss\roads_bliss\
+  SpawnSelect_Scripts in SpawnSelect\
+  DZ_Structures_Data_Bliss in DZ\structures_bliss\data\
+  DZ_Animals_canis_lupus in DZ\animals\canis_lupus\
+  DZ_Weapons_Firearms_MP5 in DZ\weapons\firearms\mp5\
+  DZ_Characters_Tops in DZ\characters\tops\
+  DZ_data_aiconfigs_bliss in DZ\data_bliss\aiconfigs\
+  DZ_Plants_Bliss in DZ\plants_bliss\
+  DZ_Animals_cervus_elaphus_feminam in DZ\animals\cervus_elaphus_fem\
+  DZ_Weapons_Launchers_LAW in DZ\weapons\launchers\law\
+  DZ_Weapons_Launchers_GP25 in DZ\weapons\launchers\gp25\
+  DZ_Pistols in DZ\weapons\pistols\
+  DZ_Weapons_Optics in DZ\weapons\attachments\optics\
+  DZ_Characters_Shoes in DZ\characters\shoes\
+  BuilderItems_Bliss_Rail in BuilderItemsBliss\rail_bliss\
+  DZ_Weapons_Ammunition in DZ\weapons\ammunition\
+  jmc_skeletons in deerisle\objects\skeleton\
+  DZ_Animals_sus_domesticus in DZ\animals\sus_domesticus\
+  DZ_Data_Data_ParticleEffects in DZ\data\data\particleeffects\
+  DZ_Characters_Masks in DZ\characters\masks\
+  DeerIsle_Basement in deerisle\objects\jmc_di_objects\basement\
+  DZ_Structures_Bliss_Wrecks in DZ\structures_bliss\wrecks\
+  DZ_Worlds_Enoch in DZ\worlds\enoch\world\, DZ_Plants in DZ\plants\
+  DZ_Weapons_Firearms_Repeater in DZ\weapons\firearms\repeater\
+  DZ_Nonlethal in DZ\weapons\nonlethal\
+  BuilderItemsBliss_Rocks in BuilderItemsBliss\rocks_bliss\
+  DZ_Characters_Belts in DZ\characters\belts\
+  DZ_Animals_capreolus_capreolus in DZ\animals\capreolus_capreolus\
+  MoreDoors in MoreDoors\, DZ_Structures_Residential in DZ\structures\residential\
+  DZ_Animals_ursus_arctos in DZ\animals_bliss\ursus_arctos\
+  DZ_Animals_gallus_gallus_domesticus_feminam in DZ\animals\gallus_gallus_domesticus_feminam\
+  BuilderItems_Garbage in @BuilderItems\Addons\garbage\
+  DZ_Structures_Bliss_Signs in DZ\structures_bliss\signs\
+  DZ_Weapons_Firearms_cz61 in DZ\weapons\firearms\cz61\
+  DZ_weapons_nonlethal_DartGun in DZ\weapons\nonlethal\dartgun\
+  DZ_Pistols_Encore in DZ\weapons\pistols\longhorn\
+  DZ_Pistols_pmm in DZ\weapons\pistols\pmm\
+  DZ_Weapons_Shotguns_Izh43 in DZ\weapons\shotguns\izh43\
+  Benni_CatFood in deerisle\objects\catfood\
+  DeerIsle_Fences in deerisle\objects\fences\
+  DZ_Structures_Specific in DZ\structures\specific\
+  DZ_Weapons_Firearms_B95 in DZ\weapons\firearms\b95\
+  BuilderItems_Billboards in @BuilderItems\Addons\billboards\
+  DZ_Characters in DZ\characters\data\
+  BuilderItems_Bliss_Military in BuilderItemsBliss\military_bliss\
+  Fwinkies_OBJECT in deerisle\objects\Fwinkies\
+  DZ_Weapons_Melee in DZ\weapons\melee\
+  DZ_Nonlethal_Shockpistol in DZ\weapons\nonlethal\shockpistol\
+Mods: @VendingMachine
+Version 1.12.153895
+Fault address:  1D695950 00:1D695950 Unknown module
+file:     Expansion
+world:    deerisle
+Prev. code bytes: 54 24 68 85 C0 0F 8E 8D 06 00 00 45 33 FF 48 98
+Fault code bytes: 47 39 7C D9 08 0F 8E 7D 06 00 00 4C 8B 84 24 80
+=======================================================
+note: Minidump has been generated into the file myprofile\DayZServer_x64_2021-05-04_23-47-37_2021-05-04_23-52-05.mdmp

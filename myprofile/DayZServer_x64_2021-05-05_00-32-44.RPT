@@ -1,0 +1,329 @@
+
+
+=====================================================================
+== C:\Program Files (x86)\Steam\steamapps\common\DayZServer\DayZServer_x64.exe
+== DayZServer_x64.exe  -cpuCount=4 -mod=@42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@CannabisPlus;@MoreDrugs;@Notifications;@GAZ;@ForeverLights;@DayZEditorLoader;@VanillaPlusPlusMap;@zSpawnSelection;@GameLabs;@ToxicZone;@MuchStuffPack;@BuildAnywherev3;@BuilderItems;@Notes;@CodeLock;@BaseBuildingPlus;@MoreDoors;@PowerPoleLight;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@CarCover;@EarPlugs;@TeddysWeaponPack;@ModularVestSystem;@KillFeed;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@CustomBarrels;@TraderPlus; -config=serverDZ.cfg -port=2302 -noFilePatching -profiles=myprofile -scrAllowFileWrite -adminlog
+=====================================================================
+Exe timestamp: 2021/05/04 20:25:42
+Current time:  2021/05/05 00:32:47
+
+Version 1.12.153895
+ 0:32:47.310 [Inputs] Loading inputs default "bin/constants.xml"
+ 0:32:47.312 [Inputs] Loading inputs default "bin/specific.xml"
+ 0:32:47.312 [Inputs] Loading inputs default "EarPlugs\data\inputs.xml"
+ 0:32:47.313 [Inputs] Loading inputs default "KillFeed/inputs/Inputs.xml"
+ 0:32:47.313 [Inputs] Loading inputs default "LBmaster_UndergroundLighting/inputsLBmaster.xml"
+ 0:32:47.314 [Inputs] Loading inputs default "VanillaPPMap/data/modded_Inputs.xml"
+ 0:32:47.314 [Inputs] Loading inputs default "ZomBerry/AT/scripts/data/inputs.xml"
+ 0:32:47.314 [Inputs] Loading inputs default "DayZEditorLoader/Scripts/Data/Inputs.xml"
+ 0:32:47.315 [Inputs] Loading inputs default "BaseBuildingPlus/Scripts/Data/Inputs.xml"
+ 0:32:47.315 [Inputs] Loading inputs cfg "myprofile\Users\Survivor\Server.core.xml"
+ 0:32:47.315 !!! [Inputs] Cannot read inputs cfg "myprofile\Users\Survivor\Server.core.xml", parser error
+ 0:32:47.315 [Inputs] Loading inputs cfg "bin/core.xml"
+ 0:32:47.315 !!! [Inputs] Cannot load input preset "user", file does not exist
+ 0:32:47.316 [Inputs] Exporting inputs cfg "myprofile\Users\Survivor\Server.core.xml"
+ 0:33:32.288 [CE][Hive] :: Initializing OFFLINE
+ 0:33:32.288 [CE][Hive] :: Loading core data ... 
+ 0:33:32.288 [CE][CoreData] :: 7 root classes, 18 defaults, 0 updaters...
+ 0:33:35.612 [CE] :: WARNING :: Preset map "optics" is EMPTY.
+ 0:33:35.614 [CE][TypeSetup] :: 481 classes setuped...
+ 0:33:36.312 [CE][RegisterBind] :: 0 classes binded...
+ 0:33:36.312 [CE][RegisterConfig] :: 9912 config classes registered, 1 sub-counters...
+ 0:33:36.312 [CE][Hive] :: Loading map data ... 
+ 0:33:36.349 [CE][LoadPrototype] :: loaded 345 prototypes
+ 0:33:36.349   665 containers, 8761 points
+ 0:33:36.349   0 dispatches, 0 proxies
+ 0:33:36.349 !!! [CE][LoadPrototype] 7 groups have no points...
+ 0:33:36.349 [CE][LoadPrototype] :: last group name: Land_Garage_Tall...
+ 0:33:36.352 [CE][LoadPrototype] :: loaded 0 prototypes
+ 0:33:36.352   0 containers, 0 points
+ 0:33:36.352   0 dispatches, 0 proxies
+ 0:33:36.352 [CE][LoadPrototype] :: last group name: Rail9...
+ 0:33:36.799 [CE][LoadMap] "Group" :: loaded 7506 groups, largest group range: 34.0
+ 0:33:36.801 [CE][LoadMap] "Dirt" :: loaded 0 groups, largest group range: 34.0
+ 0:33:36.906 [CE][Links] found 2124 total links between groups, of 7506
+ 0:33:36.906 [CE][LoadClusters] "Cluster" :: Loading files...
+ 0:33:37.62 [CE][LoadClusters] :: file: "mapgroupcluster.xml", 9 types, 50000 instances
+ 0:33:37.223 [CE][LoadClusters] :: file: "mapgroupcluster01", 9 types, 50000 instances
+ 0:33:37.223   5940 failed - check Matrix "default" grid size !!!
+ 0:33:37.387 [CE][LoadClusters] :: file: "mapgroupcluster02", 9 types, 50000 instances
+ 0:33:37.387   12307 failed - check Matrix "default" grid size !!!
+ 0:33:37.448 [CE][LoadClusters] :: file: "mapgroupcluster03", 9 types, 15277 instances
+ 0:33:37.448   1372 failed - check Matrix "default" grid size !!!
+ 0:33:37.452 [CE][Storage] ver:21 stamp:1020, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\types.bin"
+ 0:33:37.452 [CE][Storage] ver:21 stamp:714, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\types.001"
+ 0:33:37.453 [CE][Storage] ver:21 stamp:715, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\types.002"
+ 0:33:37.453 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\types.bin".
+ 0:33:37.550 !!! File "DZ\worlds\chernarusplus\ce\db/messages.xml" does not exist...
+ 0:33:37.550 !!! [CE][offlineDB] :: Failed to read messages file 'db/messages.xml'.
+ 0:33:37.550 !!! [CE][offlineDB] :: No Shutdown message present.
+ 0:33:37.552 [DynEvent] "LandRoverDefender" will be ignored :: failed to determine spawner type!
+ 0:33:37.552 valid types are:
+ 0:33:37.552   01 - Vehicle 
+ 0:33:37.552   02 - Static 
+ 0:33:37.552   03 - Loot 
+ 0:33:37.552   04 - Infected 
+ 0:33:37.552   05 - Animal 
+ 0:33:37.552   06 - Ambient 
+ 0:33:37.552   07 - Item 
+ 0:33:37.552   08 - Trajectory 
+ 0:33:37.552 [DynEvent] "LandRoverDefender" failed to initialize spawner - unknown type?!
+ 0:33:37.552 [CE][offlineDB] :: Loaded 42 dynamic events 249 total types 0 total positions.
+ 0:33:37.609 !!! File "DZ\worlds\chernarusplus\ce\TraderPlus_ce/TraderPlus_types.xml" does not exist...
+ 0:33:37.609 !!! [CE][offlineDB] :: Failed to read types file 'TraderPlus_ce/TraderPlus_types.xml'.
+ 0:33:37.610 [CE][Storage] ver:21 stamp:1020, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\events.bin"
+ 0:33:37.610 [CE][Storage] ver:21 stamp:714, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\events.001"
+ 0:33:37.610 [CE][Storage] ver:21 stamp:715, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\events.002"
+ 0:33:37.610 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\events.bin".
+ 0:33:37.610 [CE][DynamicEvent] Load  Events:[42] Primary spawners: 41 Secondary spawners: 1
+ 0:33:37.611 [CE][Storage] ver:25 stamp:1020, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_000.bin"
+ 0:33:37.611 [CE][Storage] ver:25 stamp:714, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_000.001"
+ 0:33:37.612 [CE][Storage] ver:25 stamp:715, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_000.002"
+ 0:33:37.612 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_000.bin" 359 items.
+ 0:33:37.678 !!! Scripted variables corrupted upon "Paper"
+ 0:33:37.737   359 items loaded.
+ 0:33:37.738 [CE][Storage] ver:25 stamp:1020, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_001.bin"
+ 0:33:37.739 [CE][Storage] ver:25 stamp:714, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_001.001"
+ 0:33:37.739 [CE][Storage] ver:25 stamp:715, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_001.002"
+ 0:33:37.739 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_001.bin" 1462 items.
+ 0:33:37.773 !!! Scripted variables corrupted upon "Paper"
+ 0:33:37.979 !!! Scripted variables corrupted upon "Paper"
+ 0:33:38.67 !!! Scripted variables corrupted upon "Paper"
+ 0:33:38.209   1462 items loaded.
+ 0:33:38.210 [CE][Storage] ver:25 stamp:1020, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_002.bin"
+ 0:33:38.210 [CE][Storage] ver:25 stamp:714, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_002.001"
+ 0:33:38.211 [CE][Storage] ver:25 stamp:715, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_002.002"
+ 0:33:38.211 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_002.bin" 2792 items.
+ 0:33:38.386 !!! Scripted variables corrupted upon "Paper"
+ 0:33:38.503 !!! Scripted variables corrupted upon "Paper"
+ 0:33:38.563 !!! Scripted variables corrupted upon "Paper"
+ 0:33:38.584 !!! Scripted variables corrupted upon "Paper"
+ 0:33:38.668 !!! Scripted variables corrupted upon "Paper"
+ 0:33:38.688 !!! Scripted variables corrupted upon "Paper"
+ 0:33:38.739 !!! Scripted variables corrupted upon "Paper"
+ 0:33:38.824 !!! Scripted variables corrupted upon "Paper"
+ 0:33:38.881   2792 items loaded.
+ 0:33:38.882 [CE][Storage] ver:25 stamp:1020, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_003.bin"
+ 0:33:38.883 [CE][Storage] ver:25 stamp:714, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_003.001"
+ 0:33:38.883 [CE][Storage] ver:25 stamp:715, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_003.002"
+ 0:33:38.883 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_003.bin" 3745 items.
+ 0:33:39.91 !!! Scripted variables corrupted upon "Paper"
+ 0:33:39.155 !!! Scripted variables corrupted upon "Paper"
+ 0:33:39.308 !!! Scripted variables corrupted upon "Paper"
+ 0:33:39.349 !!! Scripted variables corrupted upon "Paper"
+ 0:33:39.537 !!! Scripted variables corrupted upon "Paper"
+ 0:33:39.577 !!! Scripted variables corrupted upon "Paper"
+ 0:33:39.683   3745 items loaded.
+ 0:33:39.684 [CE][Storage] ver:25 stamp:1020, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_004.bin"
+ 0:33:39.685 [CE][Storage] ver:25 stamp:714, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_004.001"
+ 0:33:39.685 [CE][Storage] ver:25 stamp:715, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_004.002"
+ 0:33:39.685 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_004.bin" 5637 items.
+ 0:33:40.47 !!! Scripted variables corrupted upon "Paper"
+ 0:33:40.81 !!! Scripted variables corrupted upon "Paper"
+ 0:33:40.276 !!! Scripted variables corrupted upon "Paper"
+ 0:33:40.712 !!! Scripted variables corrupted upon "Paper"
+ 0:33:40.810 !!! Scripted variables corrupted upon "Paper"
+ 0:33:40.862   5637 items loaded.
+ 0:33:40.863 [CE][Storage] ver:25 stamp:1020, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_005.bin"
+ 0:33:40.864 [CE][Storage] ver:25 stamp:714, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_005.001"
+ 0:33:40.864 [CE][Storage] ver:25 stamp:715, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_005.002"
+ 0:33:40.864 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_005.bin" 4981 items.
+ 0:33:41.365 !!! Scripted variables corrupted upon "Paper"
+ 0:33:41.549 !!! Scripted variables corrupted upon "Paper"
+ 0:33:41.578 !!! Scripted variables corrupted upon "Paper"
+ 0:33:41.602 !!! Scripted variables corrupted upon "Paper"
+ 0:33:41.667 !!! Scripted variables corrupted upon "Paper"
+ 0:33:41.718 !!! Scripted variables corrupted upon "Paper"
+ 0:33:42.62 !!! Scripted variables corrupted upon "Paper"
+ 0:33:42.71   4981 items loaded.
+ 0:33:42.72 [CE][Storage] ver:25 stamp:1020, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_006.bin"
+ 0:33:42.72 [CE][Storage] ver:25 stamp:714, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_006.001"
+ 0:33:42.73 [CE][Storage] ver:25 stamp:715, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_006.002"
+ 0:33:42.73 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_006.bin" 3393 items.
+ 0:33:42.456 !!! Scripted variables corrupted upon "Paper"
+ 0:33:42.831 !!! Scripted variables corrupted upon "Paper"
+ 0:33:42.861 !!! Scripted variables corrupted upon "Paper"
+ 0:33:42.885   3393 items loaded.
+ 0:33:42.886 [CE][Storage] ver:25 stamp:1020, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_007.bin"
+ 0:33:42.886 [CE][Storage] ver:25 stamp:714, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_007.001"
+ 0:33:42.887 [CE][Storage] ver:25 stamp:715, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_007.002"
+ 0:33:42.887 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_007.bin" 2567 items.
+ 0:33:42.935 !!! Scripted variables corrupted upon "Paper"
+ 0:33:43.253 !!! Scripted variables corrupted upon "Paper"
+ 0:33:43.316 !!! Scripted variables corrupted upon "Paper"
+ 0:33:43.344 !!! Scripted variables corrupted upon "Paper"
+ 0:33:43.382 !!! Scripted variables corrupted upon "Paper"
+ 0:33:43.510 !!! Scripted variables corrupted upon "Paper"
+ 0:33:43.518   2567 items loaded.
+ 0:33:43.519 [CE][Storage] ver:25 stamp:1020, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_008.bin"
+ 0:33:43.520 [CE][Storage] ver:25 stamp:714, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_008.001"
+ 0:33:43.520 [CE][Storage] ver:25 stamp:715, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_008.002"
+ 0:33:43.520 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_008.bin" 1261 items.
+ 0:33:43.751 !!! Scripted variables corrupted upon "Paper"
+ 0:33:43.892   1261 items loaded.
+ 0:33:43.893 [CE][Storage] ver:25 stamp:1020, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_009.bin"
+ 0:33:43.894 [CE][Storage] ver:25 stamp:714, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_009.001"
+ 0:33:43.894 [CE][Storage] ver:25 stamp:715, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_009.002"
+ 0:33:43.894 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_009.bin" 627 items.
+ 0:33:44.52   627 items loaded.
+ 0:33:44.53 [CE][Storage] ver:25 stamp:1020, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_010.bin"
+ 0:33:44.53 [CE][Storage] ver:25 stamp:714, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_010.001"
+ 0:33:44.54 [CE][Storage] ver:25 stamp:715, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_010.002"
+ 0:33:44.54 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_010.bin" 865 items.
+ 0:33:44.164 !!! Scripted variables corrupted upon "Paper"
+ 0:33:44.273   865 items loaded.
+ 0:33:44.274 [CE][Storage] ver:25 stamp:1020, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_011.bin"
+ 0:33:44.274 [CE][Storage] ver:25 stamp:714, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_011.001"
+ 0:33:44.274 [CE][Storage] ver:25 stamp:715, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_011.002"
+ 0:33:44.274 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_011.bin" 0 items.
+ 0:33:44.274   0 items loaded.
+ 0:33:44.275 [CE][Storage] ver:26 stamp:1020, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\building.bin"
+ 0:33:44.275 [CE][Storage] ver:26 stamp:714, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\building.001"
+ 0:33:44.275 [CE][Storage] ver:26 stamp:715, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\building.002"
+ 0:33:44.275 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\building.bin" 0 items.
+ 0:33:44.275   0 items loaded.
+ 0:33:44.276 [CE][Storage] ver:25 stamp:1020, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\vehicles.bin"
+ 0:33:44.276 [CE][Storage] ver:25 stamp:714, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\vehicles.001"
+ 0:33:44.277 [CE][Storage] ver:25 stamp:715, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\vehicles.002"
+ 0:33:44.277 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\vehicles.bin" 171 items.
+ 0:33:44.281 !!! Scripted variables corrupted upon "CivilianSedan"
+ 0:33:44.283 !!! Scripted variables corrupted upon "CivilianSedan"
+ 0:33:44.286 !!! Scripted variables corrupted upon "CivilianSedan"
+ 0:33:44.294 !!! Scripted variables corrupted upon "CivilianSedan"
+ 0:33:44.297 !!! Scripted variables corrupted upon "Hatchback_02_Blue"
+ 0:33:44.299 !!! Scripted variables corrupted upon "Hatchback_02_Blue"
+ 0:33:44.301 !!! Scripted variables corrupted upon "Hatchback_02"
+ 0:33:44.304 !!! Scripted variables corrupted upon "OffroadHatchback_White"
+ 0:33:44.312 !!! Scripted variables corrupted upon "OffroadHatchback"
+ 0:33:44.314 !!! Scripted variables corrupted upon "OffroadHatchback_Blue"
+ 0:33:44.316 !!! Scripted variables corrupted upon "Sedan_02_Red"
+ 0:33:44.321 !!! Scripted variables corrupted upon "Sedan_02"
+ 0:33:44.323 !!! Scripted variables corrupted upon "Sedan_02_Red"
+ 0:33:44.332 !!! Scripted variables corrupted upon "Truck_01_Covered"
+ 0:33:44.334 !!! Scripted variables corrupted upon "Truck_01_Covered"
+ 0:33:44.337 !!! Scripted variables corrupted upon "Truck_01_Covered_Orange"
+ 0:33:44.341 !!! Scripted variables corrupted upon "Truck_01_Covered_Blue"
+ 0:33:44.358 !!! Scripted variables corrupted upon "OffroadHatchback_Blue"
+ 0:33:44.361 !!! Scripted variables corrupted upon "Sedan_02_Grey"
+ 0:33:44.364 !!! Scripted variables corrupted upon "Truck_01_Covered_Orange"
+ 0:33:44.367 !!! Scripted variables corrupted upon "Hatchback_02_Black"
+ 0:33:44.402   171 items loaded.
+ 0:33:44.419 [CE][Hive] :: Storage load took:6.81 seconds, recovery stamp:1020
+ 0:33:44.419   entity: 29785, building: 0
+ 0:33:44.419   no lifetime: 21
+ 0:33:44.419   pathgraph's: 897
+ 0:33:44.419 [CE][Hive] :: Initializing ... 
+ 0:33:44.541 [CE][InitializeMap] :: initialized: 0
+ 0:33:44.541 [CE][Hive] :: Initializing spawners ... 
+ 0:33:45.499 [CE][LootRespawner] (PRIDummy) :: Initially (re)spawned:0, Nominal:30001, Total in Map: 27859 at 0 (sec)
+ 0:33:45.499   tests:0, repeats:0 fails:0, overtime:0
+ 0:33:45.499 [CE][DynEvent] :: 42 types
+ 0:33:45.499 [00] LandRoverDefender
+ 0:33:45.499 [01] AmbientHen
+ 0:33:45.499   Primary Spawner: "Ambient", active: yes, repeat: 1
+ 0:33:45.499 [02] AnimalBear
+ 0:33:45.499   Primary Spawner: "Animal", active: yes, repeat: 1
+ 0:33:45.499 [03] AnimalCow
+ 0:33:45.499   Primary Spawner: "Animal", active: yes, repeat: 1
+ 0:33:45.499 [04] AnimalDeer
+ 0:33:45.499   Primary Spawner: "Animal", active: yes, repeat: 1
+ 0:33:45.499 [05] AnimalGoat
+ 0:33:45.499   Primary Spawner: "Animal", active: yes, repeat: 1
+ 0:33:45.499 [06] AnimalPig
+ 0:33:45.499   Primary Spawner: "Animal", active: yes, repeat: 1
+ 0:33:45.499 [07] AnimalRoeDeer
+ 0:33:45.499   Primary Spawner: "Animal", active: yes, repeat: 1
+ 0:33:45.499 [08] AnimalSheep
+ 0:33:45.499   Primary Spawner: "Animal", active: yes, repeat: 1
+ 0:33:45.499 [09] AnimalWildBoar
+ 0:33:45.499   Primary Spawner: "Animal", active: yes, repeat: 1
+ 0:33:45.499 [10] AnimalWolf
+ 0:33:45.499   Primary Spawner: "Animal", active: yes, repeat: 1
+ 0:33:45.499 [11] InfectedArmy
+ 0:33:45.499   Primary Spawner: "Infected", active: yes, repeat: 1
+ 0:33:45.499 [12] InfectedCity
+ 0:33:45.499   Primary Spawner: "Infected", active: yes, repeat: 1
+ 0:33:45.499 [13] InfectedFirefighter
+ 0:33:45.499   Primary Spawner: "Infected", active: yes, repeat: 1
+ 0:33:45.499 [14] InfectedIndustrial
+ 0:33:45.499   Primary Spawner: "Infected", active: yes, repeat: 1
+ 0:33:45.499 [15] InfectedMedic
+ 0:33:45.499   Primary Spawner: "Infected", active: yes, repeat: 1
+ 0:33:45.499 [16] InfectedPolice
+ 0:33:45.499   Primary Spawner: "Infected", active: yes, repeat: 1
+ 0:33:45.499 [17] InfectedPrisoner
+ 0:33:45.499   Primary Spawner: "Infected", active: yes, repeat: 1
+ 0:33:45.499 [18] InfectedReligious
+ 0:33:45.499   Primary Spawner: "Infected", active: yes, repeat: 1
+ 0:33:45.499 [19] InfectedSolitude
+ 0:33:45.499   Primary Spawner: "Infected", active: yes, repeat: 1
+ 0:33:45.499 [20] InfectedVillage
+ 0:33:45.499   Primary Spawner: "Infected", active: yes, repeat: 1
+ 0:33:45.499 [21] ItemPlanks
+ 0:33:45.499   Primary Spawner: "Item", active: yes, repeat: 1
+ 0:33:45.499 [22] Loot
+ 0:33:45.499   Primary Spawner: "Loot", active: yes, repeat: 2
+ 0:33:45.499 [23] StaticHeliCrash
+ 0:33:45.499   Primary Spawner: "Vehicle", active: yes, repeat: 1
+ 0:33:45.499   Secondary Spawner: "Infected", active: yes, repeat: 1
+ 0:33:45.499 [24] StaticPoliceCar
+ 0:33:45.499   Primary Spawner: "Vehicle", active: yes, repeat: 1
+ 0:33:45.499 [25] TrajectoryApple
+ 0:33:45.499   Primary Spawner: "Trajectory", active: yes, repeat: 1
+ 0:33:45.499 [26] TrajectoryCanina
+ 0:33:45.499   Primary Spawner: "Trajectory", active: yes, repeat: 1
+ 0:33:45.499 [27] TrajectoryConiferous
+ 0:33:45.499   Primary Spawner: "Trajectory", active: yes, repeat: 1
+ 0:33:45.499 [28] TrajectoryDeciduous
+ 0:33:45.499   Primary Spawner: "Trajectory", active: yes, repeat: 1
+ 0:33:45.499 [29] TrajectoryHumus
+ 0:33:45.499   Primary Spawner: "Trajectory", active: yes, repeat: 1
+ 0:33:45.499 [30] TrajectoryPear
+ 0:33:45.499   Primary Spawner: "Trajectory", active: yes, repeat: 1
+ 0:33:45.499 [31] TrajectoryPlum
+ 0:33:45.499   Primary Spawner: "Trajectory", active: yes, repeat: 1
+ 0:33:45.499 [32] TrajectorySambucus
+ 0:33:45.499   Primary Spawner: "Trajectory", active: yes, repeat: 1
+ 0:33:45.499 [33] TrajectoryStones
+ 0:33:45.500   Primary Spawner: "Trajectory", active: yes, repeat: 1
+ 0:33:45.500 [34] VehicleCivilianSedan
+ 0:33:45.500   Primary Spawner: "Vehicle", active: yes, repeat: 1
+ 0:33:45.500 [35] VehicleHatchback02
+ 0:33:45.500   Primary Spawner: "Vehicle", active: yes, repeat: 1
+ 0:33:45.500 [36] VehicleOffroadHatchback
+ 0:33:45.500   Primary Spawner: "Vehicle", active: yes, repeat: 1
+ 0:33:45.500 [37] VehicleSedan02
+ 0:33:45.500   Primary Spawner: "Vehicle", active: yes, repeat: 1
+ 0:33:45.500 [38] VehicleTruck01
+ 0:33:45.500   Primary Spawner: "Vehicle", active: yes, repeat: 1
+ 0:33:45.500 [39] StaticVanPinkies
+ 0:33:45.500   Primary Spawner: "Vehicle", active: yes, repeat: 1
+ 0:33:45.500 [40] StaticVanAmbulance
+ 0:33:45.500   Primary Spawner: "Vehicle", active: yes, repeat: 1
+ 0:33:45.500 [41] StaticSkeletonEventspawn
+ 0:33:45.500   Primary Spawner: "Vehicle", active: yes, repeat: 1
+ 0:33:45.500 [CE][Hive] :: Initializing of spawners done.
+ 0:33:45.506 [CE][Hive] :: Init sequence finished.
+ 0:33:45.506 Player connect enabled
+ 0:33:46.965 [IdleMode] Entering IN - save processed
+ 0:34:26.402 [Login]: Adding player BnYrB (14570792) to login queue at position 0
+ 0:34:26.402 [LoginMachine]: Add player BnYrB (14570792)
+ 0:34:26.402 [StateMachine]: Player BnYrB (dpnid 14570792 uid ) Entering AuthPlayerLoginState
+ 0:34:26.733 [StateMachine]: Player BnYrB (dpnid 14570792 uid ) State Error (AuthPlayerLoginState)
+ 0:34:26.733 Player Unknown (14570792) kicked from server: 116 (Client has a mod which is not on the server. (Notifications)  (Client has a PBO which is not part of the server. (C:\Program Files (x86)\Steam\steamapps\common\DayZ\!Workshop\@Notifications\addons\notifications.pbo)))
+ 0:34:26.733 [StateMachine]: Kick player BnYrB (dpnid 14570792 uid ) State AuthPlayerLoginState
+ 0:34:26.738 [Disconnect]: Client 14570792 early disconnect
+ 0:34:26.738 [Disconnect]: No identity -> remove player info 14570792 
+ 0:34:26.738 [Disconnect]: DisconnectPlayerFinish 14570792
+ 0:34:26.738 [Disconnect]: Remove player info 14570792
+ 0:34:26.738 [Disconnect]: Player destroy 14570792 
+=======================================================
+-------------------------------------------------------
+Time:  0:36:10
+Exception code: C0000005 ACCESS_VIOLATION at 00000134
+Version 1.12.153895
+Fault address:  00000134 00:00000134 Unknown module
+file:     Expansion
+world:    deerisle
+=======================================================
+note: Minidump has been generated into the file myprofile\DayZServer_x64_2021-05-05_00-32-44_2021-05-05_00-36-10.mdmp

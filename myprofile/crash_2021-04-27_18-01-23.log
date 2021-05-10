@@ -1,0 +1,26 @@
+---------------------------------------------
+Log C:\Program Files (x86)\Steam\steamapps\common\DayZServer\myprofile\crash_2021-04-27_18-01-23.log started at 27.04. 21:41:46
+
+
+
+------------------------------------
+42MA-SERVER, 27.04 2021 21:41:46
+
+[wpnfsm] ValidateAndRepair Attempting to repair: Colt1911:018928 - MagazineRepair - Pistol_CLO_DIS_BU0_MA0<f1eda3e0> - state: false != weapon: true
+Class:      'WeaponFSM'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/entities\firearms\weaponfsm.c:257
+scripts/4_World/entities\firearms\weaponfsm.c:225
+scripts/4_World/entities\firearms\weaponfsm.c:203
+scripts/4_World/entities\firearms\weapon_base.c:495
+scripts/4_World/entities\firearms\weapon_base.c:502
+scripts/4_World/entities\itembase.c:1091
+scripts/4_World/entities\firearms\weapon_base.c:571
+scripts/3_Game/entities\entityai.c:589
+scripts/4_World/entities\itembase.c:865
+scripts/4_World/entities\firearms\weapon_base.c:553
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@CodeLock;@BuilderItems;@BuildAnywhere_v3;@Ear-Plugs;@BaseBuildingPlus;@DayZEditorLoader;@IRPLandRoverDefender110;@TeddysWeaponPack;@CannabisPlus;@ModularVestSystem;@VanillaPlusPlusMap;@VendingMachine;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  

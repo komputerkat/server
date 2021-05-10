@@ -1,0 +1,36 @@
+---------------------------------------------
+Log C:\Program Files (x86)\Steam\steamapps\common\DayZServer\myprofile\crash_2021-05-06_12-48-36.log started at 06.05. 16:28:39
+
+
+
+------------------------------------
+42MA-SERVER, 06.05 2021 16:28:39
+[DamageSystemData::GetMaxHealth] :: [Hatchback_02_Blue] :: Could not find zone "Radiator"
+Class:      'Hatchback_02_Blue'
+Entity id:2251640
+
+Function: 'EEItemDetached'
+Stack trace:
+scripts/4_World/entities\vehicles\carscript.c:449
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@CannabisPlus;@MoreDrugs;@Notifications;@GAZ;@ForeverLights;@DayZEditorLoader;@VanillaPlusPlusMap;@zSpawnSelection;@GameLabs;@ToxicZone;@MuchStuffPack;@BuildAnywherev3;@BuilderItems;@Notes;@CodeLock;@BaseBuildingPlus;@MoreDoors;@PowerPoleLight;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@CarCover;@EarPlugs;@TeddysWeaponPack;@ModularVestSystem;@KillFeed;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@CustomBarrels;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 06.05 2021 16:34:13
+NULL pointer to instance
+Class:      '_ServerVehicle'
+Function: '_ServerVehicle'
+Stack trace:
+GameLabs/Scripts/3_Game/api\definitions.c:142
+GameLabs/Scripts/3_Game/api\definitions.c:165
+GameLabs/Scripts/5_Mission/reporter.c:137
+scripts/3_Game/tools\tools.c:600
+scripts/3_Game/tools\tools.c:289
+scripts/3_Game/tools\tools.c:404
+scripts/3_Game/dayzgame.c:2420
+GameLabs/Scripts/3_Game/hooking\!game.c:7
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@CannabisPlus;@MoreDrugs;@Notifications;@GAZ;@ForeverLights;@DayZEditorLoader;@VanillaPlusPlusMap;@zSpawnSelection;@GameLabs;@ToxicZone;@MuchStuffPack;@BuildAnywherev3;@BuilderItems;@Notes;@CodeLock;@BaseBuildingPlus;@MoreDoors;@PowerPoleLight;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@CarCover;@EarPlugs;@TeddysWeaponPack;@ModularVestSystem;@KillFeed;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@CustomBarrels;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  

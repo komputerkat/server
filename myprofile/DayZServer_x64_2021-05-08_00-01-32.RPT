@@ -1,0 +1,619 @@
+
+
+=====================================================================
+== C:\Program Files (x86)\Steam\steamapps\common\DayZServer\DayZServer_x64.exe
+== DayZServer_x64.exe  -cpuCount=4 -mod=@42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@CannabisPlus;@Notifications;@GAZ;@DayZEditorLoader;@VanillaPlusPlusMap;@zSpawnSelection;@GameLabs;@ToxicZone;@MuchStuffPack;@BuildAnywherev3;@BuilderItems;@CodeLock;@BaseBuildingPlus;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@TeddysWeaponPack;@ModularVestSystem;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; -config=serverDZ.cfg -port=2302 -noFilePatching -profiles=myprofile -scrAllowFileWrite -adminlog
+=====================================================================
+Exe timestamp: 2021/05/05 10:02:18
+Current time:  2021/05/08 00:01:37
+
+Version 1.12.153904
+ 0:01:37.149 [Inputs] Loading inputs default "bin/constants.xml"
+ 0:01:37.149 [Inputs] Loading inputs default "bin/specific.xml"
+ 0:01:37.149 [Inputs] Loading inputs default "EarPlugs\data\inputs.xml"
+ 0:01:37.149 [Inputs] Loading inputs default "LBmaster_UndergroundLighting/inputsLBmaster.xml"
+ 0:01:37.149 [Inputs] Loading inputs default "VanillaPPMap/data/modded_Inputs.xml"
+ 0:01:37.149 [Inputs] Loading inputs default "ZomBerry/AT/scripts/data/inputs.xml"
+ 0:01:37.149 [Inputs] Loading inputs default "Notifications/inputs/inputs.xml"
+ 0:01:37.149 [Inputs] Loading inputs default "DayZEditorLoader/Scripts/Data/Inputs.xml"
+ 0:01:37.149 [Inputs] Loading inputs default "BaseBuildingPlus/Scripts/Data/Inputs.xml"
+ 0:01:37.149 [Inputs] Loading inputs cfg "myprofile\Users\Survivor\Server.core.xml"
+ 0:01:37.149 !!! [Inputs] Cannot read inputs cfg "myprofile\Users\Survivor\Server.core.xml", parser error
+ 0:01:37.149 [Inputs] Loading inputs cfg "bin/core.xml"
+ 0:01:37.149 !!! [Inputs] Cannot load input preset "user", file does not exist
+ 0:01:37.161 [Inputs] Exporting inputs cfg "myprofile\Users\Survivor\Server.core.xml"
+ 0:01:49.73 [CE][Hive] :: Initializing OFFLINE
+ 0:01:49.73 [CE][Hive] :: Loading core data ... 
+ 0:01:49.89 [CE][CoreData] :: 7 root classes, 18 defaults, 0 updaters...
+ 0:01:52.632 [CE] :: WARNING :: Preset map "optics" is EMPTY.
+ 0:01:52.634 [CE][TypeSetup] :: 481 classes setuped...
+ 0:01:53.390 [CE][RegisterBind] :: 0 classes binded...
+ 0:01:53.391 [CE][RegisterConfig] :: 9629 config classes registered, 1 sub-counters...
+ 0:01:53.391 [CE][Hive] :: Loading map data ... 
+ 0:01:53.443 [CE][LoadPrototype] :: loaded 345 prototypes
+ 0:01:53.443   665 containers, 8761 points
+ 0:01:53.443   0 dispatches, 0 proxies
+ 0:01:53.443 !!! [CE][LoadPrototype] 7 groups have no points...
+ 0:01:53.443 [CE][LoadPrototype] :: last group name: Land_Garage_Tall...
+ 0:01:53.450 [CE][LoadPrototype] :: loaded 0 prototypes
+ 0:01:53.450   0 containers, 0 points
+ 0:01:53.450   0 dispatches, 0 proxies
+ 0:01:53.450 [CE][LoadPrototype] :: last group name: Rail9...
+ 0:01:53.883 [CE][LoadMap] "Group" :: loaded 7506 groups, largest group range: 34.0
+ 0:01:53.883 [CE][LoadMap] "Dirt" :: loaded 0 groups, largest group range: 34.0
+ 0:01:53.993 [CE][Links] found 2124 total links between groups, of 7506
+ 0:01:53.993 [CE][LoadClusters] "Cluster" :: Loading files...
+ 0:01:54.203 [CE][LoadClusters] :: file: "mapgroupcluster.xml", 9 types, 50000 instances
+ 0:01:54.415 [CE][LoadClusters] :: file: "mapgroupcluster01", 9 types, 50000 instances
+ 0:01:54.415   5940 failed - check Matrix "default" grid size !!!
+ 0:01:54.634 [CE][LoadClusters] :: file: "mapgroupcluster02", 9 types, 50000 instances
+ 0:01:54.634   12307 failed - check Matrix "default" grid size !!!
+ 0:01:54.712 [CE][LoadClusters] :: file: "mapgroupcluster03", 9 types, 15277 instances
+ 0:01:54.712   1372 failed - check Matrix "default" grid size !!!
+ 0:01:54.712 [CE][Storage] ver:21 stamp:9486, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\types.bin"
+ 0:01:54.727 [CE][Storage] ver:21 stamp:9485, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\types.001"
+ 0:01:54.727 [CE][Storage] ver:21 stamp:9483, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\types.002"
+ 0:01:54.727 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\types.bin".
+ 0:01:54.838 !!! File "DZ\worlds\chernarusplus\ce\db/messages.xml" does not exist...
+ 0:01:54.838 !!! [CE][offlineDB] :: Failed to read messages file 'db/messages.xml'.
+ 0:01:54.838 !!! [CE][offlineDB] :: No Shutdown message present.
+ 0:01:54.838 [DynEvent] "LandRoverDefender" will be ignored :: failed to determine spawner type!
+ 0:01:54.838 valid types are:
+ 0:01:54.838   01 - Vehicle 
+ 0:01:54.838   02 - Static 
+ 0:01:54.838   03 - Loot 
+ 0:01:54.838   04 - Infected 
+ 0:01:54.838   05 - Animal 
+ 0:01:54.838   06 - Ambient 
+ 0:01:54.838   07 - Item 
+ 0:01:54.838   08 - Trajectory 
+ 0:01:54.838 [DynEvent] "LandRoverDefender" failed to initialize spawner - unknown type?!
+ 0:01:54.838 [CE][offlineDB] :: Loaded 42 dynamic events 249 total types 0 total positions.
+ 0:01:54.869 !!! [CE][offlineDB] :: Failed to read types file 'db/types.xml'.
+ 0:01:54.869 !!! File "DZ\worlds\chernarusplus\ce\TraderPlus_ce/TraderPlus_types.xml" does not exist...
+ 0:01:54.869 !!! [CE][offlineDB] :: Failed to read types file 'TraderPlus_ce/TraderPlus_types.xml'.
+ 0:01:54.869 [CE][Storage] ver:21 stamp:9486, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\events.bin"
+ 0:01:54.885 [CE][Storage] ver:21 stamp:9485, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\events.001"
+ 0:01:54.885 [CE][Storage] ver:21 stamp:9483, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\events.002"
+ 0:01:54.885 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\events.bin".
+ 0:01:54.885 [CE][DynamicEvent] Load  Events:[42] Primary spawners: 41 Secondary spawners: 1
+ 0:01:54.885 [CE][Storage] ver:25 stamp:9486, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_000.bin"
+ 0:01:54.885 [CE][Storage] ver:25 stamp:9485, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_000.001"
+ 0:01:54.885 [CE][Storage] ver:25 stamp:9483, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_000.002"
+ 0:01:54.885 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_000.bin" 212 items.
+ 0:01:54.993   212 items loaded.
+ 0:01:55.08 [CE][Storage] ver:25 stamp:9486, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_001.bin"
+ 0:01:55.08 [CE][Storage] ver:25 stamp:9485, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_001.001"
+ 0:01:55.08 [CE][Storage] ver:25 stamp:9483, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_001.002"
+ 0:01:55.08 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_001.bin" 1286 items.
+ 0:01:55.292 !!! Scripted variables corrupted upon "Paper"
+ 0:01:55.321 !!! Scripted variables corrupted upon "Paper"
+ 0:01:55.508   1286 items loaded.
+ 0:01:55.508 [CE][Storage] ver:25 stamp:9486, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_002.bin"
+ 0:01:55.508 [CE][Storage] ver:25 stamp:9485, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_002.001"
+ 0:01:55.526 [CE][Storage] ver:25 stamp:9483, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_002.002"
+ 0:01:55.526 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_002.bin" 2721 items.
+ 0:01:55.560 !!! Serious stream damage detected during load, file offset: 2ce8
+ 0:01:55.736 !!! Scripted variables corrupted upon "Paper"
+ 0:01:56.122 !!! Scripted variables corrupted upon "Paper"
+ 0:01:56.220 !!! Scripted variables corrupted upon "Paper"
+ 0:01:56.284 !!! Serious stream damage detected during load, file offset: 6473c
+ 0:01:56.310   2719 items loaded.
+ 0:01:56.311 [CE][Storage] ver:25 stamp:9486, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_003.bin"
+ 0:01:56.315 [CE][Storage] ver:25 stamp:9485, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_003.001"
+ 0:01:56.319 [CE][Storage] ver:25 stamp:9483, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_003.002"
+ 0:01:56.319 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_003.bin" 3312 items.
+ 0:01:56.400 !!! Serious stream damage detected during load, file offset: e5bc
+ 0:01:56.422 !!! Serious stream damage detected during load, file offset: 121f9
+ 0:01:56.467 !!! Scripted variables corrupted upon "Paper"
+ 0:01:56.474 !!! Scripted variables corrupted upon "Paper"
+ 0:01:56.501 !!! Serious stream damage detected during load, file offset: 1f9fb
+ 0:01:56.528 !!! Serious stream damage detected during load, file offset: 243b8
+ 0:01:56.569 !!! Scripted variables corrupted upon "Paper"
+ 0:01:56.593 !!! Scripted variables corrupted upon "Paper"
+ 0:01:56.621 !!! Scripted variables corrupted upon "Paper"
+ 0:01:56.643 !!! Serious stream damage detected during load, file offset: 3a9f9
+ 0:01:56.695 !!! Serious stream damage detected during load, file offset: 43e7d
+ 0:01:56.718 !!! Serious stream damage detected during load, file offset: 48231
+ 0:01:56.722 !!! Scripted variables corrupted upon "Paper"
+ 0:01:56.772 !!! Scripted variables corrupted upon "Paper"
+ 0:01:56.919 !!! Scripted variables corrupted upon "Paper"
+ 0:01:56.981 !!! Serious stream damage detected during load, file offset: 79803
+ 0:01:56.993 !!! Serious stream damage detected during load, file offset: 7ba44
+ 0:01:57.02 !!! Scripted variables corrupted upon "Paper"
+ 0:01:57.16   3304 items loaded.
+ 0:01:57.17 [CE][Storage] ver:25 stamp:9486, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_004.bin"
+ 0:01:57.24 [CE][Storage] ver:25 stamp:9485, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_004.001"
+ 0:01:57.40 [CE][Storage] ver:25 stamp:9483, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_004.002"
+ 0:01:57.40 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_004.bin" 4965 items.
+ 0:01:57.40 !!! Serious stream damage detected during load, file offset: 10db
+ 0:01:57.320 !!! Scripted variables corrupted upon "Paper"
+ 0:01:57.367 !!! Scripted variables corrupted upon "Paper"
+ 0:01:57.398 !!! Scripted variables corrupted upon "Paper"
+ 0:01:57.430 !!! Serious stream damage detected during load, file offset: 4d238
+ 0:01:57.492 !!! Scripted variables corrupted upon "Paper"
+ 0:01:57.517 !!! Serious stream damage detected during load, file offset: 5cb96
+ 0:01:57.553 !!! Scripted variables corrupted upon "Paper"
+ 0:01:57.740 !!! Serious stream damage detected during load, file offset: 85c44
+ 0:01:57.809 !!! Scripted variables corrupted upon "Paper"
+ 0:01:58.05   4961 items loaded.
+ 0:01:58.06 [CE][Storage] ver:25 stamp:9486, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_005.bin"
+ 0:01:58.10 [CE][Storage] ver:25 stamp:9485, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_005.001"
+ 0:01:58.14 [CE][Storage] ver:25 stamp:9483, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_005.002"
+ 0:01:58.14 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_005.bin" 3925 items.
+ 0:01:58.55 !!! Scripted variables corrupted upon "Paper"
+ 0:01:58.58 !!! Scripted variables corrupted upon "Paper"
+ 0:01:58.432 !!! Serious stream damage detected during load, file offset: 44af1
+ 0:01:58.447 !!! Serious stream damage detected during load, file offset: 4759f
+ 0:01:58.476 !!! Serious stream damage detected during load, file offset: 4d410
+ 0:01:58.500 !!! Scripted variables corrupted upon "Paper"
+ 0:01:58.547 !!! Scripted variables corrupted upon "Paper"
+ 0:01:58.685 !!! Serious stream damage detected during load, file offset: 6f3a1
+ 0:01:58.766 !!! Serious stream damage detected during load, file offset: 7e208
+ 0:01:58.809 !!! Scripted variables corrupted upon "Paper"
+ 0:01:58.833 !!! Serious stream damage detected during load, file offset: 89f8c
+ 0:01:58.852 !!! Serious stream damage detected during load, file offset: 8dcd2
+ 0:01:58.865 !!! Scripted variables corrupted upon "Paper"
+ 0:01:58.888   3918 items loaded.
+ 0:01:58.889 [CE][Storage] ver:25 stamp:9486, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_006.bin"
+ 0:01:58.894 [CE][Storage] ver:25 stamp:9485, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_006.001"
+ 0:01:58.899 [CE][Storage] ver:25 stamp:9483, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_006.002"
+ 0:01:58.899 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_006.bin" 3153 items.
+ 0:01:58.940 !!! Scripted variables corrupted upon "Paper"
+ 0:01:59.375 !!! Scripted variables corrupted upon "Paper"
+ 0:01:59.498 !!! Scripted variables corrupted upon "Paper"
+ 0:01:59.517 !!! Serious stream damage detected during load, file offset: 6e08a
+ 0:01:59.544   3152 items loaded.
+ 0:01:59.545 [CE][Storage] ver:25 stamp:9486, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_007.bin"
+ 0:01:59.550 [CE][Storage] ver:25 stamp:9485, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_007.001"
+ 0:01:59.554 [CE][Storage] ver:25 stamp:9483, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_007.002"
+ 0:01:59.554 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_007.bin" 2200 items.
+ 0:01:59.596 !!! Serious stream damage detected during load, file offset: 7da7
+ 0:01:59.696 !!! Serious stream damage detected during load, file offset: 1a279
+ 0:01:59.835 !!! Serious stream damage detected during load, file offset: 33335
+ 0:01:59.886 !!! Scripted variables corrupted upon "Paper"
+ 0:02:00.02   2197 items loaded.
+ 0:02:00.03 [CE][Storage] ver:25 stamp:9486, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_008.bin"
+ 0:02:00.07 [CE][Storage] ver:25 stamp:9485, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_008.001"
+ 0:02:00.11 [CE][Storage] ver:25 stamp:9483, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_008.002"
+ 0:02:00.11 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_008.bin" 1297 items.
+ 0:02:00.71 !!! Scripted variables corrupted upon "Paper"
+ 0:02:00.325   1297 items loaded.
+ 0:02:00.326 [CE][Storage] ver:25 stamp:9486, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_009.bin"
+ 0:02:00.331 [CE][Storage] ver:25 stamp:9485, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_009.001"
+ 0:02:00.334 [CE][Storage] ver:25 stamp:9483, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_009.002"
+ 0:02:00.334 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_009.bin" 628 items.
+ 0:02:00.473   628 items loaded.
+ 0:02:00.473 [CE][Storage] ver:25 stamp:9486, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_010.bin"
+ 0:02:00.478 [CE][Storage] ver:25 stamp:9485, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_010.001"
+ 0:02:00.482 [CE][Storage] ver:25 stamp:9483, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_010.002"
+ 0:02:00.482 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_010.bin" 817 items.
+ 0:02:00.663   817 items loaded.
+ 0:02:00.663 [CE][Storage] ver:25 stamp:9486, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_011.bin"
+ 0:02:00.667 [CE][Storage] ver:25 stamp:9485, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_011.001"
+ 0:02:00.670 [CE][Storage] ver:25 stamp:9483, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_011.002"
+ 0:02:00.671 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_011.bin" 0 items.
+ 0:02:00.671   0 items loaded.
+ 0:02:00.671 [CE][Storage] ver:26 stamp:9486, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\building.bin"
+ 0:02:00.675 [CE][Storage] ver:26 stamp:9485, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\building.001"
+ 0:02:00.679 [CE][Storage] ver:26 stamp:9483, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\building.002"
+ 0:02:00.679 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\building.bin" 3 items.
+ 0:02:00.679   3 items loaded.
+ 0:02:00.680 [CE][Storage] ver:25 stamp:9486, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\vehicles.bin"
+ 0:02:00.686 [CE][Storage] ver:25 stamp:9485, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\vehicles.001"
+ 0:02:00.692 [CE][Storage] ver:25 stamp:9483, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\vehicles.002"
+ 0:02:00.692 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\vehicles.bin" 156 items.
+ 0:02:01.122   156 items loaded.
+ 0:02:01.132 [CE][Hive] :: Storage load took:6.25 seconds, recovery stamp:9486
+ 0:02:01.132   entity: 26604, building: 3
+ 0:02:01.132   no lifetime: 35
+ 0:02:01.132   skipped: 26
+ 0:02:01.132   pathgraph's: 936
+ 0:02:01.134 [CE][Hive] :: Initializing ... 
+ 0:02:01.173 [CE][InitializeMap] :: initialized: 1
+ 0:02:01.173 [CE][Hive] :: Initializing spawners ... 
+ 0:02:01.890 [CE][LootRespawner] (PRIDummy) :: Initially (re)spawned:0, Nominal:0, Total in Map: 25489 at 0 (sec)
+ 0:02:01.890   tests:0, repeats:0 fails:0, overtime:0
+ 0:02:01.890 [CE][DynEvent] :: 42 types
+ 0:02:01.890 [00] LandRoverDefender
+ 0:02:01.890 [01] AmbientHen
+ 0:02:01.890   Primary Spawner: "Ambient", active: yes, repeat: 1
+ 0:02:01.890 [02] AnimalBear
+ 0:02:01.890   Primary Spawner: "Animal", active: yes, repeat: 1
+ 0:02:01.890 [03] AnimalCow
+ 0:02:01.890   Primary Spawner: "Animal", active: yes, repeat: 1
+ 0:02:01.890 [04] AnimalDeer
+ 0:02:01.890   Primary Spawner: "Animal", active: yes, repeat: 1
+ 0:02:01.890 [05] AnimalGoat
+ 0:02:01.890   Primary Spawner: "Animal", active: yes, repeat: 1
+ 0:02:01.890 [06] AnimalPig
+ 0:02:01.890   Primary Spawner: "Animal", active: yes, repeat: 1
+ 0:02:01.890 [07] AnimalRoeDeer
+ 0:02:01.890   Primary Spawner: "Animal", active: yes, repeat: 1
+ 0:02:01.890 [08] AnimalSheep
+ 0:02:01.890   Primary Spawner: "Animal", active: yes, repeat: 1
+ 0:02:01.890 [09] AnimalWildBoar
+ 0:02:01.890   Primary Spawner: "Animal", active: yes, repeat: 1
+ 0:02:01.890 [10] AnimalWolf
+ 0:02:01.890   Primary Spawner: "Animal", active: yes, repeat: 1
+ 0:02:01.890 [11] InfectedArmy
+ 0:02:01.890   Primary Spawner: "Infected", active: yes, repeat: 1
+ 0:02:01.890 [12] InfectedCity
+ 0:02:01.890   Primary Spawner: "Infected", active: yes, repeat: 1
+ 0:02:01.890 [13] InfectedFirefighter
+ 0:02:01.890   Primary Spawner: "Infected", active: yes, repeat: 1
+ 0:02:01.890 [14] InfectedIndustrial
+ 0:02:01.890   Primary Spawner: "Infected", active: yes, repeat: 1
+ 0:02:01.890 [15] InfectedMedic
+ 0:02:01.890   Primary Spawner: "Infected", active: yes, repeat: 1
+ 0:02:01.890 [16] InfectedPolice
+ 0:02:01.890   Primary Spawner: "Infected", active: yes, repeat: 1
+ 0:02:01.890 [17] InfectedPrisoner
+ 0:02:01.890   Primary Spawner: "Infected", active: yes, repeat: 1
+ 0:02:01.890 [18] InfectedReligious
+ 0:02:01.890   Primary Spawner: "Infected", active: yes, repeat: 1
+ 0:02:01.890 [19] InfectedSolitude
+ 0:02:01.890   Primary Spawner: "Infected", active: yes, repeat: 1
+ 0:02:01.890 [20] InfectedVillage
+ 0:02:01.890   Primary Spawner: "Infected", active: yes, repeat: 1
+ 0:02:01.890 [21] ItemPlanks
+ 0:02:01.890   Primary Spawner: "Item", active: yes, repeat: 1
+ 0:02:01.890 [22] Loot
+ 0:02:01.890   Primary Spawner: "Loot", active: yes, repeat: 2
+ 0:02:01.890 [23] StaticHeliCrash
+ 0:02:01.890   Primary Spawner: "Vehicle", active: yes, repeat: 1
+ 0:02:01.890   Secondary Spawner: "Infected", active: yes, repeat: 1
+ 0:02:01.890 [24] StaticPoliceCar
+ 0:02:01.890   Primary Spawner: "Vehicle", active: yes, repeat: 1
+ 0:02:01.890 [25] TrajectoryApple
+ 0:02:01.890   Primary Spawner: "Trajectory", active: yes, repeat: 1
+ 0:02:01.890 [26] TrajectoryCanina
+ 0:02:01.890   Primary Spawner: "Trajectory", active: yes, repeat: 1
+ 0:02:01.890 [27] TrajectoryConiferous
+ 0:02:01.890   Primary Spawner: "Trajectory", active: yes, repeat: 1
+ 0:02:01.890 [28] TrajectoryDeciduous
+ 0:02:01.890   Primary Spawner: "Trajectory", active: yes, repeat: 1
+ 0:02:01.890 [29] TrajectoryHumus
+ 0:02:01.890   Primary Spawner: "Trajectory", active: yes, repeat: 1
+ 0:02:01.890 [30] TrajectoryPear
+ 0:02:01.890   Primary Spawner: "Trajectory", active: yes, repeat: 1
+ 0:02:01.890 [31] TrajectoryPlum
+ 0:02:01.890   Primary Spawner: "Trajectory", active: yes, repeat: 1
+ 0:02:01.890 [32] TrajectorySambucus
+ 0:02:01.890   Primary Spawner: "Trajectory", active: yes, repeat: 1
+ 0:02:01.890 [33] TrajectoryStones
+ 0:02:01.890   Primary Spawner: "Trajectory", active: yes, repeat: 1
+ 0:02:01.890 [34] VehicleCivilianSedan
+ 0:02:01.890   Primary Spawner: "Vehicle", active: yes, repeat: 1
+ 0:02:01.890 [35] VehicleHatchback02
+ 0:02:01.890   Primary Spawner: "Vehicle", active: yes, repeat: 1
+ 0:02:01.890 [36] VehicleOffroadHatchback
+ 0:02:01.890   Primary Spawner: "Vehicle", active: yes, repeat: 1
+ 0:02:01.890 [37] VehicleSedan02
+ 0:02:01.890   Primary Spawner: "Vehicle", active: yes, repeat: 1
+ 0:02:01.890 [38] VehicleTruck01
+ 0:02:01.890   Primary Spawner: "Vehicle", active: yes, repeat: 1
+ 0:02:01.890 [39] StaticVanPinkies
+ 0:02:01.890   Primary Spawner: "Vehicle", active: yes, repeat: 1
+ 0:02:01.890 [40] StaticVanAmbulance
+ 0:02:01.890   Primary Spawner: "Vehicle", active: yes, repeat: 1
+ 0:02:01.890 [41] StaticSkeletonEventspawn
+ 0:02:01.890   Primary Spawner: "Vehicle", active: yes, repeat: 1
+ 0:02:01.890 [CE][Hive] :: Initializing of spawners done.
+ 0:02:01.896 [CE][Hive] :: Init sequence finished.
+ 0:02:01.896 Player connect enabled
+ 0:02:02.419 [IdleMode] Entering IN - save processed
+ 0:03:11.877 [Login]: Adding player BnYrB (19233137) to login queue at position 0
+ 0:03:11.877 [LoginMachine]: Add player BnYrB (19233137)
+ 0:03:11.877 [StateMachine]: Player BnYrB (dpnid 19233137 uid ) Entering AuthPlayerLoginState
+ 0:03:12.877 [IdleMode] Leaving OUT
+ 0:03:13.174 [StateMachine]: Player BnYrB (dpnid 19233137 uid ) Entering WaitAuthPlayerLoginState
+ 0:03:14.377 Player BnYrB connected (id=mBNlxASsPlOcry0dpDl8K-WgHNR5WMCMmoJ9NhpU4FY=).
+ 0:03:14.377 Player "BnYrB" is connected (steamID=76561198036774377)
+ 0:03:14.736 [StateMachine]: Player BnYrB (dpnid 19233137 uid mBNlxASsPlOcry0dpDl8K-WgHNR5WMCMmoJ9NhpU4FY=) Entering DBGetLoginTimeLoginState
+ 0:03:14.736 [StateMachine]: Player BnYrB (dpnid 19233137 uid mBNlxASsPlOcry0dpDl8K-WgHNR5WMCMmoJ9NhpU4FY=) Entering DBWaitLoginTimeLoginState
+ 0:03:29.738 [StateMachine]: Player BnYrB (dpnid 19233137 uid mBNlxASsPlOcry0dpDl8K-WgHNR5WMCMmoJ9NhpU4FY=) Entering DBGetCharacterLoginState
+ 0:03:29.738 [StateMachine]: Player BnYrB (dpnid 19233137 uid mBNlxASsPlOcry0dpDl8K-WgHNR5WMCMmoJ9NhpU4FY=) Entering CreateNetObjectsLoginState
+ 0:03:29.738 [StateMachine]: Player BnYrB (dpnid 19233137 uid mBNlxASsPlOcry0dpDl8K-WgHNR5WMCMmoJ9NhpU4FY=) Entering PreloadCamLoginState
+ 0:03:29.738 [StateMachine]: Player BnYrB (dpnid 19233137 uid mBNlxASsPlOcry0dpDl8K-WgHNR5WMCMmoJ9NhpU4FY=) Entering WaitPreloadCamLoginState
+ 0:03:54.55 [StateMachine]: Player BnYrB (dpnid 19233137 uid mBNlxASsPlOcry0dpDl8K-WgHNR5WMCMmoJ9NhpU4FY=) Entering GetLoadedCharLoginState
+ 0:03:56.165 <LOAD EXISTING CHAR>:
+    charID 1
+    playerID 1
+    dpnid 19233137
+    uid mBNlxASsPlOcry0dpDl8K-WgHNR5WMCMmoJ9NhpU4FY=
+ 0:04:35.638 [CE][Links] found 0 total links between groups, of 1
+ 0:04:35.638 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_gnawed_2, lootmin: 4, lootmax: 6, wanted: 5
+ 0:05:26.115 [Login]: Adding player Mr Wolf (15895413) to login queue at position 0
+ 0:05:26.115 [LoginMachine]: Add player Mr Wolf (15895413)
+ 0:05:26.115 [StateMachine]: Player Mr Wolf (dpnid 15895413 uid ) Entering AuthPlayerLoginState
+ 0:05:27.537 [StateMachine]: Player Mr Wolf (dpnid 15895413 uid ) Entering WaitAuthPlayerLoginState
+ 0:05:29.272 Player Mr Wolf connected (id=IAKLKM33p7NYLhkk5leT5VYzSRy1qFQhXQui2bdgnIY=).
+ 0:05:29.272 Player "Mr Wolf" is connected (steamID=76561198016874355)
+ 0:05:29.834 [StateMachine]: Player Mr Wolf (dpnid 15895413 uid IAKLKM33p7NYLhkk5leT5VYzSRy1qFQhXQui2bdgnIY=) Entering DBGetLoginTimeLoginState
+ 0:05:29.834 [StateMachine]: Player Mr Wolf (dpnid 15895413 uid IAKLKM33p7NYLhkk5leT5VYzSRy1qFQhXQui2bdgnIY=) Entering DBWaitLoginTimeLoginState
+ 0:05:38.23 [Login]: Adding player Cygnus (25223546) to login queue at position 0
+ 0:05:38.23 [LoginMachine]: Add player Cygnus (25223546)
+ 0:05:38.23 [StateMachine]: Player Cygnus (dpnid 25223546 uid ) Entering AuthPlayerLoginState
+ 0:05:39.304 [StateMachine]: Player Cygnus (dpnid 25223546 uid ) Entering WaitAuthPlayerLoginState
+ 0:05:40.679 Player Cygnus connected (id=hDo_Btwm72QwlIopq6csO7iMF3JQfMqHeAzHsQsXTmo=).
+ 0:05:40.679 Player "Cygnus" is connected (steamID=76561199063202968)
+ 0:05:41.70 [StateMachine]: Player Cygnus (dpnid 25223546 uid hDo_Btwm72QwlIopq6csO7iMF3JQfMqHeAzHsQsXTmo=) Entering DBGetLoginTimeLoginState
+ 0:05:41.70 [StateMachine]: Player Cygnus (dpnid 25223546 uid hDo_Btwm72QwlIopq6csO7iMF3JQfMqHeAzHsQsXTmo=) Entering DBWaitLoginTimeLoginState
+ 0:05:44.835 [StateMachine]: Player Mr Wolf (dpnid 15895413 uid IAKLKM33p7NYLhkk5leT5VYzSRy1qFQhXQui2bdgnIY=) Entering DBGetCharacterLoginState
+ 0:05:44.835 [StateMachine]: Player Mr Wolf (dpnid 15895413 uid IAKLKM33p7NYLhkk5leT5VYzSRy1qFQhXQui2bdgnIY=) Entering CreateNetObjectsLoginState
+ 0:05:44.835 [StateMachine]: Player Mr Wolf (dpnid 15895413 uid IAKLKM33p7NYLhkk5leT5VYzSRy1qFQhXQui2bdgnIY=) Entering PreloadCamLoginState
+ 0:05:44.835 [StateMachine]: Player Mr Wolf (dpnid 15895413 uid IAKLKM33p7NYLhkk5leT5VYzSRy1qFQhXQui2bdgnIY=) Entering WaitPreloadCamLoginState
+ 0:05:46.757 [Login]: Adding player Mrs Wolf (38175944) to login queue at position 0
+ 0:05:46.757 [LoginMachine]: Add player Mrs Wolf (38175944)
+ 0:05:46.757 [StateMachine]: Player Mrs Wolf (dpnid 38175944 uid ) Entering AuthPlayerLoginState
+ 0:05:48.54 [StateMachine]: Player Mrs Wolf (dpnid 38175944 uid ) Entering WaitAuthPlayerLoginState
+ 0:05:49.680 Player Mrs Wolf connected (id=MO9bsrzUlrPmo7l9-koFMw3QXC_LzL6k5LbtTHj-bI0=).
+ 0:05:49.680 Player "Mrs Wolf" is connected (steamID=76561198030377081)
+ 0:05:50.133 [StateMachine]: Player Mrs Wolf (dpnid 38175944 uid MO9bsrzUlrPmo7l9-koFMw3QXC_LzL6k5LbtTHj-bI0=) Entering DBGetLoginTimeLoginState
+ 0:05:50.133 [StateMachine]: Player Mrs Wolf (dpnid 38175944 uid MO9bsrzUlrPmo7l9-koFMw3QXC_LzL6k5LbtTHj-bI0=) Entering DBWaitLoginTimeLoginState
+ 0:05:53.836 !!! [CE][Point] Removing 2663.069336, 10832.848633 from SambucusBush2
+ 0:05:56.71 [StateMachine]: Player Cygnus (dpnid 25223546 uid hDo_Btwm72QwlIopq6csO7iMF3JQfMqHeAzHsQsXTmo=) Entering DBGetCharacterLoginState
+ 0:05:56.71 [StateMachine]: Player Cygnus (dpnid 25223546 uid hDo_Btwm72QwlIopq6csO7iMF3JQfMqHeAzHsQsXTmo=) Entering CreateNetObjectsLoginState
+ 0:05:56.71 [StateMachine]: Player Cygnus (dpnid 25223546 uid hDo_Btwm72QwlIopq6csO7iMF3JQfMqHeAzHsQsXTmo=) Entering PreloadCamLoginState
+ 0:05:56.71 [StateMachine]: Player Cygnus (dpnid 25223546 uid hDo_Btwm72QwlIopq6csO7iMF3JQfMqHeAzHsQsXTmo=) Entering WaitPreloadCamLoginState
+ 0:06:03.337 [StateMachine]: Player Mr Wolf (dpnid 15895413 uid IAKLKM33p7NYLhkk5leT5VYzSRy1qFQhXQui2bdgnIY=) Entering GetLoadedCharLoginState
+ 0:06:03.368 <LOAD EXISTING CHAR>:
+    charID 3
+    playerID 3
+    dpnid 15895413
+    uid IAKLKM33p7NYLhkk5leT5VYzSRy1qFQhXQui2bdgnIY=
+ 0:06:05.134 [StateMachine]: Player Mrs Wolf (dpnid 38175944 uid MO9bsrzUlrPmo7l9-koFMw3QXC_LzL6k5LbtTHj-bI0=) Entering DBGetCharacterLoginState
+ 0:06:05.134 [StateMachine]: Player Mrs Wolf (dpnid 38175944 uid MO9bsrzUlrPmo7l9-koFMw3QXC_LzL6k5LbtTHj-bI0=) Entering CreateNetObjectsLoginState
+ 0:06:05.134 [StateMachine]: Player Mrs Wolf (dpnid 38175944 uid MO9bsrzUlrPmo7l9-koFMw3QXC_LzL6k5LbtTHj-bI0=) Entering PreloadCamLoginState
+ 0:06:05.134 [StateMachine]: Player Mrs Wolf (dpnid 38175944 uid MO9bsrzUlrPmo7l9-koFMw3QXC_LzL6k5LbtTHj-bI0=) Entering WaitPreloadCamLoginState
+ 0:06:18.494 [StateMachine]: Player Cygnus (dpnid 25223546 uid hDo_Btwm72QwlIopq6csO7iMF3JQfMqHeAzHsQsXTmo=) Entering GetLoadedCharLoginState
+ 0:06:18.525 <LOAD EXISTING CHAR>:
+    charID 7
+    playerID 7
+    dpnid 25223546
+    uid hDo_Btwm72QwlIopq6csO7iMF3JQfMqHeAzHsQsXTmo=
+ 0:06:54.106 [StateMachine]: Player Mrs Wolf (dpnid 38175944 uid MO9bsrzUlrPmo7l9-koFMw3QXC_LzL6k5LbtTHj-bI0=) Entering GetLoadedCharLoginState
+ 0:06:54.137 <LOAD EXISTING CHAR>:
+    charID 5
+    playerID 5
+    dpnid 38175944
+    uid MO9bsrzUlrPmo7l9-koFMw3QXC_LzL6k5LbtTHj-bI0=
+ 0:07:36.796 [Disconnect]: Client 19233137 disconnecting
+ 0:07:36.796 [Disconnect]: Client 19233137 early disconnect
+ 0:07:36.796 [Disconnect]: Start script disconnect 19233137 (dbCharacterId 1 dbPlayerId 1) logoutTime 15
+ 0:07:36.796 [Disconnect]: Finish script disconnect 19233137
+ 0:07:36.796 [Disconnect]: DisconnectPlayerFinish 19233137
+ 0:07:36.796 [Disconnect]: Remove player info 19233137
+ 0:07:36.796 [Disconnect]: Player destroy 19233137 
+ 0:12:10.933 [CE][Links] found 0 total links between groups, of 2
+ 0:12:10.933 [CE][SpawnRandomLoot] (StaticHeliCrash) :: ChildType: Wreck_Mi8, lootmin: 10, lootmax: 20, wanted: 19
+ 0:12:10.934 [CE][Links] found 0 total links between groups, of 3
+ 0:12:10.934 [CE][SpawnRandomLoot] (StaticHeliCrash) :: ChildType: Wreck_Mi8, lootmin: 10, lootmax: 20, wanted: 14
+ 0:12:11.233 [CE][Links] found 0 total links between groups, of 4
+ 0:12:11.233 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 3
+ 0:12:39.930 [CE][Links] found 0 total links between groups, of 5
+ 0:12:39.930 [CE][SpawnRandomLoot] (StaticVanAmbulance) :: ChildType: Land_jmc_van_ambulance, lootmin: 4, lootmax: 6, wanted: 5
+ 0:12:40.227 [CE][Links] found 0 total links between groups, of 6
+ 0:12:40.227 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_gnawed_5, lootmin: 4, lootmax: 6, wanted: 4
+ 0:13:31.939 [CE][Links] found 0 total links between groups, of 7
+ 0:13:31.939 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 3
+ 0:13:31.940 [CE][Links] found 0 total links between groups, of 8
+ 0:13:31.940 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 3
+ 0:13:31.941 [CE][Links] found 0 total links between groups, of 9
+ 0:13:31.941 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 4
+ 0:16:13.336 [CE][Links] found 0 total links between groups, of 10
+ 0:16:13.336 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 4
+ 0:16:13.336 [CE][Links] found 0 total links between groups, of 11
+ 0:16:13.336 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 4
+ 0:16:41.727 [CE][Links] found 0 total links between groups, of 12
+ 0:16:41.727 [CE][SpawnRandomLoot] (StaticVanPinkies) :: ChildType: Land_jmc_van_pinkies, lootmin: 4, lootmax: 6, wanted: 4
+ 0:16:41.743 [CE][Links] found 0 total links between groups, of 13
+ 0:16:41.743 [CE][SpawnRandomLoot] (StaticVanPinkies) :: ChildType: Land_jmc_van_pinkies, lootmin: 4, lootmax: 6, wanted: 4
+ 0:16:41.743 [CE][Links] found 0 total links between groups, of 14
+ 0:16:41.743 [CE][SpawnRandomLoot] (StaticVanPinkies) :: ChildType: Land_jmc_van_pinkies, lootmin: 4, lootmax: 6, wanted: 5
+ 0:16:41.743 [CE][Links] found 0 total links between groups, of 15
+ 0:16:41.743 [CE][SpawnRandomLoot] (StaticVanPinkies) :: ChildType: Land_jmc_van_pinkies, lootmin: 4, lootmax: 6, wanted: 5
+ 0:18:00.352 !!! [CE][Point] Removing 1748.586548, 11251.802734 from SambucusBush2
+ 0:18:02.743 [CE][Links] found 0 total links between groups, of 16
+ 0:18:02.743 [CE][SpawnRandomLoot] (StaticVanAmbulance) :: ChildType: Land_jmc_van_ambulance, lootmin: 4, lootmax: 6, wanted: 4
+ 0:19:21.39 !!! [CE][Point] Removing 1748.586548, 11251.802734 from SambucusBush2
+ 0:20:44.446 [CE][Links] found 0 total links between groups, of 17
+ 0:20:44.446 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_bloody_2, lootmin: 4, lootmax: 6, wanted: 5
+ 0:21:35.852 [CE][Links] found 0 total links between groups, of 18
+ 0:21:35.852 [CE][SpawnRandomLoot] (StaticHeliCrash) :: ChildType: Wreck_UH1Y, lootmin: 10, lootmax: 20, wanted: 11
+ 0:21:36.149 [CE][Links] found 0 total links between groups, of 19
+ 0:21:36.149 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 4
+ 0:21:36.149 [CE][Links] found 0 total links between groups, of 20
+ 0:21:36.149 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 4
+ 0:24:17.242 [CE][Links] found 0 total links between groups, of 21
+ 0:24:17.242 [CE][SpawnRandomLoot] (StaticHeliCrash) :: ChildType: Wreck_UH1Y, lootmin: 10, lootmax: 20, wanted: 10
+ 0:24:43.852 !!! [CE][Point] Removing 1802.062134, 11208.868164 from SambucusBush2
+ 0:26:04.555 !!! [CE][Point] Removing 1802.062134, 11208.868164 from SambucusBush2
+ 0:26:06.945 [CE][Links] found 0 total links between groups, of 22
+ 0:26:06.945 [CE][SpawnRandomLoot] (StaticVanAmbulance) :: ChildType: Land_jmc_van_ambulance, lootmin: 4, lootmax: 6, wanted: 4
+ 0:26:07.242 [CE][Links] found 0 total links between groups, of 23
+ 0:26:07.242 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_old_4, lootmin: 4, lootmax: 6, wanted: 4
+ 0:27:27.961 [CE][Links] found 0 total links between groups, of 24
+ 0:27:27.961 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_clean_2, lootmin: 4, lootmax: 6, wanted: 5
+ 0:28:48.714 [CE][Links] found 0 total links between groups, of 25
+ 0:28:48.714 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_old_2, lootmin: 4, lootmax: 6, wanted: 4
+ 0:28:48.715 [CE][Links] found 0 total links between groups, of 26
+ 0:28:48.715 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_bloody_5, lootmin: 4, lootmax: 6, wanted: 4
+ 0:32:48.415 !!! [CE][Point] Removing 2764.248047, 10236.410156 from Stones
+ 0:32:50.508 [CE][Links] found 0 total links between groups, of 27
+ 0:32:50.508 [CE][SpawnRandomLoot] (StaticVanAmbulance) :: ChildType: Land_jmc_van_ambulance, lootmin: 4, lootmax: 6, wanted: 4
+ 0:35:03.212 [CE][Links] found 0 total links between groups, of 28
+ 0:35:03.212 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 4
+ 0:36:30.978 [Login]: Adding player Booming4you (346957797) to login queue at position 0
+ 0:36:30.978 [LoginMachine]: Add player Booming4you (346957797)
+ 0:36:30.978 [StateMachine]: Player Booming4you (dpnid 346957797 uid ) Entering AuthPlayerLoginState
+ 0:36:31.196 [StateMachine]: Player Booming4you (dpnid 346957797 uid ) State Error (AuthPlayerLoginState)
+ 0:36:31.196 Player Unknown (346957797) kicked from server: 116 (Client has a mod which is not on the server. (More Drugs With Effects; Forever_Lights_and_Campfires; Notes; PowerPoleLight; CarCover; Custom Barrels by kaetzchen)  (Client has a PBO which is not part of the server. (C:\Program Files (x86)\Steam\steamapps\common\DayZ\!Workshop\@More Drugs With Effects\addons\drugs.pbo)))
+ 0:36:31.196 [StateMachine]: Kick player Booming4you (dpnid 346957797 uid ) State AuthPlayerLoginState
+ 0:36:31.212 [Disconnect]: Client 346957797 early disconnect
+ 0:36:31.212 [Disconnect]: No identity -> remove player info 346957797 
+ 0:36:31.212 [Disconnect]: DisconnectPlayerFinish 346957797
+ 0:36:31.212 [Disconnect]: Remove player info 346957797
+ 0:36:31.212 [Disconnect]: Player destroy 346957797 
+ 0:37:15.962 [Login]: Adding player Booming4you (19184929) to login queue at position 0
+ 0:37:15.962 [LoginMachine]: Add player Booming4you (19184929)
+ 0:37:15.962 [StateMachine]: Player Booming4you (dpnid 19184929 uid ) Entering AuthPlayerLoginState
+ 0:37:16.274 [StateMachine]: Player Booming4you (dpnid 19184929 uid ) State Error (AuthPlayerLoginState)
+ 0:37:16.274 Player Unknown (19184929) kicked from server: 116 (Client has a mod which is not on the server. (More Drugs With Effects; Forever_Lights_and_Campfires; Notes; PowerPoleLight; CarCover; Custom Barrels by kaetzchen)  (Client has a PBO which is not part of the server. (C:\Program Files (x86)\Steam\steamapps\common\DayZ\!Workshop\@More Drugs With Effects\addons\drugs.pbo)))
+ 0:37:16.274 [StateMachine]: Kick player Booming4you (dpnid 19184929 uid ) State AuthPlayerLoginState
+ 0:37:16.274 [Disconnect]: Client 19184929 early disconnect
+ 0:37:16.274 [Disconnect]: No identity -> remove player info 19184929 
+ 0:37:16.274 [Disconnect]: DisconnectPlayerFinish 19184929
+ 0:37:16.274 [Disconnect]: Remove player info 19184929
+ 0:37:16.290 [Disconnect]: Player destroy 19184929 
+ 0:38:24.820 [Login]: Adding player Booming4you (18712082) to login queue at position 0
+ 0:38:24.820 [LoginMachine]: Add player Booming4you (18712082)
+ 0:38:24.820 [StateMachine]: Player Booming4you (dpnid 18712082 uid ) Entering AuthPlayerLoginState
+ 0:38:25.149 [StateMachine]: Player Booming4you (dpnid 18712082 uid ) State Error (AuthPlayerLoginState)
+ 0:38:25.149 Player Unknown (18712082) kicked from server: 116 (Client has a mod which is not on the server. (More Drugs With Effects; Forever_Lights_and_Campfires; Notes; PowerPoleLight; CarCover; Custom Barrels by kaetzchen)  (Client has a PBO which is not part of the server. (C:\Program Files (x86)\Steam\steamapps\common\DayZ\!Workshop\@More Drugs With Effects\addons\drugs.pbo)))
+ 0:38:25.149 [StateMachine]: Kick player Booming4you (dpnid 18712082 uid ) State AuthPlayerLoginState
+ 0:38:25.149 [Disconnect]: Client 18712082 early disconnect
+ 0:38:25.149 [Disconnect]: No identity -> remove player info 18712082 
+ 0:38:25.149 [Disconnect]: DisconnectPlayerFinish 18712082
+ 0:38:25.149 [Disconnect]: Remove player info 18712082
+ 0:38:25.164 [Disconnect]: Player destroy 18712082 
+ 0:40:12.618 [Login]: Adding player booming4you (18943035) to login queue at position 0
+ 0:40:12.618 [LoginMachine]: Add player booming4you (18943035)
+ 0:40:12.618 [StateMachine]: Player booming4you (dpnid 18943035 uid ) Entering AuthPlayerLoginState
+ 0:40:13.930 [StateMachine]: Player booming4you (dpnid 18943035 uid ) Entering WaitAuthPlayerLoginState
+ 0:40:15.367 Player booming4you connected (id=ZYYdNsef9el8O34L9X1mjEU3KCJab-yTfPUJnwaDNQ0=).
+ 0:40:15.367 Player "booming4you" is connected (steamID=76561199110559459)
+ 0:40:15.821 [StateMachine]: Player booming4you (dpnid 18943035 uid ZYYdNsef9el8O34L9X1mjEU3KCJab-yTfPUJnwaDNQ0=) Entering DBGetLoginTimeLoginState
+ 0:40:15.821 [StateMachine]: Player booming4you (dpnid 18943035 uid ZYYdNsef9el8O34L9X1mjEU3KCJab-yTfPUJnwaDNQ0=) Entering DBWaitLoginTimeLoginState
+ 0:40:26.24 [CE][Links] found 0 total links between groups, of 29
+ 0:40:26.24 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 3
+ 0:40:30.821 [StateMachine]: Player booming4you (dpnid 18943035 uid ZYYdNsef9el8O34L9X1mjEU3KCJab-yTfPUJnwaDNQ0=) Entering DBGetCharacterLoginState
+ 0:40:30.821 [StateMachine]: Player booming4you (dpnid 18943035 uid ZYYdNsef9el8O34L9X1mjEU3KCJab-yTfPUJnwaDNQ0=) Entering CreateNetObjectsLoginState
+ 0:40:30.821 [StateMachine]: Player booming4you (dpnid 18943035 uid ZYYdNsef9el8O34L9X1mjEU3KCJab-yTfPUJnwaDNQ0=) Entering PreloadCamLoginState
+ 0:40:30.821 [StateMachine]: Player booming4you (dpnid 18943035 uid ZYYdNsef9el8O34L9X1mjEU3KCJab-yTfPUJnwaDNQ0=) Entering WaitPreloadCamLoginState
+ 0:40:58.759 [StateMachine]: Player booming4you (dpnid 18943035 uid ZYYdNsef9el8O34L9X1mjEU3KCJab-yTfPUJnwaDNQ0=) Entering GetLoadedCharLoginState
+ 0:40:58.791 <LOAD EXISTING CHAR>:
+    charID 6
+    playerID 6
+    dpnid 18943035
+    uid ZYYdNsef9el8O34L9X1mjEU3KCJab-yTfPUJnwaDNQ0=
+ 0:43:08.633 !!! [CE][Point] Removing 6144.484375, 6761.055664 from QuercusRobur_fallenB
+ 0:43:47.70 [Disconnect]: Start script disconnect 25223546 (dbCharacterId 7 dbPlayerId 7) logoutTime 15
+ 0:43:49.290 [Disconnect]: Client 25223546 disconnecting
+ 0:43:49.290 [Disconnect]: Client 25223546 early disconnect
+ 0:43:49.290 [Disconnect]: Start script disconnect 25223546 (dbCharacterId 7 dbPlayerId 7) logoutTime 15
+ 0:43:59.290 [Disconnect]: No packets from 25223546
+ 0:43:59.290 [Disconnect]: Already in progress 25223546 
+ 0:44:02.71 [Disconnect]: Finish script disconnect 25223546
+ 0:44:02.71 [Disconnect]: DisconnectPlayerFinish 25223546
+ 0:44:02.71 [Disconnect]: Remove player info 25223546
+ 0:44:02.87 [Disconnect]: Player destroy 25223546 
+ 0:47:38.571 [CE][Links] found 0 total links between groups, of 30
+ 0:47:38.571 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_clean_4, lootmin: 4, lootmax: 6, wanted: 4
+ 0:48:56.572 !!! [CE][Point] Removing 3993.912109, 7570.391602 from SambucusBush1
+ 0:50:17.275 !!! [CE][Point] Removing 4392.938965, 7499.907227 from SambucusBush1
+ 0:52:58.682 !!! [CE][Point] Removing 4350.714844, 7298.198730 from SambucusBush1
+ 0:55:03.477 [Disconnect]: Start script disconnect 38175944 (dbCharacterId 5 dbPlayerId 5) logoutTime 15
+ 0:55:13.478 [CE][Links] found 0 total links between groups, of 31
+ 0:55:13.478 [CE][SpawnRandomLoot] (StaticHeliCrash) :: ChildType: Wreck_Mi8, lootmin: 10, lootmax: 20, wanted: 13
+ 0:55:13.478 [CE][Links] found 0 total links between groups, of 32
+ 0:55:13.478 [CE][SpawnRandomLoot] (StaticHeliCrash) :: ChildType: Wreck_UH1Y, lootmin: 10, lootmax: 20, wanted: 17
+ 0:55:13.775 [CE][Links] found 0 total links between groups, of 33
+ 0:55:13.775 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 4
+ 0:55:18.478 [Disconnect]: Finish script disconnect 38175944
+ 0:55:18.478 [Disconnect]: DisconnectPlayerFinish 38175944
+ 0:55:19.291 [Disconnect]: Remove player info 38175944
+ 0:55:19.306 [Disconnect]: Player destroy 38175944 
+ 0:55:42.494 [CE][Links] found 0 total links between groups, of 34
+ 0:55:42.494 [CE][SpawnRandomLoot] (StaticVanAmbulance) :: ChildType: Land_jmc_van_ambulance, lootmin: 4, lootmax: 6, wanted: 5
+ 0:55:42.791 [CE][Links] found 0 total links between groups, of 35
+ 0:55:42.791 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_old_5, lootmin: 4, lootmax: 6, wanted: 5
+ 0:56:34.493 [CE][Links] found 0 total links between groups, of 36
+ 0:56:34.493 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 4
+ 0:56:34.493 [CE][Links] found 0 total links between groups, of 37
+ 0:56:34.493 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 4
+ 0:56:34.493 [CE][Links] found 0 total links between groups, of 38
+ 0:56:34.493 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 4
+ 0:56:46.291 [Disconnect]: Start script disconnect 15895413 (dbCharacterId 3 dbPlayerId 3) logoutTime 15
+ 0:56:48.244 [Disconnect]: Client 15895413 disconnecting
+ 0:56:48.244 [Disconnect]: Client 15895413 early disconnect
+ 0:56:48.244 [Disconnect]: Start script disconnect 15895413 (dbCharacterId 3 dbPlayerId 3) logoutTime 15
+ 0:56:59.290 [Disconnect]: No packets from 15895413
+ 0:56:59.290 [Disconnect]: Already in progress 15895413 
+ 0:57:01.290 [Disconnect]: Finish script disconnect 15895413
+ 0:57:01.290 [Disconnect]: DisconnectPlayerFinish 15895413
+ 0:57:01.290 [Disconnect]: Remove player info 15895413
+ 0:57:01.322 [Disconnect]: Player destroy 15895413 
+ 0:59:15.900 [CE][Links] found 0 total links between groups, of 39
+ 0:59:15.900 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 3
+ 0:59:15.900 [CE][Links] found 0 total links between groups, of 40
+ 0:59:15.900 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 3
+ 0:59:44.290 [CE][Links] found 0 total links between groups, of 41
+ 0:59:44.290 [CE][SpawnRandomLoot] (StaticVanPinkies) :: ChildType: Land_jmc_van_pinkies, lootmin: 4, lootmax: 6, wanted: 4
+ 0:59:44.290 [CE][Links] found 0 total links between groups, of 42
+ 0:59:44.290 [CE][SpawnRandomLoot] (StaticVanPinkies) :: ChildType: Land_jmc_van_pinkies, lootmin: 4, lootmax: 6, wanted: 4
+ 0:59:44.290 [CE][Links] found 0 total links between groups, of 43
+ 0:59:44.290 [CE][SpawnRandomLoot] (StaticVanPinkies) :: ChildType: Land_jmc_van_pinkies, lootmin: 4, lootmax: 6, wanted: 5
+ 0:59:44.290 [CE][Links] found 0 total links between groups, of 44
+ 0:59:44.290 [CE][SpawnRandomLoot] (StaticVanPinkies) :: ChildType: Land_jmc_van_pinkies, lootmin: 4, lootmax: 6, wanted: 5
+ 1:00:38.87 !!! [CE][Point] Removing 6389.189941, 6698.732910 from Haybale
+ 1:01:05.290 [CE][Links] found 2 total links between groups, of 45
+ 1:01:05.290 [CE][SpawnRandomLoot] (StaticVanAmbulance) :: ChildType: Land_jmc_van_ambulance, lootmin: 4, lootmax: 6, wanted: 4
+ 1:04:38.399 [CE][Links] found 2 total links between groups, of 46
+ 1:04:38.399 [CE][SpawnRandomLoot] (StaticHeliCrash) :: ChildType: Wreck_UH1Y, lootmin: 10, lootmax: 20, wanted: 15
+ 1:04:38.696 [CE][Links] found 4 total links between groups, of 47
+ 1:04:38.696 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 4
+ 1:04:38.696 [CE][Links] found 4 total links between groups, of 48
+ 1:04:38.696 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 4
+ 1:05:07.696 [CE][Links] found 4 total links between groups, of 49
+ 1:05:07.696 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_burned_4, lootmin: 4, lootmax: 6, wanted: 5
+ 1:06:28.400 [CE][Links] found 4 total links between groups, of 50
+ 1:06:28.400 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_clean_4, lootmin: 4, lootmax: 6, wanted: 4
+ 1:07:19.806 [CE][Links] found 4 total links between groups, of 51
+ 1:07:19.806 [CE][SpawnRandomLoot] (StaticHeliCrash) :: ChildType: Wreck_Mi8, lootmin: 10, lootmax: 20, wanted: 18
+ 1:09:09.509 [CE][Links] found 4 total links between groups, of 52
+ 1:09:09.509 [CE][SpawnRandomLoot] (StaticVanAmbulance) :: ChildType: Land_jmc_van_ambulance, lootmin: 4, lootmax: 6, wanted: 4
+ 1:09:09.806 [CE][Links] found 4 total links between groups, of 53
+ 1:09:09.806 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_old_2, lootmin: 4, lootmax: 6, wanted: 4
+ 1:10:30.508 [CE][Links] found 4 total links between groups, of 54
+ 1:10:30.508 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_burned_5, lootmin: 4, lootmax: 6, wanted: 4
+ 1:11:51.213 [CE][Links] found 4 total links between groups, of 55
+ 1:11:51.213 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_old_3, lootmin: 4, lootmax: 6, wanted: 4
+ 1:13:11.900 [CE][Links] found 4 total links between groups, of 56
+ 1:13:11.900 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_bloody_4, lootmin: 4, lootmax: 6, wanted: 5
+ 1:15:53.10 [CE][Links] found 6 total links between groups, of 57
+ 1:15:53.10 [CE][SpawnRandomLoot] (StaticVanAmbulance) :: ChildType: Land_jmc_van_ambulance, lootmin: 4, lootmax: 6, wanted: 4
+ 1:18:05.711 [CE][Links] found 8 total links between groups, of 58
+ 1:18:05.711 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 3
+ 1:23:28.514 [CE][Links] found 8 total links between groups, of 59
+ 1:23:28.514 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 4
+ 1:30:41.14 [CE][Links] found 10 total links between groups, of 60
+ 1:30:41.14 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_clean_4, lootmin: 4, lootmax: 6, wanted: 4
+ 1:35:36.617 !!! [CE][Point] Removing 5389.234375, 7646.882324 from PearTree2
+ 1:35:36.618 !!! [CE][Point] Removing 5484.021973, 7645.237305 from PearTree2
+ 1:36:56.113 !!! [CE][Point] Removing 5440.702148, 7643.189453 from CaninaBush2
+ 1:37:43.362 [Disconnect]: Start script disconnect 18943035 (dbCharacterId 6 dbPlayerId 6) logoutTime 15
+ 1:37:47.388 [Disconnect]: Client 18943035 disconnecting
+ 1:37:47.388 [Disconnect]: Client 18943035 early disconnect
+ 1:37:47.388 [Disconnect]: Start script disconnect 18943035 (dbCharacterId 6 dbPlayerId 6) logoutTime 15
+ 1:37:48.339 [Disconnect]: Remove player info 18943035
+ 1:37:48.348 [Disconnect]: Player destroy 18943035 
+ 1:37:58.363 [Disconnect]: Finish script disconnect -1
+ 1:38:15.914 [CE][Links] found 10 total links between groups, of 61
+ 1:38:15.914 [CE][SpawnRandomLoot] (StaticHeliCrash) :: ChildType: Wreck_UH1Y, lootmin: 10, lootmax: 20, wanted: 16
+ 1:38:15.915 [CE][Links] found 10 total links between groups, of 62
+ 1:38:15.915 [CE][SpawnRandomLoot] (StaticHeliCrash) :: ChildType: Wreck_UH1Y, lootmin: 10, lootmax: 20, wanted: 19
+ 1:38:44.914 [CE][Links] found 10 total links between groups, of 63
+ 1:38:44.914 [CE][SpawnRandomLoot] (StaticVanAmbulance) :: ChildType: Land_jmc_van_ambulance, lootmin: 4, lootmax: 6, wanted: 4
+ 1:38:51.664 [IdleMode] Entering IN - save processed
+=======================================================
+-------------------------------------------------------
+Time:  1:39:15
+Exception code: C0000005 ACCESS_VIOLATION at 3EDCEED0
+Version 1.12.153904
+Fault address:  3EDCEED0 00:3EDCEED0 Unknown module
+file:     Expansion
+world:    deerisle
+=======================================================
+note: Minidump has been generated into the file myprofile\DayZServer_x64_2021-05-08_00-01-32_2021-05-08_01-39-15.mdmp

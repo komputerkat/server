@@ -1,0 +1,63 @@
+---------------------------------------------
+Log C:\Program Files (x86)\Steam\steamapps\common\DayZServer\myprofile\crash_2021-05-08_14-35-22.log started at 08.05. 15:09:32
+
+
+
+------------------------------------
+42MA-SERVER, 08.05 2021 15:09:32
+NULL pointer to instance
+Class:      'CarBattery'
+Entity id:2233785
+
+Function: 'CanReceiveAttachment'
+Stack trace:
+Spur_Troll_E_Kart/scripts/4_world/entities\itembase\vehiclebattery.c:21
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 08.05 2021 15:09:32
+NULL pointer to instance
+Class:      'CarBattery'
+Entity id:2233785
+
+Function: 'CanReceiveAttachment'
+Stack trace:
+Spur_Troll_E_Kart/scripts/4_world/entities\itembase\vehiclebattery.c:21
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 08.05 2021 15:11:10
+
+[desync] HandleInputData man=SurvivorM_Francis:03 CANNOT move cmd=SYNC_MOVE src={ type=GROUND item=CableReel:06074 pos=(5287.97, 4.81822, 12501.1) dir=(-1.52588e-05, 0.181643, 0, 0.983352) } dst={ type=CARGO item=CableReel:06074 parent=MediumTent_Green:04199 idx=0 row=0 col=0 f=false }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:608
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1102
+scripts/4_World/systems\inventory\dayzplayerinventory.c:482
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 08.05 2021 15:13:23
+
+[desync] HandleInputData man=SurvivorM_Francis:03 CANNOT move cmd=SYNC_MOVE src={ type=GROUND item=CableReel:06074 pos=(5287.97, 4.81822, 12501.1) dir=(-1.52588e-05, 0.181643, 0, 0.983352) } dst={ type=CARGO item=CableReel:06074 parent=MediumTent_Green:04199 idx=0 row=2 col=3 f=false }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:608
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1102
+scripts/4_World/systems\inventory\dayzplayerinventory.c:482
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
