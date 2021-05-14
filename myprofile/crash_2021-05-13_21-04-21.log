@@ -1,0 +1,22 @@
+---------------------------------------------
+Log C:\Program Files (x86)\Steam\steamapps\common\DayZServer\myprofile\crash_2021-05-13_21-04-21.log started at 13.05. 21:11:43
+
+
+
+------------------------------------
+42MA-SERVER, 13.05 2021 21:11:43
+NULL pointer to instance
+Class:      'CustomMission'
+Function: 'nbcClass'
+Stack trace:
+$CurrentDir:mpmissions\Expansion.deerisle\init.c:329
+$CurrentDir:mpmissions\Expansion.deerisle\init.c:474
+scripts/5_Mission/mission\missionserver.c:332
+SpawnSelect/Scripts/5_Mission/missionshared.c:329
+scripts/5_Mission/mission\missionserver.c:133
+GameLabs/Scripts/5_Mission/Ьќ?Рђ.wss:8
+JM/CF/Scripts/5_Mission/communityframework\mission\missionserver.c:18
+scripts/3_Game/dayzgame.c:1355
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  

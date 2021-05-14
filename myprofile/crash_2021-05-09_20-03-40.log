@@ -1,0 +1,809 @@
+---------------------------------------------
+Log C:\Program Files (x86)\Steam\steamapps\common\DayZServer\myprofile\crash_2021-05-09_20-03-40.log started at 09.05. 21:37:46
+
+
+
+------------------------------------
+42MA-SERVER, 09.05 2021 21:37:46
+
+[wpnfsm] ValidateAndRepair Attempting to repair: TWP_Remington700:07778 - ChamberRepair - BARIMLoadedCharged<e3e1a710> - state: true != weapon: false
+Class:      'WeaponFSM'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/entities\firearms\weaponfsm.c:257
+scripts/4_World/entities\firearms\weaponfsm.c:243
+scripts/4_World/entities\firearms\weaponfsm.c:203
+scripts/4_World/entities\firearms\weaponfsm.c:50
+scripts/3_Game/systems\hfsmbase.c:280
+scripts/4_World/entities\firearms\weaponfsm.c:42
+scripts/4_World/entities\firearms\weapon_base.c:171
+scripts/4_World/systems\inventory\dayzplayerinventory.c:229
+scripts/4_World/entities\dayzplayerimplement.c:1302
+scripts/4_World/entities\manbase\playerbase.c:3274
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 09.05 2021 21:40:37
+
+[desync] HandleInputData man=SurvivorF_Judy:04 CANNOT move cmd=SYNC_MOVE src={ type=CARGO item=SodaCan_Spite:04332 parent=ZmbM_ConstrWorkerNormal_Black:0840 idx=0 row=0 col=0 f=false } dst={ type=CARGO item=SodaCan_Spite:04332 parent=HuntingJacket_Spring:04392 idx=0 row=3 col=4 f=true }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:608
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1102
+scripts/4_World/systems\inventory\dayzplayerinventory.c:482
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 09.05 2021 22:04:49
+
+[desync] HandleInputData man=SurvivorF_Judy:04 CANNOT move cmd=SYNC_MOVE src={ type=CARGO item=WaterBottle:07398 parent=HuntingJacket_Spring:04392 idx=0 row=0 col=1 f=false } dst={ type=CARGO item=WaterBottle:07398 parent=HuntingJacket_Spring:04392 idx=0 row=3 col=5 f=false }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:608
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1102
+scripts/4_World/systems\inventory\dayzplayerinventory.c:482
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 09.05 2021 22:04:56
+
+[desync] HandleInputData man=SurvivorF_Judy:04 CANNOT move cmd=SYNC_MOVE src={ type=CARGO item=WaterBottle:07398 parent=HuntingJacket_Spring:04392 idx=0 row=0 col=1 f=false } dst={ type=CARGO item=WaterBottle:07398 parent=HuntingJacket_Spring:04392 idx=0 row=3 col=5 f=false }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:608
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1102
+scripts/4_World/systems\inventory\dayzplayerinventory.c:482
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 09.05 2021 22:05:00
+
+[desync] HandleInputData man=SurvivorF_Judy:04 CANNOT move cmd=SYNC_MOVE src={ type=CARGO item=WaterBottle:07398 parent=HuntingJacket_Spring:04392 idx=0 row=0 col=1 f=false } dst={ type=CARGO item=WaterBottle:07398 parent=HuntingJacket_Spring:04392 idx=0 row=3 col=5 f=false }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:608
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1102
+scripts/4_World/systems\inventory\dayzplayerinventory.c:482
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 09.05 2021 22:05:13
+
+[desync] HandleInputData man=SurvivorF_Judy:04 CANNOT move cmd=SYNC_MOVE src={ type=CARGO item=Rangefinder:018704 parent=CargoPants_Black:014565 idx=0 row=3 col=0 f=false } dst={ type=CARGO item=Rangefinder:018704 parent=HuntingJacket_Spring:04392 idx=0 row=2 col=0 f=false }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:608
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1102
+scripts/4_World/systems\inventory\dayzplayerinventory.c:482
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 09.05 2021 22:05:21
+
+[desync] HandleInputData man=SurvivorF_Judy:04 CANNOT move cmd=SYNC_MOVE src={ type=CARGO item=Rangefinder:018704 parent=MountainBag_Green:010651 idx=0 row=5 col=1 f=false } dst={ type=CARGO item=Rangefinder:018704 parent=HuntingJacket_Spring:04392 idx=0 row=3 col=4 f=false }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:608
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1102
+scripts/4_World/systems\inventory\dayzplayerinventory.c:482
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 09.05 2021 22:05:30
+
+[desync] HandleInputData man=SurvivorF_Judy:04 CANNOT move cmd=SYNC_MOVE src={ type=CARGO item=Morphine:018080 parent=HuntingBag:011060 idx=0 row=2 col=1 f=true } dst={ type=CARGO item=Morphine:018080 parent=HuntingJacket_Spring:04392 idx=0 row=3 col=4 f=true }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:608
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1102
+scripts/4_World/systems\inventory\dayzplayerinventory.c:482
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 09.05 2021 22:05:38
+
+[desync] HandleInputData man=SurvivorF_Judy:04 CANNOT move cmd=SYNC_MOVE src={ type=CARGO item=Morphine:018080 parent=HuntingBag:011060 idx=0 row=2 col=1 f=true } dst={ type=CARGO item=Morphine:018080 parent=HuntingJacket_Spring:04392 idx=0 row=3 col=4 f=true }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:608
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1102
+scripts/4_World/systems\inventory\dayzplayerinventory.c:482
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 09.05 2021 22:05:47
+
+[desync] HandleInputData man=SurvivorF_Judy:04 CANNOT move cmd=SYNC_MOVE src={ type=CARGO item=Morphine:018080 parent=HuntingBag:011060 idx=0 row=2 col=1 f=true } dst={ type=CARGO item=Morphine:018080 parent=HuntingJacket_Spring:04392 idx=0 row=3 col=4 f=true }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:608
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1102
+scripts/4_World/systems\inventory\dayzplayerinventory.c:482
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 09.05 2021 22:05:55
+
+[desync] HandleInputData man=SurvivorF_Judy:04 CANNOT move cmd=SYNC_MOVE src={ type=CARGO item=Morphine:018080 parent=HuntingBag:011060 idx=0 row=2 col=1 f=true } dst={ type=CARGO item=Morphine:018080 parent=HuntingJacket_Spring:04392 idx=0 row=3 col=5 f=true }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:608
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1102
+scripts/4_World/systems\inventory\dayzplayerinventory.c:482
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 09.05 2021 22:05:59
+
+[desync] HandleInputData man=SurvivorF_Judy:04 CANNOT move cmd=SYNC_MOVE src={ type=CARGO item=PowderedMilk:06425 parent=HuntingJacket_Spring:04392 idx=0 row=4 col=6 f=false } dst={ type=CARGO item=PowderedMilk:06425 parent=HuntingJacket_Spring:04392 idx=0 row=3 col=5 f=true }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:608
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1102
+scripts/4_World/systems\inventory\dayzplayerinventory.c:482
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 09.05 2021 22:06:03
+
+[desync] HandleInputData man=SurvivorF_Judy:04 CANNOT move cmd=SYNC_MOVE src={ type=CARGO item=PowderedMilk:06425 parent=HuntingJacket_Spring:04392 idx=0 row=4 col=6 f=false } dst={ type=CARGO item=PowderedMilk:06425 parent=HuntingJacket_Spring:04392 idx=0 row=3 col=5 f=true }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:608
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1102
+scripts/4_World/systems\inventory\dayzplayerinventory.c:482
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 09.05 2021 22:06:10
+
+[desync] HandleInputData man=SurvivorF_Judy:04 CANNOT move cmd=SYNC_MOVE src={ type=CARGO item=PainkillerTablets:018195 parent=HuntingBag:011060 idx=0 row=0 col=7 f=true } dst={ type=CARGO item=PainkillerTablets:018195 parent=HuntingJacket_Spring:04392 idx=0 row=3 col=5 f=true }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:608
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1102
+scripts/4_World/systems\inventory\dayzplayerinventory.c:482
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 09.05 2021 22:06:14
+
+[desync] HandleInputData man=SurvivorF_Judy:04 CANNOT move cmd=SYNC_MOVE src={ type=CARGO item=PainkillerTablets:018195 parent=HuntingBag:011060 idx=0 row=0 col=7 f=true } dst={ type=CARGO item=PainkillerTablets:018195 parent=HuntingJacket_Spring:04392 idx=0 row=2 col=0 f=true }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:608
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1102
+scripts/4_World/systems\inventory\dayzplayerinventory.c:482
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 09.05 2021 22:06:32
+
+[desync] HandleInputData man=SurvivorF_Judy:04 CANNOT move cmd=SYNC_MOVE src={ type=CARGO item=PainkillerTablets:018195 parent=HuntingBag:011060 idx=0 row=0 col=7 f=true } dst={ type=CARGO item=PainkillerTablets:018195 parent=HuntingJacket_Spring:04392 idx=0 row=2 col=0 f=true }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:608
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1102
+scripts/4_World/systems\inventory\dayzplayerinventory.c:482
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 09.05 2021 22:08:24
+NULL pointer to instance
+Class:      'TimerQueue'
+Function: 'Tick'
+Stack trace:
+scripts/3_Game/tools\tools.c:404
+scripts/3_Game/dayzgame.c:2420
+GameLabs/Scripts/3_Game/3_hooking\!game.c:7
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 09.05 2021 22:08:33
+
+[desync] HandleInputData man=SurvivorF_Judy:04 CANNOT move cmd=SYNC_MOVE src={ type=CARGO item=PurificationTablets:08147 parent=HuntingJacket_Spring:04392 idx=0 row=3 col=3 f=false } dst={ type=CARGO item=PurificationTablets:08147 parent=HuntingJacket_Spring:04392 idx=0 row=2 col=0 f=true }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:608
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1102
+scripts/4_World/systems\inventory\dayzplayerinventory.c:482
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 09.05 2021 22:08:37
+
+[desync] HandleInputData man=SurvivorF_Judy:04 CANNOT move cmd=SYNC_MOVE src={ type=CARGO item=PurificationTablets:08147 parent=HuntingJacket_Spring:04392 idx=0 row=3 col=3 f=false } dst={ type=CARGO item=PurificationTablets:08147 parent=HuntingJacket_Spring:04392 idx=0 row=2 col=0 f=true }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:608
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1102
+scripts/4_World/systems\inventory\dayzplayerinventory.c:482
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 09.05 2021 22:08:42
+
+[desync] HandleInputData man=SurvivorF_Judy:04 CANNOT move cmd=SYNC_MOVE src={ type=CARGO item=PurificationTablets:08147 parent=HuntingJacket_Spring:04392 idx=0 row=3 col=3 f=false } dst={ type=CARGO item=PurificationTablets:08147 parent=HuntingJacket_Spring:04392 idx=0 row=2 col=0 f=true }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:608
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1102
+scripts/4_World/systems\inventory\dayzplayerinventory.c:482
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 09.05 2021 22:08:50
+
+[desync] HandleInputData man=SurvivorF_Judy:04 CANNOT move cmd=SYNC_MOVE src={ type=CARGO item=Rangefinder:05641 parent=HuntingJacket_Spring:04392 idx=0 row=3 col=0 f=false } dst={ type=CARGO item=Rangefinder:05641 parent=HuntingJacket_Spring:04392 idx=0 row=3 col=5 f=false }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:608
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1102
+scripts/4_World/systems\inventory\dayzplayerinventory.c:482
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 09.05 2021 22:08:59
+
+[desync] HandleInputData man=SurvivorF_Judy:04 CANNOT move cmd=SYNC_MOVE src={ type=CARGO item=BloodBagEmpty:09065 parent=FirstAidKit:09062 idx=0 row=0 col=2 f=false } dst={ type=CARGO item=BloodBagEmpty:09065 parent=HuntingJacket_Spring:04392 idx=0 row=2 col=0 f=true }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:608
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1102
+scripts/4_World/systems\inventory\dayzplayerinventory.c:482
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 09.05 2021 22:08:59
+
+[desync] HandleInputData man=SurvivorF_Judy:04 CANNOT move cmd=SYNC_MOVE src={ type=CARGO item=PainkillerTablets:011702 parent=FirstAidKit:09062 idx=0 row=1 col=0 f=true } dst={ type=CARGO item=PainkillerTablets:011702 parent=HuntingJacket_Spring:04392 idx=0 row=3 col=5 f=true }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:608
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1102
+scripts/4_World/systems\inventory\dayzplayerinventory.c:482
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 09.05 2021 22:09:03
+
+[desync] HandleInputData man=SurvivorF_Judy:04 CANNOT move cmd=SYNC_MOVE src={ type=GROUND item=Handcuffs:09061 pos=(10869.9, 5.50375, 10467.4) dir=(-0.678798, -0.198169, -0.198169, 0.678752) } dst={ type=CARGO item=Handcuffs:09061 parent=HuntingJacket_Spring:04392 idx=0 row=2 col=0 f=false }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:608
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1102
+scripts/4_World/systems\inventory\dayzplayerinventory.c:482
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 09.05 2021 22:09:04
+
+[desync] HandleInputData man=SurvivorF_Judy:04 CANNOT move cmd=SYNC_MOVE src={ type=GROUND item=HandcuffKeys:09052 pos=(10869.9, 5.50377, 10467.4) dir=(-0.678798, -0.198169, -0.198169, 0.678752) } dst={ type=CARGO item=HandcuffKeys:09052 parent=HuntingJacket_Spring:04392 idx=0 row=3 col=5 f=false }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:608
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1102
+scripts/4_World/systems\inventory\dayzplayerinventory.c:482
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 09.05 2021 22:15:02
+
+[desync] HandleInputData man=SurvivorF_Judy:04 CANNOT move cmd=SYNC_MOVE src={ type=GROUND item=AmmoBox_762x54_20Rnd:019206 pos=(10825.7, 5.52184, 10532.1) dir=(-0.105364, 0.699214, 0.699184, 0.105364) } dst={ type=CARGO item=AmmoBox_762x54_20Rnd:019206 parent=HuntingJacket_Spring:04392 idx=0 row=2 col=0 f=false }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:608
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1102
+scripts/4_World/systems\inventory\dayzplayerinventory.c:482
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 09.05 2021 22:15:05
+
+[desync] HandleInputData man=SurvivorF_Judy:04 CANNOT move cmd=SYNC_MOVE src={ type=GROUND item=AmmoBox_762x54_20Rnd:019206 pos=(10825.7, 5.52184, 10532.1) dir=(-0.105364, 0.699214, 0.699184, 0.105364) } dst={ type=CARGO item=AmmoBox_762x54_20Rnd:019206 parent=HuntingJacket_Spring:04392 idx=0 row=2 col=0 f=false }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:608
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1102
+scripts/4_World/systems\inventory\dayzplayerinventory.c:482
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 09.05 2021 22:15:08
+
+[desync] HandleInputData man=SurvivorF_Judy:04 CANNOT move cmd=SYNC_MOVE src={ type=GROUND item=AmmoBox_762x54_20Rnd:019206 pos=(10825.7, 5.52184, 10532.1) dir=(-0.105364, 0.699214, 0.699184, 0.105364) } dst={ type=CARGO item=AmmoBox_762x54_20Rnd:019206 parent=HuntingJacket_Spring:04392 idx=0 row=2 col=0 f=false }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:608
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1102
+scripts/4_World/systems\inventory\dayzplayerinventory.c:482
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 09.05 2021 22:24:24
+NULL pointer to instance
+Class:      'TimerQueue'
+Function: 'Tick'
+Stack trace:
+scripts/3_Game/tools\tools.c:404
+scripts/3_Game/dayzgame.c:2420
+GameLabs/Scripts/3_Game/3_hooking\!game.c:7
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 09.05 2021 22:26:31
+
+[desync] HandleInputData man=SurvivorF_Judy:04 CANNOT move cmd=SYNC_MOVE src={ type=CARGO item=PowderedMilk:06425 parent=HuntingJacket_Spring:04392 idx=0 row=4 col=6 f=false } dst={ type=CARGO item=PowderedMilk:06425 parent=HuntingJacket_Spring:04392 idx=0 row=2 col=0 f=true }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:608
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1102
+scripts/4_World/systems\inventory\dayzplayerinventory.c:482
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 09.05 2021 22:26:48
+
+[desync] HandleInputData man=SurvivorF_Judy:04 CANNOT move cmd=SYNC_MOVE src={ type=CARGO item=Ammo_308Win:07397 parent=HuntingJacket_Spring:04392 idx=0 row=3 col=4 f=false } dst={ type=CARGO item=Ammo_308Win:07397 parent=HuntingJacket_Spring:04392 idx=0 row=2 col=0 f=false }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:608
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1102
+scripts/4_World/systems\inventory\dayzplayerinventory.c:482
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 09.05 2021 22:27:34
+
+[desync] HandleInputData man=SurvivorF_Judy:04 CANNOT move cmd=SYNC_MOVE src={ type=CARGO item=Marmalade:09050 parent=HuntingJacket_Spring:04392 idx=0 row=1 col=5 f=false } dst={ type=CARGO item=Marmalade:09050 parent=HuntingJacket_Spring:04392 idx=0 row=2 col=5 f=false }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:608
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1102
+scripts/4_World/systems\inventory\dayzplayerinventory.c:482
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 09.05 2021 22:27:39
+
+[desync] HandleInputData man=SurvivorF_Judy:04 CANNOT move cmd=SYNC_MOVE src={ type=CARGO item=Morphine:017307 parent=MountainBag_Green:010651 idx=0 row=4 col=3 f=false } dst={ type=CARGO item=Morphine:017307 parent=HuntingJacket_Spring:04392 idx=0 row=2 col=5 f=false }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:608
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1102
+scripts/4_World/systems\inventory\dayzplayerinventory.c:482
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 09.05 2021 22:27:43
+
+[desync] HandleInputData man=SurvivorF_Judy:04 CANNOT move cmd=SYNC_MOVE src={ type=CARGO item=Morphine:017307 parent=MountainBag_Green:010651 idx=0 row=4 col=3 f=false } dst={ type=CARGO item=Morphine:017307 parent=HuntingJacket_Spring:04392 idx=0 row=2 col=5 f=false }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:608
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1102
+scripts/4_World/systems\inventory\dayzplayerinventory.c:482
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 09.05 2021 22:27:46
+
+[desync] HandleInputData man=SurvivorF_Judy:04 CANNOT move cmd=SYNC_MOVE src={ type=CARGO item=WaterBottle:017652 parent=MountainBag_Green:010651 idx=0 row=4 col=0 f=true } dst={ type=CARGO item=WaterBottle:017652 parent=HuntingJacket_Spring:04392 idx=0 row=2 col=5 f=false }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:608
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1102
+scripts/4_World/systems\inventory\dayzplayerinventory.c:482
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 09.05 2021 22:27:54
+
+[desync] HandleInputData man=SurvivorF_Judy:04 CANNOT move cmd=SYNC_MOVE src={ type=CARGO item=TetracyclineAntibiotics:012040 parent=MountainBag_Green:010651 idx=0 row=5 col=0 f=false } dst={ type=CARGO item=TetracyclineAntibiotics:012040 parent=HuntingJacket_Spring:04392 idx=0 row=2 col=5 f=false }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:608
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1102
+scripts/4_World/systems\inventory\dayzplayerinventory.c:482
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 09.05 2021 22:29:50
+
+[desync] HandleInputData man=SurvivorF_Judy:04 CANNOT move cmd=SYNC_MOVE src={ type=GROUND item=CharcoalTablets:019706 pos=(10853, 5.54281, 10466.9) dir=(0.0103609, -0.707027, 0.707042, 0.0103761) } dst={ type=CARGO item=CharcoalTablets:019706 parent=HuntingJacket_Spring:04392 idx=0 row=2 col=5 f=false }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:608
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1102
+scripts/4_World/systems\inventory\dayzplayerinventory.c:482
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 09.05 2021 22:29:52
+
+[desync] HandleInputData man=SurvivorF_Judy:04 CANNOT move cmd=SYNC_MOVE src={ type=GROUND item=PainkillerTablets:015408 pos=(10853, 5.52009, 10466.9) dir=(0.0103761, 0.707042, 0.707012, -0.0103914) } dst={ type=CARGO item=PainkillerTablets:015408 parent=HuntingJacket_Spring:04392 idx=0 row=2 col=0 f=true }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:608
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1102
+scripts/4_World/systems\inventory\dayzplayerinventory.c:482
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 09.05 2021 22:31:21
+
+[desync] HandleInputData man=SurvivorF_Judy:04 CANNOT move cmd=SYNC_MOVE src={ type=GROUND item=PainkillerTablets:015408 pos=(10853, 5.52009, 10466.9) dir=(0.0103761, 0.707042, 0.707012, -0.0103914) } dst={ type=CARGO item=PainkillerTablets:015408 parent=HuntingJacket_Spring:04392 idx=0 row=2 col=5 f=false }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:608
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1102
+scripts/4_World/systems\inventory\dayzplayerinventory.c:482
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 09.05 2021 22:39:11
+
+[desync] HandleInputData man=SurvivorF_Judy:04 CANNOT move cmd=SYNC_MOVE src={ type=CARGO item=Battery9V:017641 parent=ZmbF_MechanicNormal_Beige:0760 idx=0 row=0 col=0 f=false } dst={ type=CARGO item=Battery9V:017641 parent=HuntingJacket_Spring:04392 idx=0 row=2 col=0 f=false }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:608
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1102
+scripts/4_World/systems\inventory\dayzplayerinventory.c:482
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 09.05 2021 22:43:36
+
+[desync] HandleInputData man=SurvivorF_Judy:04 CANNOT move cmd=SYNC_MOVE src={ type=GROUND item=AmmoBox_556x45Tracer_20Rnd:019141 pos=(12317.5, 1.38808, 9902.95) dir=(0.705379, 0.0645762, -0.0684978, 0.702541) } dst={ type=CARGO item=AmmoBox_556x45Tracer_20Rnd:019141 parent=HuntingJacket_Spring:04392 idx=0 row=2 col=0 f=false }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:608
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1102
+scripts/4_World/systems\inventory\dayzplayerinventory.c:482
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 09.05 2021 22:43:41
+
+[desync] HandleInputData man=SurvivorF_Judy:04 CANNOT move cmd=SYNC_MOVE src={ type=GROUND item=AmmoBox_556x45Tracer_20Rnd:019141 pos=(12317.5, 1.38808, 9902.95) dir=(0.705379, 0.0645762, -0.0684978, 0.702541) } dst={ type=CARGO item=AmmoBox_556x45Tracer_20Rnd:019141 parent=HuntingJacket_Spring:04392 idx=0 row=2 col=0 f=false }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:608
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1102
+scripts/4_World/systems\inventory\dayzplayerinventory.c:482
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 09.05 2021 22:45:07
+
+[desync] HandleInputData man=SurvivorF_Judy:04 CANNOT move cmd=SYNC_MOVE src={ type=GROUND item=BrisketSpread:019278 pos=(12294.1, 2.76986, 9834.08) dir=(-0.00196844, 0.758495, -0.00196844, 0.651652) } dst={ type=CARGO item=BrisketSpread:019278 parent=HuntingJacket_Spring:04392 idx=0 row=2 col=0 f=false }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:608
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1102
+scripts/4_World/systems\inventory\dayzplayerinventory.c:482
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 09.05 2021 22:45:18
+
+[desync] HandleInputData man=SurvivorF_Judy:04 CANNOT move cmd=SYNC_MOVE src={ type=GROUND item=BrisketSpread:019451 pos=(12295.1, 1.7503, 9828.14) dir=(-0.00196844, -0.256367, -0.00196844, 0.966567) } dst={ type=CARGO item=BrisketSpread:019451 parent=HuntingJacket_Spring:04392 idx=0 row=3 col=5 f=false }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:608
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1102
+scripts/4_World/systems\inventory\dayzplayerinventory.c:482
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 09.05 2021 23:19:12
+
+[desync] HandleInputData man=SurvivorF_Judy:04 CANNOT move cmd=SYNC_MOVE src={ type=GROUND item=PigSteakMeat:010220 pos=(10153, 1.59046, 10658.8) dir=(0.11545, -0.00196844, 0.993301, -0.00196844) } dst={ type=CARGO item=PigSteakMeat:010220 parent=HuntingJacket_Spring:04392 idx=0 row=2 col=0 f=true }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:608
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1102
+scripts/4_World/systems\inventory\dayzplayerinventory.c:482
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 09.05 2021 23:34:37
+
+[desync] HandleInputData man=SurvivorF_Judy:04 CANNOT move cmd=SYNC_MOVE src={ type=CARGO item=BloodTestKit:09063 parent=SmallProtectorCase:09560 idx=0 row=1 col=0 f=false } dst={ type=CARGO item=BloodTestKit:09063 parent=HuntingJacket_Spring:04392 idx=0 row=3 col=5 f=false }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:608
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1102
+scripts/4_World/systems\inventory\dayzplayerinventory.c:482
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 09.05 2021 23:34:42
+
+[desync] HandleInputData man=SurvivorF_Judy:04 CANNOT move cmd=SYNC_MOVE src={ type=CARGO item=BloodTestKit:09063 parent=SmallProtectorCase:09560 idx=0 row=1 col=0 f=false } dst={ type=CARGO item=BloodTestKit:09063 parent=HuntingJacket_Spring:04392 idx=0 row=2 col=0 f=false }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:608
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1102
+scripts/4_World/systems\inventory\dayzplayerinventory.c:482
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 09.05 2021 23:34:46
+
+[desync] HandleInputData man=SurvivorF_Judy:04 CANNOT move cmd=SYNC_MOVE src={ type=CARGO item=BloodTestKit:09063 parent=SmallProtectorCase:09560 idx=0 row=1 col=0 f=false } dst={ type=CARGO item=BloodTestKit:09063 parent=HuntingJacket_Spring:04392 idx=0 row=2 col=0 f=false }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:608
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1102
+scripts/4_World/systems\inventory\dayzplayerinventory.c:482
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 09.05 2021 23:56:32
+
+[desync] HandleInputData man=SurvivorF_Judy:04 CANNOT move cmd=SYNC_MOVE src={ type=GROUND item=ZagorkyChocolate:013515 pos=(8070.85, 344.619, 10520.6) dir=(0.670665, 0.217212, 0.217212, -0.675166) } dst={ type=CARGO item=ZagorkyChocolate:013515 parent=HuntingJacket_Spring:04392 idx=0 row=2 col=0 f=true }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:608
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1102
+scripts/4_World/systems\inventory\dayzplayerinventory.c:482
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 09.05 2021 23:57:06
+NULL pointer to instance
+Class:      'CustomMission'
+Function: 'nbcClass'
+Stack trace:
+$CurrentDir:mpmissions\Expansion.deerisle\init.c:329
+$CurrentDir:mpmissions\Expansion.deerisle\init.c:474
+scripts/5_Mission/mission\missionserver.c:332
+SpawnSelect/Scripts/5_Mission/missionshared.c:329
+scripts/5_Mission/mission\missionserver.c:133
+GameLabs/Scripts/5_Mission/mission.c:8
+JM/CF/Scripts/5_Mission/communityframework\mission\missionserver.c:18
+scripts/3_Game/dayzgame.c:1355
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  

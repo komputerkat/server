@@ -1,0 +1,913 @@
+
+
+=====================================================================
+== C:\Program Files (x86)\Steam\steamapps\common\DayZServer\DayZServer_x64.exe
+== DayZServer_x64.exe  -cpuCount=4 -mod=@42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; -config=serverDZ.cfg -port=2302 -noFilePatching -profiles=myprofile -scrAllowFileWrite -adminlog
+=====================================================================
+Exe timestamp: 2021/05/05 10:02:18
+Current time:  2021/05/13 15:31:54
+
+Version 1.12.153904
+15:31:54.642 [Inputs] Loading inputs default "bin/constants.xml"
+15:31:54.644 [Inputs] Loading inputs default "bin/specific.xml"
+15:31:54.644 [Inputs] Loading inputs default "EarPlugs\data\inputs.xml"
+15:31:54.644 [Inputs] Loading inputs default "LBmaster_UndergroundLighting/inputsLBmaster.xml"
+15:31:54.645 [Inputs] Loading inputs default "VanillaPPMap/data/modded_Inputs.xml"
+15:31:54.645 [Inputs] Loading inputs default "ZomBerry/AT/scripts/data/inputs.xml"
+15:31:54.645 [Inputs] Loading inputs default "Notifications/inputs/inputs.xml"
+15:31:54.645 [Inputs] Loading inputs default "DayZEditorLoader/Scripts/Data/Inputs.xml"
+15:31:54.645 [Inputs] Loading inputs default "BaseBuildingPlus/Scripts/Data/Inputs.xml"
+15:31:54.645 [Inputs] Loading inputs cfg "myprofile\Users\Survivor\Server.core.xml"
+15:31:54.645 !!! [Inputs] Cannot read inputs cfg "myprofile\Users\Survivor\Server.core.xml", parser error
+15:31:54.645 [Inputs] Loading inputs cfg "bin/core.xml"
+15:31:54.645 !!! [Inputs] Cannot load input preset "user", file does not exist
+15:31:54.646 [Inputs] Exporting inputs cfg "myprofile\Users\Survivor\Server.core.xml"
+15:32:05.302 [CE][Hive] :: Initializing OFFLINE
+15:32:05.303 [CE][Hive] :: Loading core data ... 
+15:32:05.303 [CE][CoreData] :: 7 root classes, 18 defaults, 0 updaters...
+15:32:08.599 [CE] :: WARNING :: Preset map "optics" is EMPTY.
+15:32:08.600 [CE][TypeSetup] :: 430 classes setuped...
+15:32:09.270 [CE][RegisterBind] :: 0 classes binded...
+15:32:09.270 [CE][RegisterConfig] :: 9629 config classes registered, 1 sub-counters...
+15:32:09.270 [CE][Hive] :: Loading map data ... 
+15:32:09.300 [CE][LoadPrototype] :: loaded 345 prototypes
+15:32:09.300   665 containers, 8761 points
+15:32:09.300   0 dispatches, 0 proxies
+15:32:09.300 !!! [CE][LoadPrototype] 7 groups have no points...
+15:32:09.300 [CE][LoadPrototype] :: last group name: Land_Garage_Tall...
+15:32:09.303 [CE][LoadPrototype] :: loaded 0 prototypes
+15:32:09.303   0 containers, 0 points
+15:32:09.303   0 dispatches, 0 proxies
+15:32:09.303 [CE][LoadPrototype] :: last group name: Rail9...
+15:32:09.684 [CE][LoadMap] "Group" :: loaded 7506 groups, largest group range: 34.0
+15:32:09.686 [CE][LoadMap] "Dirt" :: loaded 0 groups, largest group range: 34.0
+15:32:09.789 [CE][Links] found 2124 total links between groups, of 7506
+15:32:09.789 [CE][LoadClusters] "Cluster" :: Loading files...
+15:32:09.943 [CE][LoadClusters] :: file: "mapgroupcluster.xml", 9 types, 50000 instances
+15:32:10.101 [CE][LoadClusters] :: file: "mapgroupcluster01", 9 types, 50000 instances
+15:32:10.101   5940 failed - check Matrix "default" grid size !!!
+15:32:10.263 [CE][LoadClusters] :: file: "mapgroupcluster02", 9 types, 50000 instances
+15:32:10.263   12307 failed - check Matrix "default" grid size !!!
+15:32:10.319 [CE][LoadClusters] :: file: "mapgroupcluster03", 9 types, 15277 instances
+15:32:10.319   1372 failed - check Matrix "default" grid size !!!
+15:32:10.321 [CE][Storage] ver:21 stamp:24597, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\types.bin"
+15:32:10.322 [CE][Storage] ver:21 stamp:24383, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\types.001"
+15:32:10.322 [CE][Storage] ver:21 stamp:24384, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\types.002"
+15:32:10.322 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\types.bin".
+15:32:10.415 !!! File "DZ\worlds\chernarusplus\ce\db/messages.xml" does not exist...
+15:32:10.415 !!! [CE][offlineDB] :: Failed to read messages file 'db/messages.xml'.
+15:32:10.415 !!! [CE][offlineDB] :: No Shutdown message present.
+15:32:10.417 [CE][offlineDB] :: Loaded 41 dynamic events 246 total types 0 total positions.
+15:32:10.445 !!! File "DZ\worlds\chernarusplus\ce\TraderPlus_ce/TraderPlus_types.xml" does not exist...
+15:32:10.445 !!! [CE][offlineDB] :: Failed to read types file 'TraderPlus_ce/TraderPlus_types.xml'.
+15:32:10.446 [CE][Storage] ver:21 stamp:24597, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\events.bin"
+15:32:10.446 [CE][Storage] ver:21 stamp:24383, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\events.001"
+15:32:10.446 [CE][Storage] ver:21 stamp:24384, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\events.002"
+15:32:10.446 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\events.bin".
+15:32:10.446 [CE][DynamicEvent] Load  Events:[41] Primary spawners: 41 Secondary spawners: 1
+15:32:10.447 [CE][Storage] ver:25 stamp:24597, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_000.bin"
+15:32:10.447 [CE][Storage] ver:25 stamp:24383, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_000.001"
+15:32:10.448 [CE][Storage] ver:25 stamp:24384, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_000.002"
+15:32:10.448 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_000.bin" 41 items.
+15:32:10.467   41 items loaded.
+15:32:10.467 [CE][Storage] ver:25 stamp:24597, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_001.bin"
+15:32:10.468 [CE][Storage] ver:25 stamp:24383, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_001.001"
+15:32:10.468 [CE][Storage] ver:25 stamp:24384, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_001.002"
+15:32:10.468 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_001.bin" 417 items.
+15:32:10.607   417 items loaded.
+15:32:10.608 [CE][Storage] ver:25 stamp:24597, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_002.bin"
+15:32:10.608 [CE][Storage] ver:25 stamp:24383, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_002.001"
+15:32:10.608 [CE][Storage] ver:25 stamp:24384, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_002.002"
+15:32:10.608 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_002.bin" 781 items.
+15:32:10.775   781 items loaded.
+15:32:10.776 [CE][Storage] ver:25 stamp:24597, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_003.bin"
+15:32:10.776 [CE][Storage] ver:25 stamp:24383, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_003.001"
+15:32:10.777 [CE][Storage] ver:25 stamp:24384, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_003.002"
+15:32:10.777 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_003.bin" 1198 items.
+15:32:11.17   1198 items loaded.
+15:32:11.17 [CE][Storage] ver:25 stamp:24597, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_004.bin"
+15:32:11.18 [CE][Storage] ver:25 stamp:24383, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_004.001"
+15:32:11.18 [CE][Storage] ver:25 stamp:24384, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_004.002"
+15:32:11.18 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_004.bin" 1764 items.
+15:32:11.500   1764 items loaded.
+15:32:11.501 [CE][Storage] ver:25 stamp:24597, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_005.bin"
+15:32:11.501 [CE][Storage] ver:25 stamp:24383, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_005.001"
+15:32:11.501 [CE][Storage] ver:25 stamp:24384, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_005.002"
+15:32:11.502 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_005.bin" 1507 items.
+15:32:11.904   1507 items loaded.
+15:32:11.904 [CE][Storage] ver:25 stamp:24597, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_006.bin"
+15:32:11.905 [CE][Storage] ver:25 stamp:24383, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_006.001"
+15:32:11.905 [CE][Storage] ver:25 stamp:24384, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_006.002"
+15:32:11.905 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_006.bin" 1126 items.
+15:32:12.171   1126 items loaded.
+15:32:12.172 [CE][Storage] ver:25 stamp:24597, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_007.bin"
+15:32:12.172 [CE][Storage] ver:25 stamp:24383, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_007.001"
+15:32:12.173 [CE][Storage] ver:25 stamp:24384, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_007.002"
+15:32:12.173 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_007.bin" 772 items.
+15:32:12.305   772 items loaded.
+15:32:12.305 [CE][Storage] ver:25 stamp:24597, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_008.bin"
+15:32:12.306 [CE][Storage] ver:25 stamp:24383, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_008.001"
+15:32:12.306 [CE][Storage] ver:25 stamp:24384, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_008.002"
+15:32:12.306 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_008.bin" 357 items.
+15:32:12.378   357 items loaded.
+15:32:12.378 [CE][Storage] ver:25 stamp:24597, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_009.bin"
+15:32:12.378 [CE][Storage] ver:25 stamp:24383, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_009.001"
+15:32:12.379 [CE][Storage] ver:25 stamp:24384, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_009.002"
+15:32:12.379 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_009.bin" 177 items.
+15:32:12.415   177 items loaded.
+15:32:12.416 [CE][Storage] ver:25 stamp:24597, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_010.bin"
+15:32:12.416 [CE][Storage] ver:25 stamp:24383, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_010.001"
+15:32:12.416 [CE][Storage] ver:25 stamp:24384, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_010.002"
+15:32:12.416 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_010.bin" 267 items.
+15:32:12.464   267 items loaded.
+15:32:12.465 [CE][Storage] ver:25 stamp:24597, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_011.bin"
+15:32:12.465 [CE][Storage] ver:25 stamp:24383, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_011.001"
+15:32:12.465 [CE][Storage] ver:25 stamp:24384, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_011.002"
+15:32:12.465 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_011.bin" 0 items.
+15:32:12.465   0 items loaded.
+15:32:12.465 [CE][Storage] ver:26 stamp:24597, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\building.bin"
+15:32:12.465 [CE][Storage] ver:26 stamp:24383, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\building.001"
+15:32:12.465 [CE][Storage] ver:26 stamp:24384, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\building.002"
+15:32:12.465 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\building.bin" 4 items.
+15:32:12.465   4 items loaded.
+15:32:12.466 [CE][Storage] ver:25 stamp:24597, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\vehicles.bin"
+15:32:12.466 [CE][Storage] ver:25 stamp:24383, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\vehicles.001"
+15:32:12.466 [CE][Storage] ver:25 stamp:24384, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\vehicles.002"
+15:32:12.466 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\vehicles.bin" 105 items.
+15:32:12.853   105 items loaded.
+15:32:12.858 [CE][Hive] :: Storage load took:2.41 seconds, recovery stamp:24597
+15:32:12.858   entity: 9780, building: 4
+15:32:12.858   no lifetime: 23
+15:32:12.858   pathgraph's: 833
+15:32:12.858 [CE][Hive] :: Initializing ... 
+15:32:12.876 [CE][InitializeMap] :: initialized: 2
+15:32:12.876 [CE][Hive] :: Initializing spawners ... 
+15:32:13.572 [CE][LootRespawner] (PRIDummy) :: Initially (re)spawned:0, Nominal:9205, Total in Map: 8719 at 0 (sec)
+15:32:13.572   tests:0, repeats:0 fails:0, overtime:0
+15:32:13.572 [CE][DynEvent] :: 41 types
+15:32:13.572 [00] AmbientHen
+15:32:13.572   Primary Spawner: "Ambient", active: yes, repeat: 1
+15:32:13.572 [01] AnimalBear
+15:32:13.572   Primary Spawner: "Animal", active: yes, repeat: 1
+15:32:13.572 [02] AnimalCow
+15:32:13.572   Primary Spawner: "Animal", active: yes, repeat: 1
+15:32:13.572 [03] AnimalDeer
+15:32:13.572   Primary Spawner: "Animal", active: yes, repeat: 1
+15:32:13.572 [04] AnimalGoat
+15:32:13.572   Primary Spawner: "Animal", active: yes, repeat: 1
+15:32:13.572 [05] AnimalPig
+15:32:13.572   Primary Spawner: "Animal", active: yes, repeat: 1
+15:32:13.572 [06] AnimalRoeDeer
+15:32:13.572   Primary Spawner: "Animal", active: yes, repeat: 1
+15:32:13.572 [07] AnimalSheep
+15:32:13.572   Primary Spawner: "Animal", active: yes, repeat: 1
+15:32:13.572 [08] AnimalWildBoar
+15:32:13.572   Primary Spawner: "Animal", active: yes, repeat: 1
+15:32:13.572 [09] AnimalWolf
+15:32:13.572   Primary Spawner: "Animal", active: yes, repeat: 1
+15:32:13.572 [10] InfectedArmy
+15:32:13.572   Primary Spawner: "Infected", active: yes, repeat: 1
+15:32:13.572 [11] InfectedCity
+15:32:13.572   Primary Spawner: "Infected", active: yes, repeat: 1
+15:32:13.572 [12] InfectedFirefighter
+15:32:13.572   Primary Spawner: "Infected", active: yes, repeat: 1
+15:32:13.572 [13] InfectedIndustrial
+15:32:13.572   Primary Spawner: "Infected", active: yes, repeat: 1
+15:32:13.572 [14] InfectedMedic
+15:32:13.572   Primary Spawner: "Infected", active: yes, repeat: 1
+15:32:13.572 [15] InfectedPolice
+15:32:13.572   Primary Spawner: "Infected", active: yes, repeat: 1
+15:32:13.572 [16] InfectedPrisoner
+15:32:13.572   Primary Spawner: "Infected", active: yes, repeat: 1
+15:32:13.572 [17] InfectedReligious
+15:32:13.572   Primary Spawner: "Infected", active: yes, repeat: 1
+15:32:13.572 [18] InfectedSolitude
+15:32:13.572   Primary Spawner: "Infected", active: yes, repeat: 1
+15:32:13.572 [19] InfectedVillage
+15:32:13.572   Primary Spawner: "Infected", active: yes, repeat: 1
+15:32:13.572 [20] ItemPlanks
+15:32:13.572   Primary Spawner: "Item", active: yes, repeat: 1
+15:32:13.572 [21] Loot
+15:32:13.572   Primary Spawner: "Loot", active: yes, repeat: 2
+15:32:13.572 [22] StaticHeliCrash
+15:32:13.572   Primary Spawner: "Vehicle", active: yes, repeat: 1
+15:32:13.572   Secondary Spawner: "Infected", active: yes, repeat: 1
+15:32:13.572 [23] StaticPoliceCar
+15:32:13.572   Primary Spawner: "Vehicle", active: yes, repeat: 1
+15:32:13.572 [24] TrajectoryApple
+15:32:13.572   Primary Spawner: "Trajectory", active: yes, repeat: 1
+15:32:13.572 [25] TrajectoryCanina
+15:32:13.572   Primary Spawner: "Trajectory", active: yes, repeat: 1
+15:32:13.572 [26] TrajectoryConiferous
+15:32:13.572   Primary Spawner: "Trajectory", active: yes, repeat: 1
+15:32:13.573 [27] TrajectoryDeciduous
+15:32:13.573   Primary Spawner: "Trajectory", active: yes, repeat: 1
+15:32:13.573 [28] TrajectoryHumus
+15:32:13.573   Primary Spawner: "Trajectory", active: yes, repeat: 1
+15:32:13.573 [29] TrajectoryPear
+15:32:13.573   Primary Spawner: "Trajectory", active: yes, repeat: 1
+15:32:13.573 [30] TrajectoryPlum
+15:32:13.573   Primary Spawner: "Trajectory", active: yes, repeat: 1
+15:32:13.573 [31] TrajectorySambucus
+15:32:13.573   Primary Spawner: "Trajectory", active: yes, repeat: 1
+15:32:13.573 [32] TrajectoryStones
+15:32:13.573   Primary Spawner: "Trajectory", active: yes, repeat: 1
+15:32:13.573 [33] VehicleCivilianSedan
+15:32:13.573   Primary Spawner: "Vehicle", active: yes, repeat: 1
+15:32:13.573 [34] VehicleHatchback02
+15:32:13.573   Primary Spawner: "Vehicle", active: yes, repeat: 1
+15:32:13.573 [35] VehicleOffroadHatchback
+15:32:13.573   Primary Spawner: "Vehicle", active: yes, repeat: 1
+15:32:13.573 [36] VehicleSedan02
+15:32:13.573   Primary Spawner: "Vehicle", active: yes, repeat: 1
+15:32:13.573 [37] VehicleTruck01
+15:32:13.573   Primary Spawner: "Vehicle", active: yes, repeat: 1
+15:32:13.573 [38] StaticVanPinkies
+15:32:13.573   Primary Spawner: "Vehicle", active: yes, repeat: 1
+15:32:13.573 [39] StaticVanAmbulance
+15:32:13.573   Primary Spawner: "Vehicle", active: yes, repeat: 1
+15:32:13.573 [40] StaticSkeletonEventspawn
+15:32:13.573   Primary Spawner: "Vehicle", active: yes, repeat: 1
+15:32:13.573 [CE][Hive] :: Initializing of spawners done.
+15:32:13.574 [CE][Hive] :: Init sequence finished.
+15:32:13.574 Player connect enabled
+15:33:19.708 [Login]: Adding player BnYrB (13568073) to login queue at position 0
+15:33:19.708 [LoginMachine]: Add player BnYrB (13568073)
+15:33:19.708 [StateMachine]: Player BnYrB (dpnid 13568073 uid ) Entering AuthPlayerLoginState
+15:33:20.954 [StateMachine]: Player BnYrB (dpnid 13568073 uid ) Entering WaitAuthPlayerLoginState
+15:33:22.111 Player BnYrB connected (id=mBNlxASsPlOcry0dpDl8K-WgHNR5WMCMmoJ9NhpU4FY=).
+15:33:22.111 Player "BnYrB" is connected (steamID=76561198036774377)
+15:33:22.374 [StateMachine]: Player BnYrB (dpnid 13568073 uid mBNlxASsPlOcry0dpDl8K-WgHNR5WMCMmoJ9NhpU4FY=) Entering DBGetLoginTimeLoginState
+15:33:22.375 [StateMachine]: Player BnYrB (dpnid 13568073 uid mBNlxASsPlOcry0dpDl8K-WgHNR5WMCMmoJ9NhpU4FY=) Entering DBWaitLoginTimeLoginState
+15:33:37.374 [StateMachine]: Player BnYrB (dpnid 13568073 uid mBNlxASsPlOcry0dpDl8K-WgHNR5WMCMmoJ9NhpU4FY=) Entering DBGetCharacterLoginState
+15:33:37.375 [StateMachine]: Player BnYrB (dpnid 13568073 uid mBNlxASsPlOcry0dpDl8K-WgHNR5WMCMmoJ9NhpU4FY=) Entering CreateNetObjectsLoginState
+15:33:37.377 [StateMachine]: Player BnYrB (dpnid 13568073 uid mBNlxASsPlOcry0dpDl8K-WgHNR5WMCMmoJ9NhpU4FY=) Entering PreloadCamLoginState
+15:33:37.377 [StateMachine]: Player BnYrB (dpnid 13568073 uid mBNlxASsPlOcry0dpDl8K-WgHNR5WMCMmoJ9NhpU4FY=) Entering WaitPreloadCamLoginState
+15:34:01.556 [StateMachine]: Player BnYrB (dpnid 13568073 uid mBNlxASsPlOcry0dpDl8K-WgHNR5WMCMmoJ9NhpU4FY=) Entering GetLoadedCharLoginState
+15:34:03.579 <LOAD EXISTING CHAR>:
+    charID 1
+    playerID 1
+    dpnid 13568073
+    uid mBNlxASsPlOcry0dpDl8K-WgHNR5WMCMmoJ9NhpU4FY=
+15:34:49.353 [CE][LootRespawner] (PRIDummy) :: Item [0] causing search overtime: "ZucchiniSeedsPack"
+15:35:16.168 [CE][LootRespawner] (PRIDummy) :: Item [1] causing search overtime: "ZucchiniSeedsPack"
+15:35:16.568 !!! [CE][Point] Removing 7151.554199, 11568.265625 from Land_jmc_militarycase_o_05
+15:35:16.568 !!! [CE][Point] Removing 1525.467896, 11771.351563 from Land_jmc_militarycase_o_11
+15:35:16.569 !!! [CE][Point] Removing 7191.580078, 11553.846680 from Land_jmc_militarycase_c_07
+15:35:16.571 !!! [CE][Point] Removing 7175.418945, 11607.706055 from Land_jmc_militarycase_o_09
+15:35:16.571 !!! [CE][Point] Removing 7156.099121, 11587.857422 from Land_jmc_militarycase_o_08
+15:35:43.163 [CE][LootRespawner] (PRIDummy) :: Item [2] causing search overtime: "ZucchiniSeedsPack"
+15:36:10.163 [CE][LootRespawner] (PRIDummy) :: Item [3] causing search overtime: "ZucchiniSeedsPack"
+15:36:14.563 [CE][Links] found 0 total links between groups, of 1
+15:36:14.563 [CE][SpawnRandomLoot] (StaticVanAmbulance) :: ChildType: Land_jmc_van_ambulance, lootmin: 4, lootmax: 6, wanted: 5
+15:36:14.862 [CE][Links] found 0 total links between groups, of 2
+15:36:14.862 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_old_4, lootmin: 4, lootmax: 6, wanted: 5
+15:36:36.964 [CE][LootRespawner] (PRIDummy) :: Item [4] causing search overtime: "TomatoSeedsPack"
+15:36:37.363 !!! [CE][Point] Removing 1485.284912, 11861.099609 from Land_jmc_skeleton_old_1
+15:36:37.464 [CE][LootRespawner] (PRIDummy) :: Item [5] causing search overtime: "ZucchiniSeedsPack"
+15:37:03.866 [CE][LootRespawner] (PRIDummy) :: Item [6] causing search overtime: "TomatoSeedsPack"
+15:37:03.966 [CE][LootRespawner] (PRIDummy) :: Item [7] causing search overtime: "ZucchiniSeedsPack"
+15:37:30.883 [CE][LootRespawner] (PRIDummy) :: Item [8] causing search overtime: "TomatoSeedsPack"
+15:37:31.183 [CE][LootRespawner] (PRIDummy) :: Item [9] causing search overtime: "ZucchiniSeedsPack"
+15:37:57.895 [CE][LootRespawner] (PRIDummy) :: Item [10] causing search overtime: "TomatoSeedsPack"
+15:37:58.95 [CE][LootRespawner] (PRIDummy) :: Item [11] causing search overtime: "ZucchiniSeedsPack"
+15:38:24.594 [CE][LootRespawner] (PRIDummy) :: Item [12] causing search overtime: "PepperSeedsPack"
+15:38:24.694 [CE][LootRespawner] (PRIDummy) :: Item [13] causing search overtime: "TomatoSeedsPack"
+15:38:24.796 !!! [CE][Point] Removing 7177.361816, 11600.792969 from Land_BusStation_wall_bench
+15:38:24.994 [CE][LootRespawner] (PRIDummy) :: Item [14] causing search overtime: "ZucchiniSeedsPack"
+15:38:51.595 [CE][LootRespawner] (PRIDummy) :: Item [15] causing search overtime: "PepperSeedsPack"
+15:38:51.694 [CE][LootRespawner] (PRIDummy) :: Item [16] causing search overtime: "TomatoSeedsPack"
+15:38:51.794 [CE][LootRespawner] (PRIDummy) :: Item [17] causing search overtime: "ZucchiniSeedsPack"
+15:38:56.295 [CE][Links] found 0 total links between groups, of 3
+15:38:56.295 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_burned_1, lootmin: 4, lootmax: 6, wanted: 4
+15:39:18.394 [CE][LootRespawner] (PRIDummy) :: Item [18] causing search overtime: "TomatoSeedsPack"
+15:39:18.494 [CE][LootRespawner] (PRIDummy) :: Item [19] causing search overtime: "PepperSeedsPack"
+15:39:18.595 !!! [CE][Point] Removing 7166.782227, 11659.223633 from Land_BusStation_wall_bench
+15:40:12.795 !!! [CE][Point] Removing 7178.572754, 11600.803711 from Land_BusStation_wall_bench
+15:40:12.797 !!! [CE][Point] Removing 3665.854492, 9737.577148 from Land_jmc_cabin01
+15:40:12.799 !!! [CE][Point] Removing 7174.354980, 11680.826172 from Land_BusStation_wall_bench
+15:40:16.694 [CE][Links] found 0 total links between groups, of 4
+15:40:16.694 [CE][SpawnRandomLoot] (StaticVanAmbulance) :: ChildType: Land_jmc_van_ambulance, lootmin: 4, lootmax: 6, wanted: 4
+15:42:00.495 !!! [CE][Point] Removing 7180.955078, 11678.092773 from Land_BusStation_wall_bench
+15:42:00.496 !!! [CE][Point] Removing 7179.458008, 11682.573242 from Land_BusStation_wall_bench
+15:42:58.96 [CE][Links] found 0 total links between groups, of 5
+15:42:58.96 [CE][SpawnRandomLoot] (StaticVanAmbulance) :: ChildType: Land_jmc_van_ambulance, lootmin: 4, lootmax: 6, wanted: 5
+15:43:47.894 !!! [CE][Point] Removing 3814.755859, 9733.528320 from Land_jmc_cabin01
+15:44:14.696 !!! [CE][Point] Removing 7169.088867, 11565.916992 from Land_jmc_militarycase_o_12
+15:44:14.710 !!! [CE][Point] Removing 7271.020996, 11623.091797 from Land_jmc_militarycase_c_07
+15:44:14.795 !!! [CE][Point] Removing 7165.928223, 11678.539063 from Land_jmc_skeleton_old_5
+15:46:02.394 !!! [CE][Point] Removing 7171.539551, 11601.766602 from Land_jmc_militarycase_o_11
+15:46:02.397 !!! [CE][Point] Removing 7182.710449, 11647.839844 from Land_jmc_militarycase_o_05
+15:46:02.399 !!! [CE][Point] Removing 7191.911621, 11568.193359 from Land_jmc_militarycase_o_11
+15:46:02.495 !!! [CE][Point] Removing 7151.377441, 11610.114258 from Land_jmc_militarycase_o_08
+15:46:02.498 !!! [CE][Point] Removing 7192.060547, 11558.913086 from Land_jmc_militarycase_o_06
+15:47:51.895 [CE][Links] found 0 total links between groups, of 6
+15:47:51.895 [CE][SpawnRandomLoot] (StaticHeliCrash) :: ChildType: Wreck_Mi8, lootmin: 10, lootmax: 20, wanted: 17
+15:47:51.899 [CE][Links] found 0 total links between groups, of 7
+15:47:51.899 [CE][SpawnRandomLoot] (StaticHeliCrash) :: ChildType: Wreck_Mi8, lootmin: 10, lootmax: 20, wanted: 10
+15:47:52.194 [CE][Links] found 0 total links between groups, of 8
+15:47:52.194 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 3
+15:48:16.995 !!! [CE][Point] Removing 7160.169434, 11657.359375 from Land_jmc_militarycase_o_08
+15:50:58.195 !!! [CE][Point] Removing 7144.927246, 11637.821289 from Land_BusStation_wall_bench
+15:50:58.595 !!! [CE][Point] Removing 7174.368164, 11674.870117 from Land_BusStation_wall_bench
+15:51:02.595 [CE][Links] found 0 total links between groups, of 9
+15:51:02.595 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_clean_5, lootmin: 4, lootmax: 6, wanted: 5
+15:51:25.96 !!! [CE][Point] Removing 7180.963867, 11676.881836 from Land_BusStation_wall_bench
+15:51:54.296 [CE][Links] found 0 total links between groups, of 10
+15:51:54.296 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 4
+15:51:54.298 [CE][Links] found 0 total links between groups, of 11
+15:51:54.298 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 3
+15:51:54.300 [CE][Links] found 0 total links between groups, of 12
+15:51:54.300 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 3
+15:53:14.694 [CE][Links] found 0 total links between groups, of 13
+15:53:14.694 [CE][SpawnRandomLoot] (StaticHeliCrash) :: ChildType: Wreck_Mi8, lootmin: 10, lootmax: 20, wanted: 19
+15:53:39.405 !!! [CE][Point] Removing 751.072388, 287.481567 from Land_jmc_ruinecolumn_loot
+15:54:06.199 !!! [CE][Point] Removing 8728.215820, 9377.434570 from Land_Boat_Small1
+15:54:06.896 !!! [CE][Point] Removing 7183.866699, 11569.283203 from Land_jmc_skeleton_old_5
+15:54:33.95 !!! [CE][Point] Removing 7178.484375, 11591.041016 from Land_jmc_skeleton_old_4
+15:54:33.596 !!! [CE][Point] Removing 1485.284912, 11861.099609 from Land_jmc_skeleton_old_1
+15:54:33.694 !!! [CE][Point] Removing 7190.567871, 11554.995117 from Land_jmc_militarycase_o_07
+15:54:35.695 [CE][Links] found 0 total links between groups, of 14
+15:54:35.695 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 4
+15:55:00.296 !!! [CE][Point] Removing 757.789001, 270.778748 from Land_jmc_ruinecolumn_loot
+15:55:00.394 !!! [CE][Point] Removing 7173.125977, 11590.496094 from Land_jmc_skeleton_old_1
+15:55:04.694 [CE][Links] found 0 total links between groups, of 15
+15:55:04.694 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_gnawed_5, lootmin: 4, lootmax: 6, wanted: 4
+15:57:14.895 !!! [CE][Point] Removing 7174.374023, 11679.615234 from Land_BusStation_wall_bench
+16:00:22.694 !!! [CE][Point] Removing 4608.319824, 6996.845215 from Land_strazni_vez
+16:00:22.695 !!! [CE][Point] Removing 3814.652832, 9725.648438 from Land_jmc_cabin01
+16:00:26.895 [CE][Links] found 0 total links between groups, of 16
+16:00:26.895 [CE][SpawnRandomLoot] (StaticVanPinkies) :: ChildType: Land_jmc_van_pinkies, lootmin: 4, lootmax: 6, wanted: 4
+16:00:26.899 [CE][Links] found 0 total links between groups, of 17
+16:00:26.899 [CE][SpawnRandomLoot] (StaticVanPinkies) :: ChildType: Land_jmc_van_pinkies, lootmin: 4, lootmax: 6, wanted: 5
+16:01:44.396 !!! [CE][Point] Removing 11035.290039, 2296.514404 from Land_Mil_GuardShed
+16:01:48.196 [CE][Links] found 0 total links between groups, of 18
+16:01:48.196 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_old_3, lootmin: 4, lootmax: 6, wanted: 5
+16:02:39.894 [CE][Links] found 0 total links between groups, of 19
+16:02:39.894 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 4
+16:03:04.100 !!! [CE][Point] Removing 810.550171, 426.939636 from Land_jmc_ruinecolumn_loot
+16:04:25.196 !!! [CE][Point] Removing 7196.987305, 11586.989258 from Land_jmc_military_lootcase
+16:04:29.594 [CE][Links] found 0 total links between groups, of 20
+16:04:29.594 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_old_2, lootmin: 4, lootmax: 6, wanted: 5
+16:05:19.96 !!! [CE][Point] Removing 7178.079102, 11686.108398 from Land_jmc_military_lootcase
+16:06:12.896 !!! [CE][Point] Removing 7177.741699, 11678.675781 from Land_jmc_militarycase_o_11
+16:06:12.898 !!! [CE][Point] Removing 7179.178711, 11631.274414 from Land_jmc_militarycase_o_11
+16:06:12.899 !!! [CE][Point] Removing 7198.099609, 11595.975586 from Land_jmc_militarycase_c_07
+16:06:12.900 !!! [CE][Point] Removing 1461.098389, 11740.947266 from Land_jmc_militarycase_o_12
+16:06:12.901 !!! [CE][Point] Removing 7176.464355, 11583.501953 from Land_jmc_militarycase_o_09
+16:06:39.701 !!! [CE][Point] Removing 6479.794922, 8405.032227 from Land_Tovarna1
+16:07:10.696 [CE][Links] found 0 total links between groups, of 21
+16:07:10.696 [CE][SpawnRandomLoot] (StaticVanAmbulance) :: ChildType: Land_jmc_van_ambulance, lootmin: 4, lootmax: 6, wanted: 5
+16:08:26.897 !!! [CE][Point] Removing 7176.468750, 11682.575195 from Land_BusStation_wall_bench
+16:08:27.396 !!! [CE][Point] Removing 7178.247070, 11682.559570 from Land_BusStation_wall_bench
+16:09:23.396 [CE][Links] found 0 total links between groups, of 22
+16:09:23.396 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 3
+16:09:47.996 !!! [CE][Point] Removing 7181.748535, 11579.876953 from Land_jmc_militarycase_o_05
+16:09:47.998 !!! [CE][Point] Removing 7154.261719, 11593.990234 from Land_jmc_militarycase_o_07
+16:09:47.999 !!! [CE][Point] Removing 7180.832520, 11682.396484 from Land_jmc_militarycase_o_08
+16:09:48.00 !!! [CE][Point] Removing 7185.324707, 11561.282227 from Land_jmc_militarycase_c_12
+16:10:14.997 !!! [CE][Point] Removing 7176.039063, 11586.541016 from Land_jmc_militarycase_o_06
+16:10:14.998 !!! [CE][Point] Removing 7192.217773, 11562.439453 from Land_jmc_militarycase_c_06
+16:10:44.95 [CE][Links] found 0 total links between groups, of 23
+16:10:44.95 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 4
+16:11:08.896 !!! [CE][Point] Removing 7164.669922, 11664.787109 from Land_jmc_militarycase_o_09
+16:11:08.897 !!! [CE][Point] Removing 7162.553223, 11655.167969 from Land_jmc_militarycase_c_12
+16:11:13.96 [CE][Links] found 0 total links between groups, of 24
+16:11:13.96 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_clean_5, lootmin: 4, lootmax: 6, wanted: 4
+16:11:35.697 !!! [CE][Point] Removing 7193.995605, 11575.596680 from Land_BusStation_wall_bench
+16:12:29.595 !!! [CE][Point] Removing 1485.284912, 11861.099609 from Land_jmc_skeleton_old_1
+16:12:33.797 [CE][Links] found 0 total links between groups, of 25
+16:12:33.797 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_old_2, lootmin: 4, lootmax: 6, wanted: 4
+16:14:46.206 [CE][Links] found 0 total links between groups, of 26
+16:14:46.206 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 3
+16:14:46.207 [CE][Links] found 0 total links between groups, of 27
+16:14:46.207 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 4
+16:15:11.08 !!! [CE][Point] Removing 7152.880371, 11568.689453 from Land_jmc_militarycase_c_06
+16:15:11.10 !!! [CE][Point] Removing 7160.754395, 11616.364258 from Land_jmc_militarycase_o_08
+16:15:11.12 !!! [CE][Point] Removing 7158.622559, 11587.934570 from Land_jmc_militarycase_o_08
+16:15:11.14 !!! [CE][Point] Removing 7189.465820, 11673.093750 from Land_jmc_militarycase_o_09
+16:15:11.14 !!! [CE][Point] Removing 7103.856934, 11620.941406 from Land_jmc_militarycase_o_07
+16:15:11.108 !!! [CE][Point] Removing 7144.937988, 11636.609375 from Land_BusStation_wall_bench
+16:15:11.209 !!! [CE][Point] Removing 3800.797363, 9668.003906 from Land_jmc_cabin01
+16:15:11.210 !!! [CE][Point] Removing 7178.372070, 11686.045898 from Land_jmc_military_lootcase
+16:15:11.210 [CE][LootRespawner] (PRIDummy) :: Item [0] is hard to place, performance drops: "PressVest_Blue"
+16:15:37.807 !!! [CE][Point] Removing 7173.330078, 11606.138672 from Land_jmc_militarycase_c_06
+16:15:37.808 !!! [CE][Point] Removing 7187.833008, 11672.678711 from Land_jmc_militarycase_o_12
+16:15:37.809 !!! [CE][Point] Removing 7174.094238, 11645.138672 from Land_jmc_militarycase_o_09
+16:15:37.810 !!! [CE][Point] Removing 7159.990234, 11653.022461 from Land_jmc_militarycase_o_12
+16:15:37.811 !!! [CE][Point] Removing 7158.818848, 11563.338867 from Land_jmc_militarycase_o_08
+16:16:31.507 !!! [CE][Point] Removing 7176.039551, 11591.428711 from Land_jmc_militarycase_o_07
+16:16:31.508 !!! [CE][Point] Removing 7194.047363, 11553.902344 from Land_jmc_militarycase_o_12
+16:16:31.509 !!! [CE][Point] Removing 7197.381836, 11554.292969 from Land_jmc_militarycase_o_09
+16:17:56.673 [CE][Links] found 0 total links between groups, of 28
+16:17:56.673 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_clean_4, lootmin: 4, lootmax: 6, wanted: 4
+16:18:45.674 !!! [CE][Point] Removing 7183.866699, 11569.283203 from Land_jmc_skeleton_old_5
+16:18:45.676 !!! [CE][Point] Removing 7185.923340, 11596.417969 from Land_jmc_militarycase_c_07
+16:18:45.676 !!! [CE][Point] Removing 7162.398438, 11656.876953 from Land_jmc_militarycase_o_05
+16:18:45.678 !!! [CE][Point] Removing 7173.956055, 11646.958008 from Land_jmc_militarycase_o_08
+16:18:45.679 !!! [CE][Point] Removing 7267.477051, 11615.902344 from Land_jmc_militarycase_o_09
+16:18:46.275 !!! [CE][Point] Removing 14415.047852, 6058.410156 from Land_Castle_Gate
+16:19:12.973 !!! [CE][Point] Removing 7267.267090, 11613.797852 from Land_jmc_skeleton_burned_2
+16:19:12.974 !!! [CE][Point] Removing 7174.813965, 11590.480469 from Land_jmc_skeleton_old_2
+16:19:12.977 !!! [CE][Point] Removing 7162.368164, 11653.823242 from Land_jmc_militarycase_c_09
+16:19:12.977 !!! [CE][Point] Removing 7174.722168, 11614.373047 from Land_jmc_militarycase_o_08
+16:19:12.979 !!! [CE][Point] Removing 7180.220703, 11591.080078 from Land_jmc_skeleton_old_5
+16:19:12.980 !!! [CE][Point] Removing 7171.429688, 11648.979492 from Land_jmc_militarycase_o_08
+16:19:12.980 !!! [CE][Point] Removing 7267.186523, 11611.096680 from Land_jmc_skeleton_burned_2
+16:19:17.73 [CE][Links] found 0 total links between groups, of 29
+16:19:17.73 [CE][SpawnRandomLoot] (StaticVanAmbulance) :: ChildType: Land_jmc_van_ambulance, lootmin: 4, lootmax: 6, wanted: 5
+16:19:17.373 [CE][Links] found 0 total links between groups, of 30
+16:19:17.373 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_old_1, lootmin: 4, lootmax: 6, wanted: 5
+16:19:39.975 !!! [CE][Point] Removing 7183.651367, 11590.829102 from Land_jmc_militarycase_c_09
+16:20:33.781 !!! [CE][Point] Removing 4510.069336, 7198.668945 from Land_strazni_vez
+16:21:00.175 !!! [CE][Point] Removing 11598.012695, 10403.141602 from Land_Boat_Small1
+16:21:00.175 !!! [CE][Point] Removing 1542.811401, 11361.716797 from Land_Boat_Small3
+16:21:54.475 !!! [CE][Point] Removing 9526.812500, 6014.634277 from Land_Boat_Small1
+16:21:54.674 !!! [CE][Point] Removing 7151.060547, 11566.732422 from Land_jmc_militarycase_c_07
+16:21:54.675 !!! [CE][Point] Removing 7192.578125, 11554.485352 from Land_jmc_militarycase_c_12
+16:21:54.676 !!! [CE][Point] Removing 7268.080566, 11613.530273 from Land_jmc_militarycase_c_12
+16:22:48.575 !!! [CE][Point] Removing 7176.726074, 11678.677734 from Land_jmc_militarycase_o_07
+16:22:48.575 !!! [CE][Point] Removing 7164.317383, 11578.473633 from Land_jmc_militarycase_o_11
+16:22:48.576 !!! [CE][Point] Removing 7178.958984, 11685.918945 from Land_jmc_military_lootcase
+16:22:48.773 !!! [CE][Point] Removing 7174.813965, 11590.480469 from Land_jmc_skeleton_old_2
+16:22:48.774 !!! [CE][Point] Removing 7267.267090, 11613.797852 from Land_jmc_skeleton_burned_2
+16:23:19.474 [CE][Links] found 0 total links between groups, of 31
+16:23:19.474 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_bloody_1, lootmin: 4, lootmax: 6, wanted: 5
+16:24:39.874 [CE][Links] found 2 total links between groups, of 32
+16:24:39.874 [CE][SpawnRandomLoot] (StaticVanAmbulance) :: ChildType: Land_jmc_van_ambulance, lootmin: 4, lootmax: 6, wanted: 5
+16:25:29.777 !!! [CE][Point] Removing 7191.864746, 11588.292969 from Land_jmc_militarycase_o_11
+16:26:00.574 [CE][Links] found 2 total links between groups, of 33
+16:26:00.574 [CE][SpawnRandomLoot] (StaticVanAmbulance) :: ChildType: Land_jmc_van_ambulance, lootmin: 4, lootmax: 6, wanted: 5
+16:28:10.575 !!! [CE][Point] Removing 7180.946289, 11671.265625 from Land_BusStation_wall_bench
+16:29:31.674 !!! [CE][Point] Removing 1503.243652, 11759.322266 from Land_jmc_militarycase_c_06
+16:29:31.678 !!! [CE][Point] Removing 7175.900879, 11668.934570 from Land_jmc_militarycase_o_06
+16:29:58.576 !!! [CE][Point] Removing 7160.167969, 11636.795898 from Land_jmc_skeleton_gnawed_5
+16:29:58.577 !!! [CE][Point] Removing 7179.251953, 11685.856445 from Land_jmc_military_lootcase
+16:29:58.577 !!! [CE][Point] Removing 7169.149414, 11583.397461 from Land_jmc_militarycase_o_08
+16:29:58.579 !!! [CE][Point] Removing 7156.410156, 11568.631836 from Land_jmc_militarycase_o_06
+16:29:58.579 !!! [CE][Point] Removing 7154.836426, 11645.380859 from Land_jmc_skeleton_old_2
+16:29:58.582 !!! [CE][Point] Removing 7178.484375, 11591.041016 from Land_jmc_skeleton_old_4
+16:30:25.673 !!! [CE][Point] Removing 766.000488, 284.287964 from Land_jmc_ruinecolumn_loot
+16:30:25.874 !!! [CE][Point] Removing 7178.665527, 11685.982422 from Land_jmc_military_lootcase
+16:30:26.174 !!! [CE][Point] Removing 7160.758789, 11678.957031 from Land_jmc_militarycase_o_11
+16:30:54.375 [CE][Links] found 2 total links between groups, of 34
+16:30:54.375 [CE][SpawnRandomLoot] (StaticHeliCrash) :: ChildType: Wreck_UH1Y, lootmin: 10, lootmax: 20, wanted: 14
+16:30:54.378 [CE][Links] found 2 total links between groups, of 35
+16:30:54.378 [CE][SpawnRandomLoot] (StaticHeliCrash) :: ChildType: Wreck_UH1Y, lootmin: 10, lootmax: 20, wanted: 14
+16:30:54.381 [CE][Links] found 2 total links between groups, of 36
+16:30:54.381 [CE][SpawnRandomLoot] (StaticHeliCrash) :: ChildType: Wreck_Mi8, lootmin: 10, lootmax: 20, wanted: 14
+16:30:54.674 [CE][Links] found 2 total links between groups, of 37
+16:30:54.674 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 3
+16:33:33.877 !!! [CE][Point] Removing 7180.978516, 11679.879883 from Land_BusStation_wall_bench
+16:34:56.774 [CE][Links] found 2 total links between groups, of 38
+16:34:56.774 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 3
+16:34:56.776 [CE][Links] found 2 total links between groups, of 39
+16:34:56.776 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 3
+16:34:56.779 [CE][Links] found 2 total links between groups, of 40
+16:34:56.779 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 3
+16:35:20.976 !!! [CE][Point] Removing 7175.257813, 11682.561523 from Land_BusStation_wall_bench
+16:35:48.382 !!! [CE][Point] Removing 11034.876953, 2295.144287 from Land_Mil_GuardShed
+16:37:38.174 [CE][Links] found 2 total links between groups, of 41
+16:37:38.174 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 4
+16:38:07.175 [CE][Links] found 2 total links between groups, of 42
+16:38:07.175 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_old_3, lootmin: 4, lootmax: 6, wanted: 5
+16:38:07.177 [CE][Links] found 2 total links between groups, of 43
+16:38:07.177 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_clean_5, lootmin: 4, lootmax: 6, wanted: 5
+16:42:31.876 !!! [CE][Point] Removing 7174.257813, 11682.478516 from Land_jmc_militarycase_c_01
+16:43:29.375 [CE][Links] found 2 total links between groups, of 44
+16:43:29.375 [CE][SpawnRandomLoot] (StaticVanPinkies) :: ChildType: Land_jmc_van_pinkies, lootmin: 4, lootmax: 6, wanted: 5
+16:43:29.377 [CE][Links] found 4 total links between groups, of 45
+16:43:29.377 [CE][SpawnRandomLoot] (StaticVanPinkies) :: ChildType: Land_jmc_van_pinkies, lootmin: 4, lootmax: 6, wanted: 5
+16:43:29.379 [CE][Links] found 4 total links between groups, of 46
+16:43:29.379 [CE][SpawnRandomLoot] (StaticVanPinkies) :: ChildType: Land_jmc_van_pinkies, lootmin: 4, lootmax: 6, wanted: 5
+16:43:29.380 [CE][Links] found 4 total links between groups, of 47
+16:43:29.380 [CE][SpawnRandomLoot] (StaticVanPinkies) :: ChildType: Land_jmc_van_pinkies, lootmin: 4, lootmax: 6, wanted: 5
+16:44:50.675 [CE][Links] found 6 total links between groups, of 48
+16:44:50.675 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_clean_3, lootmin: 4, lootmax: 6, wanted: 4
+16:45:13.275 !!! [CE][Point] Removing 7623.883789, 9951.583984 from Land_jmc_cabin01
+16:45:13.278 !!! [CE][Point] Removing 3839.265137, 9611.403320 from Land_jmc_cabin01
+16:45:42.374 [CE][Links] found 6 total links between groups, of 49
+16:45:42.374 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 3
+16:46:34.76 !!! [CE][Point] Removing 3659.596680, 9764.916992 from Land_jmc_cabin01
+16:46:34.76 [CE][LootRespawner] (PRIDummy) :: Item [1] is hard to place, performance drops: "PolicePants"
+16:47:27.275 !!! [CE][Point] Removing 749.164368, 287.973633 from Land_jmc_ruinecolumn_loot
+16:48:48.478 !!! [CE][Point] Removing 365.732788, 883.015930 from Land_jmc_ruinecolumn_loot
+16:50:13.176 [CE][Links] found 8 total links between groups, of 50
+16:50:13.176 [CE][SpawnRandomLoot] (StaticVanAmbulance) :: ChildType: Land_jmc_van_ambulance, lootmin: 4, lootmax: 6, wanted: 4
+16:50:13.475 [CE][Links] found 8 total links between groups, of 51
+16:50:13.475 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_gnawed_4, lootmin: 4, lootmax: 6, wanted: 5
+16:52:25.874 [CE][Links] found 8 total links between groups, of 52
+16:52:25.874 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 3
+16:53:46.574 [CE][Links] found 10 total links between groups, of 53
+16:53:46.574 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 4
+16:54:38.276 !!! [CE][Point] Removing 7144.936035, 11639.708008 from Land_BusStation_wall_bench
+16:55:36.275 [CE][Links] found 10 total links between groups, of 54
+16:55:36.275 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_bloody_1, lootmin: 4, lootmax: 6, wanted: 4
+16:57:19.680 !!! [CE][Point] Removing 7191.696777, 11590.946289 from Land_jmc_militarycase_o_08
+16:57:19.681 !!! [CE][Point] Removing 7159.361816, 11608.238281 from Land_jmc_militarycase_c_07
+16:57:48.674 [CE][Links] found 10 total links between groups, of 55
+16:57:48.674 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 3
+16:57:48.675 [CE][Links] found 10 total links between groups, of 56
+16:57:48.676 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 3
+16:59:34.174 [CE][LootRespawner] (PRIDummy) :: Item [2] is hard to place, performance drops: "PoliceVest"
+16:59:34.179 !!! [CE][Point] Removing 7178.340332, 11668.538086 from Land_jmc_military_lootcase
+16:59:34.179 [CE][LootRespawner] (PRIDummy) :: Item [3] is hard to place, performance drops: "PoliceVest"
+16:59:34.179 [CE][LootRespawner] (PRIDummy) :: Item [4] is hard to place, performance drops: "PoliceVest"
+16:59:38.374 [CE][Links] found 12 total links between groups, of 57
+16:59:38.374 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_burned_4, lootmin: 4, lootmax: 6, wanted: 5
+17:00:54.875 !!! [CE][Point] Removing 7173.125977, 11590.496094 from Land_jmc_skeleton_old_1
+17:00:59.74 [CE][Links] found 12 total links between groups, of 58
+17:00:59.74 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_burned_2, lootmin: 4, lootmax: 6, wanted: 4
+17:02:19.530 [CE][Links] found 14 total links between groups, of 59
+17:02:19.530 [CE][SpawnRandomLoot] (StaticVanAmbulance) :: ChildType: Land_jmc_van_ambulance, lootmin: 4, lootmax: 6, wanted: 4
+17:03:09.333 !!! [CE][Point] Removing 7187.367188, 11598.480469 from Land_jmc_militarycase_o_07
+17:03:40.529 [CE][Links] found 14 total links between groups, of 60
+17:03:40.529 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_burned_4, lootmin: 4, lootmax: 6, wanted: 4
+17:05:50.733 !!! [CE][Point] Removing 7267.186523, 11611.096680 from Land_jmc_skeleton_burned_2
+17:05:50.734 !!! [CE][Point] Removing 6906.662598, 11970.910156 from Land_Mil_Fortified_Nest_Big
+17:05:50.831 !!! [CE][Point] Removing 7185.677246, 11568.532227 from Land_jmc_militarycase_o_08
+17:05:50.833 !!! [CE][Point] Removing 7192.053223, 11560.669922 from Land_jmc_militarycase_o_05
+17:06:21.930 [CE][Links] found 16 total links between groups, of 61
+17:06:21.930 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_clean_4, lootmin: 4, lootmax: 6, wanted: 4
+17:07:42.329 [CE][Links] found 18 total links between groups, of 62
+17:07:42.329 [CE][SpawnRandomLoot] (StaticVanAmbulance) :: ChildType: Land_jmc_van_ambulance, lootmin: 4, lootmax: 6, wanted: 4
+17:08:32.432 !!! [CE][Point] Removing 7177.750488, 11586.165039 from Land_BusStation_wall_bench
+17:09:03.30 [CE][Links] found 18 total links between groups, of 63
+17:09:03.30 [CE][SpawnRandomLoot] (StaticVanAmbulance) :: ChildType: Land_jmc_van_ambulance, lootmin: 4, lootmax: 6, wanted: 5
+17:11:13.731 !!! [CE][Point] Removing 7144.925293, 11640.919922 from Land_BusStation_wall_bench
+17:13:54.934 !!! [CE][Point] Removing 8586.028320, 3482.054443 from Land_Boat_Small1
+17:13:55.133 !!! [CE][Point] Removing 7180.969727, 11681.090820 from Land_BusStation_wall_bench
+17:13:56.831 [CE][Links] found 20 total links between groups, of 64
+17:13:56.831 [CE][SpawnRandomLoot] (StaticHeliCrash) :: ChildType: Wreck_UH1Y, lootmin: 10, lootmax: 20, wanted: 11
+17:13:56.835 [CE][Links] found 20 total links between groups, of 65
+17:13:56.835 [CE][SpawnRandomLoot] (StaticHeliCrash) :: ChildType: Wreck_Mi8, lootmin: 10, lootmax: 20, wanted: 11
+17:13:56.839 [CE][Links] found 22 total links between groups, of 66
+17:13:56.839 [CE][SpawnRandomLoot] (StaticHeliCrash) :: ChildType: Wreck_UH1Y, lootmin: 10, lootmax: 20, wanted: 16
+17:13:56.843 [CE][Links] found 24 total links between groups, of 67
+17:13:56.843 [CE][SpawnRandomLoot] (StaticHeliCrash) :: ChildType: Wreck_Mi8, lootmin: 10, lootmax: 20, wanted: 17
+17:13:57.131 [CE][Links] found 24 total links between groups, of 68
+17:13:57.131 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 3
+17:17:59.234 [CE][Links] found 24 total links between groups, of 69
+17:17:59.234 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 4
+17:17:59.236 [CE][Links] found 24 total links between groups, of 70
+17:17:59.236 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 3
+17:17:59.238 [CE][Links] found 26 total links between groups, of 71
+17:17:59.238 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 4
+17:20:11.835 !!! [CE][Point] Removing 7174.387207, 11673.659180 from Land_BusStation_wall_bench
+17:20:38.537 !!! [CE][Point] Removing 7156.010742, 11555.536133 from Land_jmc_militarycase_c_12
+17:20:38.541 !!! [CE][Point] Removing 819.639160, 303.610291 from Land_jmc_ruinecolumn_loot
+17:20:38.634 !!! [CE][Point] Removing 4610.249023, 6996.196777 from Land_strazni_vez
+17:20:38.635 !!! [CE][Point] Removing 4589.254395, 7326.842773 from Land_strazni_vez
+17:20:38.636 !!! [CE][Point] Removing 4509.429688, 7196.737305 from Land_strazni_vez
+17:20:40.633 [CE][Links] found 26 total links between groups, of 72
+17:20:40.634 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 4
+17:21:09.635 [CE][Links] found 26 total links between groups, of 73
+17:21:09.635 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_clean_5, lootmin: 4, lootmax: 6, wanted: 4
+17:22:52.834 !!! [CE][Point] Removing 7267.186523, 11611.096680 from Land_jmc_skeleton_burned_2
+17:22:52.836 !!! [CE][Point] Removing 7160.167969, 11636.795898 from Land_jmc_skeleton_gnawed_5
+17:22:52.837 !!! [CE][Point] Removing 7154.836426, 11645.380859 from Land_jmc_skeleton_old_2
+17:23:20.35 !!! [CE][Point] Removing 7151.122559, 11563.342773 from Land_jmc_militarycase_c_12
+17:23:20.37 !!! [CE][Point] Removing 7190.909668, 11605.926758 from Land_jmc_militarycase_o_05
+17:23:20.39 !!! [CE][Point] Removing 7103.649902, 11618.441406 from Land_jmc_militarycase_c_07
+17:24:13.637 !!! [CE][Point] Removing 3682.018311, 9740.116211 from Land_jmc_cabin01
+17:25:07.440 !!! [CE][Point] Removing 10725.547852, 10764.786133 from Land_jmc_skeleton_burned_5
+17:25:07.639 !!! [CE][Point] Removing 7166.809570, 11665.891602 from Land_BusStation_wall_bench
+17:26:31.839 [CE][Links] found 26 total links between groups, of 74
+17:26:31.839 [CE][SpawnRandomLoot] (StaticVanPinkies) :: ChildType: Land_jmc_van_pinkies, lootmin: 4, lootmax: 6, wanted: 5
+17:26:31.841 [CE][Links] found 26 total links between groups, of 75
+17:26:31.841 [CE][SpawnRandomLoot] (StaticVanPinkies) :: ChildType: Land_jmc_van_pinkies, lootmin: 4, lootmax: 6, wanted: 4
+17:26:31.843 [CE][Links] found 26 total links between groups, of 76
+17:26:31.843 [CE][SpawnRandomLoot] (StaticVanPinkies) :: ChildType: Land_jmc_van_pinkies, lootmin: 4, lootmax: 6, wanted: 5
+17:26:31.844 [CE][Links] found 26 total links between groups, of 77
+17:26:31.844 [CE][SpawnRandomLoot] (StaticVanPinkies) :: ChildType: Land_jmc_van_pinkies, lootmin: 4, lootmax: 6, wanted: 4
+17:26:54.938 !!! [CE][Point] Removing 7166.795898, 11658.012695 from Land_BusStation_wall_bench
+17:27:21.939 !!! [CE][Point] Removing 7173.125977, 11590.496094 from Land_jmc_skeleton_old_1
+17:27:53.139 [CE][Links] found 26 total links between groups, of 78
+17:27:53.139 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_bloody_5, lootmin: 4, lootmax: 6, wanted: 4
+17:30:02.839 !!! [CE][Point] Removing 7195.206543, 11575.607422 from Land_BusStation_wall_bench
+17:30:05.540 [CE][Links] found 28 total links between groups, of 79
+17:30:05.540 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 4
+17:30:57.138 !!! [CE][Point] Removing 4610.052734, 6997.686523 from Land_strazni_vez
+17:30:57.139 !!! [CE][Point] Removing 4588.980469, 7324.826172 from Land_strazni_vez
+17:30:57.139 !!! [CE][Point] Removing 4510.918945, 7196.940430 from Land_strazni_vez
+17:31:23.939 !!! [CE][Point] Removing 8551.832031, 3536.417480 from Land_Boat_Small2
+17:31:24.139 !!! [CE][Point] Removing 7178.961426, 11586.178711 from Land_BusStation_wall_bench
+17:33:15.638 [CE][Links] found 32 total links between groups, of 80
+17:33:15.638 [CE][SpawnRandomLoot] (StaticVanAmbulance) :: ChildType: Land_jmc_van_ambulance, lootmin: 4, lootmax: 6, wanted: 5
+17:33:38.39 !!! [CE][Point] Removing 7190.900391, 11556.199219 from Land_jmc_militarycase_c_09
+17:33:38.43 !!! [CE][Point] Removing 7188.186035, 11568.453125 from Land_jmc_militarycase_o_09
+17:33:38.45 !!! [CE][Point] Removing 7160.065918, 11656.517578 from Land_jmc_militarycase_c_06
+17:33:38.46 !!! [CE][Point] Removing 7165.928223, 11678.539063 from Land_jmc_skeleton_old_5
+17:34:05.438 !!! [CE][Point] Removing 7165.928223, 11678.539063 from Land_jmc_skeleton_old_5
+17:34:05.440 !!! [CE][Point] Removing 7178.497070, 11601.498047 from Land_jmc_militarycase_o_12
+17:34:05.443 !!! [CE][Point] Removing 7186.941895, 11555.553711 from Land_jmc_militarycase_o_12
+17:34:05.444 !!! [CE][Point] Removing 7187.147461, 11662.458984 from Land_jmc_militarycase_o_11
+17:34:59.340 !!! [CE][Point] Removing 1926.458984, 14749.681641 from Land_Power_Station
+17:35:28.338 [CE][Links] found 32 total links between groups, of 81
+17:35:28.338 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 3
+17:35:57.338 [CE][Links] found 34 total links between groups, of 82
+17:35:57.338 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_gnawed_2, lootmin: 4, lootmax: 6, wanted: 5
+17:35:57.339 [CE][Links] found 36 total links between groups, of 83
+17:35:57.339 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_old_3, lootmin: 4, lootmax: 6, wanted: 4
+17:36:49.501 [CE][Links] found 36 total links between groups, of 84
+17:36:49.501 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 3
+17:38:08.00 !!! [CE][Point] Removing 5013.819824, 7032.260742 from Land_strazni_vez
+17:38:08.01 !!! [CE][Point] Removing 4508.708984, 7197.955078 from Land_strazni_vez
+17:38:08.01 !!! [CE][Point] Removing 4590.406738, 7325.298828 from Land_strazni_vez
+17:38:08.02 !!! [CE][Point] Removing 4609.027344, 6995.481445 from Land_strazni_vez
+17:38:39.200 [CE][Links] found 36 total links between groups, of 85
+17:38:39.200 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_bloody_1, lootmin: 4, lootmax: 6, wanted: 4
+17:40:51.599 [CE][Links] found 40 total links between groups, of 86
+17:40:51.600 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 3
+17:40:51.601 [CE][Links] found 40 total links between groups, of 87
+17:40:51.601 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 4
+17:42:41.300 [CE][Links] found 40 total links between groups, of 88
+17:42:41.300 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_burned_4, lootmin: 4, lootmax: 6, wanted: 4
+17:43:57.701 !!! [CE][Point] Removing 3748.995850, 9730.172852 from Land_jmc_cabin01
+17:44:02.01 [CE][Links] found 40 total links between groups, of 89
+17:44:02.01 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_bloody_4, lootmin: 4, lootmax: 6, wanted: 5
+17:45:22.406 [CE][Links] found 44 total links between groups, of 90
+17:45:22.406 [CE][SpawnRandomLoot] (StaticVanAmbulance) :: ChildType: Land_jmc_van_ambulance, lootmin: 4, lootmax: 6, wanted: 4
+17:47:06.06 [CE][LootRespawner] (PRIDummy) :: Item [5] is hard to place, performance drops: "PoliceVest"
+17:47:06.06 [CE][LootRespawner] (PRIDummy) :: Item [6] is hard to place, performance drops: "PoliceVest"
+17:47:06.06 [CE][LootRespawner] (PRIDummy) :: Item [7] is hard to place, performance drops: "PoliceVest"
+17:47:06.06 [CE][LootRespawner] (PRIDummy) :: Item [8] is hard to place, performance drops: "PoliceVest"
+17:47:06.06 [CE][LootRespawner] (PRIDummy) :: Item [9] is hard to place, performance drops: "PoliceVest"
+17:47:32.841 !!! [CE][Point] Removing 4043.136963, 15404.996094 from Land_Container_1Aoh
+17:47:59.741 !!! [CE][Point] Removing 5179.822754, 9112.897461 from Land_strazni_vez
+17:48:26.740 !!! [CE][Point] Removing 1828.525635, 8949.153320 from Land_strazni_vez
+17:49:47.340 !!! [CE][Point] Removing 4588.048340, 7325.891113 from Land_strazni_vez
+17:49:47.341 !!! [CE][Point] Removing 5012.430664, 7031.604004 from Land_strazni_vez
+17:50:45.241 [CE][Links] found 48 total links between groups, of 91
+17:50:45.241 [CE][SpawnRandomLoot] (StaticVanAmbulance) :: ChildType: Land_jmc_van_ambulance, lootmin: 4, lootmax: 6, wanted: 4
+17:50:45.540 [CE][Links] found 48 total links between groups, of 92
+17:50:45.540 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_gnawed_1, lootmin: 4, lootmax: 6, wanted: 4
+17:50:45.541 [CE][Links] found 50 total links between groups, of 93
+17:50:45.541 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_bloody_4, lootmin: 4, lootmax: 6, wanted: 4
+17:52:05.952 [CE][Links] found 50 total links between groups, of 94
+17:52:05.952 [CE][SpawnRandomLoot] (StaticVanAmbulance) :: ChildType: Land_jmc_van_ambulance, lootmin: 4, lootmax: 6, wanted: 5
+17:56:30.864 !!! [CE][Point] Removing 7160.167969, 11636.795898 from Land_jmc_skeleton_gnawed_5
+17:56:30.864 !!! [CE][Point] Removing 7154.836426, 11645.380859 from Land_jmc_skeleton_old_2
+17:56:30.866 !!! [CE][Point] Removing 7178.484375, 11591.041016 from Land_jmc_skeleton_old_4
+17:56:30.868 !!! [CE][Point] Removing 7158.744141, 11560.833008 from Land_jmc_militarycase_o_09
+17:56:30.869 !!! [CE][Point] Removing 7187.242676, 11607.349609 from Land_jmc_militarycase_o_07
+17:56:57.863 !!! [CE][Point] Removing 5013.100586, 7030.356934 from Land_strazni_vez
+17:56:59.764 [CE][Links] found 50 total links between groups, of 95
+17:56:59.764 [CE][SpawnRandomLoot] (StaticHeliCrash) :: ChildType: Wreck_UH1Y, lootmin: 10, lootmax: 20, wanted: 17
+17:56:59.770 [CE][Links] found 50 total links between groups, of 96
+17:56:59.770 [CE][SpawnRandomLoot] (StaticHeliCrash) :: ChildType: Wreck_Mi8, lootmin: 10, lootmax: 20, wanted: 16
+17:56:59.775 [CE][Links] found 50 total links between groups, of 97
+17:56:59.775 [CE][SpawnRandomLoot] (StaticHeliCrash) :: ChildType: Wreck_UH1Y, lootmin: 10, lootmax: 20, wanted: 12
+17:56:59.782 [CE][Links] found 50 total links between groups, of 98
+17:56:59.782 [CE][SpawnRandomLoot] (StaticHeliCrash) :: ChildType: Wreck_UH1Y, lootmin: 10, lootmax: 20, wanted: 14
+17:57:00.63 [CE][Links] found 52 total links between groups, of 99
+17:57:00.63 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 4
+17:57:59.375 [LOCK] Server was locked.
+17:58:59.379 Player BnYrB (13568073) kicked from server: 240 ( (Admin Kick (Server restart)))
+17:58:59.384 [Disconnect]: Client 13568073 early disconnect
+17:58:59.384 [Disconnect]: Start script disconnect 13568073 (dbCharacterId 1 dbPlayerId 1) logoutTime 15
+17:58:59.384 [Disconnect]: Finish script disconnect 13568073
+17:58:59.384 [Disconnect]: DisconnectPlayerFinish 13568073
+17:58:59.384 [Disconnect]: Remove player info 13568073
+17:58:59.388 [Disconnect]: Player destroy 13568073 
+18:00:06.164 !!! [CE][Point] Removing 7180.932617, 11670.652344 from Land_BusStation_wall_bench
+18:01:02.162 [CE][Links] found 54 total links between groups, of 100
+18:01:02.162 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 4
+18:01:02.164 [CE][Links] found 56 total links between groups, of 101
+18:01:02.164 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 4
+18:01:02.165 [CE][Links] found 56 total links between groups, of 102
+18:01:02.165 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 4
+18:01:53.862 !!! [CE][Point] Removing 1829.957397, 8948.697266 from Land_strazni_vez
+18:03:45.55 [CE][Links] found 58 total links between groups, of 103
+18:03:45.55 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 3
+18:04:09.956 !!! [CE][Point] Removing 7174.360840, 11677.833984 from Land_BusStation_wall_bench
+18:04:14.56 [CE][Links] found 58 total links between groups, of 104
+18:04:14.56 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_old_4, lootmin: 4, lootmax: 6, wanted: 5
+18:07:17.959 !!! [CE][Point] Removing 804.945496, 321.931671 from Land_jmc_ruinecolumn_loot
+18:09:36.322 [CE][Links] found 60 total links between groups, of 105
+18:09:36.322 [CE][SpawnRandomLoot] (StaticVanPinkies) :: ChildType: Land_jmc_van_pinkies, lootmin: 4, lootmax: 6, wanted: 4
+18:09:36.323 [CE][Links] found 60 total links between groups, of 106
+18:09:36.323 [CE][SpawnRandomLoot] (StaticVanPinkies) :: ChildType: Land_jmc_van_pinkies, lootmin: 4, lootmax: 6, wanted: 5
+18:09:36.324 [CE][Links] found 60 total links between groups, of 107
+18:09:36.324 [CE][SpawnRandomLoot] (StaticVanPinkies) :: ChildType: Land_jmc_van_pinkies, lootmin: 4, lootmax: 6, wanted: 5
+18:09:36.325 [CE][Links] found 60 total links between groups, of 108
+18:09:36.325 [CE][SpawnRandomLoot] (StaticVanPinkies) :: ChildType: Land_jmc_van_pinkies, lootmin: 4, lootmax: 6, wanted: 4
+18:10:57.623 [CE][Links] found 60 total links between groups, of 109
+18:10:57.623 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_burned_5, lootmin: 4, lootmax: 6, wanted: 4
+18:13:10.30 [CE][Links] found 62 total links between groups, of 110
+18:13:10.30 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 4
+18:15:22.335 !!! [CE][Point] Removing 7174.813965, 11590.480469 from Land_jmc_skeleton_old_2
+18:15:22.336 !!! [CE][Point] Removing 7267.267090, 11613.797852 from Land_jmc_skeleton_burned_2
+18:16:20.130 [CE][Links] found 64 total links between groups, of 111
+18:16:20.130 [CE][SpawnRandomLoot] (StaticVanAmbulance) :: ChildType: Land_jmc_van_ambulance, lootmin: 4, lootmax: 6, wanted: 5
+18:18:03.232 !!! [CE][Point] Removing 5178.355957, 9112.571289 from Land_strazni_vez
+18:19:53.529 [CE][Links] found 66 total links between groups, of 112
+18:19:53.529 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 3
+18:19:53.531 [CE][Links] found 68 total links between groups, of 113
+18:19:53.531 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 4
+18:20:22.530 [CE][Links] found 68 total links between groups, of 114
+18:20:22.530 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_clean_3, lootmin: 4, lootmax: 6, wanted: 4
+18:22:32.731 !!! [CE][Point] Removing 7153.399902, 11606.755859 from Land_BusStation_wall_bench
+18:23:03.930 [CE][Links] found 70 total links between groups, of 115
+18:23:03.930 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_burned_3, lootmin: 4, lootmax: 6, wanted: 5
+18:23:03.931 [CE][Links] found 74 total links between groups, of 116
+18:23:03.931 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_gnawed_5, lootmin: 4, lootmax: 6, wanted: 5
+18:23:55.631 [CE][Links] found 78 total links between groups, of 117
+18:23:55.631 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 4
+18:23:55.633 [CE][Links] found 80 total links between groups, of 118
+18:23:55.633 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 3
+18:25:45.335 [CE][Links] found 80 total links between groups, of 119
+18:25:45.335 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_burned_2, lootmin: 4, lootmax: 6, wanted: 5
+18:26:34.937 !!! [CE][Point] Removing 7174.383789, 11671.871094 from Land_BusStation_wall_bench
+18:26:35.136 !!! [CE][Point] Removing 5014.596680, 7030.498047 from Land_strazni_vez
+18:28:22.536 !!! [CE][Point] Removing 790.755981, 316.382996 from Land_jmc_ruinecolumn_loot
+18:28:22.536 !!! [CE][Point] Removing 10955.789063, 2309.281982 from Land_Mil_GuardShed
+18:28:26.434 [CE][Links] found 82 total links between groups, of 120
+18:28:26.434 [CE][SpawnRandomLoot] (StaticVanAmbulance) :: ChildType: Land_jmc_van_ambulance, lootmin: 4, lootmax: 6, wanted: 5
+18:28:26.734 [CE][Links] found 84 total links between groups, of 121
+18:28:26.734 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_gnawed_3, lootmin: 4, lootmax: 6, wanted: 4
+18:32:51.727 !!! [CE][Point] Removing 7174.390625, 11606.895508 from Land_jmc_militarycase_o_12
+18:33:49.327 [CE][Links] found 90 total links between groups, of 122
+18:33:49.327 [CE][SpawnRandomLoot] (StaticVanAmbulance) :: ChildType: Land_jmc_van_ambulance, lootmin: 4, lootmax: 6, wanted: 4
+18:33:49.627 [CE][Links] found 90 total links between groups, of 123
+18:33:49.627 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_bloody_2, lootmin: 4, lootmax: 6, wanted: 5
+18:33:49.628 [CE][Links] found 94 total links between groups, of 124
+18:33:49.628 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_burned_1, lootmin: 4, lootmax: 6, wanted: 4
+18:35:10.27 [CE][Links] found 100 total links between groups, of 125
+18:35:10.27 [CE][SpawnRandomLoot] (StaticVanAmbulance) :: ChildType: Land_jmc_van_ambulance, lootmin: 4, lootmax: 6, wanted: 5
+18:38:14.428 !!! [CE][Point] Removing 1931.359131, 14745.882813 from Land_Power_Station
+18:39:34.927 !!! [CE][Point] Removing 1830.085693, 8947.288086 from Land_strazni_vez
+18:39:35.228 !!! [CE][Point] Removing 365.733307, 882.701965 from Land_jmc_ruinecolumn_loot
+18:40:03.826 [CE][Links] found 100 total links between groups, of 126
+18:40:03.826 [CE][SpawnRandomLoot] (StaticHeliCrash) :: ChildType: Wreck_UH1Y, lootmin: 10, lootmax: 20, wanted: 11
+18:40:03.832 [CE][Links] found 102 total links between groups, of 127
+18:40:03.832 [CE][SpawnRandomLoot] (StaticHeliCrash) :: ChildType: Wreck_UH1Y, lootmin: 10, lootmax: 20, wanted: 16
+18:40:03.837 [CE][Links] found 104 total links between groups, of 128
+18:40:03.837 [CE][SpawnRandomLoot] (StaticHeliCrash) :: ChildType: Wreck_Mi8, lootmin: 10, lootmax: 20, wanted: 17
+18:40:03.842 [CE][Links] found 104 total links between groups, of 129
+18:40:03.842 [CE][SpawnRandomLoot] (StaticHeliCrash) :: ChildType: Wreck_UH1Y, lootmin: 10, lootmax: 20, wanted: 10
+18:40:04.127 [CE][Links] found 106 total links between groups, of 130
+18:40:04.127 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 4
+18:41:49.33 !!! [CE][Point] Removing 9526.613281, 6016.248047 from Land_Boat_Small1
+18:43:37.237 !!! [CE][Point] Removing 7197.012695, 11588.188477 from Land_jmc_military_lootcase
+18:43:37.239 !!! [CE][Point] Removing 7602.687012, 9917.378906 from Land_jmc_cabin01
+18:43:37.239 [CE][LootRespawner] (PRIDummy) :: Item [10] is hard to place, performance drops: "PoliceVest"
+18:43:37.239 [CE][LootRespawner] (PRIDummy) :: Item [11] is hard to place, performance drops: "PoliceVest"
+18:43:37.239 [CE][LootRespawner] (PRIDummy) :: Item [12] is hard to place, performance drops: "PoliceVest"
+18:43:37.239 [CE][LootRespawner] (PRIDummy) :: Item [13] is hard to place, performance drops: "PoliceVest"
+18:43:37.239 [CE][LootRespawner] (PRIDummy) :: Item [14] is hard to place, performance drops: "PoliceVest"
+18:44:06.234 [CE][Links] found 106 total links between groups, of 131
+18:44:06.234 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 3
+18:44:06.236 [CE][Links] found 106 total links between groups, of 132
+18:44:06.236 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 4
+18:44:06.238 [CE][Links] found 110 total links between groups, of 133
+18:44:06.238 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 3
+18:45:51.734 !!! [CE][Point] Removing 7166.823242, 11664.680664 from Land_BusStation_wall_bench
+18:48:08.333 [CE][Links] found 110 total links between groups, of 134
+18:48:08.333 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 3
+18:48:37.333 [CE][Links] found 110 total links between groups, of 135
+18:48:37.333 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_clean_1, lootmin: 4, lootmax: 6, wanted: 5
+18:50:47.633 [CE][LootRespawner] (PRIDummy) :: Item [15] is hard to place, performance drops: "ParamedicJacket_Green"
+18:50:47.634 [CE][LootRespawner] (PRIDummy) :: Item [16] is hard to place, performance drops: "ParamedicJacket_Green"
+18:50:47.634 [CE][LootRespawner] (PRIDummy) :: Item [17] is hard to place, performance drops: "ParamedicJacket_Green"
+18:52:08.136 !!! [CE][Point] Removing 1931.427612, 14747.614258 from Land_Power_Station
+18:52:08.136 !!! [CE][Point] Removing 3799.198730, 9728.458984 from Land_jmc_cabin01
+18:52:38.835 [CE][Links] found 112 total links between groups, of 136
+18:52:38.835 [CE][SpawnRandomLoot] (StaticVanPinkies) :: ChildType: Land_jmc_van_pinkies, lootmin: 4, lootmax: 6, wanted: 4
+18:52:38.836 [CE][Links] found 112 total links between groups, of 137
+18:52:38.836 [CE][SpawnRandomLoot] (StaticVanPinkies) :: ChildType: Land_jmc_van_pinkies, lootmin: 4, lootmax: 6, wanted: 4
+18:52:38.838 [CE][Links] found 112 total links between groups, of 138
+18:52:38.838 [CE][SpawnRandomLoot] (StaticVanPinkies) :: ChildType: Land_jmc_van_pinkies, lootmin: 4, lootmax: 6, wanted: 5
+18:52:38.840 [CE][Links] found 112 total links between groups, of 139
+18:52:38.840 [CE][SpawnRandomLoot] (StaticVanPinkies) :: ChildType: Land_jmc_van_pinkies, lootmin: 4, lootmax: 6, wanted: 5
+18:54:00.135 [CE][Links] found 112 total links between groups, of 140
+18:54:00.135 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_clean_5, lootmin: 4, lootmax: 6, wanted: 5
+18:56:12.534 [CE][Links] found 112 total links between groups, of 141
+18:56:12.534 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 4
+18:57:04.137 !!! [CE][Point] Removing 7180.220703, 11591.080078 from Land_jmc_skeleton_old_5
+18:59:22.634 [CE][Links] found 118 total links between groups, of 142
+18:59:22.634 [CE][SpawnRandomLoot] (StaticVanAmbulance) :: ChildType: Land_jmc_van_ambulance, lootmin: 4, lootmax: 6, wanted: 5
+19:02:56.34 [CE][Links] found 122 total links between groups, of 143
+19:02:56.34 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 3
+19:02:56.36 [CE][Links] found 122 total links between groups, of 144
+19:02:56.36 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 3
+19:03:47.637 !!! [CE][Point] Removing 372.825104, 882.388489 from Land_jmc_ruinecolumn_loot
+19:06:28.537 !!! [CE][Point] Removing 7152.188965, 11606.745117 from Land_BusStation_wall_bench
+19:06:55.938 !!! [CE][Point] Removing 7183.866699, 11569.283203 from Land_jmc_skeleton_old_5
+19:06:58.134 [CE][Links] found 124 total links between groups, of 145
+19:06:58.134 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 3
+19:06:58.135 [CE][Links] found 130 total links between groups, of 146
+19:06:58.135 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 4
+19:07:22.437 !!! [CE][Point] Removing 7180.946777, 11669.441406 from Land_BusStation_wall_bench
+19:07:27.135 [CE][Links] found 132 total links between groups, of 147
+19:07:27.135 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_gnawed_3, lootmin: 4, lootmax: 6, wanted: 5
+19:08:43.437 !!! [CE][Point] Removing 7188.857910, 11591.157227 from Land_jmc_military_lootcase
+19:08:43.438 !!! [CE][Point] Removing 7183.390625, 11601.333008 from Land_jmc_military_lootcase
+19:08:43.439 !!! [CE][Point] Removing 7162.830566, 11589.826172 from Land_jmc_military_lootcase
+19:08:47.834 [CE][Links] found 132 total links between groups, of 148
+19:08:47.834 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_gnawed_2, lootmin: 4, lootmax: 6, wanted: 4
+19:08:47.837 [CE][Links] found 134 total links between groups, of 149
+19:08:47.837 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_old_3, lootmin: 4, lootmax: 6, wanted: 5
+19:11:24.937 !!! [CE][Point] Removing 7187.636230, 11595.255859 from Land_BusStation_wall_bench
+19:11:28.935 [CE][Links] found 134 total links between groups, of 150
+19:11:28.935 [CE][SpawnRandomLoot] (StaticVanAmbulance) :: ChildType: Land_jmc_van_ambulance, lootmin: 4, lootmax: 6, wanted: 4
+19:12:45.635 !!! [CE][Point] Removing 7174.402832, 11670.660156 from Land_BusStation_wall_bench
+19:12:49.935 [CE][Links] found 138 total links between groups, of 151
+19:12:49.935 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_burned_3, lootmin: 4, lootmax: 6, wanted: 5
+19:13:39.537 [CE][LootRespawner] (PRIDummy) :: Item [18] is hard to place, performance drops: "PressVest_Blue"
+19:14:33.134 [CE][LootRespawner] (PRIDummy) :: Item [19] is hard to place, performance drops: "PolicePants"
+19:14:33.136 !!! [CE][Point] Removing 7168.684082, 11588.874023 from Land_jmc_military_lootcase
+19:14:33.137 !!! [CE][Point] Removing 7157.763184, 11554.860352 from Land_jmc_military_lootcase
+19:15:53.438 !!! [CE][Point] Removing 7180.220703, 11591.080078 from Land_jmc_skeleton_old_5
+19:16:51.736 [CE][Links] found 138 total links between groups, of 152
+19:16:51.736 [CE][SpawnRandomLoot] (StaticVanAmbulance) :: ChildType: Land_jmc_van_ambulance, lootmin: 4, lootmax: 6, wanted: 5
+19:16:52.35 [CE][Links] found 144 total links between groups, of 153
+19:16:52.35 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_clean_3, lootmin: 4, lootmax: 6, wanted: 5
+19:18:12.443 [CE][Links] found 152 total links between groups, of 154
+19:18:12.443 [CE][SpawnRandomLoot] (StaticVanAmbulance) :: ChildType: Land_jmc_van_ambulance, lootmin: 4, lootmax: 6, wanted: 4
+19:20:54.143 [CE][Links] found 156 total links between groups, of 155
+19:20:54.143 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_bloody_4, lootmin: 4, lootmax: 6, wanted: 4
+19:22:37.442 !!! [CE][Point] Removing 5177.536133, 9113.724609 from Land_strazni_vez
+19:23:06.242 [CE][Links] found 156 total links between groups, of 156
+19:23:06.242 [CE][SpawnRandomLoot] (StaticHeliCrash) :: ChildType: Wreck_UH1Y, lootmin: 10, lootmax: 20, wanted: 14
+19:23:06.247 [CE][Links] found 156 total links between groups, of 157
+19:23:06.247 [CE][SpawnRandomLoot] (StaticHeliCrash) :: ChildType: Wreck_UH1Y, lootmin: 10, lootmax: 20, wanted: 19
+19:23:06.254 [CE][Links] found 156 total links between groups, of 158
+19:23:06.254 [CE][SpawnRandomLoot] (StaticHeliCrash) :: ChildType: Wreck_Mi8, lootmin: 10, lootmax: 20, wanted: 10
+19:23:06.260 [CE][Links] found 156 total links between groups, of 159
+19:23:06.260 [CE][SpawnRandomLoot] (StaticHeliCrash) :: ChildType: Wreck_Mi8, lootmin: 10, lootmax: 20, wanted: 17
+19:23:06.542 [CE][Links] found 156 total links between groups, of 160
+19:23:06.542 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 3
+19:24:51.948 !!! [CE][Point] Removing 7160.763672, 11576.671875 from Land_BusStation_wall_bench
+19:27:08.647 [CE][Links] found 158 total links between groups, of 161
+19:27:08.647 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 3
+19:27:08.651 [CE][Links] found 158 total links between groups, of 162
+19:27:08.651 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 3
+19:27:08.653 [CE][Links] found 158 total links between groups, of 163
+19:27:08.653 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 4
+19:28:00.155 !!! [CE][Point] Removing 7623.883789, 9951.583984 from Land_jmc_cabin01
+19:30:41.149 !!! [CE][Point] Removing 5432.875977, 9324.773438 from Land_Boat_Small1
+19:31:10.747 [CE][Links] found 162 total links between groups, of 164
+19:31:10.747 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 3
+19:31:39.747 [CE][Links] found 162 total links between groups, of 165
+19:31:39.747 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_bloody_5, lootmin: 4, lootmax: 6, wanted: 5
+19:32:02.349 !!! [CE][Point] Removing 10725.547852, 10764.786133 from Land_jmc_skeleton_burned_5
+19:35:41.247 [CE][Links] found 162 total links between groups, of 166
+19:35:41.247 [CE][SpawnRandomLoot] (StaticVanPinkies) :: ChildType: Land_jmc_van_pinkies, lootmin: 4, lootmax: 6, wanted: 5
+19:35:41.249 [CE][Links] found 164 total links between groups, of 167
+19:35:41.249 [CE][SpawnRandomLoot] (StaticVanPinkies) :: ChildType: Land_jmc_van_pinkies, lootmin: 4, lootmax: 6, wanted: 4
+19:35:41.251 [CE][Links] found 164 total links between groups, of 168
+19:35:41.251 [CE][SpawnRandomLoot] (StaticVanPinkies) :: ChildType: Land_jmc_van_pinkies, lootmin: 4, lootmax: 6, wanted: 4
+19:35:41.253 [CE][Links] found 164 total links between groups, of 169
+19:35:41.253 [CE][SpawnRandomLoot] (StaticVanPinkies) :: ChildType: Land_jmc_van_pinkies, lootmin: 4, lootmax: 6, wanted: 5
+19:37:02.551 [CE][Links] found 166 total links between groups, of 170
+19:37:02.551 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_old_3, lootmin: 4, lootmax: 6, wanted: 5
+19:39:14.950 [CE][Links] found 170 total links between groups, of 171
+19:39:14.950 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 3
+19:41:53.751 !!! [CE][Point] Removing 8969.208984, 2512.371582 from Land_Boat_Small1
+19:42:20.653 !!! [CE][Point] Removing 8969.822266, 2510.820557 from Land_Boat_Small1
+19:42:25.50 [CE][Links] found 174 total links between groups, of 172
+19:42:25.50 [CE][SpawnRandomLoot] (StaticVanAmbulance) :: ChildType: Land_jmc_van_ambulance, lootmin: 4, lootmax: 6, wanted: 5
+19:43:41.754 !!! [CE][Point] Removing 7194.153809, 11597.856445 from Land_jmc_militarycase_o_11
+19:45:56.553 !!! [CE][Point] Removing 11566.162109, 3788.691406 from Land_Boat_Small2
+19:45:58.450 [CE][Links] found 176 total links between groups, of 173
+19:45:58.450 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 4
+19:45:58.452 [CE][Links] found 178 total links between groups, of 174
+19:45:58.452 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 4
+19:47:43.750 !!! [CE][Point] Removing 8969.276367, 2510.450684 from Land_Boat_Small1
+19:50:00.551 [CE][Links] found 184 total links between groups, of 175
+19:50:00.551 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 4
+19:51:21.250 [CE][Links] found 186 total links between groups, of 176
+19:51:21.250 [CE][SpawnRandomLoot] (StaticPoliceCar) :: ChildType: Land_Wreck_Volha_Police, lootmin: 3, lootmax: 5, wanted: 3
+19:51:50.250 [CE][Links] found 186 total links between groups, of 177
+19:51:50.250 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_gnawed_1, lootmin: 4, lootmax: 6, wanted: 4
+19:51:50.252 [CE][Links] found 186 total links between groups, of 178
+19:51:50.252 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_burned_5, lootmin: 4, lootmax: 6, wanted: 4
+19:51:50.253 [CE][Links] found 186 total links between groups, of 179
+19:51:50.253 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_old_1, lootmin: 4, lootmax: 6, wanted: 5
+19:53:06.550 !!! [CE][Point] Removing 7157.763184, 11556.059570 from Land_jmc_military_lootcase
+19:53:10.950 [CE][Links] found 190 total links between groups, of 180
+19:53:10.950 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_old_5, lootmin: 4, lootmax: 6, wanted: 4
+19:54:31.350 [CE][Links] found 194 total links between groups, of 181
+19:54:31.350 [CE][SpawnRandomLoot] (StaticVanAmbulance) :: ChildType: Land_jmc_van_ambulance, lootmin: 4, lootmax: 6, wanted: 4
+19:57:13.50 [CE][Links] found 194 total links between groups, of 182
+19:57:13.50 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_old_2, lootmin: 4, lootmax: 6, wanted: 5
+19:59:54.150 [CE][Links] found 202 total links between groups, of 183
+19:59:54.150 [CE][SpawnRandomLoot] (StaticVanAmbulance) :: ChildType: Land_jmc_van_ambulance, lootmin: 4, lootmax: 6, wanted: 5
+20:00:44.353 !!! [CE][Point] Removing 7179.108887, 11677.737305 from Land_jmc_militarycase_o_07
+20:00:44.355 !!! [CE][Point] Removing 1441.068359, 11922.526367 from Land_jmc_militarycase_c_07
+20:01:10.351 !!! [CE][Point] Removing 9525.183594, 6014.276855 from Land_Boat_Small1
+20:01:14.850 [CE][Links] found 202 total links between groups, of 184
+20:01:14.850 [CE][SpawnRandomLoot] (StaticVanAmbulance) :: ChildType: Land_jmc_van_ambulance, lootmin: 4, lootmax: 6, wanted: 5
+20:05:17.252 [CE][Links] found 202 total links between groups, of 185
+20:05:17.252 [CE][SpawnRandomLoot] (StaticSkeletonEventspawn) :: ChildType: Land_jmc_skeleton_burned_5, lootmin: 4, lootmax: 6, wanted: 5
+=======================================================
+-------------------------------------------------------
+Time: 20:05:27
+Exception code: C0000005 ACCESS_VIOLATION at 00C500F4
+Version 1.12.153904
+Fault address:  00C500F4 8C5BC408:8C5BC430 Unknown module
+file:     Expansion
+world:    deerisle
+=======================================================
+note: Minidump has been generated into the file myprofile\DayZServer_x64_2021-05-13_15-31-52_2021-05-13_20-05-27.mdmp
