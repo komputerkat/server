@@ -1,0 +1,35 @@
+---------------------------------------------
+Log C:\Program Files (x86)\Steam\steamapps\common\DayZServer\myprofile\crash_2021-05-14_22-29-35.log started at 14.05. 22:29:47
+
+
+
+------------------------------------
+ASUS-HELIOS, 14.05 2021 22:29:47
+
+JSON ERROR:
+Missing a comma or ']' after an array element.
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/3_Game/tools\jsonfileloader.c:29
+BaseBuildingPlus/scripts/3_Game/bbp_config.c:81
+BaseBuildingPlus/scripts/3_Game/bbp_config.c:68
+BaseBuildingPlus/scripts/3_Game/bbp_config.c:61
+BaseBuildingPlus/scripts/5_Mission/mission\missionserver.c:5
+$CurrentDir:mpmissions\Expansion.deerisle\init.c:549
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+ASUS-HELIOS, 14.05 2021 22:29:47
+NULL pointer to instance
+Class:      'CustomMission'
+Function: 'PlaceCementMixers'
+Stack trace:
+BaseBuildingPlus/scripts/5_Mission/mission\missionserver.c:27
+BaseBuildingPlus/scripts/5_Mission/mission\missionserver.c:19
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  

@@ -1,0 +1,50 @@
+---------------------------------------------
+Log C:\Program Files (x86)\Steam\steamapps\common\DayZServer\myprofile\crash_2021-05-14_06-00-17.log started at 14.05. 11:42:39
+
+
+
+------------------------------------
+42MA-SERVER, 14.05 2021 11:42:39
+NULL pointer to instance
+Class:      'MoreDoorSmallKit'
+Entity id:2296822
+
+Function: 'hasTheGoodStuff'
+Stack trace:
+MoreDoors/Scripts/4_World/customclasses\moredoorkitbase.c:211
+MoreDoors/Scripts/4_World/customclasses\moredoorkitbase.c:227
+MoreDoors/Scripts/4_World/holograms.c:9
+ModularVestSystem/scripts/4_World/armorrack_hologram.c:49
+BaseBuildingPlus/scripts/4_World/overrides\hologram.c:65
+scripts/4_World/classes\hologram.c:93
+scripts/4_World/entities\manbase\playerbase.c:1819
+scripts/4_World/classes\useractionscomponent\actions\continuous\actiondeployobject.c:239
+scripts/4_World/classes\useractionscomponent\actionbase.c:550
+scripts/4_World/classes\useractionscomponent\animatedactionbase.c:276
+scripts/4_World/classes\useractionscomponent\actionmanagerserver.c:320
+scripts/4_World/entities\manbase\playerbase.c:2430
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 14.05 2021 11:42:44
+NULL pointer to instance
+Class:      'MoreDoorSmallKit'
+Entity id:2296822
+
+Function: 'hasTheGoodStuff'
+Stack trace:
+MoreDoors/Scripts/4_World/customclasses\moredoorkitbase.c:211
+MoreDoors/Scripts/4_World/customclasses\moredoorkitbase.c:110
+scripts/4_World/classes\useractionscomponent\actions\continuous\actiondeployobject.c:294
+scripts/4_World/classes\useractionscomponent\actions\actioncontinuousbase.c:214
+scripts/4_World/classes\useractionscomponent\actioncomponents\cacontinuousbase.c:12
+scripts/4_World/classes\useractionscomponent\actioncomponents\cacontinuoustime.c:53
+scripts/4_World/classes\useractionscomponent\animatedactionbase.c:66
+scripts/4_World/classes\useractionscomponent\animatedactionbase.c:363
+scripts/4_World/classes\useractionscomponent\actions\actioncontinuousbase.c:28
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
