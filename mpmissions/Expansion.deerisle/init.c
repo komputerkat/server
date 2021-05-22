@@ -101,6 +101,8 @@ class CustomMission: MissionServer
 		player.GetInventory().CreateInInventory(foodArray.GetRandomElement());
 		player.GetInventory().CreateInInventory(drinkArray.GetRandomElement());
 		player.GetInventory().CreateInInventory(lightArray.GetRandomElement());
+		player.GetInventory().CreateInInventory("TacSatRadio");
+		player.GetInventory().CreateInInventory("Battery9V");
 		ItemBase rags = player.GetInventory().CreateInInventory("Rag");
 		rags.SetQuantity(4);
 		ItemBase melee = player.GetInventory().CreateInInventory(meleeArray.GetRandomElement());
@@ -121,6 +123,8 @@ class CustomMission: MissionServer
 		player.GetInventory().CreateInInventory("WorkingGloves_Black");
 		player.GetInventory().CreateInInventory("VS_SlingPack_Black");
 		player.GetInventory().CreateInInventory("NVGHeadstrap");
+		player.GetInventory().CreateInInventory("TacSatRadio");
+		player.GetInventory().CreateInInventory("Battery9V");
 		ItemBase light = player.GetInventory().CreateInInventory("NVGoggles");
 		light.GetInventory().CreateAttachment("Battery9V");
 		ItemBase melee = player.GetInventory().CreateInInventory("katana_Mung");
@@ -153,10 +157,11 @@ class CustomMission: MissionServer
 		player.GetInventory().CreateInInventory("CombatKnife");
 		player.GetInventory().CreateInInventory("Handcuffs");
 		player.GetInventory().CreateInInventory("HandcuffKeys");
-		player.GetInventory().CreateInInventory("PersonalRadio");
 		player.GetInventory().CreateInInventory("BandageDressing");
 		player.GetInventory().CreateInInventory("SodaCan_Pipsi");
 		player.GetInventory().CreateInInventory("Potato");
+		player.GetInventory().CreateInInventory("TacSatRadio");
+		player.GetInventory().CreateInInventory("Battery9V");
 		EntityAI gun = player.GetInventory().CreateInInventory("TWP_MP443");
 		ItemBase gunlight = gun.GetInventory().CreateAttachment("TWP_PistolLight");
 		gunlight.GetInventory().CreateAttachment("Battery9V");
@@ -201,9 +206,10 @@ class CustomMission: MissionServer
 		player.GetInventory().CreateInInventory("VitaminBottle");
 		player.GetInventory().CreateInInventory("Hatchet");
 		player.GetInventory().CreateInInventory("WeaponCleaningKit");
-		player.GetInventory().CreateInInventory("PersonalRadio");
 		player.GetInventory().CreateInInventory("AmmoBox");
 		player.GetInventory().CreateInInventory("M67Grenade");
+		player.GetInventory().CreateInInventory("TacSatRadio");
+		player.GetInventory().CreateInInventory("Battery9V");
 		ItemBase light = player.GetInventory().CreateInInventory("Flashlight");
 		light.GetInventory().CreateAttachment("Battery9V");
 		EntityAI gun = player.GetInventory().CreateInInventory("TWP_Famas");
@@ -250,6 +256,8 @@ class CustomMission: MissionServer
 		player.GetInventory().CreateInInventory("FishingRod");
 		player.GetInventory().CreateInInventory("PurificationTablets");
 		player.GetInventory().CreateInInventory("SAK_Mung");
+		player.GetInventory().CreateInInventory("TacSatRadio");
+		player.GetInventory().CreateInInventory("Battery9V");
 		EntityAI gun = player.GetInventory().CreateInInventory("TWP_Remington700");
 		gun.GetInventory().CreateAttachment("TWP_LongRangeOptic_Black");
 		addMags(player, "Ammo_308Win", 5);
@@ -288,6 +296,8 @@ class CustomMission: MissionServer
 		player.GetInventory().CreateInInventory("Vodka");
 		player.GetInventory().CreateInInventory("SLockpick");
 		player.GetInventory().CreateInInventory("Zippo_new");
+		player.GetInventory().CreateInInventory("TacSatRadio");
+		player.GetInventory().CreateInInventory("Battery9V");
 		ItemBase rags = player.GetInventory().CreateInInventory("Rag");
 		rags.SetQuantity(4);
 		ItemBase light = player.GetInventory().CreateInInventory("maglite_mung");
@@ -324,6 +334,8 @@ class CustomMission: MissionServer
 		player.GetInventory().CreateInInventory("Zippo_new");
 		player.GetInventory().CreateInInventory("ToxicCure");
 		player.GetInventory().CreateInInventory("GP5GasMask_Filter");
+		player.GetInventory().CreateInInventory("TacSatRadio");
+		player.GetInventory().CreateInInventory("Battery9V");
 		EntityAI gun = player.GetInventory().CreateInInventory("TWP_AR15");
 		ItemBase gunlight = gun.GetInventory().CreateAttachment("TWP_Weaponlight");
 		gunlight.GetInventory().CreateAttachment("Battery9V");
@@ -366,6 +378,8 @@ class CustomMission: MissionServer
 		player.GetInventory().CreateInInventory("BandageDressing");
 		player.GetInventory().CreateInInventory("TetracyclineAntibiotics");
 		player.GetInventory().CreateInInventory("VitaminBottle");
+		player.GetInventory().CreateInInventory("TacSatRadio");
+		player.GetInventory().CreateInInventory("Battery9V");
 		ItemBase rags = player.GetInventory().CreateInInventory("Rag");
 		rags.SetQuantity(4);
 		ItemBase light = player.GetInventory().CreateInInventory("NVGoggles");
@@ -408,6 +422,8 @@ class CustomMission: MissionServer
 		player.GetInventory().CreateInInventory(drinkArray.GetRandomElement());
 		player.GetInventory().CreateInInventory("BandageDressing");
 		player.GetInventory().CreateInInventory("NVGHeadstrap");
+		player.GetInventory().CreateInInventory("TacSatRadio");
+		player.GetInventory().CreateInInventory("Battery9V");
 		ItemBase light = player.GetInventory().CreateInInventory("NVGoggles");
 		light.GetInventory().CreateAttachment("Battery9V");
 		EntityAI gun = player.GetInventory().CreateInInventory("TWP_AWMBlack");
@@ -450,6 +466,8 @@ class CustomMission: MissionServer
 		player.GetInventory().CreateInInventory("HuntingKnife");
 		player.GetInventory().CreateInInventory("Rope");
 		player.GetInventory().CreateInInventory("Zippo_new");
+		player.GetInventory().CreateInInventory("TacSatRadio");
+		player.GetInventory().CreateInInventory("Battery9V");
 		ItemBase rags = player.GetInventory().CreateInInventory("Rag");
 		rags.SetQuantity(4);
 		EntityAI gun = player.GetInventory().CreateInInventory("Repeater");

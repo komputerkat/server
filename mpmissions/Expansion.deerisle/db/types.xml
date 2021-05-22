@@ -1,68 +1,109 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
-  <type name="DogSteakMeat">
+  <!-- TacSat Radio -->
+  <type name="TacSatRadio">
+      <nominal>20</nominal>
+    <lifetime>3888000</lifetime>
+      <restock>0</restock>
+      <min>0</min>
+      <quantmin>-1</quantmin>
+      <quantmax>-1</quantmax>
+      <cost>100</cost>
+      <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+      <category name="tools"/>
+      <tag name="shelves"/>
+      <usage name="Military"/>
+  </type>
+  <!-- Savage KRLOB 8x8 -->
+  <type name="SavageKRLOB_8x8">
     <nominal>0</nominal>
-    <lifetime>7200</lifetime>
+    <lifetime>3888000</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+  </type>
+  <type name="KRLOB_doors_driver">
+    <nominal>0</nominal>
+    <lifetime>3888000</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="tools"/>
+    <tag name="floor"/>
+    <usage name="Industrial"/>
+  </type>
+  <type name="KRLOB_doors_codriver">
+    <nominal>0</nominal>
+    <lifetime>3888000</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="tools"/>
+    <tag name="floor"/>
+    <usage name="Industrial"/>
+    </type>
+  <type name="KRLOB_doors_trunk">
+    <nominal>0</nominal>
+    <lifetime>3888000</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="tools"/>
+    <tag name="floor"/>
+    <usage name="Industrial"/>
+    </type>
+  <type name="KRLOB_wheels">
+    <nominal>0</nominal>
+    <lifetime>3888000</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="tools"/>
+    <tag name="floor"/>
+    <usage name="Industrial"/>
+  </type>
+  <type name="KRLOB_wheels_Destroyed">
+    <nominal>0</nominal>
+    <lifetime>1800</lifetime>
     <restock>0</restock>
     <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
-    <category name="food"/>
-</type>
-<type name="Animal_GermanShepherd">
-    <nominal>8</nominal>
-    <lifetime>7200</lifetime>
+    <category name="tools"/>
+  </type>
+  <!-- Notes -->
+  <type name="WrittenNote">
+    <nominal>0</nominal>
+    <lifetime>3888000</lifetime>
     <restock>0</restock>
     <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-</type>
-<type name="Animal_CanisDirus">
-    <nominal>8</nominal>
-    <lifetime>7200</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-</type>
-<type name="Animal_InfectedWolf">
-    <nominal>8</nominal>
-    <lifetime>7200</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-</type>
-<type name="Animal_InfectedBear">
-    <nominal>4</nominal>
-    <lifetime>7200</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-</type>
-<type name="Animal_DocileBear">
-    <nominal>4</nominal>
-    <lifetime>7200</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-</type>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <usage name="Village" />
+  </type>
+  <!-- Trader Plus -->
   <type name="CarLockpick">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -183,6 +224,7 @@
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="tools" />
   </type>
+  <!-- Trolley Kartsf -->  
   <type name="Spur_Kart_Wheel">
     <nominal>12</nominal>
     <lifetime>7200</lifetime>
@@ -236,7 +278,7 @@
     <usage name="Industrial" />
   </type>
   <type name="Spur_TrolleyKart">
-    <nominal>0</nominal>
+    <nominal>4</nominal>
     <lifetime>3888000</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -246,7 +288,7 @@
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
   </type>
   <type name="Spur_WonkyTrolley">
-    <nominal>10</nominal>
+    <nominal>4</nominal>
     <lifetime>3888000</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -259,7 +301,7 @@
     <usage name="Industrial" />
   </type>
   <type name="Spur_Kart_Seat">
-    <nominal>10</nominal>
+    <nominal>12</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -272,7 +314,7 @@
     <usage name="Industrial" />
   </type>
   <type name="Spur_Kart_FuelTank">
-    <nominal>0</nominal>
+    <nominal>12</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -283,7 +325,7 @@
     <category name="vehiclesparts" />
   </type>
   <type name="Spur_Kart_Engine">
-    <nominal>0</nominal>
+    <nominal>12</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -369,7 +411,7 @@
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
   </type>
   <type name="Spur_TrolleyKart_Black">
-    <nominal>0</nominal>
+    <nominal>2</nominal>
     <lifetime>3888000</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -379,7 +421,7 @@
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
   </type>
   <type name="Spur_Trolley_E_Kart">
-    <nominal>0</nominal>
+    <nominal>2</nominal>
     <lifetime>3888000</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -389,7 +431,7 @@
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
   </type>
   <type name="Spur_Trolley_E_Kart_Black">
-    <nominal>0</nominal>
+    <nominal>2</nominal>
     <lifetime>3888000</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -421,6 +463,7 @@
     <tag name="floor" />
     <usage name="Industrial" />
   </type>
+  <!-- Cannabis Plus -->
   <type name="CP_Plant_CannabisSkunk">
     <lifetime>3888000</lifetime>
     <restock>0</restock>
@@ -683,7 +726,7 @@
     <category name="food" />
   </type>
   <type name="CP_CigarettePack_CannabisKush">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -1314,6 +1357,7 @@
     <category name="food" />
     <usage name="Medic" />
   </type>
+  <!-- Toxic Zone -->  
   <type name="ToxicM18SmokeGrenade_Red">
     <nominal>1</nominal>
     <lifetime>7200</lifetime>
@@ -1637,6 +1681,7 @@
     <usage name="Military" />
     <usage name="Medic" />
   </type>
+  <!-- Munghard's Pack -->    
   <type name="wolffurcowl_mung">
     <lifetime>7200</lifetime>
     <restock>0</restock>
@@ -2575,18 +2620,6 @@
     <category name="tools" />
     <usage name="Military" />
   </type>
-  <type name="carrierrig_mung">
-    <nominal>7</nominal>
-    <lifetime>7200</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
-    <category name="containers" />
-    <usage name="Hunting" />
-  </type>
   <type name="Hikingbagmung_pink">
     <nominal>15</nominal>
     <lifetime>7200</lifetime>
@@ -2765,7 +2798,7 @@
     <usage name="Military" />
   </type>
   <type name="tacvest_mung">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -2823,20 +2856,6 @@
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="tools" />
     <usage name="Military" />
-  </type>
-  <type name="oxygentankrig_mung">
-    <nominal>10</nominal>
-    <lifetime>7200</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
-    <category name="tools" />
-    <usage name="Industrial" />
-    <usage name="Farm" />
-    <usage name="Village" />
   </type>
   <type name="shovel_Mung">
     <nominal>30</nominal>
@@ -2909,7 +2928,7 @@
     <usage name="Village" />
   </type>
   <type name="hannibal_mask_mung">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -2923,7 +2942,7 @@
     <usage name="Village" />
   </type>
   <type name="joint_mung">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -3584,6 +3603,7 @@
     <category name="weapons" />
     <usage name="Military" />
   </type>
+  <!-- Forever Burn Fireplaces -->  
   <type name="FBF_Fireplace">
     <lifetime>3888000</lifetime>
     <restock>0</restock>
@@ -3644,6 +3664,7 @@
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="containers" />
   </type>
+  <!-- Much Stuff Pack -->  
   <type name="Msp_VorpalKnife">
     <nominal>1</nominal>
     <lifetime>7200</lifetime>
@@ -3844,7 +3865,7 @@
     <category name="containers" />
   </type>
   <type name="Msp_LargeAmmoBox">
-    <lifetime>7200</lifetime>
+    <lifetime>3888000</lifetime>
     <restock>0</restock>
     <min>0</min>
     <quantmin>-1</quantmin>
@@ -3873,7 +3894,7 @@
     <category name="containers" />
   </type>
   <type name="Msp_TackleBox">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>3888000</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -3885,7 +3906,7 @@
     <tag name="floor" />
   </type>
   <type name="Msp_TackleBox_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>3888000</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -3897,7 +3918,7 @@
     <tag name="floor" />
   </type>
   <type name="Msp_CoolerBox">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>3888000</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -3909,7 +3930,7 @@
     <tag name="floor" />
   </type>
   <type name="Msp_CoolerBox_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>3888000</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -3921,8 +3942,8 @@
     <tag name="floor" />
   </type>
   <type name="Msp_AmmoCrate">
-    <nominal>3</nominal>
-    <lifetime>7200</lifetime>
+    <nominal>42</nominal>
+    <lifetime>3888000</lifetime>
     <restock>0</restock>
     <min>0</min>
     <quantmin>-1</quantmin>
@@ -3935,7 +3956,7 @@
     <usage name="Farm" />
   </type>
   <type name="Msp_MedievalChest">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>3888000</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -3949,7 +3970,7 @@
     <usage name="Farm" />
   </type>
   <type name="Msp_PlasticCrate">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>3888000</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -3963,7 +3984,7 @@
     <usage name="Farm" />
   </type>
   <type name="Msp_GrenadeBox">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>3888000</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -3977,7 +3998,7 @@
     <usage name="Farm" />
   </type>
   <type name="Msp_TreasureChest">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>3888000</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -3991,7 +4012,7 @@
     <usage name="Farm" />
   </type>
   <type name="Msp_Basket_Rectangular">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>3888000</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -4005,7 +4026,7 @@
     <usage name="Farm" />
   </type>
   <type name="Msp_Basket_Wicker">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>3888000</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -4019,7 +4040,7 @@
     <usage name="Farm" />
   </type>
   <type name="Msp_Safe">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>3888000</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -4033,7 +4054,7 @@
     <usage name="Farm" />
   </type>
   <type name="Msp_Mailbox">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>3888000</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -4047,7 +4068,7 @@
     <usage name="Farm" />
   </type>
   <type name="Msp_TrashCan">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>3888000</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -4061,7 +4082,7 @@
     <usage name="Farm" />
   </type>
   <type name="Msp_MilitaryCrate_Brown">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>3888000</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -4074,7 +4095,7 @@
     <usage name="Military" />
   </type>
   <type name="Msp_MilitaryCrate_Green">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>3888000</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -4087,7 +4108,7 @@
     <usage name="Military" />
   </type>
   <type name="Msp_MilitaryCrate_Grey">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>3888000</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -4100,7 +4121,7 @@
     <usage name="Military" />
   </type>
   <type name="Msp_MilitaryCrate_Olive">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>3888000</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -4113,7 +4134,7 @@
     <usage name="Military" />
   </type>
   <type name="Msp_MilitaryCrate_Tan">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>3888000</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -5240,7 +5261,7 @@
     <category name="containers" />
   </type>
   <type name="Msp_WaterBarrel_Plastic">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -5254,7 +5275,7 @@
     <usage name="Farm" />
   </type>
   <type name="Msp_WaterBarrel_Plastic_Yellow">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>3888000</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -5268,7 +5289,7 @@
     <usage name="Farm" />
   </type>
   <type name="Msp_WaterBarrel_Plastic_Green">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>3888000</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -5282,7 +5303,7 @@
     <usage name="Farm" />
   </type>
   <type name="Msp_WaterBarrel_Plastic_Red">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>3888000</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -5296,7 +5317,7 @@
     <usage name="Farm" />
   </type>
   <type name="Msp_WaterBarrel_Plastic_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>3888000</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -5310,7 +5331,7 @@
     <usage name="Farm" />
   </type>
   <type name="Msp_WaterBarrel_Plastic_White">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>3888000</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -5324,7 +5345,7 @@
     <usage name="Farm" />
   </type>
   <type name="Msp_WaterBarrel_Valve_Faucet">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>3888000</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -6387,6 +6408,7 @@
     <usage name="Village" />
     <usage name="Coast" />
   </type>
+  <!-- Much Car Keys -->  
   <type name="MCK_CarKey_Base">
     <lifetime>3888000</lifetime>
     <restock>0</restock>
@@ -6621,6 +6643,7 @@
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
   </type>
+  <!-- More Doors -->  
   <type name="MoreDoorVault">
     <lifetime>3888000</lifetime>
     <restock>0</restock>
@@ -6715,6 +6738,7 @@
     <usage name="Industrial" />
     <usage name="Farm" />
   </type>
+  <!-- Code Lock -->  
   <type name="CodeLock">
     <nominal>80</nominal>
     <lifetime>7200</lifetime>
@@ -6728,6 +6752,7 @@
     <usage name="Industrial" />
     <usage name="Farm" />
   </type>
+  <!-- GAZ -->  
   <type name="BPGazG">
     <nominal>2</nominal>
     <lifetime>3888000</lifetime>
@@ -6819,6 +6844,7 @@
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="tools" />
   </type>
+  <!-- Modular Vest System -->    
   <type name="ArmorRack_Kit">
     <nominal>0</nominal>
     <lifetime>7200</lifetime>
@@ -6843,7 +6869,7 @@
     <category name="containers" />
   </type>
   <type name="MVS_Combat_Vest_OD">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -6855,7 +6881,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Combat_Vest_Tan">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -6867,7 +6893,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Combat_Vest_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -6879,7 +6905,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Combat_Vest_Snow">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -6891,7 +6917,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Magazine_Pouch_OD">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -6903,7 +6929,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Magazine_Pouch_Tan">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -6915,7 +6941,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Magazine_Pouch_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -6927,7 +6953,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Magazine_Pouch_Snow">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -6939,7 +6965,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Admin_Pouch_OD">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -6951,7 +6977,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Admin_Pouch_Tan">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -6963,7 +6989,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Admin_Pouch_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -6975,7 +7001,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Admin_Pouch_Snow">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -6987,7 +7013,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Utility_Pouch_OD">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -6999,7 +7025,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Utility_Pouch_Tan">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7011,7 +7037,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Utility_Pouch_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7023,7 +7049,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Utility_Pouch_Snow">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7035,7 +7061,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Medical_Pouch_OD">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7047,7 +7073,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Medical_Pouch_Tan">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7059,7 +7085,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Medical_Pouch_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7071,7 +7097,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Medical_Pouch_Snow">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7083,7 +7109,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Helmet_01_Tan">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7095,7 +7121,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Helmet_01_Tan_Worn">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7107,7 +7133,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Helmet_01_OD">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7119,7 +7145,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Helmet_01_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7131,7 +7157,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Helmet_01_Snow">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7143,7 +7169,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Pack_OD">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7155,7 +7181,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Pack_Tan">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7167,7 +7193,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Pack_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7179,7 +7205,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Pack_Snow">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7191,7 +7217,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Belt_OD">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7203,7 +7229,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Belt_Tan">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7215,7 +7241,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Belt_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7227,7 +7253,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Belt_Snow">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7239,7 +7265,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Holster_OD">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7251,7 +7277,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Holster_Tan">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7263,7 +7289,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Holster_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7275,7 +7301,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Holster_Snow">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7287,7 +7313,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Sheath_OD">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7299,7 +7325,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Sheath_Tan">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7311,7 +7337,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Sheath_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7323,7 +7349,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Sheath_Snow">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7335,7 +7361,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_S10Respirator_OD">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7347,7 +7373,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_S10Respirator_Tan">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7359,7 +7385,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_S10Respirator_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7371,7 +7397,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_S10Respirator_FS">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7383,7 +7409,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Combat_Vest_Heavy_OD">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7395,7 +7421,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Combat_Vest_Heavy_Tan">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7407,7 +7433,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Combat_Vest_Heavy_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7419,7 +7445,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Combat_Vest_Heavy_Snow">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7431,7 +7457,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Heavy_Pouch_OD">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7443,7 +7469,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Heavy_Pouch_Tan">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7455,7 +7481,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Heavy_Pouch_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7467,7 +7493,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Heavy_Pouch_Snow">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7479,7 +7505,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Taco_Pouch_OD">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7491,7 +7517,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Taco_Pouch_Tan">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7503,7 +7529,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Taco_Pouch_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7515,7 +7541,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Taco_Pouch_Snow">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7527,7 +7553,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Assault_Pack_OD">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7539,7 +7565,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Assault_Pack_Tan">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7551,7 +7577,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Assault_Pack_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7563,7 +7589,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Assault_Pack_Snow">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7575,7 +7601,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Radio_Pack_OD">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7587,7 +7613,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Radio_Pack_Tan">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7599,7 +7625,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Radio_Pack_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7611,7 +7637,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Radio_Pack_Snow">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7623,7 +7649,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Pakol_brown">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7635,7 +7661,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Pakol_Comtac">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7711,7 +7737,7 @@
     <usage name="Hunting" />
   </type>
   <type name="MVS_S10Respirator_Snow">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7723,7 +7749,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_OpsCore_Tan">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7735,7 +7761,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_OpsCore_OD">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7747,7 +7773,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_OpsCore_ERDL">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7759,7 +7785,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_OpsCore_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7771,7 +7797,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_OpsCore_Snow">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7783,7 +7809,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Combat_Vest_ERDL">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7795,7 +7821,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Combat_Vest_Heavy_ERDL">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7807,7 +7833,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Heavy_Pouch_ERDL">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7819,7 +7845,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Magazine_Pouch_ERDL">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7831,7 +7857,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Admin_Pouch_ERDL">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7843,7 +7869,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Utility_Pouch_ERDL">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7855,7 +7881,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Medical_Pouch_ERDL">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7867,7 +7893,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Pack_ERDL">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7879,7 +7905,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Belt_ERDL">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7891,7 +7917,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Holster_ERDL">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7903,7 +7929,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Sheath_ERDL">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7915,7 +7941,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Taco_Pouch_ERDL">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7927,7 +7953,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Assault_Pack_ERDL">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7939,7 +7965,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Radio_Pack_ERDL">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7964,7 +7990,7 @@
     <usage name="Hunting" />
   </type>
   <type name="MVS_BoonieHat">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7976,7 +8002,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Shirt_BDU">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -7988,7 +8014,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Pants_BDU">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8000,7 +8026,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_FlatCap">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8012,7 +8038,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_GorkaJacket">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8024,7 +8050,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_GorkaPants">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8036,7 +8062,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_GorkaJacket_Snow">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8048,7 +8074,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_GorkaPants_Snow">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8060,7 +8086,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_BoonieHat_Snow">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8072,7 +8098,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Shirt_BDU_Snow">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8084,7 +8110,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Pants_BDU_Snow">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8096,7 +8122,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_FlatCap_Snow">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8108,7 +8134,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_ArmoredHelmet_Tan">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8120,7 +8146,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_ArmoredHelmet_OD">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8132,7 +8158,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_ArmoredHelmet_ERDL">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8144,7 +8170,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_ArmoredHelmet_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8156,7 +8182,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_ArmoredHelmet_Snow">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8168,7 +8194,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_WarriorHelmet_Tan">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8180,7 +8206,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_WarriorHelmet_OD">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8192,7 +8218,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_WarriorHelmet_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8204,7 +8230,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_WarriorHelmet_ERDL">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8216,7 +8242,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_WarriorHelmet_Snow">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8228,7 +8254,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Rucksack_OD">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8240,7 +8266,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Rucksack_ERDL">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8252,7 +8278,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Rucksack_Tan">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8264,7 +8290,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Rucksack_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8276,7 +8302,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Rucksack_Snow">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8288,7 +8314,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Compact_1_OD">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8300,7 +8326,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Compact_1_Tan">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8312,7 +8338,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Compact_1_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8324,7 +8350,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Compact_1_ERDL">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8336,7 +8362,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Compact_1_Snow">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8348,7 +8374,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Compact_2_OD">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8360,7 +8386,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Compact_2_Tan">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8372,7 +8398,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Compact_2_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8384,7 +8410,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Compact_2_ERDL">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8396,7 +8422,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Compact_2_Snow">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8408,7 +8434,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_ChestRig_OD">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8420,7 +8446,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_ChestRig_ERDL">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8432,7 +8458,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_ChestRig_Tan">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8444,7 +8470,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_ChestRig_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8456,7 +8482,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_ChestRig_Snow">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8468,7 +8494,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Shroud_OD">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8480,7 +8506,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Shroud_Tan">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8492,7 +8518,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Shroud_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8504,7 +8530,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Balaclava_Wraith">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8516,7 +8542,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Balaclava_Wraith_Comtacs">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8528,7 +8554,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Balaclava_OD">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8540,7 +8566,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Balaclava_Tan">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8552,7 +8578,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Balaclava_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8564,7 +8590,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_ChestRig_Multicam">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8576,7 +8602,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_ChestRig_Multicam_Tropic">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8588,7 +8614,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_ChestRig_Multicam_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8600,7 +8626,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Compact_1_Multicam">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8612,7 +8638,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Compact_1_Multicam_Tropic">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8624,7 +8650,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Compact_1_Multicam_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8636,7 +8662,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Compact_2_Multicam">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8648,7 +8674,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Compact_2_Multicam_Tropic">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8660,7 +8686,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Compact_2_Multicam_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8672,7 +8698,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Rucksack_Multicam">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8684,7 +8710,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Rucksack_Multicam_Tropic">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8696,7 +8722,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Rucksack_Multicam_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8708,7 +8734,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_WarriorHelmet_Multicam">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8720,7 +8746,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_WarriorHelmet_Multicam_Tropic">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8732,7 +8758,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_WarriorHelmet_Multicam_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8744,7 +8770,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_ArmoredHelmet_Multicam">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8756,7 +8782,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_ArmoredHelmet_Multicam_Tropic">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8768,7 +8794,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_ArmoredHelmet_Multicam_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8780,7 +8806,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_FlatCap_Multicam">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8792,7 +8818,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_FlatCap_Multicam_Tropic">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8804,7 +8830,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_FlatCap_Multicam_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8816,7 +8842,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Shirt_BDU_Multicam">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8828,7 +8854,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Shirt_BDU_Multicam_Tropic">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8840,7 +8866,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Shirt_BDU_Multicam_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8852,7 +8878,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_BoonieHat_Multicam">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8864,7 +8890,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_BoonieHat_Multicam_Tropic">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8876,7 +8902,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_BoonieHat_Multicam_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8888,7 +8914,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_GorkaPants_Multicam">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8900,7 +8926,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_GorkaPants_Multicam_Tropic">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8912,7 +8938,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_GorkaPants_Multicam_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8924,7 +8950,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_GorkaJacket_Multicam">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8936,7 +8962,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_GorkaJacket_Multicam_Tropic">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8948,7 +8974,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_GorkaJacket_Multicam_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -8999,7 +9025,7 @@
     <usage name="Hunting" />
   </type>
   <type name="MVS_Radio_Pack_Multicam">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9011,7 +9037,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Radio_Pack_Multicam_Tropic">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9023,7 +9049,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Radio_Pack_Multicam_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9035,7 +9061,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Assault_Pack_Multicam">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9047,7 +9073,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Assault_Pack_Multicam_Tropic">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9059,7 +9085,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Assault_Pack_Multicam_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9071,7 +9097,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Taco_Pouch_Multicam">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9083,7 +9109,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Taco_Pouch_Multicam_Tropic">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9095,7 +9121,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Taco_Pouch_Multicam_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9107,7 +9133,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Sheath_Multicam">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9119,7 +9145,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Sheath_Multicam_Tropic">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9131,7 +9157,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Sheath_Multicam_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9143,7 +9169,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Holster_Multicam">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9155,7 +9181,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Holster_Multicam_Tropic">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9167,7 +9193,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Holster_Multicam_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9179,7 +9205,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Belt_Multicam">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9191,7 +9217,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Belt_Multicam_Tropic">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9203,7 +9229,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Belt_Multicam_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9215,7 +9241,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Pack_Multicam">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9227,7 +9253,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Pack_Multicam_Tropic">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9239,7 +9265,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Pack_Multicam_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9251,7 +9277,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Medical_Pouch_Multicam">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9263,7 +9289,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Medical_Pouch_Multicam_Tropic">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9275,7 +9301,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Medical_Pouch_Multicam_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9287,7 +9313,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Utility_Pouch_Multicam">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9299,7 +9325,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Utility_Pouch_Multicam_Tropic">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9311,7 +9337,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Utility_Pouch_Multicam_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9323,7 +9349,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Admin_Pouch_Multicam">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9335,7 +9361,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Admin_Pouch_Multicam_Tropic">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9347,7 +9373,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Admin_Pouch_Multicam_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9359,7 +9385,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Magazine_Pouch_Multicam">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9371,7 +9397,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Magazine_Pouch_Multicam_Tropic">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9383,7 +9409,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Magazine_Pouch_Multicam_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9395,7 +9421,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Heavy_Pouch_Multicam">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9407,7 +9433,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Heavy_Pouch_Multicam_Tropic">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9419,7 +9445,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Heavy_Pouch_Multicam_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9431,7 +9457,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Combat_Vest_Heavy_Multicam">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9443,7 +9469,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Combat_Vest_Heavy_Multicam_Tropic">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9455,7 +9481,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Combat_Vest_Heavy_Multicam_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9467,7 +9493,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Combat_Vest_Multicam">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9479,7 +9505,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Combat_Vest_Multicam_Tropic">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9491,7 +9517,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Combat_Vest_Multicam_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9503,7 +9529,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_OpsCore_Multicam">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9515,7 +9541,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_OpsCore_Multicam_Tropic">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9527,7 +9553,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_OpsCore_Multicam_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9539,7 +9565,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_CombatPants_OD">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9551,7 +9577,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_CombatPants_Tan">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9563,7 +9589,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_CombatPants_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9575,7 +9601,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_CombatPants_Snow">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9587,7 +9613,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_CombatPants_ERDL">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9599,7 +9625,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_CombatPants_Multicam">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9611,7 +9637,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_CombatPants_Multicam_Tropic">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9623,7 +9649,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_CombatPants_Multicam_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9635,7 +9661,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_CombatShirt_OD">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9647,7 +9673,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_CombatShirt_Tan">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9659,7 +9685,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_CombatShirt_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9671,7 +9697,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_CombatShirt_Snow">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9683,7 +9709,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_CombatShirt_ERDL">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9695,7 +9721,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_CombatShirt_Multicam">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9707,7 +9733,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_CombatShirt_Multicam_Tropic">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9719,7 +9745,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_CombatShirt_Multicam_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9731,7 +9757,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Cap_OD">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9743,7 +9769,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Cap_Tan">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9755,7 +9781,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Cap_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9767,7 +9793,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Cap_Snow">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9779,7 +9805,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Cap_ERDL">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9791,7 +9817,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Cap_Multicam">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9803,7 +9829,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Cap_Multicam_Tropic">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9815,7 +9841,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Cap_Multicam_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9827,7 +9853,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Comtacs_OD">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9839,7 +9865,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Comtacs_Tan">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9851,7 +9877,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Comtacs_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9863,7 +9889,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Helmet_01_ERDL">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9875,7 +9901,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Helmet_01_Multicam">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9887,7 +9913,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Helmet_01_Multicam_Tropic">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -9899,7 +9925,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Helmet_01_Multicam_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -12851,7 +12877,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_PMK2Respirator_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -12863,7 +12889,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_PMK2Respirator_Tan">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -12875,7 +12901,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_PMK2Respirator_OD">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -12887,7 +12913,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_PMK2Respirator_Snow">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -12935,7 +12961,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Helmet_02_Tan">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -12947,7 +12973,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Helmet_02_OD">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -12959,7 +12985,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Helmet_02_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -12971,7 +12997,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Helmet_02_Snow">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -12983,7 +13009,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Helmet_02_ERDL">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -12995,7 +13021,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Helmet_02_Multicam">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -13007,7 +13033,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Helmet_02_Multicam_Tropic">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -13019,7 +13045,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_Helmet_02_Multicam_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -13031,7 +13057,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_SlingPack_OD">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -13043,7 +13069,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_SlingPack_Tan">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -13055,7 +13081,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_SlingPack_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -13067,7 +13093,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_SlingPack_Multicam">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -13079,7 +13105,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_SlingPack_Multicam_Black">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -13091,7 +13117,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_SlingPack_Multicam_Tropic">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -13103,7 +13129,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_SlingPack_ERDL">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -13115,7 +13141,7 @@
     <usage name="Military" />
   </type>
   <type name="MVS_SlingPack_Snow">
-    <nominal>3</nominal>
+    <nominal>42</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -13126,6 +13152,7 @@
     <category name="clothes" />
     <usage name="Military" />
   </type>
+  <!-- Land Rovers -->  
   <type name="CrSk_Land_Rover_Defender_110">
     <nominal>14</nominal>
     <lifetime>3888000</lifetime>
@@ -13412,6 +13439,7 @@
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
   </type>
+  <!-- Base Building Plus -->  
   <type name="BBP_T1_WallKit">
     <lifetime>7200</lifetime>
     <restock>0</restock>
@@ -14657,6 +14685,7 @@
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
   </type>
+  <!-- Stock -->  
   <type name="ACOGOptic">
     <nominal>12</nominal>
     <lifetime>7200</lifetime>
@@ -15088,7 +15117,7 @@
   </type>
   <type name="AmmoBox">
     <nominal>20</nominal>
-    <lifetime>7200</lifetime>
+    <lifetime>3888000</lifetime>
     <restock>0</restock>
     <min>0</min>
     <quantmin>-1</quantmin>

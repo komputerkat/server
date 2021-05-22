@@ -1,0 +1,64 @@
+---------------------------------------------
+Log C:\Program Files (x86)\Steam\steamapps\common\DayZServer\myprofile\crash_2021-05-21_12-16-21.log started at 21.05. 12:20:57
+
+
+
+------------------------------------
+42MA-SERVER, 21.05 2021 12:20:57
+[Object::GetMaxHealth] :: [SavageKRLOB_8x8:34987] :: No DamageSystemData or not initialized yet.
+Class:      'ZomberryStockFunctions'
+Function: 'RefuelAndRepair'
+Stack trace:
+ZomBerry/AT/scripts/5_Mission/zomberrystockfnc.c:306
+ZomBerry/AT/scripts/5_Mission/zomberry.c:297
+JM/CF/Scripts/3_Game/communityframework\rpc\rpcmanager.c:245
+scripts/3_Game/dayzgame.c:2460
+MuchStuffPack/MSP_Scripts/3_Game/codelockconfig\dayzgame.c:42
+JM/CF/Scripts/3_Game/communityframework\game\dayzgame.c:29
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ForeverLightsandCampfires;@8x8WastelandCamper;@TACSATRadio;@ModularVestSystem;@MunghardsItempack;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@Notes;@MoreWolves;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 21.05 2021 16:42:48
+NULL pointer to instance
+Class:      'DayZPlayerInventory'
+Function: 'ProccessInputData'
+Stack trace:
+scripts/4_World/systems\inventory\dayzplayerinventory.c:546
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1102
+scripts/4_World/systems\inventory\dayzplayerinventory.c:448
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ForeverLightsandCampfires;@8x8WastelandCamper;@TACSATRadio;@ModularVestSystem;@MunghardsItempack;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@Notes;@MoreWolves;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 21.05 2021 17:10:21
+[DamageSystemData::GetMaxHealth] :: [OffroadHatchback_Blue] :: Could not find zone "Radiator"
+Class:      'OffroadHatchback_Blue'
+Entity id:2256937
+
+Function: 'EEItemDetached'
+Stack trace:
+scripts/4_World/entities\vehicles\carscript.c:449
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ForeverLightsandCampfires;@8x8WastelandCamper;@TACSATRadio;@ModularVestSystem;@MunghardsItempack;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@Notes;@MoreWolves;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 21.05 2021 17:32:44
+
+[desync] HandleInputData man=SurvivorM_Rolf:03 CANNOT move cmd=SYNC_MOVE src={ type=ATTACHMENT item=CodeLock:027440 parent=BBP_T1_Door:027439 slot=-1288214684 } dst={ type=CARGO item=CodeLock:027440 parent=MVS_Rucksack_Multicam_Black:019125 idx=0 row=0 col=0 f=false }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:608
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1102
+scripts/4_World/systems\inventory\dayzplayerinventory.c:482
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ForeverLightsandCampfires;@8x8WastelandCamper;@TACSATRadio;@ModularVestSystem;@MunghardsItempack;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@Notes;@MoreWolves;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  

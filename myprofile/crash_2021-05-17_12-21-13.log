@@ -1,0 +1,36 @@
+---------------------------------------------
+Log C:\Program Files (x86)\Steam\steamapps\common\DayZServer\myprofile\crash_2021-05-17_12-21-13.log started at 17.05. 17:01:54
+
+
+
+------------------------------------
+42MA-SERVER, 17.05 2021 17:01:54
+NULL pointer to instance
+Class:      'CustomMission'
+Function: 'mercenaryClass'
+Stack trace:
+$CurrentDir:mpmissions\Expansion.deerisle\init.c:375
+$CurrentDir:mpmissions\Expansion.deerisle\init.c:473
+scripts/5_Mission/mission\missionserver.c:332
+SpawnSelect/Scripts/5_Mission/missionshared.c:329
+scripts/5_Mission/mission\missionserver.c:133
+GameLabs/Scripts/5_Mission/ћ*бэєбџъкѕ.fxy:8
+JM/CF/Scripts/5_Mission/communityframework\mission\missionserver.c:18
+scripts/3_Game/dayzgame.c:1355
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ForeverLightsandCampfires;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MoreWolves;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 17.05 2021 17:22:05
+NULL pointer to instance
+Class:      'DayZPlayerInventory'
+Function: 'ProccessInputData'
+Stack trace:
+scripts/4_World/systems\inventory\dayzplayerinventory.c:546
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1102
+scripts/4_World/systems\inventory\dayzplayerinventory.c:448
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ForeverLightsandCampfires;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MoreWolves;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  

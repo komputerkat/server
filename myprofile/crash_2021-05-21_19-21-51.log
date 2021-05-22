@@ -1,0 +1,100 @@
+---------------------------------------------
+Log C:\Program Files (x86)\Steam\steamapps\common\DayZServer\myprofile\crash_2021-05-21_19-21-51.log started at 21.05. 19:25:43
+
+
+
+------------------------------------
+42MA-SERVER, 21.05 2021 19:25:43
+
+[desync] HandleInputData man=SurvivorM_Niki:02 CANNOT move cmd=SYNC_MOVE src={ type=CARGO item=Ammo_12gaSlug:04337 parent=MVS_GorkaPants_Multicam_Black:020161 idx=0 row=1 col=4 f=false } dst={ type=CARGO item=Ammo_12gaSlug:04337 parent=MVS_GorkaPants_Multicam_Black:020161 idx=0 row=1 col=3 f=false }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:608
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1102
+scripts/4_World/systems\inventory\dayzplayerinventory.c:482
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ForeverLightsandCampfires;@8x8WastelandCamper;@TACSATRadio;@ModularVestSystem;@MunghardsItempack;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@Notes;@MoreWolves;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 21.05 2021 19:25:53
+
+[desync] HandleInputData man=SurvivorM_Niki:02 CANNOT move cmd=SYNC_MOVE src={ type=CARGO item=Ammo_12gaSlug:04337 parent=MVS_GorkaPants_Multicam_Black:020161 idx=0 row=1 col=4 f=false } dst={ type=CARGO item=Ammo_12gaSlug:04337 parent=MVS_GorkaPants_Multicam_Black:020161 idx=0 row=1 col=3 f=false }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:608
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1102
+scripts/4_World/systems\inventory\dayzplayerinventory.c:482
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ForeverLightsandCampfires;@8x8WastelandCamper;@TACSATRadio;@ModularVestSystem;@MunghardsItempack;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@Notes;@MoreWolves;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 21.05 2021 19:29:44
+[Object::GetMaxHealth] :: [SavageKRLOB_8x8:28922] :: No DamageSystemData or not initialized yet.
+Class:      'ZomberryStockFunctions'
+Function: 'RefuelAndRepair'
+Stack trace:
+ZomBerry/AT/scripts/5_Mission/zomberrystockfnc.c:306
+ZomBerry/AT/scripts/5_Mission/zomberry.c:297
+JM/CF/Scripts/3_Game/communityframework\rpc\rpcmanager.c:245
+scripts/3_Game/dayzgame.c:2460
+MuchStuffPack/MSP_Scripts/3_Game/codelockconfig\dayzgame.c:42
+JM/CF/Scripts/3_Game/communityframework\game\dayzgame.c:29
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ForeverLightsandCampfires;@8x8WastelandCamper;@TACSATRadio;@ModularVestSystem;@MunghardsItempack;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@Notes;@MoreWolves;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 21.05 2021 19:35:57
+
+[desync] HandleInputData man=SurvivorM_Niki:02 CANNOT move cmd=SYNC_MOVE src={ type=CARGO item=AmmoBox_556x45_20Rnd:08711 parent=MVS_GorkaPants_Multicam_Black:020161 idx=0 row=0 col=4 f=false } dst={ type=CARGO item=AmmoBox_556x45_20Rnd:08711 parent=MVS_GorkaPants_Multicam_Black:020161 idx=0 row=1 col=3 f=false }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:608
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1102
+scripts/4_World/systems\inventory\dayzplayerinventory.c:482
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ForeverLightsandCampfires;@8x8WastelandCamper;@TACSATRadio;@ModularVestSystem;@MunghardsItempack;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@Notes;@MoreWolves;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 21.05 2021 19:36:01
+
+[desync] HandleInputData man=SurvivorM_Niki:02 CANNOT move cmd=SYNC_MOVE src={ type=CARGO item=AmmoBox_556x45_20Rnd:08711 parent=MVS_GorkaPants_Multicam_Black:020161 idx=0 row=0 col=4 f=false } dst={ type=CARGO item=AmmoBox_556x45_20Rnd:08711 parent=MVS_GorkaPants_Multicam_Black:020161 idx=0 row=1 col=3 f=false }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:608
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1102
+scripts/4_World/systems\inventory\dayzplayerinventory.c:482
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ForeverLightsandCampfires;@8x8WastelandCamper;@TACSATRadio;@ModularVestSystem;@MunghardsItempack;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@Notes;@MoreWolves;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
+
+
+------------------------------------
+42MA-SERVER, 21.05 2021 19:36:33
+
+[desync] HandleInputData man=SurvivorM_Niki:02 CANNOT move cmd=SYNC_MOVE src={ type=CARGO item=AmmoBox_556x45_20Rnd:08711 parent=MVS_GorkaPants_Multicam_Black:020161 idx=0 row=0 col=4 f=false } dst={ type=CARGO item=AmmoBox_556x45_20Rnd:08711 parent=MVS_GorkaPants_Multicam_Black:020161 idx=0 row=1 col=3 f=false }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:608
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1102
+scripts/4_World/systems\inventory\dayzplayerinventory.c:482
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ForeverLightsandCampfires;@8x8WastelandCamper;@TACSATRadio;@ModularVestSystem;@MunghardsItempack;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@Notes;@MoreWolves;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  

@@ -54,7 +54,7 @@
   </event>
   <event name="LandRoverDefender">
 		<nominal>14</nominal>
-		<min>6</min>
+		<min>1</min>
 		<max>20</max>
     <lifetime>3888000</lifetime>
 		<restock>0</restock>
@@ -66,16 +66,16 @@
 		<limit>mixed</limit>
 		<active>1</active>
 		<children>
-			<child lootmax="0" lootmin="0" max="15" min="10" type="CrSk_Land_Rover_Defender_110"/>
-			<child lootmax="0" lootmin="0" max="15" min="10" type="CrSk_Land_Rover_Defender_110_Green"/>
-			<child lootmax="0" lootmin="0" max="15" min="10" type="CrSk_Land_Rover_Defender_110_UN"/>
+			<child lootmax="0" lootmin="0" max="7" min="1" type="CrSk_Land_Rover_Defender_110"/>
+			<child lootmax="0" lootmin="0" max="6" min="1" type="CrSk_Land_Rover_Defender_110_Green"/>
+			<child lootmax="0" lootmin="0" max="1" min="0" type="CrSk_Land_Rover_Defender_110_UN"/>
 		</children>
 	</event>
   <event name="AmbientHen">
     <nominal>25</nominal>
-    <min>10</min>
+    <min>0</min>
     <max>50</max>
-    <lifetime>33</lifetime>
+    <lifetime>7200</lifetime>
     <restock>15</restock>
     <saferadius>40</saferadius>
     <distanceradius>0</distanceradius>
@@ -93,9 +93,9 @@
   </event>
   <event name="AnimalBear">
     <nominal>18</nominal>
-    <min>6</min>
+    <min>4</min>
     <max>24</max>
-    <lifetime>180</lifetime>
+    <lifetime>7200</lifetime>
     <restock>0</restock>
     <saferadius>200</saferadius>
     <distanceradius>0</distanceradius>
@@ -110,9 +110,9 @@
   </event>
   <event name="AnimalCow">
     <nominal>15</nominal>
-    <min>5</min>
+    <min>6</min>
     <max>30</max>
-    <lifetime>180</lifetime>
+    <lifetime>7200</lifetime>
     <restock>0</restock>
     <saferadius>200</saferadius>
     <distanceradius>0</distanceradius>
@@ -132,9 +132,9 @@
   </event>
   <event name="AnimalDeer">
     <nominal>20</nominal>
-    <min>10</min>
+    <min>6</min>
     <max>30</max>
-    <lifetime>180</lifetime>
+    <lifetime>7200</lifetime>
     <restock>0</restock>
     <saferadius>200</saferadius>
     <distanceradius>0</distanceradius>
@@ -150,9 +150,9 @@
   </event>
   <event name="AnimalGoat">
     <nominal>18</nominal>
-    <min>8</min>
+    <min>0</min>
     <max>24</max>
-    <lifetime>180</lifetime>
+    <lifetime>7200</lifetime>
     <restock>0</restock>
     <saferadius>200</saferadius>
     <distanceradius>0</distanceradius>
@@ -170,9 +170,9 @@
   </event>
   <event name="AnimalPig">
     <nominal>16</nominal>
-    <min>10</min>
+    <min>6</min>
     <max>20</max>
-    <lifetime>180</lifetime>
+    <lifetime>7200</lifetime>
     <restock>0</restock>
     <saferadius>200</saferadius>
     <distanceradius>0</distanceradius>
@@ -187,9 +187,9 @@
   </event>
   <event name="AnimalRoeDeer">
     <nominal>20</nominal>
-    <min>10</min>
+    <min>6</min>
     <max>30</max>
-    <lifetime>180</lifetime>
+    <lifetime>7200</lifetime>
     <restock>0</restock>
     <saferadius>200</saferadius>
     <distanceradius>0</distanceradius>
@@ -205,9 +205,9 @@
   </event>
   <event name="AnimalSheep">
     <nominal>25</nominal>
-    <min>10</min>
+    <min>12</min>
     <max>50</max>
-    <lifetime>180</lifetime>
+    <lifetime>7200</lifetime>
     <restock>0</restock>
     <saferadius>200</saferadius>
     <distanceradius>0</distanceradius>
@@ -223,9 +223,9 @@
   </event>
   <event name="AnimalWildBoar">
     <nominal>14</nominal>
-    <min>7</min>
+    <min>10</min>
     <max>21</max>
-    <lifetime>180</lifetime>
+    <lifetime>7200</lifetime>
     <restock>0</restock>
     <saferadius>200</saferadius>
     <distanceradius>0</distanceradius>
@@ -240,9 +240,9 @@
   </event>
   <event name="AnimalWolf">
     <nominal>30</nominal>
-    <min>20</min>
+    <min>10</min>
     <max>50</max>
-    <lifetime>180</lifetime>
+    <lifetime>7200</lifetime>
     <restock>0</restock>
     <saferadius>200</saferadius>
     <distanceradius>0</distanceradius>
@@ -258,7 +258,7 @@
   </event>
   <event name="InfectedArmy">
     <nominal>250</nominal>
-    <min>125</min>
+    <min>0</min>
     <max>500</max>
     <lifetime>3</lifetime>
     <restock>0</restock>
@@ -281,7 +281,7 @@
   </event>
   <event name="InfectedCity">
     <nominal>150</nominal>
-    <min>50</min>
+    <min>0</min>
     <max>250</max>
     <lifetime>3</lifetime>
     <restock>0</restock>
@@ -359,7 +359,7 @@
   </event>
   <event name="InfectedFirefighter">
     <nominal>150</nominal>
-    <min>50</min>
+    <min>0</min>
     <max>250</max>
     <lifetime>3</lifetime>
     <restock>0</restock>
@@ -376,7 +376,7 @@
   </event>
   <event name="InfectedIndustrial">
     <nominal>150</nominal>
-    <min>50</min>
+    <min>0</min>
     <max>250</max>
     <lifetime>3</lifetime>
     <restock>0</restock>
@@ -418,7 +418,7 @@
   </event>
   <event name="InfectedMedic">
     <nominal>150</nominal>
-    <min>50</min>
+    <min>0</min>
     <max>250</max>
     <lifetime>3</lifetime>
     <restock>0</restock>
@@ -446,7 +446,7 @@
   </event>
   <event name="InfectedPolice">
     <nominal>150</nominal>
-    <min>50</min>
+    <min>0</min>
     <max>250</max>
     <lifetime>3</lifetime>
     <restock>0</restock>
@@ -465,7 +465,7 @@
   </event>
   <event name="InfectedPrisoner">
     <nominal>150</nominal>
-    <min>50</min>
+    <min>0</min>
     <max>250</max>
     <lifetime>3</lifetime>
     <restock>0</restock>
@@ -482,7 +482,7 @@
   </event>
   <event name="InfectedReligious">
     <nominal>150</nominal>
-    <min>50</min>
+    <min>0</min>
     <max>250</max>
     <lifetime>3</lifetime>
     <restock>0</restock>
@@ -499,7 +499,7 @@
   </event>
   <event name="InfectedSolitude">
     <nominal>150</nominal>
-    <min>50</min>
+    <min>0</min>
     <max>250</max>
     <lifetime>3</lifetime>
     <restock>0</restock>
@@ -534,7 +534,7 @@
   </event>
   <event name="InfectedVillage">
     <nominal>150</nominal>
-    <min>50</min>
+    <min>0</min>>
     <max>250</max>
     <lifetime>3</lifetime>
     <restock>0</restock>
@@ -613,7 +613,7 @@
     <children />
   </event>
   <event name="StaticChristmasTree">
-    <nominal>13</nominal>
+    <nominal>1</nominal>
     <min>0</min>
     <max>0</max>
     <lifetime>86400</lifetime>

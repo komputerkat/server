@@ -1,0 +1,20 @@
+---------------------------------------------
+Log C:\Program Files (x86)\Steam\steamapps\common\DayZServer\myprofile\crash_2021-05-17_06-00-16.log started at 17.05. 06:26:17
+
+
+
+------------------------------------
+42MA-SERVER, 17.05 2021 06:26:17
+NULL pointer to instance
+Class:      'HandEventDrop'
+Function: 'SetGroundPosByOwner'
+Stack trace:
+scripts/3_Game/systems\inventory\inventory.c:1092
+scripts/3_Game/systems\inventory\hand_events.c:289
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1619
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1660
+scripts/3_Game/systems\inventory\humaninventory.c:584
+scripts/4_World/entities\manbase\playerbase.c:2421
+
+Runtime mode
+CLI params: cpuCount 4 mod @42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ForeverLightsandCampfires;@ModularVestSystem;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@MoreWolves;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  
