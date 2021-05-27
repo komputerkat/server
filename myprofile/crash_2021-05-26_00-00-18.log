@@ -1,0 +1,19 @@
+---------------------------------------------
+Log C:\Program Files (x86)\Steam\steamapps\common\DayZServer\myprofile\crash_2021-05-26_00-00-18.log started at 26.05. 03:18:58
+
+
+
+------------------------------------
+42MA-SERVER, 26.05 2021 03:18:58
+
+[desync] HandleInputData man=SurvivorM_Guo:02 CANNOT move cmd=SYNC_MOVE src={ type=GROUND item=Shovel:015292 pos=(6206.88, 25.9338, 14273.5) dir=(-0.150713, 0.691768, 0.690791, 0.146761) } dst={ type=ATTACHMENT item=Shovel:015292 parent=SurvivorM_Guo:02 slot=209551192 }
+Class:      'DayZPlayerInventory'
+Function: 'Error'
+Stack trace:
+scripts/1_Core/proto\endebug.c:44
+scripts/4_World/systems\inventory\dayzplayerinventory.c:608
+scripts/4_World/systems\inventory\dayzplayerinventory.c:1102
+scripts/4_World/systems\inventory\dayzplayerinventory.c:482
+
+Runtime mode
+CLI params: cpuCount 4 mod @DeerIsle;@CF;@CommunityOnlineTools;@GameLabs;@DayZEditorLoader;@TeddysWeaponPack;@ForeverLightsandCampfires;@TACSATRadio;@ArmoredVehiclePack;@ModularVestSystem;@MunghardsItempack;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@Notes;@MoreWolves;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@TraderPlus; config serverDZ.cfg port 2302 noFilePatching  profiles myprofile scrAllowFileWrite  adminlog  

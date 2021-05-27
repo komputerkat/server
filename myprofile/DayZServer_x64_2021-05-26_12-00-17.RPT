@@ -1,0 +1,488 @@
+
+
+=====================================================================
+== C:\Program Files (x86)\Steam\steamapps\common\DayZServer\DayZServer_x64.exe
+== DayZServer_x64.exe  -cpuCount=4 -mod=@DeerIsle;@CF;@CommunityOnlineTools;@GameLabs;@DayZEditorLoader;@TeddysWeaponPack;@ForeverLightsandCampfires;@TACSATRadio;@ArmoredVehiclePack;@ModularVestSystem;@MunghardsItempack;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@Notes;@MoreWolves;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@TraderPlus; -config=serverDZ.cfg -port=2302 -noFilePatching -profiles=myprofile -scrAllowFileWrite -adminlog
+=====================================================================
+Exe timestamp: 2021/05/05 10:02:18
+Current time:  2021/05/26 12:00:19
+
+Version 1.12.153904
+12:00:19.746 [Inputs] Loading inputs default "bin/constants.xml"
+12:00:19.748 [Inputs] Loading inputs default "bin/specific.xml"
+12:00:19.748 [Inputs] Loading inputs default "EarPlugs\data\inputs.xml"
+12:00:19.748 [Inputs] Loading inputs default "LBmaster_UndergroundLighting/inputsLBmaster.xml"
+12:00:19.748 [Inputs] Loading inputs default "VanillaPPMap/data/modded_Inputs.xml"
+12:00:19.749 [Inputs] Loading inputs default "JM/COT/Scripts/Data/Inputs.xml"
+12:00:19.749 !!! [Inputs] Cannot Register "UAObjectModuleDeleteOnCursor" non-existent input - Fix Preset!
+12:00:19.749 [Inputs] Loading inputs default "Notifications/inputs/inputs.xml"
+12:00:19.749 [Inputs] Loading inputs default "DayZEditorLoader/Scripts/Data/Inputs.xml"
+12:00:19.749 [Inputs] Loading inputs default "BaseBuildingPlus/Scripts/Data/Inputs.xml"
+12:00:19.750 [Inputs] Loading inputs cfg "myprofile\Users\Survivor\Server.core.xml"
+12:00:19.750 !!! [Inputs] Cannot read inputs cfg "myprofile\Users\Survivor\Server.core.xml", parser error
+12:00:19.750 [Inputs] Loading inputs cfg "bin/core.xml"
+12:00:19.750 !!! [Inputs] Cannot load input preset "user", file does not exist
+12:00:19.751 [Inputs] Exporting inputs cfg "myprofile\Users\Survivor\Server.core.xml"
+12:00:31.482 [CE][Hive] :: Initializing OFFLINE
+12:00:31.482 [CE][Hive] :: Loading core data ... 
+12:00:31.482 [CE][CoreData] :: 7 root classes, 18 defaults, 0 updaters...
+12:00:35.252 [CE] :: WARNING :: Preset map "optics" is EMPTY.
+12:00:35.254 [CE][TypeSetup] :: 482 classes setuped...
+12:00:35.942 [CE][RegisterBind] :: 0 classes binded...
+12:00:35.943 [CE][RegisterConfig] :: 9874 config classes registered, 1 sub-counters...
+12:00:35.943 [CE][Hive] :: Loading map data ... 
+12:00:35.973 [CE][LoadPrototype] :: loaded 345 prototypes
+12:00:35.973   665 containers, 8761 points
+12:00:35.973   0 dispatches, 0 proxies
+12:00:35.973 !!! [CE][LoadPrototype] 7 groups have no points...
+12:00:35.973 [CE][LoadPrototype] :: last group name: Land_Garage_Tall...
+12:00:35.976 [CE][LoadPrototype] :: loaded 0 prototypes
+12:00:35.976   0 containers, 0 points
+12:00:35.976   0 dispatches, 0 proxies
+12:00:35.976 [CE][LoadPrototype] :: last group name: Rail9...
+12:00:36.394 [CE][LoadMap] "Group" :: loaded 7506 groups, largest group range: 34.0
+12:00:36.396 [CE][LoadMap] "Dirt" :: loaded 0 groups, largest group range: 34.0
+12:00:36.498 [CE][Links] found 2124 total links between groups, of 7506
+12:00:36.498 [CE][LoadClusters] "Cluster" :: Loading files...
+12:00:36.651 [CE][LoadClusters] :: file: "mapgroupcluster.xml", 9 types, 50000 instances
+12:00:36.811 [CE][LoadClusters] :: file: "mapgroupcluster01", 9 types, 50000 instances
+12:00:36.812   5940 failed - check Matrix "default" grid size !!!
+12:00:36.972 [CE][LoadClusters] :: file: "mapgroupcluster02", 9 types, 50000 instances
+12:00:36.972   12307 failed - check Matrix "default" grid size !!!
+12:00:37.28 [CE][LoadClusters] :: file: "mapgroupcluster03", 9 types, 15277 instances
+12:00:37.28   1372 failed - check Matrix "default" grid size !!!
+12:00:37.31 [CE][Storage] ver:21 stamp:63722, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\types.bin"
+12:00:37.31 [CE][Storage] ver:21 stamp:63569, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\types.001"
+12:00:37.31 [CE][Storage] ver:21 stamp:63567, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\types.002"
+12:00:37.31 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\types.bin".
+12:00:37.133 !!! File "DZ\worlds\chernarusplus\ce\db/messages.xml" does not exist...
+12:00:37.133 !!! [CE][offlineDB] :: Failed to read messages file 'db/messages.xml'.
+12:00:37.133 !!! [CE][offlineDB] :: No Shutdown message present.
+12:00:37.134 [DynEvent] "BPGazG" will be ignored :: failed to determine spawner type!
+12:00:37.135 valid types are:
+12:00:37.135   01 - Vehicle 
+12:00:37.135   02 - Static 
+12:00:37.135   03 - Loot 
+12:00:37.135   04 - Infected 
+12:00:37.135   05 - Animal 
+12:00:37.135   06 - Ambient 
+12:00:37.135   07 - Item 
+12:00:37.135   08 - Trajectory 
+12:00:37.135 [DynEvent] "BPGazG" failed to initialize spawner - unknown type?!
+12:00:37.135 [DynEvent] "LandRoverDefender" will be ignored :: failed to determine spawner type!
+12:00:37.135 valid types are:
+12:00:37.135   01 - Vehicle 
+12:00:37.135   02 - Static 
+12:00:37.135   03 - Loot 
+12:00:37.135   04 - Infected 
+12:00:37.135   05 - Animal 
+12:00:37.135   06 - Ambient 
+12:00:37.135   07 - Item 
+12:00:37.135   08 - Trajectory 
+12:00:37.135 [DynEvent] "LandRoverDefender" failed to initialize spawner - unknown type?!
+12:00:37.135 [CE][offlineDB] :: Loaded 45 dynamic events 253 total types 0 total positions.
+12:00:37.170 !!! [CE][offlineDB] :: Failed to read types file 'TraderPlus_ce/TraderPlus_types.xml'.
+12:00:37.170 [CE][Storage] ver:21 stamp:63722, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\events.bin"
+12:00:37.170 [CE][Storage] ver:21 stamp:63569, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\events.001"
+12:00:37.170 [CE][Storage] ver:21 stamp:63567, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\events.002"
+12:00:37.170 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\events.bin".
+12:00:37.170 [CE][DynamicEvent] Load  Events:[45] Primary spawners: 43 Secondary spawners: 1
+12:00:37.171 [CE][Storage] ver:25 stamp:63722, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_000.bin"
+12:00:37.171 [CE][Storage] ver:25 stamp:63569, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_000.001"
+12:00:37.171 [CE][Storage] ver:25 stamp:63567, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_000.002"
+12:00:37.171 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_000.bin" 336 items.
+12:00:37.330   336 items loaded.
+12:00:37.330 [CE][Storage] ver:25 stamp:63722, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_001.bin"
+12:00:37.331 [CE][Storage] ver:25 stamp:63569, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_001.001"
+12:00:37.331 [CE][Storage] ver:25 stamp:63567, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_001.002"
+12:00:37.331 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_001.bin" 1173 items.
+12:00:37.792   1173 items loaded.
+12:00:37.792 [CE][Storage] ver:25 stamp:63722, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_002.bin"
+12:00:37.793 [CE][Storage] ver:25 stamp:63569, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_002.001"
+12:00:37.793 [CE][Storage] ver:25 stamp:63567, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_002.002"
+12:00:37.793 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_002.bin" 2541 items.
+12:00:38.532   2541 items loaded.
+12:00:38.533 [CE][Storage] ver:25 stamp:63722, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_003.bin"
+12:00:38.533 [CE][Storage] ver:25 stamp:63569, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_003.001"
+12:00:38.534 [CE][Storage] ver:25 stamp:63567, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_003.002"
+12:00:38.534 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_003.bin" 3121 items.
+12:00:39.629   3121 items loaded.
+12:00:39.630 [CE][Storage] ver:25 stamp:63722, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_004.bin"
+12:00:39.630 [CE][Storage] ver:25 stamp:63569, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_004.001"
+12:00:39.630 [CE][Storage] ver:25 stamp:63567, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_004.002"
+12:00:39.630 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_004.bin" 4816 items.
+12:00:40.763   4816 items loaded.
+12:00:40.764 [CE][Storage] ver:25 stamp:63722, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_005.bin"
+12:00:40.764 [CE][Storage] ver:25 stamp:63569, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_005.001"
+12:00:40.765 [CE][Storage] ver:25 stamp:63567, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_005.002"
+12:00:40.765 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_005.bin" 3589 items.
+12:00:41.582   3589 items loaded.
+12:00:41.583 [CE][Storage] ver:25 stamp:63722, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_006.bin"
+12:00:41.583 [CE][Storage] ver:25 stamp:63569, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_006.001"
+12:00:41.583 [CE][Storage] ver:25 stamp:63567, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_006.002"
+12:00:41.583 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_006.bin" 2881 items.
+12:00:42.187   2881 items loaded.
+12:00:42.188 [CE][Storage] ver:25 stamp:63722, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_007.bin"
+12:00:42.188 [CE][Storage] ver:25 stamp:63569, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_007.001"
+12:00:42.188 [CE][Storage] ver:25 stamp:63567, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_007.002"
+12:00:42.188 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_007.bin" 2104 items.
+12:00:42.638   2104 items loaded.
+12:00:42.638 [CE][Storage] ver:25 stamp:63722, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_008.bin"
+12:00:42.638 [CE][Storage] ver:25 stamp:63569, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_008.001"
+12:00:42.639 [CE][Storage] ver:25 stamp:63567, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_008.002"
+12:00:42.639 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_008.bin" 1318 items.
+12:00:42.903   1318 items loaded.
+12:00:42.904 [CE][Storage] ver:25 stamp:63722, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_009.bin"
+12:00:42.904 [CE][Storage] ver:25 stamp:63569, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_009.001"
+12:00:42.904 [CE][Storage] ver:25 stamp:63567, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_009.002"
+12:00:42.904 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_009.bin" 525 items.
+12:00:43.40   525 items loaded.
+12:00:43.40 [CE][Storage] ver:25 stamp:63722, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_010.bin"
+12:00:43.41 [CE][Storage] ver:25 stamp:63569, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_010.001"
+12:00:43.41 [CE][Storage] ver:25 stamp:63567, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_010.002"
+12:00:43.41 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_010.bin" 679 items.
+12:00:43.214   679 items loaded.
+12:00:43.214 [CE][Storage] ver:25 stamp:63722, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_011.bin"
+12:00:43.214 [CE][Storage] ver:25 stamp:63569, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_011.001"
+12:00:43.214 [CE][Storage] ver:25 stamp:63567, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_011.002"
+12:00:43.214 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_011.bin" 0 items.
+12:00:43.214   0 items loaded.
+12:00:43.214 [CE][Storage] ver:26 stamp:63722, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\building.bin"
+12:00:43.215 [CE][Storage] ver:26 stamp:63569, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\building.001"
+12:00:43.215 [CE][Storage] ver:26 stamp:63567, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\building.002"
+12:00:43.215 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\building.bin" 6 items.
+12:00:43.215   6 items loaded.
+12:00:43.215 [CE][Storage] ver:25 stamp:63722, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\vehicles.bin"
+12:00:43.216 [CE][Storage] ver:25 stamp:63569, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\vehicles.001"
+12:00:43.216 [CE][Storage] ver:25 stamp:63567, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\vehicles.002"
+12:00:43.216 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\vehicles.bin" 75 items.
+12:00:43.851   75 items loaded.
+12:00:43.863 [CE][Hive] :: Storage load took:6.70 seconds, recovery stamp:63722
+12:00:43.863   entity: 28040, building: 6
+12:00:43.863   no lifetime: 17
+12:00:43.863   pathgraph's: 1097
+12:00:43.864 [CE][Hive] :: Initializing ... 
+12:00:43.907 [CE][InitializeMap] :: initialized: 3
+12:00:43.907 [CE][Hive] :: Initializing spawners ... 
+12:00:44.589 [CE][LootRespawner] (PRIDummy) :: Initially (re)spawned:0, Nominal:33026, Total in Map: 23221 at 0 (sec)
+12:00:44.589   tests:0, repeats:0 fails:0, overtime:0
+12:00:44.595 [CE][DynEvent] :: 45 types
+12:00:44.595 [00] AmbientWolf
+12:00:44.595   Primary Spawner: "Ambient", active: yes, repeat: 1
+12:00:44.595 [01] AmbientBear
+12:00:44.595   Primary Spawner: "Ambient", active: yes, repeat: 1
+12:00:44.595 [02] BPGazG
+12:00:44.595 [03] LandRoverDefender
+12:00:44.595 [04] AmbientHen
+12:00:44.595   Primary Spawner: "Ambient", active: yes, repeat: 1
+12:00:44.595 [05] AnimalBear
+12:00:44.595   Primary Spawner: "Animal", active: yes, repeat: 1
+12:00:44.595 [06] AnimalCow
+12:00:44.595   Primary Spawner: "Animal", active: yes, repeat: 1
+12:00:44.595 [07] AnimalDeer
+12:00:44.595   Primary Spawner: "Animal", active: yes, repeat: 1
+12:00:44.595 [08] AnimalGoat
+12:00:44.595   Primary Spawner: "Animal", active: yes, repeat: 1
+12:00:44.595 [09] AnimalPig
+12:00:44.595   Primary Spawner: "Animal", active: yes, repeat: 1
+12:00:44.595 [10] AnimalRoeDeer
+12:00:44.595   Primary Spawner: "Animal", active: yes, repeat: 1
+12:00:44.595 [11] AnimalSheep
+12:00:44.595   Primary Spawner: "Animal", active: yes, repeat: 1
+12:00:44.595 [12] AnimalWildBoar
+12:00:44.595   Primary Spawner: "Animal", active: yes, repeat: 1
+12:00:44.595 [13] AnimalWolf
+12:00:44.595   Primary Spawner: "Animal", active: yes, repeat: 1
+12:00:44.595 [14] InfectedArmy
+12:00:44.595   Primary Spawner: "Infected", active: yes, repeat: 1
+12:00:44.595 [15] InfectedCity
+12:00:44.595   Primary Spawner: "Infected", active: yes, repeat: 1
+12:00:44.595 [16] InfectedFirefighter
+12:00:44.595   Primary Spawner: "Infected", active: yes, repeat: 1
+12:00:44.595 [17] InfectedIndustrial
+12:00:44.595   Primary Spawner: "Infected", active: yes, repeat: 1
+12:00:44.595 [18] InfectedMedic
+12:00:44.595   Primary Spawner: "Infected", active: yes, repeat: 1
+12:00:44.595 [19] InfectedPolice
+12:00:44.595   Primary Spawner: "Infected", active: yes, repeat: 1
+12:00:44.595 [20] InfectedPrisoner
+12:00:44.595   Primary Spawner: "Infected", active: yes, repeat: 1
+12:00:44.595 [21] InfectedReligious
+12:00:44.595   Primary Spawner: "Infected", active: yes, repeat: 1
+12:00:44.595 [22] InfectedSolitude
+12:00:44.595   Primary Spawner: "Infected", active: yes, repeat: 1
+12:00:44.595 [23] InfectedVillage
+12:00:44.595   Primary Spawner: "Infected", active: yes, repeat: 1
+12:00:44.595 [24] ItemPlanks
+12:00:44.595   Primary Spawner: "Item", active: yes, repeat: 1
+12:00:44.595 [25] Loot
+12:00:44.595   Primary Spawner: "Loot", active: yes, repeat: 2
+12:00:44.595 [26] StaticHeliCrash
+12:00:44.595   Primary Spawner: "Vehicle", active: yes, repeat: 1
+12:00:44.595   Secondary Spawner: "Infected", active: yes, repeat: 1
+12:00:44.595 [27] StaticPoliceCar
+12:00:44.595   Primary Spawner: "Vehicle", active: yes, repeat: 1
+12:00:44.595 [28] TrajectoryApple
+12:00:44.595   Primary Spawner: "Trajectory", active: yes, repeat: 1
+12:00:44.595 [29] TrajectoryCanina
+12:00:44.595   Primary Spawner: "Trajectory", active: yes, repeat: 1
+12:00:44.595 [30] TrajectoryConiferous
+12:00:44.595   Primary Spawner: "Trajectory", active: yes, repeat: 1
+12:00:44.595 [31] TrajectoryDeciduous
+12:00:44.595   Primary Spawner: "Trajectory", active: yes, repeat: 1
+12:00:44.595 [32] TrajectoryHumus
+12:00:44.595   Primary Spawner: "Trajectory", active: yes, repeat: 1
+12:00:44.595 [33] TrajectoryPear
+12:00:44.595   Primary Spawner: "Trajectory", active: yes, repeat: 1
+12:00:44.595 [34] TrajectoryPlum
+12:00:44.595   Primary Spawner: "Trajectory", active: yes, repeat: 1
+12:00:44.595 [35] TrajectorySambucus
+12:00:44.595   Primary Spawner: "Trajectory", active: yes, repeat: 1
+12:00:44.595 [36] TrajectoryStones
+12:00:44.595   Primary Spawner: "Trajectory", active: yes, repeat: 1
+12:00:44.595 [37] VehicleCivilianSedan
+12:00:44.595   Primary Spawner: "Vehicle", active: yes, repeat: 1
+12:00:44.595 [38] VehicleHatchback02
+12:00:44.595   Primary Spawner: "Vehicle", active: yes, repeat: 1
+12:00:44.595 [39] VehicleOffroadHatchback
+12:00:44.595   Primary Spawner: "Vehicle", active: yes, repeat: 1
+12:00:44.595 [40] VehicleSedan02
+12:00:44.595   Primary Spawner: "Vehicle", active: yes, repeat: 1
+12:00:44.595 [41] VehicleTruck01
+12:00:44.595   Primary Spawner: "Vehicle", active: yes, repeat: 1
+12:00:44.595 [42] StaticVanPinkies
+12:00:44.595   Primary Spawner: "Vehicle", active: yes, repeat: 1
+12:00:44.595 [43] StaticVanAmbulance
+12:00:44.595   Primary Spawner: "Vehicle", active: yes, repeat: 1
+12:00:44.595 [44] StaticSkeletonEventspawn
+12:00:44.595   Primary Spawner: "Vehicle", active: yes, repeat: 1
+12:00:44.595 [CE][Hive] :: Initializing of spawners done.
+12:00:44.600 [CE][Hive] :: Init sequence finished.
+12:00:44.600 Player connect enabled
+12:00:45.203 [IdleMode] Entering IN - save processed
+12:53:13.585 [Login]: Adding player Survivor (24968110) to login queue at position 0
+12:53:13.586 [LoginMachine]: Add player Survivor (24968110)
+12:53:13.586 [StateMachine]: Player Survivor (dpnid 24968110 uid ) Entering AuthPlayerLoginState
+12:53:14.993 [StateMachine]: Player Survivor (dpnid 24968110 uid ) State Error (AuthPlayerLoginState)
+12:53:14.993 Player Unknown (24968110) kicked from server: 146 (Client has a more recent version. Please wait until server updates. (GameLabs (PBO: PBO: C:\Program Files (x86)\Steam\steamapps\common\DayZ\!dzsal\@GameLabs\addons\gamelabsdefine.pbo (ClientVersion: 21052609 | ServerVersion: 21052410) )))
+12:53:14.993 [StateMachine]: Kick player Survivor (dpnid 24968110 uid ) State AuthPlayerLoginState
+12:53:14.997 [Disconnect]: Client 24968110 early disconnect
+12:53:14.997 [Disconnect]: No identity -> remove player info 24968110 
+12:53:14.997 [Disconnect]: DisconnectPlayerFinish 24968110
+12:53:14.997 [Disconnect]: Remove player info 24968110
+12:53:14.997 [Disconnect]: Player destroy 24968110 
+12:53:41.72 [Login]: Adding player Survivor (52451767) to login queue at position 0
+12:53:41.72 [LoginMachine]: Add player Survivor (52451767)
+12:53:41.72 [StateMachine]: Player Survivor (dpnid 52451767 uid ) Entering AuthPlayerLoginState
+12:53:42.256 [StateMachine]: Player Survivor (dpnid 52451767 uid ) State Error (AuthPlayerLoginState)
+12:53:42.256 Player Unknown (52451767) kicked from server: 146 (Client has a more recent version. Please wait until server updates. (GameLabs (PBO: PBO: C:\Program Files (x86)\Steam\steamapps\common\DayZ\!dzsal\@GameLabs\addons\gamelabsdefine.pbo (ClientVersion: 21052609 | ServerVersion: 21052410) )))
+12:53:42.256 [StateMachine]: Kick player Survivor (dpnid 52451767 uid ) State AuthPlayerLoginState
+12:53:42.260 [Disconnect]: Client 52451767 early disconnect
+12:53:42.260 [Disconnect]: No identity -> remove player info 52451767 
+12:53:42.260 [Disconnect]: DisconnectPlayerFinish 52451767
+12:53:42.260 [Disconnect]: Remove player info 52451767
+12:53:42.260 [Disconnect]: Player destroy 52451767 
+12:57:17.533 [Login]: Adding player Survivor (23969393) to login queue at position 0
+12:57:17.533 [LoginMachine]: Add player Survivor (23969393)
+12:57:17.533 [StateMachine]: Player Survivor (dpnid 23969393 uid ) Entering AuthPlayerLoginState
+12:57:18.536 [IdleMode] Leaving OUT
+12:57:18.860 [StateMachine]: Player Survivor (dpnid 23969393 uid ) State Error (AuthPlayerLoginState)
+12:57:18.860 Player Unknown (23969393) kicked from server: 146 (Client has a more recent version. Please wait until server updates. (GameLabs (PBO: PBO: C:\Program Files (x86)\Steam\steamapps\common\DayZ\!dzsal\@GameLabs\addons\gamelabsdefine.pbo (ClientVersion: 21052609 | ServerVersion: 21052410) )))
+12:57:18.860 [StateMachine]: Kick player Survivor (dpnid 23969393 uid ) State AuthPlayerLoginState
+12:57:18.864 [Disconnect]: Client 23969393 early disconnect
+12:57:18.864 [Disconnect]: No identity -> remove player info 23969393 
+12:57:18.864 [Disconnect]: DisconnectPlayerFinish 23969393
+12:57:18.864 [Disconnect]: Remove player info 23969393
+12:57:18.864 [Disconnect]: Player destroy 23969393 
+12:57:40.638 !!! [CE][Point] Removing 757.775940, 270.150879 from Land_jmc_ruinecolumn_loot
+12:57:40.640 !!! [CE][Point] Removing 7161.974609, 11576.686523 from Land_BusStation_wall_bench
+12:57:40.642 !!! [CE][Point] Removing 7159.990234, 11653.022461 from Land_jmc_militarycase_o_12
+12:57:40.643 !!! [CE][Point] Removing 7180.978516, 11679.879883 from Land_BusStation_wall_bench
+12:57:40.644 !!! [CE][Point] Removing 7162.553223, 11655.167969 from Land_jmc_militarycase_c_12
+12:57:40.644 !!! [CE][Point] Removing 7103.649902, 11618.441406 from Land_jmc_militarycase_c_07
+12:57:40.738 !!! [CE][Point] Removing 7144.937988, 11636.609375 from Land_BusStation_wall_bench
+12:57:40.739 !!! [CE][Point] Removing 7175.257813, 11682.561523 from Land_BusStation_wall_bench
+12:57:40.740 !!! [CE][Point] Removing 7174.383789, 11671.871094 from Land_BusStation_wall_bench
+12:57:40.741 !!! [CE][Point] Removing 7180.969727, 11681.090820 from Land_BusStation_wall_bench
+12:57:40.741 !!! [CE][Point] Removing 7160.763672, 11576.671875 from Land_BusStation_wall_bench
+12:57:40.742 !!! [CE][Point] Removing 7174.368164, 11674.870117 from Land_BusStation_wall_bench
+12:57:40.937 [CE][LootRespawner] (PRIDummy) :: Item [0] causing search overtime: "ShelterKit"
+12:57:41.338 !!! [CE][Point] Removing 7180.220703, 11591.080078 from Land_jmc_skeleton_old_5
+12:57:41.339 !!! [CE][Point] Removing 7191.696777, 11590.946289 from Land_jmc_militarycase_o_08
+12:57:41.537 !!! [CE][Point] Removing 816.548340, 420.785614 from Land_jmc_ruinecolumn_loot
+12:57:41.637 !!! [CE][Point] Removing 1829.957397, 8948.697266 from Land_strazni_vez
+12:57:41.836 [CE][LootRespawner] (PRIDummy) :: Item [1] causing search overtime: "WatchtowerKit"
+12:57:42.36 [CE][LootRespawner] (PRIDummy) :: Item [2] causing search overtime: "FenceKit"
+12:57:42.336 [CE][LootRespawner] (PRIDummy) :: Item [3] causing search overtime: "TerritoryFlagKit"
+12:57:42.436 [CE][LootRespawner] (PRIDummy) :: Item [4] causing search overtime: "Msp_CoffinBox"
+12:58:07.537 [CE][LootRespawner] (PRIDummy) :: Item [5] causing search overtime: "Msp_CoffinBox"
+12:58:07.736 [CE][LootRespawner] (PRIDummy) :: Item [6] causing search overtime: "WitchHood_Red"
+12:58:07.840 !!! [CE][Point] Removing 2046.131836, 9048.794922 from Land_strazni_vez
+12:58:08.238 !!! [CE][Point] Removing 7153.399902, 11606.755859 from Land_BusStation_wall_bench
+12:58:08.340 !!! [CE][Point] Removing 7189.465820, 11673.093750 from Land_jmc_militarycase_o_09
+12:58:08.342 !!! [CE][Point] Removing 686.131592, 285.233612 from Land_jmc_ruinecolumn_loot
+12:58:08.342 !!! [CE][Point] Removing 815.802368, 420.471619 from Land_jmc_ruinecolumn_loot
+12:58:08.345 !!! [CE][Point] Removing 7178.572754, 11600.803711 from Land_BusStation_wall_bench
+12:58:08.346 !!! [CE][Point] Removing 7180.963867, 11676.881836 from Land_BusStation_wall_bench
+12:58:08.438 !!! [CE][Point] Removing 7191.580078, 11553.846680 from Land_jmc_militarycase_c_07
+12:58:08.536 [CE][LootRespawner] (PRIDummy) :: Item [7] causing search overtime: "ShelterKit"
+12:58:08.636 [CE][LootRespawner] (PRIDummy) :: Item [8] causing search overtime: "WatchtowerKit"
+12:58:08.736 [CE][LootRespawner] (PRIDummy) :: Item [9] causing search overtime: "FenceKit"
+12:58:08.836 [CE][LootRespawner] (PRIDummy) :: Item [10] causing search overtime: "TerritoryFlagKit"
+12:58:34.338 !!! [CE][Point] Removing 7178.372070, 11686.045898 from Land_jmc_military_lootcase
+12:58:34.538 !!! [CE][Point] Removing 7144.927246, 11637.821289 from Land_BusStation_wall_bench
+12:58:34.541 !!! [CE][Point] Removing 839.963440, 397.474823 from Land_jmc_ruinecolumn_loot
+12:58:34.542 !!! [CE][Point] Removing 1536.132446, 11920.790039 from Land_jmc_militarycase_c_09
+12:58:34.543 !!! [CE][Point] Removing 7160.169434, 11657.359375 from Land_jmc_militarycase_o_08
+12:58:34.546 !!! [CE][Point] Removing 850.751404, 338.203522 from Land_jmc_ruinecolumn_loot
+12:58:34.547 !!! [CE][Point] Removing 7174.094238, 11645.138672 from Land_jmc_militarycase_o_09
+12:58:34.637 !!! [CE][Point] Removing 1830.085693, 8947.288086 from Land_strazni_vez
+12:58:34.640 !!! [CE][Point] Removing 7179.178711, 11631.274414 from Land_jmc_militarycase_o_11
+12:58:34.641 !!! [CE][Point] Removing 7175.418945, 11607.706055 from Land_jmc_militarycase_o_09
+12:58:34.643 !!! [CE][Point] Removing 7187.242676, 11607.349609 from Land_jmc_militarycase_o_07
+12:58:34.836 [CE][LootRespawner] (PRIDummy) :: Item [11] causing search overtime: "ShelterKit"
+12:58:35.136 [CE][LootRespawner] (PRIDummy) :: Item [12] causing search overtime: "WatchtowerKit"
+12:58:35.336 [CE][LootRespawner] (PRIDummy) :: Item [13] causing search overtime: "FenceKit"
+12:58:35.636 [CE][LootRespawner] (PRIDummy) :: Item [14] causing search overtime: "TerritoryFlagKit"
+12:58:35.736 [CE][LootRespawner] (PRIDummy) :: Item [15] causing search overtime: "Msp_CoffinBox"
+12:58:35.836 [CE][LootRespawner] (PRIDummy) :: Item [16] causing search overtime: "WitchHood_Red"
+12:58:45.622 [IdleMode] Entering IN - save processed
+13:03:31.615 [Login]: Adding player Survivor (24203053) to login queue at position 0
+13:03:31.615 [LoginMachine]: Add player Survivor (24203053)
+13:03:31.615 [StateMachine]: Player Survivor (dpnid 24203053 uid ) Entering AuthPlayerLoginState
+13:03:33.46 [StateMachine]: Player Survivor (dpnid 24203053 uid ) State Error (AuthPlayerLoginState)
+13:03:33.46 Player Unknown (24203053) kicked from server: 146 (Client has a more recent version. Please wait until server updates. (GameLabs (PBO: PBO: C:\Program Files (x86)\Steam\steamapps\common\DayZ\!dzsal\@GameLabs\addons\gamelabsdefine.pbo (ClientVersion: 21052609 | ServerVersion: 21052410) )))
+13:03:33.46 [StateMachine]: Kick player Survivor (dpnid 24203053 uid ) State AuthPlayerLoginState
+13:03:33.50 [Disconnect]: Client 24203053 early disconnect
+13:03:33.50 [Disconnect]: No identity -> remove player info 24203053 
+13:03:33.50 [Disconnect]: DisconnectPlayerFinish 24203053
+13:03:33.50 [Disconnect]: Remove player info 24203053
+13:03:33.50 [Disconnect]: Player destroy 24203053 
+13:12:23.125 [Login]: Adding player Survivor (24794255) to login queue at position 0
+13:12:23.125 [LoginMachine]: Add player Survivor (24794255)
+13:12:23.125 [StateMachine]: Player Survivor (dpnid 24794255 uid ) Entering AuthPlayerLoginState
+13:12:24.505 [StateMachine]: Player Survivor (dpnid 24794255 uid ) State Error (AuthPlayerLoginState)
+13:12:24.505 Player Unknown (24794255) kicked from server: 146 (Client has a more recent version. Please wait until server updates. (GameLabs (PBO: PBO: C:\Program Files (x86)\Steam\steamapps\common\DayZ\!dzsal\@GameLabs\addons\gamelabsdefine.pbo (ClientVersion: 21052609 | ServerVersion: 21052410) )))
+13:12:24.505 [StateMachine]: Kick player Survivor (dpnid 24794255 uid ) State AuthPlayerLoginState
+13:12:24.509 [Disconnect]: Client 24794255 early disconnect
+13:12:24.509 [Disconnect]: No identity -> remove player info 24794255 
+13:12:24.509 [Disconnect]: DisconnectPlayerFinish 24794255
+13:12:24.509 [Disconnect]: Remove player info 24794255
+13:12:24.509 [Disconnect]: Player destroy 24794255 
+13:33:23.873 [Login]: Adding player Survivor (24390743) to login queue at position 0
+13:33:23.873 [LoginMachine]: Add player Survivor (24390743)
+13:33:23.873 [StateMachine]: Player Survivor (dpnid 24390743 uid ) Entering AuthPlayerLoginState
+13:33:24.638 [IdleMode] Leaving OUT
+13:33:25.252 [StateMachine]: Player Survivor (dpnid 24390743 uid ) State Error (AuthPlayerLoginState)
+13:33:25.252 Player Unknown (24390743) kicked from server: 146 (Client has a more recent version. Please wait until server updates. (GameLabs (PBO: PBO: C:\Program Files (x86)\Steam\steamapps\common\DayZ\!dzsal\@GameLabs\addons\gamelabsdefine.pbo (ClientVersion: 21052609 | ServerVersion: 21052410) )))
+13:33:25.252 [StateMachine]: Kick player Survivor (dpnid 24390743 uid ) State AuthPlayerLoginState
+13:33:25.256 [Disconnect]: Client 24390743 early disconnect
+13:33:25.256 [Disconnect]: No identity -> remove player info 24390743 
+13:33:25.256 [Disconnect]: DisconnectPlayerFinish 24390743
+13:33:25.256 [Disconnect]: Remove player info 24390743
+13:33:25.256 [Disconnect]: Player destroy 24390743 
+13:33:46.642 !!! [CE][Point] Removing 7178.958984, 11685.918945 from Land_jmc_military_lootcase
+13:33:46.644 !!! [CE][Point] Removing 7179.123535, 11668.981445 from Land_jmc_military_lootcase
+13:33:46.839 !!! [CE][Point] Removing 1828.550415, 8947.227539 from Land_strazni_vez
+13:33:46.841 !!! [CE][Point] Removing 7178.484375, 11591.041016 from Land_jmc_skeleton_old_4
+13:33:46.843 !!! [CE][Point] Removing 536.699829, 341.082825 from Land_jmc_ruinecolumn_loot
+13:33:46.843 !!! [CE][Point] Removing 494.999512, 221.130844 from Land_jmc_ruinecolumn_loot
+13:33:46.844 !!! [CE][Point] Removing 7174.374023, 11679.615234 from Land_BusStation_wall_bench
+13:33:46.849 !!! [CE][Point] Removing 721.564331, 328.762512 from Land_jmc_ruinecolumn_loot
+13:33:47.39 !!! [CE][Point] Removing 7160.758789, 11678.957031 from Land_jmc_militarycase_o_11
+13:33:47.39 !!! [CE][Point] Removing 1828.525635, 8949.153320 from Land_strazni_vez
+13:33:47.41 !!! [CE][Point] Removing 7152.880371, 11568.689453 from Land_jmc_militarycase_c_06
+13:33:47.41 !!! [CE][Point] Removing 4610.052734, 6997.686523 from Land_strazni_vez
+13:33:47.239 !!! [CE][Point] Removing 494.253540, 221.129608 from Land_jmc_ruinecolumn_loot
+13:33:47.338 [CE][LootRespawner] (PRIDummy) :: Item [17] causing search overtime: "ShelterKit"
+13:33:47.539 !!! [CE][Point] Removing 7151.554199, 11568.265625 from Land_jmc_militarycase_o_05
+13:33:47.738 [CE][LootRespawner] (PRIDummy) :: Item [18] causing search overtime: "WatchtowerKit"
+13:33:47.938 [CE][LootRespawner] (PRIDummy) :: Item [19] causing search overtime: "FenceKit"
+13:33:48.540 !!! [CE][Point] Removing 7267.186523, 11611.096680 from Land_jmc_skeleton_burned_2
+13:34:13.539 !!! [CE][Point] Removing 7103.856934, 11620.941406 from Land_jmc_militarycase_o_07
+13:34:13.639 !!! [CE][Point] Removing 7160.065918, 11656.517578 from Land_jmc_militarycase_c_06
+13:34:14.239 !!! [CE][Point] Removing 7179.251953, 11685.856445 from Land_jmc_military_lootcase
+13:34:14.244 !!! [CE][Point] Removing 2155.870605, 12539.622070 from Land_Boat_Small1
+13:34:14.244 [CE][LootRespawner] (PRIDummy) :: Item [0] is hard to place, performance drops: "Roadflare"
+13:34:14.343 !!! [CE][Point] Removing 7174.402832, 11670.660156 from Land_BusStation_wall_bench
+13:34:14.440 !!! [CE][Point] Removing 7185.324707, 11561.282227 from Land_jmc_militarycase_c_12
+13:34:14.441 !!! [CE][Point] Removing 804.706360, 339.223083 from Land_jmc_ruinecolumn_loot
+13:34:14.442 !!! [CE][Point] Removing 4588.980469, 7324.826172 from Land_strazni_vez
+13:34:14.443 !!! [CE][Point] Removing 7194.047363, 11553.902344 from Land_jmc_militarycase_o_12
+13:34:14.443 !!! [CE][Point] Removing 1503.243652, 11759.322266 from Land_jmc_militarycase_c_06
+13:34:14.445 !!! [CE][Point] Removing 7158.818848, 11563.338867 from Land_jmc_militarycase_o_08
+13:34:14.445 !!! [CE][Point] Removing 765.627563, 284.283142 from Land_jmc_ruinecolumn_loot
+13:34:14.446 !!! [CE][Point] Removing 5012.430664, 7031.604004 from Land_strazni_vez
+13:34:14.740 !!! [CE][Point] Removing 7176.039551, 11591.428711 from Land_jmc_militarycase_o_07
+13:34:14.741 !!! [CE][Point] Removing 1461.098389, 11740.947266 from Land_jmc_militarycase_o_12
+13:34:14.742 !!! [CE][Point] Removing 2046.026733, 9050.328125 from Land_strazni_vez
+13:34:14.743 !!! [CE][Point] Removing 7190.909668, 11605.926758 from Land_jmc_militarycase_o_05
+13:34:40.439 !!! [CE][Point] Removing 7178.079102, 11686.108398 from Land_jmc_military_lootcase
+13:34:40.441 [CE][LootRespawner] (PRIDummy) :: Item [1] is hard to place, performance drops: "Roadflare"
+13:34:40.441 [CE][LootRespawner] (PRIDummy) :: Item [2] is hard to place, performance drops: "Roadflare"
+13:34:40.642 !!! [CE][Point] Removing 7151.122559, 11563.342773 from Land_jmc_militarycase_c_12
+13:34:40.642 !!! [CE][Point] Removing 7173.330078, 11606.138672 from Land_jmc_militarycase_c_06
+13:34:40.644 !!! [CE][Point] Removing 7186.425293, 11595.238281 from Land_BusStation_wall_bench
+13:34:40.646 !!! [CE][Point] Removing 7151.377441, 11610.114258 from Land_jmc_militarycase_o_08
+13:34:40.742 !!! [CE][Point] Removing 7271.020996, 11623.091797 from Land_jmc_militarycase_c_07
+13:34:40.743 !!! [CE][Point] Removing 7166.809570, 11665.891602 from Land_BusStation_wall_bench
+13:34:40.840 !!! [CE][Point] Removing 7191.911621, 11568.193359 from Land_jmc_militarycase_o_11
+13:34:40.843 !!! [CE][Point] Removing 7187.833008, 11672.678711 from Land_jmc_militarycase_o_12
+13:34:40.843 !!! [CE][Point] Removing 7176.726074, 11678.677734 from Land_jmc_militarycase_o_07
+13:34:51.724 [IdleMode] Entering IN - save processed
+13:46:40.283 [Login]: Adding player Survivor (24754352) to login queue at position 0
+13:46:40.283 [LoginMachine]: Add player Survivor (24754352)
+13:46:40.283 [StateMachine]: Player Survivor (dpnid 24754352 uid ) Entering AuthPlayerLoginState
+13:46:41.695 [StateMachine]: Player Survivor (dpnid 24754352 uid ) State Error (AuthPlayerLoginState)
+13:46:41.696 Player Unknown (24754352) kicked from server: 146 (Client has a more recent version. Please wait until server updates. (GameLabs (PBO: PBO: C:\Program Files (x86)\Steam\steamapps\common\DayZ\!dzsal\@GameLabs\addons\gamelabsdefine.pbo (ClientVersion: 21052609 | ServerVersion: 21052410) )))
+13:46:41.696 [StateMachine]: Kick player Survivor (dpnid 24754352 uid ) State AuthPlayerLoginState
+13:46:41.699 [Disconnect]: Client 24754352 early disconnect
+13:46:41.699 [Disconnect]: No identity -> remove player info 24754352 
+13:46:41.699 [Disconnect]: DisconnectPlayerFinish 24754352
+13:46:41.699 [Disconnect]: Remove player info 24754352
+13:46:41.699 [Disconnect]: Player destroy 24754352 
+13:49:55.301 [Login]: Adding player Survivor (24646162) to login queue at position 0
+13:49:55.301 [LoginMachine]: Add player Survivor (24646162)
+13:49:55.301 [StateMachine]: Player Survivor (dpnid 24646162 uid ) Entering AuthPlayerLoginState
+13:49:56.711 [StateMachine]: Player Survivor (dpnid 24646162 uid ) State Error (AuthPlayerLoginState)
+13:49:56.711 Player Unknown (24646162) kicked from server: 146 (Client has a more recent version. Please wait until server updates. (GameLabs (PBO: PBO: C:\Program Files (x86)\Steam\steamapps\common\DayZ\!dzsal\@GameLabs\addons\gamelabsdefine.pbo (ClientVersion: 21052609 | ServerVersion: 21052410) )))
+13:49:56.711 [StateMachine]: Kick player Survivor (dpnid 24646162 uid ) State AuthPlayerLoginState
+13:49:56.714 [Disconnect]: Client 24646162 early disconnect
+13:49:56.714 [Disconnect]: No identity -> remove player info 24646162 
+13:49:56.714 [Disconnect]: DisconnectPlayerFinish 24646162
+13:49:56.714 [Disconnect]: Remove player info 24646162
+13:49:56.714 [Disconnect]: Player destroy 24646162 
+13:54:49.714 [Login]: Adding player Survivor (24635013) to login queue at position 0
+13:54:49.714 [LoginMachine]: Add player Survivor (24635013)
+13:54:49.714 [StateMachine]: Player Survivor (dpnid 24635013 uid ) Entering AuthPlayerLoginState
+13:54:51.158 [StateMachine]: Player Survivor (dpnid 24635013 uid ) State Error (AuthPlayerLoginState)
+13:54:51.158 Player Unknown (24635013) kicked from server: 146 (Client has a more recent version. Please wait until server updates. (GameLabs (PBO: PBO: C:\Program Files (x86)\Steam\steamapps\common\DayZ\!Workshop\@GameLabs\addons\gamelabsdefine.pbo (ClientVersion: 21052609 | ServerVersion: 21052410) )))
+13:54:51.158 [StateMachine]: Kick player Survivor (dpnid 24635013 uid ) State AuthPlayerLoginState
+13:54:51.161 [Disconnect]: Client 24635013 early disconnect
+13:54:51.161 [Disconnect]: No identity -> remove player info 24635013 
+13:54:51.161 [Disconnect]: DisconnectPlayerFinish 24635013
+13:54:51.161 [Disconnect]: Remove player info 24635013
+13:54:51.161 [Disconnect]: Player destroy 24635013 
+14:14:11.278 [Login]: Adding player Survivor (24662886) to login queue at position 0
+14:14:11.278 [LoginMachine]: Add player Survivor (24662886)
+14:14:11.278 [StateMachine]: Player Survivor (dpnid 24662886 uid ) Entering AuthPlayerLoginState
+14:14:12.710 [StateMachine]: Player Survivor (dpnid 24662886 uid ) State Error (AuthPlayerLoginState)
+14:14:12.710 Player Unknown (24662886) kicked from server: 146 (Client has a more recent version. Please wait until server updates. (GameLabs (PBO: PBO: C:\Program Files (x86)\Steam\steamapps\common\DayZ\!Workshop\@GameLabs\addons\gamelabsdefine.pbo (ClientVersion: 21052609 | ServerVersion: 21052410) )))
+14:14:12.710 [StateMachine]: Kick player Survivor (dpnid 24662886 uid ) State AuthPlayerLoginState
+14:14:12.713 [Disconnect]: Client 24662886 early disconnect
+14:14:12.713 [Disconnect]: No identity -> remove player info 24662886 
+14:14:12.713 [Disconnect]: DisconnectPlayerFinish 24662886
+14:14:12.713 [Disconnect]: Remove player info 24662886
+14:14:12.713 [Disconnect]: Player destroy 24662886 
+=======================================================
+-------------------------------------------------------
+Time: 14:16:03
+Exception code: C0000005 ACCESS_VIOLATION at AA1E074B
+Version 1.12.153904
+Fault address:  AA1E074B 00:AA1E074B Unknown module
+file:     Expansion
+world:    deerisle
+Prev. code bytes: CB E8 7F 26 00 00 48 8B 4B 08 48 8B D3 48 8B 01
+Fault code bytes: FF 90 C8 01 00 00 48 8B 4B 50 48 83 F9 FF 74 0E
+=======================================================
+note: Minidump has been generated into the file myprofile\DayZServer_x64_2021-05-26_12-00-17_2021-05-26_14-16-03.mdmp

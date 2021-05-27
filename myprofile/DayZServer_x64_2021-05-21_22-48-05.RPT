@@ -1,0 +1,1425 @@
+
+
+=====================================================================
+== C:\Program Files (x86)\Steam\steamapps\common\DayZServer\DayZServer_x64.exe
+== DayZServer_x64.exe  -cpuCount=4 -mod=@42MonthsAfter;@DeerIsle;@CF;@ZomBerryAdminTools;@GameLabs;@DayZEditorLoader;@ForeverLightsandCampfires;@8x8WastelandCamper;@TACSATRadio;@ModularVestSystem;@MunghardsItempack;@TeddysWeaponPack;@CodeLock;@BaseBuildingPlus;@Notes;@MoreWolves;@MuchStuffPack;@CannabisPlus;@Notifications;@GAZ;@VanillaPlusPlusMap;@zSpawnSelection;@ToxicZone;@BuildAnywherev3;@BuilderItems;@MoreDoors;@MuchCarKey;@IRPLandRoverDefender110;@TrolleyKart;@EarPlugs;@AirdropUpgraded;@VendingMachine;@BattlEyePrefixRemoval;@TraderPlus; -config=serverDZ.cfg -port=2302 -noFilePatching -profiles=myprofile -scrAllowFileWrite -adminlog
+=====================================================================
+Exe timestamp: 2021/05/05 10:02:18
+Current time:  2021/05/21 22:48:07
+
+Version 1.12.153904
+22:48:07.784 [Inputs] Loading inputs default "bin/constants.xml"
+22:48:07.799 [Inputs] Loading inputs default "bin/specific.xml"
+22:48:07.799 [Inputs] Loading inputs default "EarPlugs\data\inputs.xml"
+22:48:07.799 [Inputs] Loading inputs default "LBmaster_UndergroundLighting/inputsLBmaster.xml"
+22:48:07.799 [Inputs] Loading inputs default "VanillaPPMap/data/modded_Inputs.xml"
+22:48:07.799 [Inputs] Loading inputs default "ZomBerry/AT/scripts/data/inputs.xml"
+22:48:07.799 [Inputs] Loading inputs default "Notifications/inputs/inputs.xml"
+22:48:07.799 [Inputs] Loading inputs default "DayZEditorLoader/Scripts/Data/Inputs.xml"
+22:48:07.799 [Inputs] Loading inputs default "BaseBuildingPlus/Scripts/Data/Inputs.xml"
+22:48:07.799 [Inputs] Loading inputs cfg "myprofile\Users\Survivor\Server.core.xml"
+22:48:07.799 !!! [Inputs] Cannot read inputs cfg "myprofile\Users\Survivor\Server.core.xml", parser error
+22:48:07.799 [Inputs] Loading inputs cfg "bin/core.xml"
+22:48:07.799 !!! [Inputs] Cannot load input preset "user", file does not exist
+22:48:07.799 [Inputs] Exporting inputs cfg "myprofile\Users\Survivor\Server.core.xml"
+22:48:19.340 [CE][Hive] :: Initializing OFFLINE
+22:48:19.340 [CE][Hive] :: Loading core data ... 
+22:48:19.340 [CE][CoreData] :: 7 root classes, 18 defaults, 0 updaters...
+22:48:23.104 [CE] :: WARNING :: Preset map "optics" is EMPTY.
+22:48:23.106 [CE][TypeSetup] :: 482 classes setuped...
+22:48:23.809 [CE][RegisterBind] :: 0 classes binded...
+22:48:23.809 [CE][RegisterConfig] :: 9854 config classes registered, 1 sub-counters...
+22:48:23.809 [CE][Hive] :: Loading map data ... 
+22:48:23.840 [CE][LoadPrototype] :: loaded 345 prototypes
+22:48:23.840   665 containers, 8761 points
+22:48:23.840   0 dispatches, 0 proxies
+22:48:23.840 !!! [CE][LoadPrototype] 7 groups have no points...
+22:48:23.840 [CE][LoadPrototype] :: last group name: Land_Garage_Tall...
+22:48:23.843 [CE][LoadPrototype] :: loaded 0 prototypes
+22:48:23.843   0 containers, 0 points
+22:48:23.843   0 dispatches, 0 proxies
+22:48:23.843 [CE][LoadPrototype] :: last group name: Rail9...
+22:48:24.261 [CE][LoadMap] "Group" :: loaded 7506 groups, largest group range: 34.0
+22:48:24.263 [CE][LoadMap] "Dirt" :: loaded 0 groups, largest group range: 34.0
+22:48:24.439 [CE][Links] found 2124 total links between groups, of 7506
+22:48:24.439 [CE][LoadClusters] "Cluster" :: Loading files...
+22:48:24.591 [CE][LoadClusters] :: file: "mapgroupcluster.xml", 9 types, 50000 instances
+22:48:24.749 [CE][LoadClusters] :: file: "mapgroupcluster01", 9 types, 50000 instances
+22:48:24.749   5940 failed - check Matrix "default" grid size !!!
+22:48:24.909 [CE][LoadClusters] :: file: "mapgroupcluster02", 9 types, 50000 instances
+22:48:24.909   12307 failed - check Matrix "default" grid size !!!
+22:48:24.964 [CE][LoadClusters] :: file: "mapgroupcluster03", 9 types, 15277 instances
+22:48:24.964   1372 failed - check Matrix "default" grid size !!!
+22:48:24.966 [CE][Storage] ver:21 stamp:50232, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\types.bin"
+22:48:24.967 [CE][Storage] ver:21 stamp:50230, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\types.001"
+22:48:24.967 [CE][Storage] ver:21 stamp:50231, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\types.002"
+22:48:24.967 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\types.bin".
+22:48:25.67 !!! File "DZ\worlds\chernarusplus\ce\db/messages.xml" does not exist...
+22:48:25.67 !!! [CE][offlineDB] :: Failed to read messages file 'db/messages.xml'.
+22:48:25.67 !!! [CE][offlineDB] :: No Shutdown message present.
+22:48:25.68 [DynEvent] "BPGazG" will be ignored :: failed to determine spawner type!
+22:48:25.68 valid types are:
+22:48:25.68   01 - Vehicle 
+22:48:25.68   02 - Static 
+22:48:25.68   03 - Loot 
+22:48:25.68   04 - Infected 
+22:48:25.68   05 - Animal 
+22:48:25.68   06 - Ambient 
+22:48:25.68   07 - Item 
+22:48:25.68   08 - Trajectory 
+22:48:25.68 [DynEvent] "BPGazG" failed to initialize spawner - unknown type?!
+22:48:25.68 [DynEvent] "LandRoverDefender" will be ignored :: failed to determine spawner type!
+22:48:25.68 valid types are:
+22:48:25.68   01 - Vehicle 
+22:48:25.68   02 - Static 
+22:48:25.68   03 - Loot 
+22:48:25.68   04 - Infected 
+22:48:25.68   05 - Animal 
+22:48:25.68   06 - Ambient 
+22:48:25.68   07 - Item 
+22:48:25.68   08 - Trajectory 
+22:48:25.68 [DynEvent] "LandRoverDefender" failed to initialize spawner - unknown type?!
+22:48:25.68 [CE][offlineDB] :: Loaded 45 dynamic events 253 total types 0 total positions.
+22:48:25.98 !!! [CE][offlineDB] :: Failed to read types file 'TraderPlus_ce/TraderPlus_types.xml'.
+22:48:25.98 [CE][Storage] ver:21 stamp:50232, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\events.bin"
+22:48:25.99 [CE][Storage] ver:21 stamp:50230, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\events.001"
+22:48:25.99 [CE][Storage] ver:21 stamp:50231, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\events.002"
+22:48:25.99 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\events.bin".
+22:48:25.99 [CE][DynamicEvent] Load  Events:[45] Primary spawners: 43 Secondary spawners: 1
+22:48:25.99 [CE][Storage] ver:25 stamp:50232, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_000.bin"
+22:48:25.100 [CE][Storage] ver:25 stamp:50230, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_000.001"
+22:48:25.100 [CE][Storage] ver:25 stamp:50231, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_000.002"
+22:48:25.100 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_000.bin" 166 items.
+22:48:25.239   166 items loaded.
+22:48:25.239 [CE][Storage] ver:25 stamp:50232, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_001.bin"
+22:48:25.240 [CE][Storage] ver:25 stamp:50230, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_001.001"
+22:48:25.240 [CE][Storage] ver:25 stamp:50231, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_001.002"
+22:48:25.240 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_001.bin" 792 items.
+22:48:25.639   792 items loaded.
+22:48:25.639 [CE][Storage] ver:25 stamp:50232, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_002.bin"
+22:48:25.639 [CE][Storage] ver:25 stamp:50230, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_002.001"
+22:48:25.640 [CE][Storage] ver:25 stamp:50231, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_002.002"
+22:48:25.640 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_002.bin" 2028 items.
+22:48:26.216   2028 items loaded.
+22:48:26.217 [CE][Storage] ver:25 stamp:50232, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_003.bin"
+22:48:26.217 [CE][Storage] ver:25 stamp:50230, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_003.001"
+22:48:26.218 [CE][Storage] ver:25 stamp:50231, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_003.002"
+22:48:26.218 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_003.bin" 1729 items.
+22:48:26.796   1729 items loaded.
+22:48:26.796 [CE][Storage] ver:25 stamp:50232, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_004.bin"
+22:48:26.797 [CE][Storage] ver:25 stamp:50230, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_004.001"
+22:48:26.797 [CE][Storage] ver:25 stamp:50231, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_004.002"
+22:48:26.797 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_004.bin" 2109 items.
+22:48:27.535   2109 items loaded.
+22:48:27.535 [CE][Storage] ver:25 stamp:50232, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_005.bin"
+22:48:27.536 [CE][Storage] ver:25 stamp:50230, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_005.001"
+22:48:27.536 [CE][Storage] ver:25 stamp:50231, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_005.002"
+22:48:27.536 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_005.bin" 2011 items.
+22:48:28.98   2011 items loaded.
+22:48:28.98 [CE][Storage] ver:25 stamp:50232, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_006.bin"
+22:48:28.99 [CE][Storage] ver:25 stamp:50230, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_006.001"
+22:48:28.99 [CE][Storage] ver:25 stamp:50231, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_006.002"
+22:48:28.99 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_006.bin" 2511 items.
+22:48:29.29   2511 items loaded.
+22:48:29.29 [CE][Storage] ver:25 stamp:50232, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_007.bin"
+22:48:29.30 [CE][Storage] ver:25 stamp:50230, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_007.001"
+22:48:29.30 [CE][Storage] ver:25 stamp:50231, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_007.002"
+22:48:29.30 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_007.bin" 895 items.
+22:48:29.235   895 items loaded.
+22:48:29.235 [CE][Storage] ver:25 stamp:50232, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_008.bin"
+22:48:29.235 [CE][Storage] ver:25 stamp:50230, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_008.001"
+22:48:29.236 [CE][Storage] ver:25 stamp:50231, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_008.002"
+22:48:29.236 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_008.bin" 1042 items.
+22:48:29.475   1042 items loaded.
+22:48:29.476 [CE][Storage] ver:25 stamp:50232, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_009.bin"
+22:48:29.476 [CE][Storage] ver:25 stamp:50230, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_009.001"
+22:48:29.476 [CE][Storage] ver:25 stamp:50231, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_009.002"
+22:48:29.476 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_009.bin" 525 items.
+22:48:29.590   525 items loaded.
+22:48:29.591 [CE][Storage] ver:25 stamp:50232, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_010.bin"
+22:48:29.591 [CE][Storage] ver:25 stamp:50230, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_010.001"
+22:48:29.592 [CE][Storage] ver:25 stamp:50231, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_010.002"
+22:48:29.592 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_010.bin" 425 items.
+22:48:29.682   425 items loaded.
+22:48:29.682 [CE][Storage] ver:25 stamp:50232, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_011.bin"
+22:48:29.682 [CE][Storage] ver:25 stamp:50230, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_011.001"
+22:48:29.682 [CE][Storage] ver:25 stamp:50231, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\dynamic_011.002"
+22:48:29.683 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\dynamic_011.bin" 0 items.
+22:48:29.683   0 items loaded.
+22:48:29.683 [CE][Storage] ver:26 stamp:50232, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\building.bin"
+22:48:29.683 [CE][Storage] ver:26 stamp:50230, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\building.001"
+22:48:29.683 [CE][Storage] ver:26 stamp:50231, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\building.002"
+22:48:29.683 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\building.bin" 5 items.
+22:48:29.683   5 items loaded.
+22:48:29.683 [CE][Storage] ver:25 stamp:50232, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\vehicles.bin"
+22:48:29.684 [CE][Storage] ver:25 stamp:50230, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\vehicles.001"
+22:48:29.684 [CE][Storage] ver:25 stamp:50231, valid:yes, name:"mpmissions\Expansion.deerisle\storage_1\data\vehicles.002"
+22:48:29.684 [CE][Storage] Restoring file "mpmissions\Expansion.deerisle\storage_1\data\vehicles.bin" 57 items.
+22:48:30.291   57 items loaded.
+22:48:30.300 [CE][Hive] :: Storage load took:5.20 seconds, recovery stamp:50232
+22:48:30.300   entity: 20115, building: 5
+22:48:30.300   no lifetime: 27
+22:48:30.300   pathgraph's: 1113
+22:48:30.301 [CE][Hive] :: Initializing ... 
+22:48:30.337 [CE][InitializeMap] :: initialized: 2
+22:48:30.337 [CE][Hive] :: Initializing spawners ... 
+22:48:31.26 [CE][LootRespawner] (PRIDummy) :: Initially (re)spawned:0, Nominal:44388, Total in Map: 14416 at 0 (sec)
+22:48:31.26   tests:0, repeats:0 fails:0, overtime:0
+22:48:31.31 [CE][DynEvent] :: 45 types
+22:48:31.31 [00] AmbientWolf
+22:48:31.31   Primary Spawner: "Ambient", active: yes, repeat: 1
+22:48:31.31 [01] AmbientBear
+22:48:31.31   Primary Spawner: "Ambient", active: yes, repeat: 1
+22:48:31.31 [02] BPGazG
+22:48:31.31 [03] LandRoverDefender
+22:48:31.31 [04] AmbientHen
+22:48:31.31   Primary Spawner: "Ambient", active: yes, repeat: 1
+22:48:31.31 [05] AnimalBear
+22:48:31.31   Primary Spawner: "Animal", active: yes, repeat: 1
+22:48:31.31 [06] AnimalCow
+22:48:31.31   Primary Spawner: "Animal", active: yes, repeat: 1
+22:48:31.31 [07] AnimalDeer
+22:48:31.31   Primary Spawner: "Animal", active: yes, repeat: 1
+22:48:31.31 [08] AnimalGoat
+22:48:31.31   Primary Spawner: "Animal", active: yes, repeat: 1
+22:48:31.31 [09] AnimalPig
+22:48:31.31   Primary Spawner: "Animal", active: yes, repeat: 1
+22:48:31.31 [10] AnimalRoeDeer
+22:48:31.31   Primary Spawner: "Animal", active: yes, repeat: 1
+22:48:31.31 [11] AnimalSheep
+22:48:31.31   Primary Spawner: "Animal", active: yes, repeat: 1
+22:48:31.31 [12] AnimalWildBoar
+22:48:31.31   Primary Spawner: "Animal", active: yes, repeat: 1
+22:48:31.31 [13] AnimalWolf
+22:48:31.31   Primary Spawner: "Animal", active: yes, repeat: 1
+22:48:31.31 [14] InfectedArmy
+22:48:31.31   Primary Spawner: "Infected", active: yes, repeat: 1
+22:48:31.31 [15] InfectedCity
+22:48:31.31   Primary Spawner: "Infected", active: yes, repeat: 1
+22:48:31.31 [16] InfectedFirefighter
+22:48:31.31   Primary Spawner: "Infected", active: yes, repeat: 1
+22:48:31.31 [17] InfectedIndustrial
+22:48:31.31   Primary Spawner: "Infected", active: yes, repeat: 1
+22:48:31.31 [18] InfectedMedic
+22:48:31.31   Primary Spawner: "Infected", active: yes, repeat: 1
+22:48:31.31 [19] InfectedPolice
+22:48:31.31   Primary Spawner: "Infected", active: yes, repeat: 1
+22:48:31.31 [20] InfectedPrisoner
+22:48:31.31   Primary Spawner: "Infected", active: yes, repeat: 1
+22:48:31.31 [21] InfectedReligious
+22:48:31.31   Primary Spawner: "Infected", active: yes, repeat: 1
+22:48:31.31 [22] InfectedSolitude
+22:48:31.31   Primary Spawner: "Infected", active: yes, repeat: 1
+22:48:31.31 [23] InfectedVillage
+22:48:31.31   Primary Spawner: "Infected", active: yes, repeat: 1
+22:48:31.31 [24] ItemPlanks
+22:48:31.31   Primary Spawner: "Item", active: yes, repeat: 1
+22:48:31.31 [25] Loot
+22:48:31.31   Primary Spawner: "Loot", active: yes, repeat: 2
+22:48:31.31 [26] StaticHeliCrash
+22:48:31.31   Primary Spawner: "Vehicle", active: yes, repeat: 1
+22:48:31.31   Secondary Spawner: "Infected", active: yes, repeat: 1
+22:48:31.31 [27] StaticPoliceCar
+22:48:31.31   Primary Spawner: "Vehicle", active: yes, repeat: 1
+22:48:31.31 [28] TrajectoryApple
+22:48:31.31   Primary Spawner: "Trajectory", active: yes, repeat: 1
+22:48:31.31 [29] TrajectoryCanina
+22:48:31.31   Primary Spawner: "Trajectory", active: yes, repeat: 1
+22:48:31.31 [30] TrajectoryConiferous
+22:48:31.31   Primary Spawner: "Trajectory", active: yes, repeat: 1
+22:48:31.31 [31] TrajectoryDeciduous
+22:48:31.31   Primary Spawner: "Trajectory", active: yes, repeat: 1
+22:48:31.31 [32] TrajectoryHumus
+22:48:31.31   Primary Spawner: "Trajectory", active: yes, repeat: 1
+22:48:31.31 [33] TrajectoryPear
+22:48:31.31   Primary Spawner: "Trajectory", active: yes, repeat: 1
+22:48:31.31 [34] TrajectoryPlum
+22:48:31.31   Primary Spawner: "Trajectory", active: yes, repeat: 1
+22:48:31.31 [35] TrajectorySambucus
+22:48:31.31   Primary Spawner: "Trajectory", active: yes, repeat: 1
+22:48:31.31 [36] TrajectoryStones
+22:48:31.31   Primary Spawner: "Trajectory", active: yes, repeat: 1
+22:48:31.31 [37] VehicleCivilianSedan
+22:48:31.31   Primary Spawner: "Vehicle", active: yes, repeat: 1
+22:48:31.31 [38] VehicleHatchback02
+22:48:31.31   Primary Spawner: "Vehicle", active: yes, repeat: 1
+22:48:31.31 [39] VehicleOffroadHatchback
+22:48:31.31   Primary Spawner: "Vehicle", active: yes, repeat: 1
+22:48:31.31 [40] VehicleSedan02
+22:48:31.31   Primary Spawner: "Vehicle", active: yes, repeat: 1
+22:48:31.31 [41] VehicleTruck01
+22:48:31.31   Primary Spawner: "Vehicle", active: yes, repeat: 1
+22:48:31.31 [42] StaticVanPinkies
+22:48:31.31   Primary Spawner: "Vehicle", active: yes, repeat: 1
+22:48:31.31 [43] StaticVanAmbulance
+22:48:31.31   Primary Spawner: "Vehicle", active: yes, repeat: 1
+22:48:31.31 [44] StaticSkeletonEventspawn
+22:48:31.31   Primary Spawner: "Vehicle", active: yes, repeat: 1
+22:48:31.31 [CE][Hive] :: Initializing of spawners done.
+22:48:31.34 [CE][Hive] :: Init sequence finished.
+22:48:31.34 Player connect enabled
+22:48:31.214 [Login]: Adding player Sterling Archer (2065364299) to login queue at position 0
+22:48:31.214 [LoginMachine]: Add player Sterling Archer (2065364299)
+22:48:31.214 [StateMachine]: Player Sterling Archer (dpnid 2065364299 uid ) Entering AuthPlayerLoginState
+22:48:31.465 [IdleMode] Entering IN - save processed
+22:48:32.366 [StateMachine]: Player Sterling Archer (dpnid 2065364299 uid ) Entering WaitAuthPlayerLoginState
+22:48:33.338 [IdleMode] Leaving OUT
+22:48:33.874 Player Sterling Archer connected (id=RVIewPnZEm8DdKzkr6HfIdaT-ee6DA5eFLbyfprTg9Y=).
+22:48:33.874 Player "Sterling Archer" is connected (steamID=76561198086332265)
+22:48:38.480 [StateMachine]: Player Sterling Archer (dpnid 2065364299 uid RVIewPnZEm8DdKzkr6HfIdaT-ee6DA5eFLbyfprTg9Y=) Entering DBGetLoginTimeLoginState
+22:48:38.481 [StateMachine]: Player Sterling Archer (dpnid 2065364299 uid RVIewPnZEm8DdKzkr6HfIdaT-ee6DA5eFLbyfprTg9Y=) Entering DBWaitLoginTimeLoginState
+22:48:53.471 [StateMachine]: Player Sterling Archer (dpnid 2065364299 uid RVIewPnZEm8DdKzkr6HfIdaT-ee6DA5eFLbyfprTg9Y=) Entering DBGetCharacterLoginState
+22:48:53.471 [StateMachine]: Player Sterling Archer (dpnid 2065364299 uid RVIewPnZEm8DdKzkr6HfIdaT-ee6DA5eFLbyfprTg9Y=) Entering CreateNetObjectsLoginState
+22:48:53.486 [StateMachine]: Player Sterling Archer (dpnid 2065364299 uid RVIewPnZEm8DdKzkr6HfIdaT-ee6DA5eFLbyfprTg9Y=) Entering PreloadCamLoginState
+22:48:53.486 [StateMachine]: Player Sterling Archer (dpnid 2065364299 uid RVIewPnZEm8DdKzkr6HfIdaT-ee6DA5eFLbyfprTg9Y=) Entering WaitPreloadCamLoginState
+22:48:55.504 [CE][LootRespawner] (PRIDummy) :: Item [0] causing search overtime: "CP_Cigarette"
+22:48:55.604 [CE][LootRespawner] (PRIDummy) :: Item [1] causing search overtime: "CP_JointSkunk"
+22:48:55.704 [CE][LootRespawner] (PRIDummy) :: Item [2] causing search overtime: "CP_CigarettePack_CannabisKush"
+22:48:55.804 [CE][LootRespawner] (PRIDummy) :: Item [3] causing search overtime: "CP_RollingPapers"
+22:48:55.906 !!! [CE][Point] Removing 5178.832520, 9114.549805 from Land_strazni_vez
+22:48:55.909 !!! [CE][Point] Removing 7160.169434, 11657.359375 from Land_jmc_militarycase_o_08
+22:48:55.909 !!! [CE][Point] Removing 7156.010742, 11555.536133 from Land_jmc_militarycase_c_12
+22:48:55.912 !!! [CE][Point] Removing 7198.099609, 11595.975586 from Land_jmc_militarycase_c_07
+22:48:55.913 !!! [CE][Point] Removing 4588.048340, 7325.891113 from Land_strazni_vez
+22:48:55.914 !!! [CE][Point] Removing 7191.864746, 11588.292969 from Land_jmc_militarycase_o_11
+22:48:55.914 !!! [CE][Point] Removing 7183.651367, 11590.829102 from Land_jmc_militarycase_c_09
+22:48:55.914 !!! [CE][Point] Removing 7187.367188, 11598.480469 from Land_jmc_militarycase_o_07
+22:48:55.915 !!! [CE][Point] Removing 1461.098389, 11740.947266 from Land_jmc_militarycase_o_12
+22:48:55.915 !!! [CE][Point] Removing 7160.758789, 11678.957031 from Land_jmc_militarycase_o_11
+22:48:56.05 [CE][LootRespawner] (PRIDummy) :: Item [4] causing search overtime: "CP_CigarettePack_Empty"
+22:48:56.106 [CE][LootRespawner] (PRIDummy) :: Item [5] causing search overtime: "CP_Relief_Balm"
+22:48:56.202 [CE][LootRespawner] (PRIDummy) :: Item [6] causing search overtime: "CP_JointBlue"
+22:48:56.295 !!! [CE][Point] Removing 7185.324707, 11561.282227 from Land_jmc_militarycase_c_12
+22:48:56.311 !!! [CE][Point] Removing 7187.147461, 11662.458984 from Land_jmc_militarycase_o_11
+22:48:56.311 !!! [CE][Point] Removing 7169.149414, 11583.397461 from Land_jmc_militarycase_o_08
+22:48:56.311 !!! [CE][Point] Removing 7191.911621, 11568.193359 from Land_jmc_militarycase_o_11
+22:48:56.327 !!! [CE][Point] Removing 4509.429688, 7196.737305 from Land_strazni_vez
+22:48:56.327 !!! [CE][Point] Removing 1379.247192, 11654.273438 from Land_jmc_militarycase_c_03
+22:48:56.327 !!! [CE][Point] Removing 819.639160, 303.924286 from Land_jmc_ruinecolumn_loot
+22:48:56.405 !!! [CE][Point] Removing 851.490723, 337.874023 from Land_jmc_ruinecolumn_loot
+22:48:56.405 !!! [CE][Point] Removing 7158.744141, 11560.833008 from Land_jmc_militarycase_o_09
+22:48:56.405 !!! [CE][Point] Removing 7176.039551, 11591.428711 from Land_jmc_militarycase_o_07
+22:48:56.405 !!! [CE][Point] Removing 7169.088867, 11565.916992 from Land_jmc_militarycase_o_12
+22:48:56.405 !!! [CE][Point] Removing 7180.832520, 11682.396484 from Land_jmc_militarycase_o_08
+22:48:56.405 !!! [CE][Point] Removing 808.024902, 333.101044 from Land_jmc_ruinecolumn_loot
+22:48:56.405 !!! [CE][Point] Removing 7151.122559, 11563.342773 from Land_jmc_militarycase_c_12
+22:48:56.405 !!! [CE][Point] Removing 7192.053223, 11560.669922 from Land_jmc_militarycase_o_05
+22:48:56.504 [CE][LootRespawner] (PRIDummy) :: Item [7] causing search overtime: "CigarettePack_Chernamorka"
+22:48:56.604 [CE][LootRespawner] (PRIDummy) :: Item [8] causing search overtime: "CigarettePack_Merkur"
+22:48:56.704 [CE][LootRespawner] (PRIDummy) :: Item [9] causing search overtime: "CP_CigarettePack_CannabisSkunk"
+22:48:56.804 [CE][LootRespawner] (PRIDummy) :: Item [10] causing search overtime: "CigarettePack_Partyzanka"
+22:48:56.904 [CE][LootRespawner] (PRIDummy) :: Item [11] causing search overtime: "CP_JointKush"
+22:48:56.997 !!! [CE][Point] Removing 1828.525635, 8949.153320 from Land_strazni_vez
+22:48:57.13 !!! [CE][Point] Removing 2046.131836, 9048.794922 from Land_strazni_vez
+22:48:57.13 !!! [CE][Point] Removing 7189.479492, 11610.973633 from Land_jmc_skeleton_old_2
+22:48:57.13 !!! [CE][Point] Removing 7187.242676, 11607.349609 from Land_jmc_militarycase_o_07
+22:48:57.13 !!! [CE][Point] Removing 4608.319824, 6996.845215 from Land_strazni_vez
+22:48:57.91 [CE][LootRespawner] (PRIDummy) :: Item [12] causing search overtime: "CP_JointBlackFrost"
+22:48:57.201 [CE][LootRespawner] (PRIDummy) :: Item [13] causing search overtime: "CP_JointFuture"
+22:48:57.294 [CE][LootRespawner] (PRIDummy) :: Item [14] causing search overtime: "CP_JointS1"
+22:49:04.137 [Login]: Adding player Jace (35498691) to login queue at position 0
+22:49:04.137 [LoginMachine]: Add player Jace (35498691)
+22:49:04.137 [StateMachine]: Player Jace (dpnid 35498691 uid ) Entering AuthPlayerLoginState
+22:49:05.544 [StateMachine]: Player Jace (dpnid 35498691 uid ) Entering WaitAuthPlayerLoginState
+22:49:06.884 Player Jace connected (id=3Yf4IjfITzHZ-KkF9CFJ068XfSnhNV9b1sfzHnfuZ24=).
+22:49:06.884 Player "Jace" is connected (steamID=76561198217435744)
+22:49:07.262 [StateMachine]: Player Jace (dpnid 35498691 uid 3Yf4IjfITzHZ-KkF9CFJ068XfSnhNV9b1sfzHnfuZ24=) Entering DBGetLoginTimeLoginState
+22:49:07.262 [StateMachine]: Player Jace (dpnid 35498691 uid 3Yf4IjfITzHZ-KkF9CFJ068XfSnhNV9b1sfzHnfuZ24=) Entering DBWaitLoginTimeLoginState
+22:49:11.693 [StateMachine]: Player Sterling Archer (dpnid 2065364299 uid RVIewPnZEm8DdKzkr6HfIdaT-ee6DA5eFLbyfprTg9Y=) Entering GetLoadedCharLoginState
+22:49:13.873 <LOAD EXISTING CHAR>:
+    charID 43
+    playerID 43
+    dpnid 2065364299
+    uid RVIewPnZEm8DdKzkr6HfIdaT-ee6DA5eFLbyfprTg9Y=
+22:49:22.264 [StateMachine]: Player Jace (dpnid 35498691 uid 3Yf4IjfITzHZ-KkF9CFJ068XfSnhNV9b1sfzHnfuZ24=) Entering DBGetCharacterLoginState
+22:49:22.265 [StateMachine]: Player Jace (dpnid 35498691 uid 3Yf4IjfITzHZ-KkF9CFJ068XfSnhNV9b1sfzHnfuZ24=) Entering CreateNetObjectsLoginState
+22:49:22.269 [StateMachine]: Player Jace (dpnid 35498691 uid 3Yf4IjfITzHZ-KkF9CFJ068XfSnhNV9b1sfzHnfuZ24=) Entering PreloadCamLoginState
+22:49:22.269 [StateMachine]: Player Jace (dpnid 35498691 uid 3Yf4IjfITzHZ-KkF9CFJ068XfSnhNV9b1sfzHnfuZ24=) Entering WaitPreloadCamLoginState
+22:49:22.376 [Login]: Adding player Cygnus (337059983) to login queue at position 0
+22:49:22.376 [LoginMachine]: Add player Cygnus (337059983)
+22:49:22.376 [StateMachine]: Player Cygnus (dpnid 337059983 uid ) Entering AuthPlayerLoginState
+22:49:23.654 [StateMachine]: Player Cygnus (dpnid 337059983 uid ) Entering WaitAuthPlayerLoginState
+22:49:24.492 !!! [CE][Point] Removing 5179.822754, 9112.897461 from Land_strazni_vez
+22:49:24.494 !!! [CE][Point] Removing 4610.249023, 6996.196777 from Land_strazni_vez
+22:49:24.494 !!! [CE][Point] Removing 2044.621460, 9050.159180 from Land_strazni_vez
+22:49:24.495 !!! [CE][Point] Removing 1830.085693, 8947.288086 from Land_strazni_vez
+22:49:24.498 !!! [CE][Point] Removing 375.952240, 778.457764 from Land_jmc_ruinecolumn_loot
+22:49:24.498 !!! [CE][Point] Removing 816.547485, 397.529938 from Land_jmc_ruinecolumn_loot
+22:49:24.500 !!! [CE][Point] Removing 465.460205, 262.925995 from Land_jmc_ruinecolumn_loot
+22:49:24.501 !!! [CE][Point] Removing 756.284790, 288.024872 from Land_jmc_ruinecolumn_loot
+22:49:24.793 !!! [CE][Point] Removing 7271.020996, 11623.091797 from Land_jmc_militarycase_c_07
+22:49:24.794 !!! [CE][Point] Removing 7173.956055, 11646.958008 from Land_jmc_militarycase_o_08
+22:49:24.798 !!! [CE][Point] Removing 7171.429688, 11648.979492 from Land_jmc_militarycase_o_08
+22:49:24.800 !!! [CE][Point] Removing 7181.748535, 11579.876953 from Land_jmc_militarycase_o_05
+22:49:24.801 !!! [CE][Point] Removing 7190.900391, 11556.199219 from Land_jmc_militarycase_c_09
+22:49:24.805 !!! [CE][Point] Removing 7176.726074, 11678.677734 from Land_jmc_militarycase_o_07
+22:49:24.809 !!! [CE][Point] Removing 7154.261719, 11593.990234 from Land_jmc_militarycase_o_07
+22:49:24.891 !!! [CE][Point] Removing 537.071777, 341.711426 from Land_jmc_ruinecolumn_loot
+22:49:24.892 !!! [CE][Point] Removing 7182.710449, 11647.839844 from Land_jmc_militarycase_o_05
+22:49:24.893 !!! [CE][Point] Removing 1441.068359, 11922.526367 from Land_jmc_militarycase_c_07
+22:49:24.895 !!! [CE][Point] Removing 5013.100586, 7030.356934 from Land_strazni_vez
+22:49:24.898 !!! [CE][Point] Removing 7197.381836, 11554.292969 from Land_jmc_militarycase_o_09
+22:49:24.898 !!! [CE][Point] Removing 356.791840, 778.260803 from Land_jmc_ruinecolumn_loot
+22:49:24.898 !!! [CE][Point] Removing 7156.099121, 11587.857422 from Land_jmc_militarycase_o_08
+22:49:24.899 !!! [CE][Point] Removing 7192.217773, 11562.439453 from Land_jmc_militarycase_c_06
+22:49:24.991 !!! [CE][Point] Removing 7178.497070, 11601.498047 from Land_jmc_militarycase_o_12
+22:49:24.992 !!! [CE][Point] Removing 7165.928223, 11678.539063 from Land_jmc_skeleton_old_5
+22:49:24.992 !!! [CE][Point] Removing 7160.065918, 11656.517578 from Land_jmc_militarycase_c_06
+22:49:24.993 !!! [CE][Point] Removing 7188.186035, 11568.453125 from Land_jmc_militarycase_o_09
+22:49:24.993 !!! [CE][Point] Removing 805.463928, 339.837097 from Land_jmc_ruinecolumn_loot
+22:49:24.993 !!! [CE][Point] Removing 7151.377441, 11610.114258 from Land_jmc_militarycase_o_08
+22:49:24.994 !!! [CE][Point] Removing 7192.060547, 11558.913086 from Land_jmc_militarycase_o_06
+22:49:24.994 !!! [CE][Point] Removing 7185.677246, 11568.532227 from Land_jmc_militarycase_o_08
+22:49:24.995 !!! [CE][Point] Removing 7175.900879, 11668.934570 from Land_jmc_militarycase_o_06
+22:49:24.995 !!! [CE][Point] Removing 7154.836426, 11645.380859 from Land_jmc_skeleton_old_2
+22:49:25.59 Player Cygnus connected (id=hDo_Btwm72QwlIopq6csO7iMF3JQfMqHeAzHsQsXTmo=).
+22:49:25.59 Player "Cygnus" is connected (steamID=76561199063202968)
+22:49:25.91 !!! [CE][Point] Removing 7191.580078, 11553.846680 from Land_jmc_militarycase_c_07
+22:49:25.91 !!! [CE][Point] Removing 1525.467896, 11771.351563 from Land_jmc_militarycase_o_11
+22:49:25.91 !!! [CE][Point] Removing 7174.257813, 11682.478516 from Land_jmc_militarycase_c_01
+22:49:25.92 !!! [CE][Point] Removing 536.325745, 341.710205 from Land_jmc_ruinecolumn_loot
+22:49:25.94 !!! [CE][Point] Removing 5014.596680, 7030.498047 from Land_strazni_vez
+22:49:25.94 !!! [CE][Point] Removing 357.164825, 778.261414 from Land_jmc_ruinecolumn_loot
+22:49:25.192 !!! [CE][Point] Removing 807.278931, 332.473053 from Land_jmc_ruinecolumn_loot
+22:49:25.193 !!! [CE][Point] Removing 851.130859, 338.509674 from Land_jmc_ruinecolumn_loot
+22:49:25.193 !!! [CE][Point] Removing 7164.669922, 11664.787109 from Land_jmc_militarycase_o_09
+22:49:25.194 !!! [CE][Point] Removing 7152.880371, 11568.689453 from Land_jmc_militarycase_c_06
+22:49:25.194 !!! [CE][Point] Removing 1536.132446, 11920.790039 from Land_jmc_militarycase_c_09
+22:49:25.195 !!! [CE][Point] Removing 7154.836426, 11645.380859 from Land_jmc_skeleton_old_2
+22:49:25.195 !!! [CE][Point] Removing 805.452271, 339.209198 from Land_jmc_ruinecolumn_loot
+22:49:25.291 !!! [CE][Point] Removing 4610.052734, 6997.686523 from Land_strazni_vez
+22:49:25.292 !!! [CE][Point] Removing 2046.026733, 9050.328125 from Land_strazni_vez
+22:49:25.293 !!! [CE][Point] Removing 1828.550415, 8947.227539 from Land_strazni_vez
+22:49:25.294 !!! [CE][Point] Removing 7158.622559, 11587.934570 from Land_jmc_militarycase_o_08
+22:49:25.296 !!! [CE][Point] Removing 7189.465820, 11673.093750 from Land_jmc_militarycase_o_09
+22:49:25.297 !!! [CE][Point] Removing 7103.856934, 11620.941406 from Land_jmc_militarycase_o_07
+22:49:25.297 !!! [CE][Point] Removing 7171.539551, 11601.766602 from Land_jmc_militarycase_o_11
+22:49:25.298 !!! [CE][Point] Removing 7162.553223, 11655.167969 from Land_jmc_militarycase_c_12
+22:49:25.299 !!! [CE][Point] Removing 7179.178711, 11631.274414 from Land_jmc_militarycase_o_11
+22:49:25.300 !!! [CE][Point] Removing 7162.368164, 11653.823242 from Land_jmc_militarycase_c_09
+22:49:25.390 !!! [CE][Point] Removing 804.706360, 339.223083 from Land_jmc_ruinecolumn_loot
+22:49:25.390 !!! [CE][Point] Removing 7165.928223, 11678.539063 from Land_jmc_skeleton_old_5
+22:49:25.391 !!! [CE][Point] Removing 7186.941895, 11555.553711 from Land_jmc_militarycase_o_12
+22:49:25.392 !!! [CE][Point] Removing 7176.039063, 11586.541016 from Land_jmc_militarycase_o_06
+22:49:25.394 !!! [CE][Point] Removing 7159.990234, 11653.022461 from Land_jmc_militarycase_o_12
+22:49:25.394 !!! [CE][Point] Removing 7144.947266, 11634.116211 from Land_jmc_militarycase_c_03
+22:49:25.394 !!! [CE][Point] Removing 7183.866699, 11569.283203 from Land_jmc_skeleton_old_5
+22:49:25.490 !!! [CE][Point] Removing 805.458069, 339.523163 from Land_jmc_ruinecolumn_loot
+22:49:25.491 !!! [CE][Point] Removing 850.751404, 338.203522 from Land_jmc_ruinecolumn_loot
+22:49:25.491 !!! [CE][Point] Removing 808.024902, 332.473053 from Land_jmc_ruinecolumn_loot
+22:49:25.494 !!! [CE][Point] Removing 685.759644, 284.605011 from Land_jmc_ruinecolumn_loot
+22:49:25.494 !!! [CE][Point] Removing 466.177429, 250.018890 from Land_jmc_ruinecolumn_loot
+22:49:25.494 !!! [CE][Point] Removing 750.699402, 287.483459 from Land_jmc_ruinecolumn_loot
+22:49:25.494 !!! [CE][Point] Removing 844.988037, 330.353760 from Land_jmc_ruinecolumn_loot
+22:49:25.495 !!! [CE][Point] Removing 396.498566, 943.986267 from Land_jmc_ruinecolumn_loot
+22:49:25.496 !!! [CE][Point] Removing 4589.254395, 7326.842773 from Land_strazni_vez
+22:49:25.591 !!! [CE][Point] Removing 7266.000488, 11605.139648 from Land_jmc_skeleton_burned_4
+22:49:25.592 !!! [CE][Point] Removing 7179.108887, 11677.737305 from Land_jmc_militarycase_o_07
+22:49:25.592 !!! [CE][Point] Removing 1407.082153, 11723.222656 from Land_jmc_militarycase_o_08
+22:49:25.593 !!! [CE][Point] Removing 7162.398438, 11656.876953 from Land_jmc_militarycase_o_05
+22:49:25.593 !!! [CE][Point] Removing 7190.567871, 11554.995117 from Land_jmc_militarycase_o_07
+22:49:25.594 !!! [CE][Point] Removing 7160.754395, 11616.364258 from Land_jmc_militarycase_o_08
+22:49:25.594 !!! [CE][Point] Removing 7151.060547, 11566.732422 from Land_jmc_militarycase_c_07
+22:49:25.594 !!! [CE][Point] Removing 4609.027344, 6995.481445 from Land_strazni_vez
+22:49:25.595 !!! [CE][Point] Removing 7189.479492, 11610.973633 from Land_jmc_skeleton_old_2
+22:49:25.692 !!! [CE][Point] Removing 1829.957397, 8948.697266 from Land_strazni_vez
+22:49:25.693 !!! [CE][Point] Removing 2044.207275, 9048.714844 from Land_strazni_vez
+22:49:25.694 !!! [CE][Point] Removing 5177.536133, 9113.724609 from Land_strazni_vez
+22:49:25.695 !!! [CE][Point] Removing 4590.406738, 7325.298828 from Land_strazni_vez
+22:49:25.697 !!! [CE][Point] Removing 4508.708984, 7197.955078 from Land_strazni_vez
+22:49:25.698 !!! [CE][Point] Removing 7187.833008, 11672.678711 from Land_jmc_militarycase_o_12
+22:49:25.790 !!! [CE][Point] Removing 366.431976, 787.915283 from Land_jmc_ruinecolumn_loot
+22:49:25.791 !!! [CE][Point] Removing 7183.866699, 11569.283203 from Land_jmc_skeleton_old_5
+22:49:25.791 !!! [CE][Point] Removing 7165.928223, 11678.539063 from Land_jmc_skeleton_old_5
+22:49:25.792 !!! [CE][Point] Removing 804.718018, 339.850983 from Land_jmc_ruinecolumn_loot
+22:49:25.792 !!! [CE][Point] Removing 7154.836426, 11645.380859 from Land_jmc_skeleton_old_2
+22:49:25.792 !!! [CE][Point] Removing 851.503784, 338.501892 from Land_jmc_ruinecolumn_loot
+22:49:25.792 !!! [CE][Point] Removing 807.278931, 332.787048 from Land_jmc_ruinecolumn_loot
+22:49:25.793 !!! [CE][Point] Removing 685.759155, 284.919006 from Land_jmc_ruinecolumn_loot
+22:49:25.793 !!! [CE][Point] Removing 466.550415, 250.019501 from Land_jmc_ruinecolumn_loot
+22:49:25.794 !!! [CE][Point] Removing 750.700989, 287.797455 from Land_jmc_ruinecolumn_loot
+22:49:25.890 !!! [CE][Point] Removing 820.385132, 303.610291 from Land_jmc_ruinecolumn_loot
+22:49:25.890 !!! [CE][Point] Removing 4510.918945, 7196.940430 from Land_strazni_vez
+22:49:25.891 !!! [CE][Point] Removing 7192.106934, 11586.715820 from Land_jmc_militarycase_c_03
+22:49:25.891 !!! [CE][Point] Removing 7267.267090, 11613.797852 from Land_jmc_skeleton_burned_2
+22:49:25.892 !!! [CE][Point] Removing 7185.923340, 11596.417969 from Land_jmc_militarycase_c_07
+22:49:25.893 !!! [CE][Point] Removing 7179.251953, 11685.856445 from Land_jmc_military_lootcase
+22:49:25.894 !!! [CE][Point] Removing 367.139801, 778.516052 from Land_jmc_ruinecolumn_loot
+22:49:25.894 !!! [CE][Point] Removing 7178.992676, 11626.495117 from Land_jmc_militarycase_c_05
+22:49:25.894 !!! [CE][Point] Removing 7174.094238, 11645.138672 from Land_jmc_militarycase_o_09
+22:49:25.990 !!! [CE][Point] Removing 851.497253, 338.187958 from Land_jmc_ruinecolumn_loot
+22:49:25.990 !!! [CE][Point] Removing 807.651917, 332.473053 from Land_jmc_ruinecolumn_loot
+22:49:25.991 !!! [CE][Point] Removing 686.505676, 284.606232 from Land_jmc_ruinecolumn_loot
+22:49:25.991 !!! [CE][Point] Removing 466.549377, 250.647507 from Land_jmc_ruinecolumn_loot
+22:49:25.991 !!! [CE][Point] Removing 750.702576, 288.111450 from Land_jmc_ruinecolumn_loot
+22:49:25.991 !!! [CE][Point] Removing 844.237427, 329.731262 from Land_jmc_ruinecolumn_loot
+22:49:25.992 !!! [CE][Point] Removing 4588.980469, 7324.826172 from Land_strazni_vez
+22:49:25.995 !!! [CE][Point] Removing 465.993896, 296.074646 from Land_jmc_ruinecolumn_loot
+22:49:26.90 !!! [CE][Point] Removing 805.091003, 339.844025 from Land_jmc_ruinecolumn_loot
+22:49:26.91 !!! [CE][Point] Removing 7183.866699, 11569.283203 from Land_jmc_skeleton_old_5
+22:49:26.92 !!! [CE][Point] Removing 366.433014, 787.287292 from Land_jmc_ruinecolumn_loot
+22:49:26.92 !!! [CE][Point] Removing 820.385132, 303.924286 from Land_jmc_ruinecolumn_loot
+22:49:26.92 !!! [CE][Point] Removing 4510.069336, 7198.668945 from Land_strazni_vez
+22:49:26.93 !!! [CE][Point] Removing 7267.267090, 11613.797852 from Land_jmc_skeleton_burned_2
+22:49:26.93 !!! [CE][Point] Removing 7178.079102, 11686.108398 from Land_jmc_military_lootcase
+22:49:26.94 !!! [CE][Point] Removing 367.140320, 778.202087 from Land_jmc_ruinecolumn_loot
+22:49:26.94 !!! [CE][Point] Removing 7174.722168, 11614.373047 from Land_jmc_militarycase_o_08
+22:49:26.94 !!! [CE][Point] Removing 495.000031, 220.816833 from Land_jmc_ruinecolumn_loot
+22:49:26.293 !!! [CE][Point] Removing 494.253540, 221.129608 from Land_jmc_ruinecolumn_loot
+22:49:26.294 !!! [CE][Point] Removing 840.302551, 420.304871 from Land_jmc_ruinecolumn_loot
+22:49:26.295 !!! [CE][Point] Removing 7177.741699, 11678.675781 from Land_jmc_militarycase_o_11
+22:49:26.295 !!! [CE][Point] Removing 1503.243652, 11759.322266 from Land_jmc_militarycase_c_06
+22:49:26.393 !!! [CE][Point] Removing 755.525879, 287.412567 from Land_jmc_ruinecolumn_loot
+22:49:26.394 !!! [CE][Point] Removing 11536.775391, 3748.261719 from Land_jmc_cabin01
+22:49:26.397 !!! [CE][Point] Removing 3825.572998, 9620.361328 from Land_jmc_cabin01
+22:49:26.399 !!! [CE][Point] Removing 757.775940, 270.150879 from Land_jmc_ruinecolumn_loot
+22:49:31.283 [StateMachine]: Player Cygnus (dpnid 337059983 uid hDo_Btwm72QwlIopq6csO7iMF3JQfMqHeAzHsQsXTmo=) Entering DBGetLoginTimeLoginState
+22:49:31.284 [StateMachine]: Player Cygnus (dpnid 337059983 uid hDo_Btwm72QwlIopq6csO7iMF3JQfMqHeAzHsQsXTmo=) Entering DBWaitLoginTimeLoginState
+22:49:33.89 [Login]: Adding player Skif (1494544388) to login queue at position 0
+22:49:33.89 [LoginMachine]: Add player Skif (1494544388)
+22:49:33.89 [StateMachine]: Player Skif (dpnid 1494544388 uid ) Entering AuthPlayerLoginState
+22:49:34.301 [StateMachine]: Player Skif (dpnid 1494544388 uid ) Entering WaitAuthPlayerLoginState
+22:49:35.744 Player Skif connected (id=HT80BSK6nbyEUuqqNLGOG_NvUVWKXCYBk5YTFLCK4vU=).
+22:49:35.744 Player "Skif" is connected (steamID=76561199013191843)
+22:49:40.222 [StateMachine]: Player Skif (dpnid 1494544388 uid HT80BSK6nbyEUuqqNLGOG_NvUVWKXCYBk5YTFLCK4vU=) Entering DBGetLoginTimeLoginState
+22:49:40.223 [StateMachine]: Player Skif (dpnid 1494544388 uid HT80BSK6nbyEUuqqNLGOG_NvUVWKXCYBk5YTFLCK4vU=) Entering DBWaitLoginTimeLoginState
+22:49:46.284 [StateMachine]: Player Cygnus (dpnid 337059983 uid hDo_Btwm72QwlIopq6csO7iMF3JQfMqHeAzHsQsXTmo=) Entering DBGetCharacterLoginState
+22:49:46.286 [StateMachine]: Player Cygnus (dpnid 337059983 uid hDo_Btwm72QwlIopq6csO7iMF3JQfMqHeAzHsQsXTmo=) Entering CreateNetObjectsLoginState
+22:49:46.290 [StateMachine]: Player Cygnus (dpnid 337059983 uid hDo_Btwm72QwlIopq6csO7iMF3JQfMqHeAzHsQsXTmo=) Entering PreloadCamLoginState
+22:49:46.291 [StateMachine]: Player Cygnus (dpnid 337059983 uid hDo_Btwm72QwlIopq6csO7iMF3JQfMqHeAzHsQsXTmo=) Entering WaitPreloadCamLoginState
+22:49:51.827 !!! [CE][Point] Removing 7178.665527, 11685.982422 from Land_jmc_military_lootcase
+22:49:51.827 !!! [CE][Point] Removing 7151.554199, 11568.265625 from Land_jmc_militarycase_o_05
+22:49:51.828 !!! [CE][Point] Removing 5012.430664, 7031.604004 from Land_strazni_vez
+22:49:51.830 !!! [CE][Point] Removing 7175.418945, 11607.706055 from Land_jmc_militarycase_o_09
+22:49:51.831 !!! [CE][Point] Removing 7267.477051, 11615.902344 from Land_jmc_militarycase_o_09
+22:49:51.832 !!! [CE][Point] Removing 7173.330078, 11606.138672 from Land_jmc_militarycase_c_06
+22:49:51.833 !!! [CE][Point] Removing 7164.317383, 11578.473633 from Land_jmc_militarycase_o_11
+22:49:51.927 !!! [CE][Point] Removing 820.012146, 303.924286 from Land_jmc_ruinecolumn_loot
+22:49:51.927 !!! [CE][Point] Removing 367.178986, 787.288574 from Land_jmc_ruinecolumn_loot
+22:49:51.928 !!! [CE][Point] Removing 804.712219, 339.537018 from Land_jmc_ruinecolumn_loot
+22:49:51.928 !!! [CE][Point] Removing 850.757935, 338.517456 from Land_jmc_ruinecolumn_loot
+22:49:51.928 !!! [CE][Point] Removing 808.024902, 332.787048 from Land_jmc_ruinecolumn_loot
+22:49:51.929 !!! [CE][Point] Removing 686.132690, 284.605621 from Land_jmc_ruinecolumn_loot
+22:49:51.929 !!! [CE][Point] Removing 465.803406, 250.646271 from Land_jmc_ruinecolumn_loot
+22:49:51.929 !!! [CE][Point] Removing 751.075562, 288.109558 from Land_jmc_ruinecolumn_loot
+22:49:51.929 !!! [CE][Point] Removing 844.242065, 330.359253 from Land_jmc_ruinecolumn_loot
+22:49:51.930 !!! [CE][Point] Removing 465.994415, 295.760651 from Land_jmc_ruinecolumn_loot
+22:49:52.26 !!! [CE][Point] Removing 758.155396, 270.457031 from Land_jmc_ruinecolumn_loot
+22:49:52.28 !!! [CE][Point] Removing 7173.125977, 11590.496094 from Land_jmc_skeleton_old_1
+22:49:52.30 !!! [CE][Point] Removing 765.262695, 283.650391 from Land_jmc_ruinecolumn_loot
+22:49:52.31 !!! [CE][Point] Removing 815.842224, 324.373474 from Land_jmc_ruinecolumn_loot
+22:49:52.128 !!! [CE][Point] Removing 5178.355957, 9112.571289 from Land_strazni_vez
+22:49:52.130 !!! [CE][Point] Removing 7194.047363, 11553.902344 from Land_jmc_militarycase_o_12
+22:49:52.131 !!! [CE][Point] Removing 7268.080566, 11613.530273 from Land_jmc_militarycase_c_12
+22:49:52.134 !!! [CE][Point] Removing 7158.818848, 11563.338867 from Land_jmc_militarycase_o_08
+22:49:52.135 !!! [CE][Point] Removing 7176.464355, 11583.501953 from Land_jmc_militarycase_o_09
+22:49:52.136 !!! [CE][Point] Removing 5013.819824, 7032.260742 from Land_strazni_vez
+22:49:52.228 !!! [CE][Point] Removing 7178.372070, 11686.045898 from Land_jmc_military_lootcase
+22:49:52.328 !!! [CE][Point] Removing 7178.958984, 11685.918945 from Land_jmc_military_lootcase
+22:49:52.336 !!! [CE][Point] Removing 3665.854492, 9737.577148 from Land_jmc_cabin01
+22:49:52.426 !!! [CE][Point] Removing 7267.267090, 11613.797852 from Land_jmc_skeleton_burned_2
+22:49:52.427 !!! [CE][Point] Removing 819.639160, 303.296295 from Land_jmc_ruinecolumn_loot
+22:49:52.427 !!! [CE][Point] Removing 367.177948, 787.916565 from Land_jmc_ruinecolumn_loot
+22:49:52.427 !!! [CE][Point] Removing 805.079285, 339.216156 from Land_jmc_ruinecolumn_loot
+22:49:52.428 !!! [CE][Point] Removing 850.744873, 337.889587 from Land_jmc_ruinecolumn_loot
+22:49:52.428 !!! [CE][Point] Removing 807.651917, 333.101044 from Land_jmc_ruinecolumn_loot
+22:49:52.428 !!! [CE][Point] Removing 686.504639, 285.234222 from Land_jmc_ruinecolumn_loot
+22:49:52.428 !!! [CE][Point] Removing 465.804443, 250.018265 from Land_jmc_ruinecolumn_loot
+22:49:52.428 !!! [CE][Point] Removing 751.445374, 287.479675 from Land_jmc_ruinecolumn_loot
+22:49:52.429 !!! [CE][Point] Removing 844.610413, 329.728516 from Land_jmc_ruinecolumn_loot
+22:49:52.526 !!! [CE][Point] Removing 7174.813965, 11590.480469 from Land_jmc_skeleton_old_2
+22:49:52.526 !!! [CE][Point] Removing 1485.284912, 11861.099609 from Land_jmc_skeleton_old_1
+22:49:52.527 !!! [CE][Point] Removing 756.271729, 287.397003 from Land_jmc_ruinecolumn_loot
+22:49:52.527 !!! [CE][Point] Removing 7180.220703, 11591.080078 from Land_jmc_skeleton_old_5
+22:49:52.528 !!! [CE][Point] Removing 7160.167969, 11636.795898 from Land_jmc_skeleton_gnawed_5
+22:49:52.528 !!! [CE][Point] Removing 465.460724, 262.612000 from Land_jmc_ruinecolumn_loot
+22:49:52.529 !!! [CE][Point] Removing 815.801514, 397.215942 from Land_jmc_ruinecolumn_loot
+22:49:52.529 !!! [CE][Point] Removing 376.325226, 778.458435 from Land_jmc_ruinecolumn_loot
+22:49:52.530 !!! [CE][Point] Removing 7189.479492, 11610.973633 from Land_jmc_skeleton_old_2
+22:49:52.530 !!! [CE][Point] Removing 7266.000488, 11605.139648 from Land_jmc_skeleton_burned_4
+22:49:52.626 !!! [CE][Point] Removing 1485.284912, 11861.099609 from Land_jmc_skeleton_old_1
+22:49:52.626 !!! [CE][Point] Removing 7174.813965, 11590.480469 from Land_jmc_skeleton_old_2
+22:49:52.626 !!! [CE][Point] Removing 757.789001, 270.778748 from Land_jmc_ruinecolumn_loot
+22:49:52.627 !!! [CE][Point] Removing 7173.125977, 11590.496094 from Land_jmc_skeleton_old_1
+22:49:52.627 !!! [CE][Point] Removing 766.004578, 283.973999 from Land_jmc_ruinecolumn_loot
+22:49:52.627 !!! [CE][Point] Removing 815.842224, 325.001465 from Land_jmc_ruinecolumn_loot
+22:49:52.628 !!! [CE][Point] Removing 7178.484375, 11591.041016 from Land_jmc_skeleton_old_4
+22:49:52.629 !!! [CE][Point] Removing 536.326294, 341.396210 from Land_jmc_ruinecolumn_loot
+22:49:52.629 !!! [CE][Point] Removing 357.536774, 778.890076 from Land_jmc_ruinecolumn_loot
+22:49:52.629 !!! [CE][Point] Removing 839.929565, 420.932861 from Land_jmc_ruinecolumn_loot
+22:49:52.726 !!! [CE][Point] Removing 376.324188, 779.086426 from Land_jmc_ruinecolumn_loot
+22:49:52.727 !!! [CE][Point] Removing 816.547485, 396.901947 from Land_jmc_ruinecolumn_loot
+22:49:52.727 !!! [CE][Point] Removing 465.833710, 262.612610 from Land_jmc_ruinecolumn_loot
+22:49:52.727 !!! [CE][Point] Removing 7160.167969, 11636.795898 from Land_jmc_skeleton_gnawed_5
+22:49:52.729 !!! [CE][Point] Removing 7180.220703, 11591.080078 from Land_jmc_skeleton_old_5
+22:49:52.729 !!! [CE][Point] Removing 755.538940, 288.040436 from Land_jmc_ruinecolumn_loot
+22:49:52.729 !!! [CE][Point] Removing 1485.284912, 11861.099609 from Land_jmc_skeleton_old_1
+22:49:52.729 !!! [CE][Point] Removing 7174.813965, 11590.480469 from Land_jmc_skeleton_old_2
+22:49:52.730 !!! [CE][Point] Removing 757.409546, 270.472595 from Land_jmc_ruinecolumn_loot
+22:49:52.730 !!! [CE][Point] Removing 7173.125977, 11590.496094 from Land_jmc_skeleton_old_1
+22:49:52.730 !!! [CE][Point] Removing 765.258606, 283.964355 from Land_jmc_ruinecolumn_loot
+22:49:52.826 !!! [CE][Point] Removing 7168.684082, 11588.574219 from Land_jmc_military_lootcase
+22:49:52.827 !!! [CE][Point] Removing 7160.970215, 11568.125000 from Land_jmc_military_lootcase
+22:49:52.827 !!! [CE][Point] Removing 7163.130859, 11589.823242 from Land_jmc_military_lootcase
+22:49:52.829 !!! [CE][Point] Removing 7602.687012, 9917.378906 from Land_jmc_cabin01
+22:49:52.829 [CE][LootRespawner] (PRIDummy) :: Item [0] is hard to place, performance drops: "MVS_CombatPants_Multicam_Black"
+22:49:52.830 !!! [CE][Point] Removing 7623.883789, 9951.583984 from Land_jmc_cabin01
+22:49:52.831 !!! [CE][Point] Removing 7187.570313, 11554.586914 from Land_jmc_military_lootcase
+22:49:52.926 !!! [CE][Point] Removing 366.804962, 787.915955 from Land_jmc_ruinecolumn_loot
+22:49:52.926 !!! [CE][Point] Removing 819.639160, 303.610291 from Land_jmc_ruinecolumn_loot
+22:49:52.926 !!! [CE][Point] Removing 366.393311, 778.828796 from Land_jmc_ruinecolumn_loot
+22:49:52.927 !!! [CE][Point] Removing 494.626526, 221.130219 from Land_jmc_ruinecolumn_loot
+22:49:52.927 !!! [CE][Point] Removing 839.929565, 420.304871 from Land_jmc_ruinecolumn_loot
+22:49:52.927 !!! [CE][Point] Removing 357.537811, 778.262085 from Land_jmc_ruinecolumn_loot
+22:49:52.927 !!! [CE][Point] Removing 536.326782, 341.082214 from Land_jmc_ruinecolumn_loot
+22:49:52.928 !!! [CE][Point] Removing 7178.484375, 11591.041016 from Land_jmc_skeleton_old_4
+22:49:52.928 !!! [CE][Point] Removing 816.215210, 324.373474 from Land_jmc_ruinecolumn_loot
+22:49:52.929 !!! [CE][Point] Removing 765.627563, 284.283142 from Land_jmc_ruinecolumn_loot
+22:49:53.27 [CE][LootRespawner] (PRIDummy) :: Item [1] is hard to place, performance drops: "MVS_ChestRig_Snow"
+22:49:53.28 [CE][LootRespawner] (PRIDummy) :: Item [2] is hard to place, performance drops: "MVS_ChestRig_Snow"
+22:49:53.32 [CE][LootRespawner] (PRIDummy) :: Item [3] is hard to place, performance drops: "MVS_ChestRig_Snow"
+22:49:53.33 [CE][LootRespawner] (PRIDummy) :: Item [4] is hard to place, performance drops: "MVS_ChestRig_Snow"
+22:49:53.126 !!! [CE][Point] Removing 766.000488, 284.287964 from Land_jmc_ruinecolumn_loot
+22:49:53.126 !!! [CE][Point] Removing 758.148865, 270.143097 from Land_jmc_ruinecolumn_loot
+22:49:53.127 !!! [CE][Point] Removing 755.532410, 287.726501 from Land_jmc_ruinecolumn_loot
+22:49:53.127 !!! [CE][Point] Removing 7180.220703, 11591.080078 from Land_jmc_skeleton_old_5
+22:49:53.128 !!! [CE][Point] Removing 7160.167969, 11636.795898 from Land_jmc_skeleton_gnawed_5
+22:49:53.129 !!! [CE][Point] Removing 466.206696, 262.613220 from Land_jmc_ruinecolumn_loot
+22:49:53.129 !!! [CE][Point] Removing 815.801514, 396.901947 from Land_jmc_ruinecolumn_loot
+22:49:53.129 !!! [CE][Point] Removing 375.578735, 778.771179 from Land_jmc_ruinecolumn_loot
+22:49:53.130 !!! [CE][Point] Removing 7266.000488, 11605.139648 from Land_jmc_skeleton_burned_4
+22:49:53.130 !!! [CE][Point] Removing 748.405457, 287.361328 from Land_jmc_ruinecolumn_loot
+22:49:53.161 [Login]: Adding player Jimmy Nickels (48437000) to login queue at position 0
+22:49:53.161 [LoginMachine]: Add player Jimmy Nickels (48437000)
+22:49:53.161 [StateMachine]: Player Jimmy Nickels (dpnid 48437000 uid ) Entering AuthPlayerLoginState
+22:49:53.226 !!! [CE][Point] Removing 375.579254, 778.457153 from Land_jmc_ruinecolumn_loot
+22:49:53.227 !!! [CE][Point] Removing 816.174500, 396.901947 from Land_jmc_ruinecolumn_loot
+22:49:53.228 !!! [CE][Point] Removing 466.205658, 263.241211 from Land_jmc_ruinecolumn_loot
+22:49:53.229 !!! [CE][Point] Removing 756.278259, 287.710938 from Land_jmc_ruinecolumn_loot
+22:49:53.230 !!! [CE][Point] Removing 757.403015, 270.158661 from Land_jmc_ruinecolumn_loot
+22:49:53.232 !!! [CE][Point] Removing 765.635620, 283.655212 from Land_jmc_ruinecolumn_loot
+22:49:53.233 !!! [CE][Point] Removing 816.215210, 324.687469 from Land_jmc_ruinecolumn_loot
+22:49:53.236 !!! [CE][Point] Removing 7178.484375, 11591.041016 from Land_jmc_skeleton_old_4
+22:49:53.237 !!! [CE][Point] Removing 536.699829, 341.082825 from Land_jmc_ruinecolumn_loot
+22:49:53.239 !!! [CE][Point] Removing 356.790802, 778.888794 from Land_jmc_ruinecolumn_loot
+22:49:55.193 [StateMachine]: Player Jimmy Nickels (dpnid 48437000 uid ) Entering WaitAuthPlayerLoginState
+22:49:55.223 [StateMachine]: Player Skif (dpnid 1494544388 uid HT80BSK6nbyEUuqqNLGOG_NvUVWKXCYBk5YTFLCK4vU=) Entering DBGetCharacterLoginState
+22:49:55.224 [StateMachine]: Player Skif (dpnid 1494544388 uid HT80BSK6nbyEUuqqNLGOG_NvUVWKXCYBk5YTFLCK4vU=) Entering CreateNetObjectsLoginState
+22:49:55.228 [StateMachine]: Player Skif (dpnid 1494544388 uid HT80BSK6nbyEUuqqNLGOG_NvUVWKXCYBk5YTFLCK4vU=) Entering PreloadCamLoginState
+22:49:55.229 [StateMachine]: Player Skif (dpnid 1494544388 uid HT80BSK6nbyEUuqqNLGOG_NvUVWKXCYBk5YTFLCK4vU=) Entering WaitPreloadCamLoginState
+22:49:56.820 Player Jimmy Nickels connected (id=Pk9FmI0iGIJV90L0o-uI7ivHc45DZnNcAVX3v1GVD5Y=).
+22:49:56.820 Player "Jimmy Nickels" is connected (steamID=76561198169903562)
+22:49:58.197 [StateMachine]: Player Jimmy Nickels (dpnid 48437000 uid Pk9FmI0iGIJV90L0o-uI7ivHc45DZnNcAVX3v1GVD5Y=) Entering DBGetLoginTimeLoginState
+22:49:58.199 [StateMachine]: Player Jimmy Nickels (dpnid 48437000 uid Pk9FmI0iGIJV90L0o-uI7ivHc45DZnNcAVX3v1GVD5Y=) Entering DBWaitLoginTimeLoginState
+22:50:03.693 [StateMachine]: Player Cygnus (dpnid 337059983 uid hDo_Btwm72QwlIopq6csO7iMF3JQfMqHeAzHsQsXTmo=) Entering GetLoadedCharLoginState
+22:50:03.735 <LOAD EXISTING CHAR>:
+    charID 7
+    playerID 7
+    dpnid 337059983
+    uid hDo_Btwm72QwlIopq6csO7iMF3JQfMqHeAzHsQsXTmo=
+22:50:13.127 [StateMachine]: Player Skif (dpnid 1494544388 uid HT80BSK6nbyEUuqqNLGOG_NvUVWKXCYBk5YTFLCK4vU=) Entering GetLoadedCharLoginState
+22:50:13.172 <LOAD EXISTING CHAR>:
+    charID 13
+    playerID 13
+    dpnid 1494544388
+    uid HT80BSK6nbyEUuqqNLGOG_NvUVWKXCYBk5YTFLCK4vU=
+22:50:13.199 [StateMachine]: Player Jimmy Nickels (dpnid 48437000 uid Pk9FmI0iGIJV90L0o-uI7ivHc45DZnNcAVX3v1GVD5Y=) Entering DBGetCharacterLoginState
+22:50:13.200 [StateMachine]: Player Jimmy Nickels (dpnid 48437000 uid Pk9FmI0iGIJV90L0o-uI7ivHc45DZnNcAVX3v1GVD5Y=) Entering CreateNetObjectsLoginState
+22:50:13.205 [StateMachine]: Player Jimmy Nickels (dpnid 48437000 uid Pk9FmI0iGIJV90L0o-uI7ivHc45DZnNcAVX3v1GVD5Y=) Entering PreloadCamLoginState
+22:50:13.206 [StateMachine]: Player Jimmy Nickels (dpnid 48437000 uid Pk9FmI0iGIJV90L0o-uI7ivHc45DZnNcAVX3v1GVD5Y=) Entering WaitPreloadCamLoginState
+22:50:18.479 !!! [CE][Point] Removing 10955.789063, 2309.281982 from Land_Mil_GuardShed
+22:50:18.481 !!! [CE][Point] Removing 3786.303955, 9675.597656 from Land_jmc_cabin01
+22:50:18.482 !!! [CE][Point] Removing 3741.319092, 9728.391602 from Land_jmc_cabin01
+22:50:18.482 !!! [CE][Point] Removing 537.072266, 341.397430 from Land_jmc_ruinecolumn_loot
+22:50:18.484 !!! [CE][Point] Removing 3667.205322, 9745.340820 from Land_jmc_cabin01
+22:50:18.485 !!! [CE][Point] Removing 357.537292, 778.576050 from Land_jmc_ruinecolumn_loot
+22:50:18.485 !!! [CE][Point] Removing 840.675537, 420.618866 from Land_jmc_ruinecolumn_loot
+22:50:18.486 !!! [CE][Point] Removing 494.254059, 220.815613 from Land_jmc_ruinecolumn_loot
+22:50:18.579 !!! [CE][Point] Removing 367.178467, 787.602539 from Land_jmc_ruinecolumn_loot
+22:50:18.579 !!! [CE][Point] Removing 820.385132, 303.296295 from Land_jmc_ruinecolumn_loot
+22:50:18.579 !!! [CE][Point] Removing 367.139282, 778.830078 from Land_jmc_ruinecolumn_loot
+22:50:18.580 !!! [CE][Point] Removing 494.627563, 220.502228 from Land_jmc_ruinecolumn_loot
+22:50:18.580 !!! [CE][Point] Removing 840.675537, 420.932861 from Land_jmc_ruinecolumn_loot
+22:50:18.580 !!! [CE][Point] Removing 357.163788, 778.889465 from Land_jmc_ruinecolumn_loot
+22:50:18.580 !!! [CE][Point] Removing 536.698730, 341.710815 from Land_jmc_ruinecolumn_loot
+22:50:18.581 !!! [CE][Point] Removing 815.469238, 325.001465 from Land_jmc_ruinecolumn_loot
+22:50:18.581 !!! [CE][Point] Removing 766.008606, 283.660004 from Land_jmc_ruinecolumn_loot
+22:50:18.581 !!! [CE][Point] Removing 758.161926, 270.770966 from Land_jmc_ruinecolumn_loot
+22:50:18.683 !!! [CE][Point] Removing 11536.775391, 3748.261719 from Land_jmc_cabin01
+22:50:18.779 !!! [CE][Point] Removing 7188.241211, 11553.987305 from Land_jmc_military_lootcase
+22:50:18.779 !!! [CE][Point] Removing 7157.763184, 11555.160156 from Land_jmc_military_lootcase
+22:50:18.779 [CE][LootRespawner] (PRIDummy) :: Item [5] is hard to place, performance drops: "MVS_Compact_1_Multicam"
+22:50:18.781 !!! [CE][Point] Removing 7188.857910, 11591.157227 from Land_jmc_military_lootcase
+22:50:18.881 !!! [CE][Point] Removing 3839.265137, 9611.403320 from Land_jmc_cabin01
+22:50:18.884 !!! [CE][Point] Removing 11532.838867, 3755.088867 from Land_jmc_cabin01
+22:50:18.897 !!! [CE][Point] Removing 3799.198730, 9728.458984 from Land_jmc_cabin01
+22:50:18.900 !!! [CE][Point] Removing 7615.466797, 9937.552734 from Land_jmc_cabin01
+22:50:18.980 !!! [CE][Point] Removing 3670.696289, 9776.938477 from Land_jmc_cabin01
+22:50:18.981 !!! [CE][Point] Removing 7623.883789, 9951.583984 from Land_jmc_cabin01
+22:50:18.982 !!! [CE][Point] Removing 3814.652832, 9725.648438 from Land_jmc_cabin01
+22:50:18.982 !!! [CE][Point] Removing 851.117798, 337.881805 from Land_jmc_ruinecolumn_loot
+22:50:18.982 !!! [CE][Point] Removing 807.278931, 333.101044 from Land_jmc_ruinecolumn_loot
+22:50:18.983 !!! [CE][Point] Removing 685.758606, 285.233002 from Land_jmc_ruinecolumn_loot
+22:50:18.983 !!! [CE][Point] Removing 466.549896, 250.333496 from Land_jmc_ruinecolumn_loot
+22:50:18.983 !!! [CE][Point] Removing 751.446960, 287.793671 from Land_jmc_ruinecolumn_loot
+22:50:18.983 !!! [CE][Point] Removing 844.983398, 329.725769 from Land_jmc_ruinecolumn_loot
+22:50:18.984 !!! [CE][Point] Removing 465.620392, 296.388031 from Land_jmc_ruinecolumn_loot
+22:50:18.984 !!! [CE][Point] Removing 748.418518, 287.989197 from Land_jmc_ruinecolumn_loot
+22:50:19.78 !!! [CE][Point] Removing 3748.995850, 9730.172852 from Land_jmc_cabin01
+22:50:19.79 !!! [CE][Point] Removing 3800.797363, 9668.003906 from Land_jmc_cabin01
+22:50:19.80 !!! [CE][Point] Removing 10954.425781, 2308.713623 from Land_Mil_GuardShed
+22:50:19.81 !!! [CE][Point] Removing 815.469238, 324.687469 from Land_jmc_ruinecolumn_loot
+22:50:19.81 !!! [CE][Point] Removing 765.254578, 284.278351 from Land_jmc_ruinecolumn_loot
+22:50:19.81 !!! [CE][Point] Removing 757.416077, 270.786530 from Land_jmc_ruinecolumn_loot
+22:50:19.82 !!! [CE][Point] Removing 3833.055664, 9606.549805 from Land_jmc_cabin01
+22:50:19.83 !!! [CE][Point] Removing 11547.560547, 3760.565674 from Land_jmc_cabin01
+22:50:19.283 !!! [CE][Point] Removing 537.072815, 341.083435 from Land_jmc_ruinecolumn_loot
+22:50:19.284 !!! [CE][Point] Removing 3682.018311, 9740.116211 from Land_jmc_cabin01
+22:50:19.285 !!! [CE][Point] Removing 356.791321, 778.574829 from Land_jmc_ruinecolumn_loot
+22:50:19.285 !!! [CE][Point] Removing 840.675537, 420.304871 from Land_jmc_ruinecolumn_loot
+22:50:19.285 !!! [CE][Point] Removing 495.000549, 220.502838 from Land_jmc_ruinecolumn_loot
+22:50:19.285 !!! [CE][Point] Removing 366.393829, 778.514832 from Land_jmc_ruinecolumn_loot
+22:50:19.286 !!! [CE][Point] Removing 820.012146, 303.296295 from Land_jmc_ruinecolumn_loot
+22:50:19.287 !!! [CE][Point] Removing 366.432495, 787.601318 from Land_jmc_ruinecolumn_loot
+22:50:19.484 [CE][LootRespawner] (PRIDummy) :: Item [6] is hard to place, performance drops: "PoliceVest"
+22:50:19.485 [CE][LootRespawner] (PRIDummy) :: Item [7] is hard to place, performance drops: "PoliceVest"
+22:50:19.485 [CE][LootRespawner] (PRIDummy) :: Item [8] is hard to place, performance drops: "PoliceVest"
+22:50:19.485 [CE][LootRespawner] (PRIDummy) :: Item [9] is hard to place, performance drops: "PoliceVest"
+22:50:19.485 [CE][LootRespawner] (PRIDummy) :: Item [10] is hard to place, performance drops: "PoliceVest"
+22:50:19.485 !!! [CE][Point] Removing 7189.900391, 11587.920898 from Land_jmc_military_lootcase
+22:50:19.485 [CE][LootRespawner] (PRIDummy) :: Item [11] is hard to place, performance drops: "PoliceVest"
+22:50:19.583 !!! [CE][Point] Removing 755.898804, 287.404785 from Land_jmc_ruinecolumn_loot
+22:50:19.583 !!! [CE][Point] Removing 466.206177, 262.927216 from Land_jmc_ruinecolumn_loot
+22:50:19.584 !!! [CE][Point] Removing 816.547485, 397.215942 from Land_jmc_ruinecolumn_loot
+22:50:19.584 !!! [CE][Point] Removing 375.578217, 779.085144 from Land_jmc_ruinecolumn_loot
+22:50:19.584 !!! [CE][Point] Removing 749.157837, 287.659698 from Land_jmc_ruinecolumn_loot
+22:50:19.584 !!! [CE][Point] Removing 465.247925, 296.073425 from Land_jmc_ruinecolumn_loot
+22:50:19.585 !!! [CE][Point] Removing 844.239746, 330.045258 from Land_jmc_ruinecolumn_loot
+22:50:19.585 !!! [CE][Point] Removing 751.072388, 287.481567 from Land_jmc_ruinecolumn_loot
+22:50:19.585 !!! [CE][Point] Removing 466.176392, 250.646881 from Land_jmc_ruinecolumn_loot
+22:50:19.585 !!! [CE][Point] Removing 686.505127, 284.920227 from Land_jmc_ruinecolumn_loot
+22:50:19.883 !!! [CE][Point] Removing 815.469238, 324.373474 from Land_jmc_ruinecolumn_loot
+22:50:19.883 !!! [CE][Point] Removing 839.929565, 420.618866 from Land_jmc_ruinecolumn_loot
+22:50:19.884 !!! [CE][Point] Removing 494.999512, 221.130844 from Land_jmc_ruinecolumn_loot
+22:50:19.884 !!! [CE][Point] Removing 366.766296, 778.829468 from Land_jmc_ruinecolumn_loot
+22:50:19.885 !!! [CE][Point] Removing 366.806000, 787.287903 from Land_jmc_ruinecolumn_loot
+22:50:19.885 !!! [CE][Point] Removing 686.131592, 285.233612 from Land_jmc_ruinecolumn_loot
+22:50:19.885 !!! [CE][Point] Removing 465.803925, 250.332275 from Land_jmc_ruinecolumn_loot
+22:50:20.284 !!! [CE][Point] Removing 7160.763672, 11576.671875 from Land_BusStation_wall_bench
+22:50:23.936 [StateMachine]: Player Jace (dpnid 35498691 uid 3Yf4IjfITzHZ-KkF9CFJ068XfSnhNV9b1sfzHnfuZ24=) Entering GetLoadedCharLoginState
+22:50:23.947 <LOAD EXISTING CHAR>:
+    charID 39
+    playerID 39
+    dpnid 35498691
+    uid 3Yf4IjfITzHZ-KkF9CFJ068XfSnhNV9b1sfzHnfuZ24=
+22:50:45.299 !!! [CE][Point] Removing 7150.781738, 11607.736328 from Land_jmc_skeleton_gnawed_5
+22:50:45.299 !!! [CE][Point] Removing 755.911865, 288.032654 from Land_jmc_ruinecolumn_loot
+22:50:45.300 !!! [CE][Point] Removing 465.832672, 263.240601 from Land_jmc_ruinecolumn_loot
+22:50:45.300 !!! [CE][Point] Removing 816.174500, 397.529938 from Land_jmc_ruinecolumn_loot
+22:50:45.300 !!! [CE][Point] Removing 375.951202, 779.085815 from Land_jmc_ruinecolumn_loot
+22:50:45.301 !!! [CE][Point] Removing 748.791443, 287.981415 from Land_jmc_ruinecolumn_loot
+22:50:45.301 !!! [CE][Point] Removing 465.621429, 295.760040 from Land_jmc_ruinecolumn_loot
+22:50:45.301 !!! [CE][Point] Removing 844.985718, 330.039764 from Land_jmc_ruinecolumn_loot
+22:50:45.399 [CE][LootRespawner] (PRIDummy) :: Item [12] is hard to place, performance drops: "MVS_Rucksack_Multicam_Tropic"
+22:50:45.399 [CE][LootRespawner] (PRIDummy) :: Item [13] is hard to place, performance drops: "MVS_Rucksack_Multicam_Tropic"
+22:50:45.401 !!! [CE][Point] Removing 7178.079590, 11668.389648 from Land_jmc_military_lootcase
+22:50:45.401 !!! [CE][Point] Removing 7168.684082, 11588.874023 from Land_jmc_military_lootcase
+22:50:45.401 !!! [CE][Point] Removing 7162.170410, 11568.125000 from Land_jmc_military_lootcase
+22:50:45.401 [CE][LootRespawner] (PRIDummy) :: Item [14] is hard to place, performance drops: "MVS_Rucksack_Multicam_Tropic"
+22:50:45.401 !!! [CE][Point] Removing 7163.730469, 11589.817383 from Land_jmc_military_lootcase
+22:50:45.401 [CE][LootRespawner] (PRIDummy) :: Item [15] is hard to place, performance drops: "MVS_Rucksack_Multicam_Tropic"
+22:50:45.501 [CE][LootRespawner] (PRIDummy) :: Item [16] is hard to place, performance drops: "MVS_Combat_Vest_Heavy_ERDL"
+22:50:45.501 [CE][LootRespawner] (PRIDummy) :: Item [17] is hard to place, performance drops: "MVS_Combat_Vest_Heavy_ERDL"
+22:50:45.503 !!! [CE][Point] Removing 7178.340332, 11668.538086 from Land_jmc_military_lootcase
+22:50:45.504 !!! [CE][Point] Removing 7168.684082, 11587.674805 from Land_jmc_military_lootcase
+22:50:45.505 !!! [CE][Point] Removing 7161.270508, 11568.125000 from Land_jmc_military_lootcase
+22:50:45.599 [CE][LootRespawner] (PRIDummy) :: Item [18] is hard to place, performance drops: "MVS_Compact_2_Tan"
+22:50:45.602 [CE][LootRespawner] (PRIDummy) :: Item [19] is hard to place, performance drops: "MVS_Compact_2_Tan"
+22:50:45.698 !!! [CE][Point] Removing 366.767334, 778.201416 from Land_jmc_ruinecolumn_loot
+22:50:45.698 !!! [CE][Point] Removing 494.254578, 220.501602 from Land_jmc_ruinecolumn_loot
+22:50:45.698 !!! [CE][Point] Removing 840.302551, 420.932861 from Land_jmc_ruinecolumn_loot
+22:50:45.698 !!! [CE][Point] Removing 816.215210, 325.001465 from Land_jmc_ruinecolumn_loot
+22:50:45.699 !!! [CE][Point] Removing 7150.781738, 11607.736328 from Land_jmc_skeleton_gnawed_5
+22:50:45.699 !!! [CE][Point] Removing 465.459686, 263.239990 from Land_jmc_ruinecolumn_loot
+22:50:45.699 !!! [CE][Point] Removing 815.801514, 397.529938 from Land_jmc_ruinecolumn_loot
+22:50:45.700 !!! [CE][Point] Removing 376.324707, 778.772400 from Land_jmc_ruinecolumn_loot
+22:50:45.700 !!! [CE][Point] Removing 748.411987, 287.675262 from Land_jmc_ruinecolumn_loot
+22:50:45.700 !!! [CE][Point] Removing 465.993378, 296.388641 from Land_jmc_ruinecolumn_loot
+22:50:45.898 !!! [CE][Point] Removing 7150.781738, 11607.736328 from Land_jmc_skeleton_gnawed_5
+22:50:45.898 !!! [CE][Point] Removing 10954.834961, 2310.084961 from Land_Mil_GuardShed
+22:50:45.899 !!! [CE][Point] Removing 3795.085693, 9662.574219 from Land_jmc_cabin01
+22:50:45.900 !!! [CE][Point] Removing 3740.359863, 9744.070313 from Land_jmc_cabin01
+22:50:45.901 !!! [CE][Point] Removing 3665.854492, 9737.577148 from Land_jmc_cabin01
+22:50:45.902 !!! [CE][Point] Removing 366.394348, 778.200806 from Land_jmc_ruinecolumn_loot
+22:50:45.903 !!! [CE][Point] Removing 7602.687012, 9917.378906 from Land_jmc_cabin01
+22:50:45.903 !!! [CE][Point] Removing 3659.596680, 9764.916992 from Land_jmc_cabin01
+22:50:45.903 !!! [CE][Point] Removing 7628.975098, 9945.568359 from Land_jmc_cabin01
+22:50:45.904 !!! [CE][Point] Removing 3814.755859, 9733.528320 from Land_jmc_cabin01
+22:50:45.905 !!! [CE][Point] Removing 751.448547, 288.107666 from Land_jmc_ruinecolumn_loot
+22:50:46.200 !!! [CE][Point] Removing 3655.837891, 9771.842773 from Land_jmc_cabin01
+22:50:46.201 !!! [CE][Point] Removing 7595.527832, 9920.672852 from Land_jmc_cabin01
+22:50:46.201 !!! [CE][Point] Removing 749.151306, 287.345764 from Land_jmc_ruinecolumn_loot
+22:50:46.202 !!! [CE][Point] Removing 465.248444, 295.759430 from Land_jmc_ruinecolumn_loot
+22:50:46.202 !!! [CE][Point] Removing 844.615051, 330.356506 from Land_jmc_ruinecolumn_loot
+22:50:46.203 !!! [CE][Point] Removing 766.025635, 292.021790 from Land_jmc_ruinecolumn_loot
+22:50:46.203 !!! [CE][Point] Removing 752.368591, 292.264374 from Land_jmc_ruinecolumn_loot
+22:50:47.98 !!! [CE][Point] Removing 748.778381, 287.353546 from Land_jmc_ruinecolumn_loot
+22:50:47.98 !!! [CE][Point] Removing 465.247406, 296.387421 from Land_jmc_ruinecolumn_loot
+22:50:47.99 !!! [CE][Point] Removing 7604.373047, 9933.653320 from Land_jmc_cabin01
+22:50:47.100 !!! [CE][Point] Removing 4760.525879, 14347.502930 from Land_jmc_skeleton_gnawed_5
+22:51:12.732 !!! [CE][Point] Removing 7174.402832, 11670.660156 from Land_BusStation_wall_bench
+22:51:12.932 !!! [CE][Point] Removing 749.164368, 287.973633 from Land_jmc_ruinecolumn_loot
+22:51:13.933 !!! [CE][Point] Removing 7162.830566, 11589.826172 from Land_jmc_military_lootcase
+22:51:13.934 !!! [CE][Point] Removing 7168.684082, 11587.974609 from Land_jmc_military_lootcase
+22:51:13.934 !!! [CE][Point] Removing 7178.862793, 11668.833008 from Land_jmc_military_lootcase
+22:51:14.134 !!! [CE][Point] Removing 7159.983398, 11629.576172 from Land_jmc_skeleton_gnawed_3
+22:51:14.135 !!! [CE][Point] Removing 7174.958008, 11609.624023 from Land_jmc_skeleton_old_4
+22:51:14.135 !!! [CE][Point] Removing 7177.570313, 11579.472656 from Land_jmc_skeleton_old_5
+22:51:15.533 !!! [CE][Point] Removing 3030.385986, 3474.004639 from SambucusBush2
+22:51:22.841 [StateMachine]: Player Jimmy Nickels (dpnid 48437000 uid Pk9FmI0iGIJV90L0o-uI7ivHc45DZnNcAVX3v1GVD5Y=) Entering GetLoadedCharLoginState
+22:51:22.869 <LOAD EXISTING CHAR>:
+    charID 12
+    playerID 12
+    dpnid 48437000
+    uid Pk9FmI0iGIJV90L0o-uI7ivHc45DZnNcAVX3v1GVD5Y=
+22:51:39.414 !!! [CE][Point] Removing 453.487396, 676.971924 from Land_jmc_ruinecolumn_loot
+22:51:39.419 !!! [CE][Point] Removing 942.966736, 353.627197 from Land_jmc_ruinecolumn_loot
+22:51:39.420 !!! [CE][Point] Removing 190.054535, 542.655579 from Land_jmc_ruinecolumn_loot
+22:51:39.421 !!! [CE][Point] Removing 585.121155, 954.112976 from Land_jmc_ruinecolumn_loot
+22:51:39.421 !!! [CE][Point] Removing 348.141876, 819.050659 from Land_jmc_ruinecolumn_loot
+22:51:39.421 !!! [CE][Point] Removing 799.298157, 324.372253 from Land_jmc_ruinecolumn_loot
+22:51:39.421 !!! [CE][Point] Removing 366.413025, 769.500488 from Land_jmc_ruinecolumn_loot
+22:51:39.423 !!! [CE][Point] Removing 584.888306, 371.889557 from Land_jmc_ruinecolumn_loot
+22:51:39.423 !!! [CE][Point] Removing 848.410889, 359.844482 from Land_jmc_ruinecolumn_loot
+22:51:40.615 !!! [CE][Point] Removing 805.691467, 321.303680 from Land_jmc_ruinecolumn_loot
+22:51:40.815 !!! [CE][Point] Removing 7176.799805, 11590.706055 from Land_jmc_skeleton_old_3
+22:51:40.815 !!! [CE][Point] Removing 7162.209473, 11609.802734 from Land_jmc_skeleton_gnawed_4
+22:51:40.815 !!! [CE][Point] Removing 7061.710938, 11614.959961 from Land_jmc_skeleton_gnawed_3
+22:51:40.815 !!! [CE][Point] Removing 7162.840820, 11588.692383 from Land_jmc_skeleton_old_2
+22:51:40.816 !!! [CE][Point] Removing 7175.721191, 11643.412109 from Land_jmc_skeleton_gnawed_4
+22:51:40.816 !!! [CE][Point] Removing 7176.411133, 11630.129883 from Land_jmc_skeleton_old_2
+22:51:40.816 !!! [CE][Point] Removing 7187.587891, 11608.579102 from Land_jmc_skeleton_old_4
+22:51:40.816 !!! [CE][Point] Removing 7190.500000, 11587.915039 from Land_jmc_military_lootcase
+22:51:40.816 !!! [CE][Point] Removing 7162.447266, 11573.961914 from Land_jmc_skeleton_gnawed_3
+22:51:41.15 !!! [CE][Point] Removing 7179.123535, 11668.981445 from Land_jmc_military_lootcase
+22:51:41.15 !!! [CE][Point] Removing 7188.017578, 11554.186523 from Land_jmc_military_lootcase
+22:51:41.16 !!! [CE][Point] Removing 7157.763184, 11556.059570 from Land_jmc_military_lootcase
+22:51:41.16 !!! [CE][Point] Removing 7188.855469, 11591.457031 from Land_jmc_military_lootcase
+22:51:41.16 !!! [CE][Point] Removing 7189.600098, 11587.923828 from Land_jmc_military_lootcase
+22:52:06.135 !!! [CE][Point] Removing 7176.799805, 11590.706055 from Land_jmc_skeleton_old_3
+22:52:06.136 !!! [CE][Point] Removing 1399.109741, 11665.671875 from Land_jmc_skeleton_old_3
+22:52:06.138 !!! [CE][Point] Removing 2509.720947, 12496.896484 from Land_jmc_skeleton_old_2
+22:52:06.347 !!! [CE][Point] Removing 7176.799805, 11590.706055 from Land_jmc_skeleton_old_3
+22:52:06.348 !!! [CE][Point] Removing 805.318481, 321.303680 from Land_jmc_ruinecolumn_loot
+22:52:06.348 !!! [CE][Point] Removing 7162.447266, 11573.961914 from Land_jmc_skeleton_gnawed_3
+22:52:06.449 !!! [CE][Point] Removing 7192.619629, 11631.144531 from Land_jmc_skeleton_old_5
+22:52:06.450 !!! [CE][Point] Removing 7155.677734, 11593.546875 from Land_jmc_skeleton_burned_3
+22:52:06.451 !!! [CE][Point] Removing 7189.349609, 11590.062500 from Land_jmc_skeleton_old_3
+22:52:06.648 !!! [CE][Point] Removing 3814.755859, 9733.528320 from Land_jmc_cabin01
+22:52:06.848 !!! [CE][Point] Removing 4929.528809, 14497.520508 from Land_jmc_skeleton_old_2
+22:52:06.848 !!! [CE][Point] Removing 4762.190918, 14343.074219 from Land_jmc_skeleton_gnawed_4
+22:52:06.947 !!! [CE][Point] Removing 7194.742188, 11600.756836 from Land_BusStation_wall_bench
+22:52:07.157 !!! [CE][Point] Removing 7192.619629, 11631.144531 from Land_jmc_skeleton_old_5
+22:52:07.158 !!! [CE][Point] Removing 7155.677734, 11593.546875 from Land_jmc_skeleton_burned_3
+22:52:07.158 !!! [CE][Point] Removing 7189.349609, 11590.062500 from Land_jmc_skeleton_old_3
+22:52:07.159 !!! [CE][Point] Removing 7150.625000, 11597.776367 from Land_jmc_skeleton_old_3
+22:52:07.159 !!! [CE][Point] Removing 7151.697754, 11591.977539 from Land_jmc_skeleton_old_2
+22:52:07.257 !!! [CE][Point] Removing 7159.738770, 11611.652344 from Land_jmc_skeleton_old_4
+22:52:07.258 !!! [CE][Point] Removing 7175.120117, 11643.183594 from Land_jmc_skeleton_gnawed_3
+22:52:07.258 !!! [CE][Point] Removing 7187.346680, 11554.786133 from Land_jmc_military_lootcase
+22:52:07.258 !!! [CE][Point] Removing 7157.763184, 11554.860352 from Land_jmc_military_lootcase
+22:52:07.259 !!! [CE][Point] Removing 7160.083496, 11595.036133 from Land_jmc_skeleton_gnawed_3
+22:52:07.557 !!! [CE][Point] Removing 396.959930, 943.560181 from Land_jmc_ruinecolumn_loot
+22:52:07.656 !!! [CE][Point] Removing 765.283752, 291.698181 from Land_jmc_ruinecolumn_loot
+22:52:07.656 !!! [CE][Point] Removing 752.748047, 292.570526 from Land_jmc_ruinecolumn_loot
+22:52:07.657 !!! [CE][Point] Removing 804.945496, 321.617676 from Land_jmc_ruinecolumn_loot
+22:52:07.757 !!! [CE][Point] Removing 759.612366, 307.004883 from Land_jmc_ruinecolumn_loot
+22:52:07.859 !!! [CE][Point] Removing 7188.847168, 11592.356445 from Land_jmc_military_lootcase
+22:52:07.859 !!! [CE][Point] Removing 7160.083496, 11595.036133 from Land_jmc_skeleton_gnawed_3
+22:52:07.859 !!! [CE][Point] Removing 7157.763184, 11555.759766 from Land_jmc_military_lootcase
+22:52:07.957 !!! [CE][Point] Removing 3749.864502, 5821.332031 from Land_Mil_Fortified_Nest_Watchtower
+22:52:08.56 [CE][LootRespawner] (PRIDummy) :: Item [15] causing search overtime: "CP_JointS1"
+22:52:33.258 [CE][LootRespawner] (PRIDummy) :: Item [16] causing search overtime: "CP_JointS1"
+22:52:33.358 [CE][LootRespawner] (PRIDummy) :: Item [17] causing search overtime: "CP_JointStardawg"
+22:52:33.458 [CE][LootRespawner] (PRIDummy) :: Item [18] causing search overtime: "CP_JointNomad"
+22:52:33.559 !!! [CE][Point] Removing 7187.916992, 11674.568359 from Land_jmc_skeleton_old_2
+22:52:33.560 !!! [CE][Point] Removing 7150.776855, 11594.269531 from Land_jmc_skeleton_old_2
+22:52:33.560 !!! [CE][Point] Removing 7080.537109, 11617.725586 from Land_jmc_skeleton_old_1
+22:52:33.563 !!! [CE][Point] Removing 7174.329102, 11650.351563 from Land_jmc_skeleton_gnawed_5
+22:52:33.867 [CE][LootRespawner] (PRIDummy) :: Item [19] causing search overtime: "Msp_CoffinBox"
+22:52:34.64 !!! [CE][Point] Removing 760.341736, 306.653931 from Land_jmc_ruinecolumn_loot
+22:52:34.64 !!! [CE][Point] Removing 765.279663, 292.012146 from Land_jmc_ruinecolumn_loot
+22:52:34.663 !!! [CE][Point] Removing 7174.368164, 11674.870117 from Land_BusStation_wall_bench
+22:52:36.664 !!! [CE][Point] Removing 2930.543701, 3543.625000 from PlumTree1
+22:52:36.664 !!! [CE][Point] Removing 3001.042969, 3539.575439 from PlumTree1
+22:52:36.964 !!! [CE][Point] Removing 3142.420898, 4312.270508 from SambucusBush1
+22:53:27.23 !!! [CE][Point] Removing 7061.710938, 11614.959961 from Land_jmc_skeleton_gnawed_3
+22:53:27.25 !!! [CE][Point] Removing 7176.411133, 11630.129883 from Land_jmc_skeleton_old_2
+22:53:27.26 !!! [CE][Point] Removing 7190.800293, 11587.912109 from Land_jmc_military_lootcase
+22:53:28.17 !!! [CE][Point] Removing 759.628113, 307.318481 from Land_jmc_ruinecolumn_loot
+22:53:28.18 !!! [CE][Point] Removing 765.648621, 292.330933 from Land_jmc_ruinecolumn_loot
+22:53:28.18 !!! [CE][Point] Removing 752.741516, 292.256592 from Land_jmc_ruinecolumn_loot
+22:53:28.616 !!! [CE][Point] Removing 4762.190918, 14343.074219 from Land_jmc_skeleton_gnawed_4
+22:53:34.547 [Login]: Adding player Raider 2-2 (1628019298) to login queue at position 0
+22:53:34.547 [LoginMachine]: Add player Raider 2-2 (1628019298)
+22:53:34.547 [StateMachine]: Player Raider 2-2 (dpnid 1628019298 uid ) Entering AuthPlayerLoginState
+22:53:35.819 [StateMachine]: Player Raider 2-2 (dpnid 1628019298 uid ) Entering WaitAuthPlayerLoginState
+22:53:37.237 Player Raider 2-2 connected (id=XvanEKUhyxTkbzngpxDcoNyQwUXi4Yr-sLWO7uNg91M=).
+22:53:37.237 Player "Raider 2-2" is connected (steamID=76561199105471341)
+22:53:41.738 [StateMachine]: Player Raider 2-2 (dpnid 1628019298 uid XvanEKUhyxTkbzngpxDcoNyQwUXi4Yr-sLWO7uNg91M=) Entering DBGetLoginTimeLoginState
+22:53:41.740 [StateMachine]: Player Raider 2-2 (dpnid 1628019298 uid XvanEKUhyxTkbzngpxDcoNyQwUXi4Yr-sLWO7uNg91M=) Entering DBWaitLoginTimeLoginState
+22:53:53.823 !!! [CE][Point] Removing 3659.596680, 9764.916992 from Land_jmc_cabin01
+22:53:53.823 !!! [CE][Point] Removing 3748.995850, 9730.172852 from Land_jmc_cabin01
+22:53:53.824 !!! [CE][Point] Removing 3800.797363, 9668.003906 from Land_jmc_cabin01
+22:53:53.921 !!! [CE][Point] Removing 760.373169, 307.281128 from Land_jmc_ruinecolumn_loot
+22:53:53.921 !!! [CE][Point] Removing 766.021545, 292.335754 from Land_jmc_ruinecolumn_loot
+22:53:53.921 !!! [CE][Point] Removing 752.002197, 292.586090 from Land_jmc_ruinecolumn_loot
+22:53:53.923 !!! [CE][Point] Removing 10727.733398, 10759.772461 from Land_jmc_skeleton_burned_2
+22:53:54.20 !!! [CE][Point] Removing 453.026031, 677.398010 from Land_jmc_ruinecolumn_loot
+22:53:54.21 !!! [CE][Point] Removing 942.220764, 353.313202 from Land_jmc_ruinecolumn_loot
+22:53:54.21 !!! [CE][Point] Removing 189.996750, 542.287109 from Land_jmc_ruinecolumn_loot
+22:53:54.21 !!! [CE][Point] Removing 799.671143, 325.000244 from Land_jmc_ruinecolumn_loot
+22:53:54.21 !!! [CE][Point] Removing 366.785492, 769.815125 from Land_jmc_ruinecolumn_loot
+22:53:54.21 !!! [CE][Point] Removing 584.143311, 371.260345 from Land_jmc_ruinecolumn_loot
+22:53:54.120 !!! [CE][Point] Removing 3750.923828, 5820.168457 from Land_Mil_Fortified_Nest_Watchtower
+22:53:54.122 !!! [CE][Point] Removing 3839.265137, 9611.403320 from Land_jmc_cabin01
+22:53:54.225 !!! [CE][Point] Removing 3751.343750, 5817.509277 from Land_Mil_Fortified_Nest_Watchtower
+22:53:54.721 !!! [CE][Point] Removing 7175.931641, 11642.438477 from Land_jmc_skeleton_old_2
+22:53:54.725 !!! [CE][Point] Removing 7159.983398, 11629.576172 from Land_jmc_skeleton_gnawed_3
+22:53:54.725 !!! [CE][Point] Removing 206.101547, 811.097107 from Land_jmc_ruinecolumn_loot
+22:53:54.821 !!! [CE][Point] Removing 4929.528809, 14497.520508 from Land_jmc_skeleton_old_2
+22:53:54.924 !!! [CE][Point] Removing 7160.082520, 11618.551758 from Land_jmc_skeleton_gnawed_2
+22:53:55.121 !!! [CE][Point] Removing 7162.395996, 11624.937500 from Land_jmc_skeleton_gnawed_3
+22:53:55.122 !!! [CE][Point] Removing 7160.082520, 11618.551758 from Land_jmc_skeleton_gnawed_2
+22:53:55.222 !!! [CE][Point] Removing 10727.733398, 10759.772461 from Land_jmc_skeleton_burned_2
+22:53:55.222 !!! [CE][Point] Removing 752.754578, 292.884460 from Land_jmc_ruinecolumn_loot
+22:53:55.222 !!! [CE][Point] Removing 765.275635, 292.326141 from Land_jmc_ruinecolumn_loot
+22:53:55.320 !!! [CE][Point] Removing 751.995667, 292.272156 from Land_jmc_ruinecolumn_loot
+22:53:55.320 !!! [CE][Point] Removing 765.656677, 291.703003 from Land_jmc_ruinecolumn_loot
+22:53:55.320 !!! [CE][Point] Removing 759.969177, 306.672607 from Land_jmc_ruinecolumn_loot
+22:53:55.321 !!! [CE][Point] Removing 942.966736, 353.941193 from Land_jmc_ruinecolumn_loot
+22:53:55.321 !!! [CE][Point] Removing 190.559387, 541.821350 from Land_jmc_ruinecolumn_loot
+22:53:55.420 !!! [CE][Point] Removing 942.966736, 353.313202 from Land_jmc_ruinecolumn_loot
+22:53:55.420 !!! [CE][Point] Removing 190.674957, 542.558289 from Land_jmc_ruinecolumn_loot
+22:53:55.420 !!! [CE][Point] Removing 798.925171, 324.686249 from Land_jmc_ruinecolumn_loot
+22:53:55.420 !!! [CE][Point] Removing 366.786530, 769.187073 from Land_jmc_ruinecolumn_loot
+22:53:55.420 !!! [CE][Point] Removing 584.142273, 371.888336 from Land_jmc_ruinecolumn_loot
+22:53:55.421 !!! [CE][Point] Removing 615.703247, 830.660950 from Land_jmc_ruinecolumn_loot
+22:53:55.421 !!! [CE][Point] Removing 810.396179, 390.800812 from Land_jmc_ruinecolumn_loot
+22:53:55.422 !!! [CE][Point] Removing 254.746246, 294.482147 from Land_jmc_ruinecolumn_loot
+22:53:55.520 !!! [CE][Point] Removing 942.593750, 353.941193 from Land_jmc_ruinecolumn_loot
+22:53:55.520 !!! [CE][Point] Removing 190.364746, 542.606934 from Land_jmc_ruinecolumn_loot
+22:53:55.520 !!! [CE][Point] Removing 799.671143, 324.686249 from Land_jmc_ruinecolumn_loot
+22:53:55.520 !!! [CE][Point] Removing 367.158997, 769.501709 from Land_jmc_ruinecolumn_loot
+22:53:55.520 !!! [CE][Point] Removing 584.515259, 371.888947 from Land_jmc_ruinecolumn_loot
+22:53:55.520 !!! [CE][Point] Removing 848.423950, 360.472351 from Land_jmc_ruinecolumn_loot
+22:53:55.521 !!! [CE][Point] Removing 810.769165, 390.798920 from Land_jmc_ruinecolumn_loot
+22:53:55.521 !!! [CE][Point] Removing 254.373764, 294.167542 from Land_jmc_ruinecolumn_loot
+22:53:55.620 !!! [CE][Point] Removing 4760.525879, 14347.502930 from Land_jmc_skeleton_gnawed_5
+22:53:56.519 !!! [CE][Point] Removing 8280.759766, 8735.930664 from CaninaBush2
+22:53:56.740 [StateMachine]: Player Raider 2-2 (dpnid 1628019298 uid XvanEKUhyxTkbzngpxDcoNyQwUXi4Yr-sLWO7uNg91M=) Entering DBGetCharacterLoginState
+22:53:56.741 [StateMachine]: Player Raider 2-2 (dpnid 1628019298 uid XvanEKUhyxTkbzngpxDcoNyQwUXi4Yr-sLWO7uNg91M=) Entering CreateNetObjectsLoginState
+22:53:56.747 [StateMachine]: Player Raider 2-2 (dpnid 1628019298 uid XvanEKUhyxTkbzngpxDcoNyQwUXi4Yr-sLWO7uNg91M=) Entering PreloadCamLoginState
+22:53:56.748 [StateMachine]: Player Raider 2-2 (dpnid 1628019298 uid XvanEKUhyxTkbzngpxDcoNyQwUXi4Yr-sLWO7uNg91M=) Entering WaitPreloadCamLoginState
+22:53:58.23 !!! [CE][Point] Removing 2955.632813, 4416.955078 from PlumTree1
+22:53:58.320 !!! [CE][Point] Removing 3031.437012, 3475.361084 from SambucusBush2
+22:54:16.298 [StateMachine]: Player Raider 2-2 (dpnid 1628019298 uid XvanEKUhyxTkbzngpxDcoNyQwUXi4Yr-sLWO7uNg91M=) Entering GetLoadedCharLoginState
+22:54:16.329 <LOAD EXISTING CHAR>:
+    charID 11
+    playerID 11
+    dpnid 1628019298
+    uid XvanEKUhyxTkbzngpxDcoNyQwUXi4Yr-sLWO7uNg91M=
+22:54:20.756 !!! [CE][Point] Removing 805.691467, 321.617676 from Land_jmc_ruinecolumn_loot
+22:54:21.56 !!! [CE][Point] Removing 752.008728, 292.900024 from Land_jmc_ruinecolumn_loot
+22:54:21.57 !!! [CE][Point] Removing 805.691467, 321.931671 from Land_jmc_ruinecolumn_loot
+22:54:21.156 !!! [CE][Point] Removing 453.256714, 677.184998 from Land_jmc_ruinecolumn_loot
+22:54:21.156 !!! [CE][Point] Removing 190.249176, 541.869995 from Land_jmc_ruinecolumn_loot
+22:54:21.156 !!! [CE][Point] Removing 799.298157, 325.000244 from Land_jmc_ruinecolumn_loot
+22:54:21.156 !!! [CE][Point] Removing 366.412506, 769.814453 from Land_jmc_ruinecolumn_loot
+22:54:21.157 !!! [CE][Point] Removing 584.888794, 371.575562 from Land_jmc_ruinecolumn_loot
+22:54:21.157 !!! [CE][Point] Removing 615.978699, 831.422058 from Land_jmc_ruinecolumn_loot
+22:54:21.157 !!! [CE][Point] Removing 810.024780, 391.116699 from Land_jmc_ruinecolumn_loot
+22:54:21.157 !!! [CE][Point] Removing 668.897461, 351.265137 from Land_jmc_ruinecolumn_loot
+22:54:21.757 !!! [CE][Point] Removing 452.772980, 677.123962 from Land_jmc_ruinecolumn_loot
+22:54:21.757 !!! [CE][Point] Removing 942.593750, 353.313202 from Land_jmc_ruinecolumn_loot
+22:54:21.757 !!! [CE][Point] Removing 190.617172, 542.189819 from Land_jmc_ruinecolumn_loot
+22:54:21.757 !!! [CE][Point] Removing 798.925171, 325.000244 from Land_jmc_ruinecolumn_loot
+22:54:21.757 !!! [CE][Point] Removing 367.158478, 769.815735 from Land_jmc_ruinecolumn_loot
+22:54:21.757 !!! [CE][Point] Removing 584.142822, 371.574341 from Land_jmc_ruinecolumn_loot
+22:54:21.758 !!! [CE][Point] Removing 810.772339, 391.426910 from Land_jmc_ruinecolumn_loot
+22:54:21.758 !!! [CE][Point] Removing 668.899048, 351.579132 from Land_jmc_ruinecolumn_loot
+22:54:21.759 !!! [CE][Point] Removing 1159.711792, 336.748779 from Land_jmc_ruinecolumn_loot
+22:54:21.857 !!! [CE][Point] Removing 798.925171, 324.372253 from Land_jmc_ruinecolumn_loot
+22:54:21.857 !!! [CE][Point] Removing 367.159515, 769.187744 from Land_jmc_ruinecolumn_loot
+22:54:21.857 !!! [CE][Point] Removing 810.026367, 391.430695 from Land_jmc_ruinecolumn_loot
+22:54:21.858 !!! [CE][Point] Removing 669.270447, 351.263245 from Land_jmc_ruinecolumn_loot
+22:54:21.858 !!! [CE][Point] Removing 1159.335571, 336.122681 from Land_jmc_ruinecolumn_loot
+22:54:21.859 !!! [CE][Point] Removing 552.318909, 12329.432617 from Land_jmc_skeleton_old_3
+22:54:21.859 !!! [CE][Point] Removing 270.083130, 433.675476 from Land_jmc_ruinecolumn_loot
+22:54:21.860 !!! [CE][Point] Removing 572.728455, 12293.763672 from Land_jmc_skeleton_old_5
+22:54:21.860 !!! [CE][Point] Removing 325.124481, 839.238037 from Land_jmc_ruinecolumn_loot
+22:54:21.957 !!! [CE][Point] Removing 804.945496, 321.303680 from Land_jmc_ruinecolumn_loot
+22:54:21.958 !!! [CE][Point] Removing 7174.329102, 11650.351563 from Land_jmc_skeleton_gnawed_5
+22:54:21.961 !!! [CE][Point] Removing 7080.537109, 11617.725586 from Land_jmc_skeleton_old_1
+22:54:21.963 !!! [CE][Point] Removing 396.729248, 943.773254 from Land_jmc_ruinecolumn_loot
+22:54:21.963 !!! [CE][Point] Removing 7174.921875, 11606.769531 from Land_jmc_skeleton_gnawed_3
+22:54:21.964 !!! [CE][Point] Removing 7154.342285, 11592.974609 from Land_jmc_skeleton_old_3
+22:54:22.357 !!! [CE][Point] Removing 759.596680, 306.691284 from Land_jmc_ruinecolumn_loot
+22:54:22.360 !!! [CE][Point] Removing 805.318481, 321.931671 from Land_jmc_ruinecolumn_loot
+22:54:22.362 !!! [CE][Point] Removing 396.706879, 943.286194 from Land_jmc_ruinecolumn_loot
+22:54:22.459 !!! [CE][Point] Removing 7177.750488, 11586.165039 from Land_BusStation_wall_bench
+22:54:22.660 !!! [CE][Point] Removing 11034.876953, 2295.144287 from Land_Mil_GuardShed
+22:54:35.298 [Disconnect]: Start script disconnect 35498691 (dbCharacterId 39 dbPlayerId 39) logoutTime 15
+22:54:46.556 [Disconnect]: Start script disconnect 2065364299 (dbCharacterId 43 dbPlayerId 43) logoutTime 15
+22:54:47.723 !!! [CE][Point] Removing 11033.924805, 2295.949951 from Land_Mil_GuardShed
+22:54:47.725 !!! [CE][Point] Removing 760.357483, 306.967529 from Land_jmc_ruinecolumn_loot
+22:54:48.125 !!! [CE][Point] Removing 810.770752, 391.112915 from Land_jmc_ruinecolumn_loot
+22:54:48.125 !!! [CE][Point] Removing 668.900635, 351.893127 from Land_jmc_ruinecolumn_loot
+22:54:48.125 !!! [CE][Point] Removing 1159.337158, 336.436676 from Land_jmc_ruinecolumn_loot
+22:54:48.125 !!! [CE][Point] Removing 552.318909, 12329.432617 from Land_jmc_skeleton_old_3
+22:54:48.126 !!! [CE][Point] Removing 269.336639, 433.988251 from Land_jmc_ruinecolumn_loot
+22:54:48.126 !!! [CE][Point] Removing 572.728455, 12293.763672 from Land_jmc_skeleton_old_5
+22:54:48.126 !!! [CE][Point] Removing 325.123444, 839.866028 from Land_jmc_ruinecolumn_loot
+22:54:48.126 !!! [CE][Point] Removing 408.673920, 839.004700 from Land_jmc_ruinecolumn_loot
+22:54:48.126 !!! [CE][Point] Removing 643.452637, 276.903198 from Land_jmc_ruinecolumn_loot
+22:54:48.610 [Disconnect]: Client 2065364299 disconnecting
+22:54:48.610 [Disconnect]: Client 2065364299 early disconnect
+22:54:48.610 [Disconnect]: Start script disconnect 2065364299 (dbCharacterId 43 dbPlayerId 43) logoutTime 15
+22:54:49.127 !!! [CE][Point] Removing 810.399353, 391.428802 from Land_jmc_ruinecolumn_loot
+22:54:49.127 !!! [CE][Point] Removing 669.645020, 351.575348 from Land_jmc_ruinecolumn_loot
+22:54:49.127 !!! [CE][Point] Removing 1159.338745, 336.750671 from Land_jmc_ruinecolumn_loot
+22:54:49.128 !!! [CE][Point] Removing 269.709625, 433.988861 from Land_jmc_ruinecolumn_loot
+22:54:49.128 !!! [CE][Point] Removing 324.377472, 839.864746 from Land_jmc_ruinecolumn_loot
+22:54:49.428 !!! [CE][Point] Removing 7180.963867, 11676.881836 from Land_BusStation_wall_bench
+22:54:49.626 !!! [CE][Point] Removing 669.273621, 351.891235 from Land_jmc_ruinecolumn_loot
+22:54:49.627 !!! [CE][Point] Removing 1160.083252, 336.432892 from Land_jmc_ruinecolumn_loot
+22:54:49.627 !!! [CE][Point] Removing 269.337158, 433.674255 from Land_jmc_ruinecolumn_loot
+22:54:49.627 !!! [CE][Point] Removing 324.378510, 839.236755 from Land_jmc_ruinecolumn_loot
+22:54:49.627 !!! [CE][Point] Removing 408.301453, 838.690063 from Land_jmc_ruinecolumn_loot
+22:54:49.627 !!! [CE][Point] Removing 642.708496, 276.849976 from Land_jmc_ruinecolumn_loot
+22:54:49.627 !!! [CE][Point] Removing 807.890564, 316.727661 from Land_jmc_ruinecolumn_loot
+22:54:49.628 !!! [CE][Point] Removing 846.259766, 426.148499 from Land_jmc_ruinecolumn_loot
+22:54:49.628 [Disconnect]: Client 35498691 disconnecting
+22:54:49.628 [Disconnect]: Client 35498691 early disconnect
+22:54:49.628 [Disconnect]: Start script disconnect 35498691 (dbCharacterId 39 dbPlayerId 39) logoutTime 15
+22:54:50.299 [Disconnect]: Finish script disconnect 35498691
+22:54:50.299 [Disconnect]: DisconnectPlayerFinish 35498691
+22:54:50.299 [Disconnect]: Remove player info 35498691
+22:54:50.306 [Disconnect]: Player destroy 35498691 
+22:54:58.896 [Disconnect]: No packets from 2065364299
+22:54:58.896 [Disconnect]: Already in progress 2065364299 
+22:55:01.558 [Disconnect]: Finish script disconnect 2065364299
+22:55:01.558 [Disconnect]: DisconnectPlayerFinish 2065364299
+22:55:01.558 [Disconnect]: Remove player info 2065364299
+22:55:01.572 [Disconnect]: Player destroy 2065364299 
+22:55:15.655 !!! [CE][Point] Removing 669.643433, 351.261353 from Land_jmc_ruinecolumn_loot
+22:55:19.459 !!! [CE][Point] Removing 2903.889160, 3520.205078 from PlumTree1
+22:55:41.576 !!! [CE][Point] Removing 1160.081665, 336.118896 from Land_jmc_ruinecolumn_loot
+22:55:41.576 !!! [CE][Point] Removing 269.710663, 433.360870 from Land_jmc_ruinecolumn_loot
+22:55:41.576 !!! [CE][Point] Removing 325.123962, 839.552002 from Land_jmc_ruinecolumn_loot
+22:55:41.576 !!! [CE][Point] Removing 643.125366, 276.250183 from Land_jmc_ruinecolumn_loot
+22:55:41.591 !!! [CE][Point] Removing 807.144592, 316.413666 from Land_jmc_ruinecolumn_loot
+22:55:41.779 !!! [CE][Point] Removing 7153.952637, 11593.016602 from Land_jmc_skeleton_burned_5
+22:55:42.982 !!! [CE][Point] Removing 7614.692383, 9426.434570 from Land_Boat_Small1
+22:55:43.185 !!! [CE][Point] Removing 1024.921265, 11406.321289 from Land_Boat_Small1
+22:55:43.185 !!! [CE][Point] Removing 11598.012695, 10403.141602 from Land_Boat_Small1
+22:55:43.279 !!! [CE][Point] Removing 7174.360840, 11677.833984 from Land_BusStation_wall_bench
+22:55:43.279 !!! [CE][Point] Removing 7174.387207, 11673.659180 from Land_BusStation_wall_bench
+22:55:43.489 !!! [CE][Point] Removing 1159.708618, 336.120789 from Land_jmc_ruinecolumn_loot
+22:55:43.490 !!! [CE][Point] Removing 269.337677, 433.360260 from Land_jmc_ruinecolumn_loot
+22:55:43.490 !!! [CE][Point] Removing 324.750458, 839.865417 from Land_jmc_ruinecolumn_loot
+22:55:43.490 !!! [CE][Point] Removing 642.730896, 276.536774 from Land_jmc_ruinecolumn_loot
+22:55:43.490 !!! [CE][Point] Removing 807.517578, 316.099670 from Land_jmc_ruinecolumn_loot
+22:55:43.491 !!! [CE][Point] Removing 838.106567, 338.391449 from Land_jmc_ruinecolumn_loot
+22:55:43.491 !!! [CE][Point] Removing 846.635925, 426.774597 from Land_jmc_ruinecolumn_loot
+22:55:43.491 !!! [CE][Point] Removing 1159.907349, 350.267059 from Land_jmc_ruinecolumn_loot
+22:56:08.710 !!! [CE][Point] Removing 270.083649, 433.361481 from Land_jmc_ruinecolumn_loot
+22:56:08.710 !!! [CE][Point] Removing 324.377991, 839.550781 from Land_jmc_ruinecolumn_loot
+22:56:08.710 !!! [CE][Point] Removing 643.080566, 276.876587 from Land_jmc_ruinecolumn_loot
+22:56:08.809 !!! [CE][Point] Removing 642.753296, 276.223572 from Land_jmc_ruinecolumn_loot
+22:56:08.809 !!! [CE][Point] Removing 807.890564, 316.413666 from Land_jmc_ruinecolumn_loot
+22:56:08.810 !!! [CE][Point] Removing 838.472961, 338.069733 from Land_jmc_ruinecolumn_loot
+22:56:08.810 !!! [CE][Point] Removing 845.886780, 426.150391 from Land_jmc_ruinecolumn_loot
+22:56:08.811 !!! [CE][Point] Removing 1159.534302, 350.268951 from Land_jmc_ruinecolumn_loot
+22:56:08.811 !!! [CE][Point] Removing 706.874512, 295.253632 from Land_jmc_ruinecolumn_loot
+22:56:08.813 !!! [CE][Point] Removing 242.660873, 737.651489 from Land_jmc_ruinecolumn_loot
+22:56:08.814 !!! [CE][Point] Removing 390.030396, 496.826538 from Land_jmc_ruinecolumn_loot
+22:56:09.13 !!! [CE][Point] Removing 7178.247070, 11682.559570 from Land_BusStation_wall_bench
+22:56:09.112 !!! [CE][Point] Removing 7179.458008, 11682.573242 from Land_BusStation_wall_bench
+22:56:10.09 !!! [CE][Point] Removing 7161.974609, 11576.686523 from Land_BusStation_wall_bench
+22:56:35.924 !!! [CE][Point] Removing 6802.094238, 1353.910156 from Land_Container_1Aoh
+22:56:36.628 !!! [CE][Point] Removing 7177.361816, 11600.792969 from Land_BusStation_wall_bench
+22:56:37.226 !!! [CE][Point] Removing 7180.969727, 11681.090820 from Land_BusStation_wall_bench
+22:57:02.434 !!! [CE][Point] Removing 7144.937988, 11636.609375 from Land_BusStation_wall_bench
+22:57:30.552 !!! [CE][Point] Removing 7175.257813, 11682.561523 from Land_BusStation_wall_bench
+22:57:31.50 !!! [CE][Point] Removing 7180.955078, 11678.092773 from Land_BusStation_wall_bench
+22:57:56.453 !!! [CE][Point] Removing 7193.995605, 11575.596680 from Land_BusStation_wall_bench
+22:57:56.454 !!! [CE][Point] Removing 7176.468750, 11682.575195 from Land_BusStation_wall_bench
+22:57:57.954 !!! [CE][Point] Removing 201.420929, 374.673248 from Land_jmc_ruinecolumn_loot
+22:57:57.955 !!! [CE][Point] Removing 643.475037, 276.589996 from Land_jmc_ruinecolumn_loot
+22:58:24.770 !!! [CE][Point] Removing 7195.206543, 11575.607422 from Land_BusStation_wall_bench
+22:58:24.969 !!! [CE][Point] Removing 7174.383789, 11671.871094 from Land_BusStation_wall_bench
+22:58:26.368 !!! [CE][Point] Removing 3288.725342, 4119.897949 from SambucusBush2
+22:59:17.187 !!! [CE][Point] Removing 807.517578, 316.727661 from Land_jmc_ruinecolumn_loot
+22:59:17.187 !!! [CE][Point] Removing 838.093506, 337.763580 from Land_jmc_ruinecolumn_loot
+22:59:17.188 !!! [CE][Point] Removing 846.634338, 426.460602 from Land_jmc_ruinecolumn_loot
+22:59:17.188 !!! [CE][Point] Removing 706.875000, 294.939636 from Land_jmc_ruinecolumn_loot
+22:59:17.188 !!! [CE][Point] Removing 242.545303, 736.914551 from Land_jmc_ruinecolumn_loot
+22:59:17.288 !!! [CE][Point] Removing 2509.720947, 12496.896484 from Land_jmc_skeleton_old_2
+22:59:17.687 !!! [CE][Point] Removing 7166.795898, 11658.012695 from Land_BusStation_wall_bench
+22:59:17.787 !!! [CE][Point] Removing 7195.953125, 11600.767578 from Land_BusStation_wall_bench
+22:59:17.789 !!! [CE][Point] Removing 7178.961426, 11586.178711 from Land_BusStation_wall_bench
+22:59:44.79 !!! [CE][Point] Removing 1399.109741, 11665.671875 from Land_jmc_skeleton_old_3
+22:59:44.79 !!! [CE][Point] Removing 390.776886, 496.513763 from Land_jmc_ruinecolumn_loot
+22:59:44.79 !!! [CE][Point] Removing 242.855515, 736.865906 from Land_jmc_ruinecolumn_loot
+22:59:44.94 !!! [CE][Point] Removing 707.621033, 294.940857 from Land_jmc_ruinecolumn_loot
+22:59:44.94 !!! [CE][Point] Removing 1160.278809, 349.951172 from Land_jmc_ruinecolumn_loot
+22:59:44.94 !!! [CE][Point] Removing 846.262939, 426.776489 from Land_jmc_ruinecolumn_loot
+22:59:44.94 !!! [CE][Point] Removing 838.479492, 338.383667 from Land_jmc_ruinecolumn_loot
+22:59:44.188 !!! [CE][Point] Removing 807.144592, 316.727661 from Land_jmc_ruinecolumn_loot
+22:59:44.188 !!! [CE][Point] Removing 838.466431, 337.755798 from Land_jmc_ruinecolumn_loot
+22:59:44.188 !!! [CE][Point] Removing 846.632751, 426.146606 from Land_jmc_ruinecolumn_loot
+22:59:44.188 !!! [CE][Point] Removing 1159.904175, 349.639069 from Land_jmc_ruinecolumn_loot
+22:59:44.282 !!! [CE][Point] Removing 807.144592, 316.099670 from Land_jmc_ruinecolumn_loot
+22:59:44.282 !!! [CE][Point] Removing 837.733643, 338.399231 from Land_jmc_ruinecolumn_loot
+22:59:44.282 !!! [CE][Point] Removing 1160.280396, 350.265167 from Land_jmc_ruinecolumn_loot
+22:59:44.282 !!! [CE][Point] Removing 707.620483, 295.254852 from Land_jmc_ruinecolumn_loot
+22:59:44.282 !!! [CE][Point] Removing 242.971085, 737.602844 from Land_jmc_ruinecolumn_loot
+22:59:44.282 !!! [CE][Point] Removing 390.030914, 496.512543 from Land_jmc_ruinecolumn_loot
+22:59:44.485 !!! [CE][Point] Removing 7153.399902, 11606.755859 from Land_BusStation_wall_bench
+23:00:11.409 !!! [CE][Point] Removing 7144.936035, 11639.708008 from Land_BusStation_wall_bench
+23:00:12.111 !!! [CE][Point] Removing 7187.636230, 11595.255859 from Land_BusStation_wall_bench
+23:00:38.331 !!! [CE][Point] Removing 7152.188965, 11606.745117 from Land_BusStation_wall_bench
+23:00:38.927 !!! [CE][Point] Removing 7169.703125, 11669.750977 from Land_jmc_skeleton_old_5
+23:00:38.929 !!! [CE][Point] Removing 390.403381, 496.827148 from Land_jmc_ruinecolumn_loot
+23:00:38.929 !!! [CE][Point] Removing 242.603088, 737.283020 from Land_jmc_ruinecolumn_loot
+23:00:38.929 !!! [CE][Point] Removing 707.246948, 295.568237 from Land_jmc_ruinecolumn_loot
+23:00:39.129 !!! [CE][Point] Removing 7144.927246, 11637.821289 from Land_BusStation_wall_bench
+23:01:06.240 !!! [CE][Point] Removing 7144.925293, 11640.919922 from Land_BusStation_wall_bench
+23:01:32.147 !!! [CE][Point] Removing 7599.985352, 6217.394531 from Land_Shed_M1
+23:01:58.568 !!! [CE][Point] Removing 390.404419, 496.199158 from Land_jmc_ruinecolumn_loot
+23:01:58.767 !!! [CE][Point] Removing 1929.692871, 14752.674805 from Land_Power_Station
+23:01:59.966 !!! [CE][Point] Removing 1926.458984, 14749.681641 from Land_Power_Station
+23:02:25.477 !!! [CE][Point] Removing 7178.572754, 11600.803711 from Land_BusStation_wall_bench
+23:02:25.877 !!! [CE][Point] Removing 7180.946777, 11669.441406 from Land_BusStation_wall_bench
+23:02:25.974 !!! [CE][Point] Removing 7167.710449, 11588.201172 from Land_BusStation_wall_bench
+23:02:26.275 !!! [CE][Point] Removing 707.248047, 294.940247 from Land_jmc_ruinecolumn_loot
+23:02:26.275 !!! [CE][Point] Removing 243.281296, 737.554199 from Land_jmc_ruinecolumn_loot
+23:02:26.275 !!! [CE][Point] Removing 390.777405, 496.199768 from Land_jmc_ruinecolumn_loot
+23:02:27.177 !!! [CE][Point] Removing 9526.613281, 6016.248047 from Land_Boat_Small1
+23:02:52.295 !!! [CE][Point] Removing 7180.978516, 11679.879883 from Land_BusStation_wall_bench
+23:02:52.495 !!! [CE][Point] Removing 7166.782227, 11659.223633 from Land_BusStation_wall_bench
+23:02:52.495 !!! [CE][Point] Removing 7166.823242, 11664.680664 from Land_BusStation_wall_bench
+23:02:52.994 !!! [CE][Point] Removing 7174.379883, 11676.623047 from Land_BusStation_wall_bench
+23:02:53.796 !!! [CE][Point] Removing 706.873962, 295.567627 from Land_jmc_ruinecolumn_loot
+23:02:53.796 !!! [CE][Point] Removing 243.165726, 736.817261 from Land_jmc_ruinecolumn_loot
+23:02:53.796 !!! [CE][Point] Removing 390.776367, 496.827759 from Land_jmc_ruinecolumn_loot
+23:03:19.527 !!! [CE][Point] Removing 10874.995117, 4321.964844 from Land_Boat_Small1
+23:03:19.531 !!! [CE][Point] Removing 5433.507813, 9323.861328 from Land_Boat_Small1
+23:03:19.925 !!! [CE][Point] Removing 1928.838501, 14750.446289 from Land_Power_Station
+23:03:20.126 !!! [CE][Point] Removing 585.027222, 953.751953 from Land_jmc_ruinecolumn_loot
+23:03:20.829 !!! [CE][Point] Removing 7166.809570, 11665.891602 from Land_BusStation_wall_bench
+23:03:46.63 !!! [CE][Point] Removing 7166.499512, 11588.201172 from Land_BusStation_wall_bench
+23:03:46.164 !!! [CE][Point] Removing 7180.932617, 11670.652344 from Land_BusStation_wall_bench
+23:03:46.166 !!! [CE][Point] Removing 7186.425293, 11595.238281 from Land_BusStation_wall_bench
+23:03:46.365 !!! [CE][Point] Removing 7174.374023, 11679.615234 from Land_BusStation_wall_bench
+23:03:46.762 !!! [CE][Point] Removing 7132.956055, 11528.513672 from Land_Mil_Fortified_Nest_Big
+23:03:46.863 !!! [CE][Point] Removing 7174.354980, 11680.826172 from Land_BusStation_wall_bench
+23:04:39.884 !!! [CE][Point] Removing 4916.049805, 7121.919922 from Land_Garage_Office
+23:05:07.903 !!! [CE][Point] Removing 1562.161743, 11345.085938 from Land_Boat_Small2
+23:06:28.242 !!! [CE][Point] Removing 11566.162109, 3788.691406 from Land_Boat_Small2
+23:07:49.779 !!! [CE][Point] Removing 201.655899, 374.383575 from Land_jmc_ruinecolumn_loot
+23:08:16.124 !!! [CE][Point] Removing 376.994507, 755.081604 from Land_jmc_ruinecolumn_loot
+23:08:16.324 !!! [CE][Point] Removing 377.368011, 754.768188 from Land_jmc_ruinecolumn_loot
+23:08:16.423 !!! [CE][Point] Removing 751.915710, 282.973724 from Land_jmc_ruinecolumn_loot
+23:08:16.823 !!! [CE][Point] Removing 752.661560, 282.958160 from Land_jmc_ruinecolumn_loot
+23:08:17.24 !!! [CE][Point] Removing 752.282104, 282.652008 from Land_jmc_ruinecolumn_loot
+23:08:42.639 !!! [CE][Point] Removing 752.668091, 283.272095 from Land_jmc_ruinecolumn_loot
+23:08:43.838 !!! [CE][Point] Removing 9526.812500, 6014.634277 from Land_Boat_Small1
+23:08:43.841 !!! [CE][Point] Removing 5432.294434, 9325.083984 from Land_Boat_Small1
+23:09:09.145 !!! [CE][Point] Removing 202.134720, 374.291656 from Land_jmc_ruinecolumn_loot
+23:09:09.669 [Login]: Adding player Blue (17112392) to login queue at position 0
+23:09:09.669 [LoginMachine]: Add player Blue (17112392)
+23:09:09.669 [StateMachine]: Player Blue (dpnid 17112392 uid ) Entering AuthPlayerLoginState
+23:09:11.51 [StateMachine]: Player Blue (dpnid 17112392 uid ) Entering WaitAuthPlayerLoginState
+23:09:12.244 Player Blue connected (id=OAdpPkJP2Ps_W7h2ttR1bK23ekHCzrxw0mDT3zqLMdU=).
+23:09:12.244 Player "Blue" is connected (steamID=76561199108250772)
+23:09:12.648 [StateMachine]: Player Blue (dpnid 17112392 uid OAdpPkJP2Ps_W7h2ttR1bK23ekHCzrxw0mDT3zqLMdU=) Entering DBGetLoginTimeLoginState
+23:09:12.650 [StateMachine]: Player Blue (dpnid 17112392 uid OAdpPkJP2Ps_W7h2ttR1bK23ekHCzrxw0mDT3zqLMdU=) Entering DBWaitLoginTimeLoginState
+23:09:27.650 [StateMachine]: Player Blue (dpnid 17112392 uid OAdpPkJP2Ps_W7h2ttR1bK23ekHCzrxw0mDT3zqLMdU=) Entering DBGetCharacterLoginState
+23:09:27.652 [StateMachine]: Player Blue (dpnid 17112392 uid OAdpPkJP2Ps_W7h2ttR1bK23ekHCzrxw0mDT3zqLMdU=) Entering CreateNetObjectsLoginState
+23:09:27.656 [StateMachine]: Player Blue (dpnid 17112392 uid OAdpPkJP2Ps_W7h2ttR1bK23ekHCzrxw0mDT3zqLMdU=) Entering PreloadCamLoginState
+23:09:27.657 [StateMachine]: Player Blue (dpnid 17112392 uid OAdpPkJP2Ps_W7h2ttR1bK23ekHCzrxw0mDT3zqLMdU=) Entering WaitPreloadCamLoginState
+23:09:37.784 !!! [CE][Point] Removing 9524.905273, 6014.875000 from Land_Boat_Small1
+23:09:43.617 [StateMachine]: Player Blue (dpnid 17112392 uid OAdpPkJP2Ps_W7h2ttR1bK23ekHCzrxw0mDT3zqLMdU=) Entering GetLoadedCharLoginState
+23:09:43.639 <LOAD EXISTING CHAR>:
+    charID 38
+    playerID 38
+    dpnid 17112392
+    uid OAdpPkJP2Ps_W7h2ttR1bK23ekHCzrxw0mDT3zqLMdU=
+23:10:02.939 !!! [CE][Point] Removing 408.674438, 838.690735 from Land_jmc_ruinecolumn_loot
+23:10:03.40 !!! [CE][Point] Removing 5352.875488, 9097.291016 from Land_Boat_Small1
+23:10:03.42 !!! [CE][Point] Removing 11566.839844, 3787.342773 from Land_Boat_Small2
+23:10:05.39 !!! [CE][Point] Removing 6238.460449, 9675.160156 from SambucusBush2
+23:10:05.40 !!! [CE][Point] Removing 6233.263672, 9702.774414 from SambucusBush2
+23:10:05.40 !!! [CE][Point] Removing 3473.374268, 4306.574219 from SambucusBush1
+23:10:30.95 !!! [CE][Point] Removing 11568.146484, 3787.319336 from Land_Boat_Small2
+23:10:30.295 !!! [CE][Point] Removing 5353.583008, 9095.101563 from Land_Boat_Small1
+23:10:30.295 !!! [CE][Point] Removing 11566.004883, 3787.768555 from Land_Boat_Small2
+23:10:30.815 !!! [CE][Point] Removing 11566.958008, 3789.727051 from Land_Boat_Small2
+23:11:24.702 !!! [CE][Point] Removing 407.927948, 839.003479 from Land_jmc_ruinecolumn_loot
+23:11:26.501 !!! [CE][Point] Removing 6236.757324, 9674.949219 from SambucusBush2
+23:11:26.501 !!! [CE][Point] Removing 6232.909180, 9704.196289 from SambucusBush2
+23:12:45.198 !!! [CE][Point] Removing 7182.161621, 11595.199219 from Land_BusStation_wall_bench
+23:12:45.297 !!! [CE][Point] Removing 7183.372559, 11595.216797 from Land_BusStation_wall_bench
+23:12:48.299 !!! [CE][Point] Removing 6236.757324, 9674.949219 from SambucusBush2
+23:12:48.300 !!! [CE][Point] Removing 6232.909180, 9704.196289 from SambucusBush2
+23:13:39.567 !!! [CE][Point] Removing 255.119247, 294.482758 from Land_jmc_ruinecolumn_loot
+23:13:39.567 !!! [CE][Point] Removing 201.908676, 375.068848 from Land_jmc_ruinecolumn_loot
+23:13:39.667 !!! [CE][Point] Removing 202.143631, 374.779144 from Land_jmc_ruinecolumn_loot
+23:13:40.267 !!! [CE][Point] Removing 12051.865234, 9924.116211 from Land_Wreck_S1023_Blue
+23:13:40.470 !!! [CE][Point] Removing 8969.822266, 2510.820557 from Land_Boat_Small1
+23:14:34.106 !!! [CE][Point] Removing 14501.569336, 5965.982910 from Land_Castle_Gate
+23:15:31.94 !!! [CE][Point] Removing 6296.910645, 9579.506836 from SambucusBush1
+23:15:31.95 !!! [CE][Point] Removing 6236.757324, 9674.949219 from SambucusBush2
+23:17:16.350 !!! [CE][Point] Removing 6269.716797, 9687.397461 from SambucusBush2
+23:18:09.981 !!! [CE][Point] Removing 8552.228516, 3538.488770 from Land_Boat_Small2
+23:18:37.709 !!! [CE][Point] Removing 6271.579590, 9688.890625 from SambucusBush2
+23:18:37.710 !!! [CE][Point] Removing 6296.910645, 9579.506836 from SambucusBush1
+23:19:02.522 !!! [CE][Point] Removing 7175.002441, 11578.520508 from Land_jmc_skeleton_old_2
+23:19:02.522 !!! [CE][Point] Removing 7088.116211, 11615.338867 from Land_jmc_skeleton_burned_3
+23:19:02.722 !!! [CE][Point] Removing 7162.320801, 11585.823242 from Land_jmc_skeleton_old_4
+23:19:02.921 !!! [CE][Point] Removing 7199.774414, 11602.087891 from Land_jmc_skeleton_old_2
+23:19:59.65 !!! [CE][Point] Removing 6270.125000, 9689.064453 from SambucusBush2
+23:19:59.66 !!! [CE][Point] Removing 6296.910645, 9579.506836 from SambucusBush1
+23:20:22.699 !!! [CE][Point] Removing 837.720581, 337.771362 from Land_jmc_ruinecolumn_loot
+23:21:20.428 !!! [CE][Point] Removing 6271.579590, 9688.890625 from SambucusBush2
+23:21:20.428 !!! [CE][Point] Removing 6294.507324, 9578.894531 from SambucusBush1
+23:21:20.428 !!! [CE][Point] Removing 6286.768555, 9725.939453 from SambucusBush2
+23:21:43.745 !!! [CE][Point] Removing 7185.361328, 11591.750977 from Land_jmc_skeleton_old_1
+23:21:43.746 !!! [CE][Point] Removing 7168.558105, 11610.201172 from Land_jmc_skeleton_old_3
+23:22:37.979 !!! [CE][Point] Removing 1801.970337, 12182.317383 from Land_Boat_Small1
+23:22:41.777 !!! [CE][Point] Removing 6238.460449, 9675.160156 from SambucusBush2
+23:22:41.778 !!! [CE][Point] Removing 6327.473633, 9686.184570 from SambucusBush2
+23:24:27.67 !!! [CE][Point] Removing 6270.125000, 9689.064453 from SambucusBush2
+23:24:27.67 !!! [CE][Point] Removing 6294.507324, 9578.894531 from SambucusBush1
+23:24:52.279 !!! [CE][Point] Removing 10036.940430, 5764.066895 from Land_Boat_Small1
+23:24:52.779 !!! [CE][Point] Removing 1931.427612, 14747.614258 from Land_Power_Station
+23:24:53.778 !!! [CE][Point] Removing 585.635010, 953.593872 from Land_jmc_ruinecolumn_loot
+23:24:53.778 !!! [CE][Point] Removing 408.300415, 839.318115 from Land_jmc_ruinecolumn_loot
+23:25:48.420 !!! [CE][Point] Removing 6270.125000, 9689.064453 from SambucusBush2
+23:25:48.421 !!! [CE][Point] Removing 6294.507324, 9578.894531 from SambucusBush1
+23:25:48.421 !!! [CE][Point] Removing 4515.151367, 3714.989502 from SambucusBush2
+23:27:06.730 !!! [CE][Point] Removing 615.057434, 572.743530 from Land_jmc_ruinecolumn_loot
+23:27:06.731 !!! [CE][Point] Removing 751.922241, 283.287659 from Land_jmc_ruinecolumn_loot
+23:27:09.831 !!! [CE][Point] Removing 6271.154785, 9686.807617 from SambucusBush2
+23:27:09.831 !!! [CE][Point] Removing 6296.910645, 9579.506836 from SambucusBush1
+23:27:09.832 !!! [CE][Point] Removing 6285.330566, 9726.529297 from SambucusBush2
+23:28:00.765 !!! [CE][Point] Removing 8550.564453, 3536.098145 from Land_Boat_Small2
+23:28:01.166 !!! [CE][Point] Removing 348.514343, 819.365295 from Land_jmc_ruinecolumn_loot
+23:28:01.265 !!! [CE][Point] Removing 4742.102051, 14999.539063 from Land_jmc_skeleton_old_3
+23:28:01.463 !!! [CE][Point] Removing 4742.102051, 14999.539063 from Land_jmc_skeleton_old_3
+23:28:31.182 !!! [CE][Point] Removing 6269.716797, 9687.397461 from SambucusBush2
+23:28:31.182 !!! [CE][Point] Removing 6294.507324, 9578.894531 from SambucusBush1
+23:28:31.182 !!! [CE][Point] Removing 6286.768555, 9725.939453 from SambucusBush2
+23:28:54.599 !!! [CE][Point] Removing 616.440063, 830.995972 from Land_jmc_ruinecolumn_loot
+23:29:51.38 !!! [CE][Point] Removing 5136.656738, 9046.470703 from PiceaAbies_2d
+23:29:52.539 !!! [CE][Point] Removing 6271.154785, 9686.807617 from SambucusBush2
+23:29:52.539 !!! [CE][Point] Removing 6296.480957, 9578.105469 from SambucusBush1
+23:29:52.539 !!! [CE][Point] Removing 6285.330566, 9726.529297 from SambucusBush2
+23:31:10.418 !!! [CE][Point] Removing 1931.359131, 14745.882813 from Land_Power_Station
+23:31:12.421 !!! [CE][Point] Removing 5311.468750, 9130.852539 from PiceaAbies_2d
+23:31:37.144 !!! [CE][Point] Removing 848.783813, 359.836700 from Land_jmc_ruinecolumn_loot
+23:31:37.945 !!! [CE][Point] Removing 6271.579590, 9688.890625 from SambucusBush2
+23:31:37.945 !!! [CE][Point] Removing 6296.910645, 9579.506836 from SambucusBush1
+23:31:37.946 !!! [CE][Point] Removing 5301.420410, 9123.017578 from SambucusBush1
+23:32:09.484 [Login]: Adding player BnYrB (14434624) to login queue at position 0
+23:32:09.484 [LoginMachine]: Add player BnYrB (14434624)
+23:32:09.484 [StateMachine]: Player BnYrB (dpnid 14434624 uid ) Entering AuthPlayerLoginState
+23:32:10.890 [StateMachine]: Player BnYrB (dpnid 14434624 uid ) Entering WaitAuthPlayerLoginState
+23:32:12.257 Player BnYrB connected (id=mBNlxASsPlOcry0dpDl8K-WgHNR5WMCMmoJ9NhpU4FY=).
+23:32:12.257 Player "BnYrB" is connected (steamID=76561198036774377)
+23:32:12.573 [StateMachine]: Player BnYrB (dpnid 14434624 uid mBNlxASsPlOcry0dpDl8K-WgHNR5WMCMmoJ9NhpU4FY=) Entering DBGetLoginTimeLoginState
+23:32:12.577 [StateMachine]: Player BnYrB (dpnid 14434624 uid mBNlxASsPlOcry0dpDl8K-WgHNR5WMCMmoJ9NhpU4FY=) Entering DBWaitLoginTimeLoginState
+23:32:27.563 [StateMachine]: Player BnYrB (dpnid 14434624 uid mBNlxASsPlOcry0dpDl8K-WgHNR5WMCMmoJ9NhpU4FY=) Entering DBGetCharacterLoginState
+23:32:27.578 [StateMachine]: Player BnYrB (dpnid 14434624 uid mBNlxASsPlOcry0dpDl8K-WgHNR5WMCMmoJ9NhpU4FY=) Entering CreateNetObjectsLoginState
+23:32:27.578 [StateMachine]: Player BnYrB (dpnid 14434624 uid mBNlxASsPlOcry0dpDl8K-WgHNR5WMCMmoJ9NhpU4FY=) Entering PreloadCamLoginState
+23:32:27.578 [StateMachine]: Player BnYrB (dpnid 14434624 uid mBNlxASsPlOcry0dpDl8K-WgHNR5WMCMmoJ9NhpU4FY=) Entering WaitPreloadCamLoginState
+23:32:30.24 !!! [CE][Point] Removing 7197.012695, 11588.188477 from Land_jmc_military_lootcase
+23:32:51.846 [StateMachine]: Player BnYrB (dpnid 14434624 uid mBNlxASsPlOcry0dpDl8K-WgHNR5WMCMmoJ9NhpU4FY=) Entering GetLoadedCharLoginState
+23:32:51.882 <LOAD EXISTING CHAR>:
+    charID 1
+    playerID 1
+    dpnid 14434624
+    uid mBNlxASsPlOcry0dpDl8K-WgHNR5WMCMmoJ9NhpU4FY=
+23:32:59.651 !!! [CE][Point] Removing 6271.154785, 9686.807617 from SambucusBush2
+23:32:59.651 !!! [CE][Point] Removing 6295.343262, 9580.204102 from SambucusBush1
+23:32:59.652 !!! [CE][Point] Removing 6286.768555, 9725.939453 from SambucusBush2
+23:33:23.974 !!! [CE][Point] Removing 585.425049, 954.033875 from Land_jmc_ruinecolumn_loot
+23:33:51.173 !!! [CE][Point] Removing 615.310547, 573.017517 from Land_jmc_ruinecolumn_loot
+23:34:21.67 !!! [CE][Point] Removing 6238.460449, 9675.160156 from SambucusBush2
+23:34:21.67 !!! [CE][Point] Removing 6271.154785, 9686.807617 from SambucusBush2
+23:35:42.403 !!! [CE][Point] Removing 6236.717773, 9673.395508 from SambucusBush2
+23:35:42.406 !!! [CE][Point] Removing 6271.579590, 9688.890625 from SambucusBush2
+23:36:32.347 !!! [CE][Point] Removing 7160.120605, 11579.268555 from Land_jmc_skeleton_gnawed_1
+23:36:32.644 !!! [CE][Point] Removing 7160.120605, 11579.268555 from Land_jmc_skeleton_gnawed_1
+23:37:03.766 !!! [CE][Point] Removing 6295.343262, 9580.204102 from SambucusBush1
+23:37:27.886 !!! [CE][Point] Removing 7187.856445, 11591.089844 from Land_jmc_skeleton_old_5
+23:38:47.732 !!! [CE][Point] Removing 14501.182617, 5967.486328 from Land_Castle_Gate
+23:38:49.31 !!! [CE][Point] Removing 6298.686035, 9500.573242 from SambucusBush2
+23:38:49.32 !!! [CE][Point] Removing 6296.480957, 9578.105469 from SambucusBush1
+23:40:08.96 !!! [CE][Point] Removing 845.889954, 426.778381 from Land_jmc_ruinecolumn_loot
+23:40:10.396 !!! [CE][Point] Removing 6298.686035, 9500.573242 from SambucusBush2
+23:40:10.397 !!! [CE][Point] Removing 6294.507324, 9578.894531 from SambucusBush1
+23:40:10.398 !!! [CE][Point] Removing 5549.311035, 3391.625732 from SambucusBush1
+23:40:35.930 !!! [CE][Point] Removing 7150.625000, 11597.776367 from Land_jmc_skeleton_old_3
+23:41:32.242 !!! [CE][Point] Removing 6298.562500, 9502.033203 from SambucusBush2
+23:41:32.243 !!! [CE][Point] Removing 6294.507324, 9578.894531 from SambucusBush1
+23:41:32.245 !!! [CE][Point] Removing 7385.984863, 8403.935547 from SambucusBush2
+23:41:32.246 !!! [CE][Point] Removing 6271.154785, 9686.807617 from SambucusBush2
+23:42:54.168 !!! [CE][Point] Removing 7384.435059, 8404.672852 from SambucusBush2
+23:42:54.170 !!! [CE][Point] Removing 6271.579590, 9688.890625 from SambucusBush2
+23:42:54.170 !!! [CE][Point] Removing 6294.507324, 9578.894531 from SambucusBush1
+23:43:17.474 !!! [CE][Point] Removing 7151.648926, 11598.234375 from Land_jmc_skeleton_old_5
+23:43:20.21 [Login]: Adding player alesshole (71001585) to login queue at position 0
+23:43:20.21 [LoginMachine]: Add player alesshole (71001585)
+23:43:20.21 [StateMachine]: Player alesshole (dpnid 71001585 uid ) Entering AuthPlayerLoginState
+23:43:21.270 [StateMachine]: Player alesshole (dpnid 71001585 uid ) Entering WaitAuthPlayerLoginState
+23:43:23.276 Player alesshole connected (id=dNltWElBg21tP8jBzA87aVZyuFTvx4hujP8j-blHbc8=).
+23:43:23.276 Player "alesshole" is connected (steamID=76561198795695470)
+23:43:23.961 [StateMachine]: Player alesshole (dpnid 71001585 uid dNltWElBg21tP8jBzA87aVZyuFTvx4hujP8j-blHbc8=) Entering DBGetLoginTimeLoginState
+23:43:23.979 [StateMachine]: Player alesshole (dpnid 71001585 uid dNltWElBg21tP8jBzA87aVZyuFTvx4hujP8j-blHbc8=) Entering DBWaitLoginTimeLoginState
+23:43:38.980 [StateMachine]: Player alesshole (dpnid 71001585 uid dNltWElBg21tP8jBzA87aVZyuFTvx4hujP8j-blHbc8=) Entering DBGetCharacterLoginState
+23:43:38.983 [StateMachine]: Player alesshole (dpnid 71001585 uid dNltWElBg21tP8jBzA87aVZyuFTvx4hujP8j-blHbc8=) Entering CreateNetObjectsLoginState
+23:43:38.989 [StateMachine]: Player alesshole (dpnid 71001585 uid dNltWElBg21tP8jBzA87aVZyuFTvx4hujP8j-blHbc8=) Entering PreloadCamLoginState
+23:43:38.990 [StateMachine]: Player alesshole (dpnid 71001585 uid dNltWElBg21tP8jBzA87aVZyuFTvx4hujP8j-blHbc8=) Entering WaitPreloadCamLoginState
+23:43:44.502 !!! [CE][Point] Removing 7196.987305, 11586.989258 from Land_jmc_military_lootcase
+23:44:15.83 !!! [CE][Point] Removing 6393.486328, 6707.603027 from Haybale
+23:44:15.982 !!! [CE][Point] Removing 7385.520996, 8402.546875 from SambucusBush2
+23:44:15.984 !!! [CE][Point] Removing 6271.579590, 9688.890625 from SambucusBush2
+23:44:15.984 !!! [CE][Point] Removing 6294.507324, 9578.894531 from SambucusBush1
+23:44:38.494 !!! [CE][Point] Removing 7080.343750, 11613.824219 from Land_jmc_skeleton_gnawed_5
+23:44:38.693 !!! [CE][Point] Removing 7080.343750, 11613.824219 from Land_jmc_skeleton_gnawed_5
+23:45:14.223 [StateMachine]: Player alesshole (dpnid 71001585 uid dNltWElBg21tP8jBzA87aVZyuFTvx4hujP8j-blHbc8=) Entering GetLoadedCharLoginState
+23:45:14.258 <LOAD EXISTING CHAR>:
+    charID 20
+    playerID 20
+    dpnid 71001585
+    uid dNltWElBg21tP8jBzA87aVZyuFTvx4hujP8j-blHbc8=
+23:45:32.476 !!! [CE][Point] Removing 348.141357, 819.364624 from Land_jmc_ruinecolumn_loot
+23:46:01.701 !!! [CE][Point] Removing 6271.579590, 9688.890625 from SambucusBush2
+23:46:01.702 !!! [CE][Point] Removing 6296.910645, 9579.506836 from SambucusBush1
+23:46:01.702 !!! [CE][Point] Removing 5549.311035, 3391.625732 from SambucusBush1
+23:46:01.702 !!! [CE][Point] Removing 7385.520996, 8402.546875 from SambucusBush2
+23:46:26.813 !!! [CE][Point] Removing 8728.215820, 9377.434570 from Land_Boat_Small1
+23:47:23.512 !!! [CE][Point] Removing 6271.579590, 9688.890625 from SambucusBush2
+23:47:23.512 !!! [CE][Point] Removing 6294.507324, 9578.894531 from SambucusBush1
+23:47:23.513 !!! [CE][Point] Removing 5560.579102, 3398.511719 from SambucusBush1
+23:47:23.513 !!! [CE][Point] Removing 7385.520996, 8402.546875 from SambucusBush2
+23:47:23.513 !!! [CE][Point] Removing 7362.378418, 8464.188477 from SambucusBush2
+23:47:48.320 !!! [CE][Point] Removing 7162.505371, 11596.031250 from Land_jmc_skeleton_old_5
+23:48:44.330 !!! [CE][Point] Removing 6366.648926, 6668.440918 from Haybale
+23:48:45.231 !!! [CE][Point] Removing 6269.716797, 9687.397461 from SambucusBush2
+23:48:45.231 !!! [CE][Point] Removing 6296.480957, 9578.105469 from SambucusBush1
+23:48:45.233 !!! [CE][Point] Removing 7362.378418, 8464.188477 from SambucusBush2
+23:48:45.234 !!! [CE][Point] Removing 6287.193359, 9728.022461 from SambucusBush2
+23:50:05.964 !!! [CE][Point] Removing 5546.400879, 3264.041992 from Haybale
+23:50:06.864 !!! [CE][Point] Removing 6270.125000, 9689.064453 from SambucusBush2
+23:50:06.864 !!! [CE][Point] Removing 6296.910645, 9579.506836 from SambucusBush1
+23:50:06.864 !!! [CE][Point] Removing 6285.330566, 9726.529297 from SambucusBush2
+23:50:06.867 !!! [CE][Point] Removing 6326.049316, 9685.562500 from SambucusBush2
+23:50:06.867 !!! [CE][Point] Removing 6334.085938, 9683.302734 from SambucusBush2
+23:50:06.867 !!! [CE][Point] Removing 6333.222656, 9687.185547 from SambucusBush2
+23:50:31.874 !!! [CE][Point] Removing 407.927429, 839.317444 from Land_jmc_ruinecolumn_loot
+23:51:27.779 !!! [CE][Point] Removing 6366.675293, 6668.407715 from Haybale
+23:51:28.679 !!! [CE][Point] Removing 6270.125000, 9689.064453 from SambucusBush2
+23:51:28.679 !!! [CE][Point] Removing 6296.480957, 9578.105469 from SambucusBush1
+23:51:28.680 !!! [CE][Point] Removing 7396.648926, 8363.477539 from SambucusBush2
+23:51:28.681 !!! [CE][Point] Removing 6285.330566, 9726.529297 from SambucusBush2
+23:51:28.681 !!! [CE][Point] Removing 6343.032715, 9673.975586 from SambucusBush2
+23:51:28.681 !!! [CE][Point] Removing 6327.248535, 9683.807617 from SambucusBush2
+23:52:18.443 !!! [CE][Point] Removing 584.889343, 371.261566 from Land_jmc_ruinecolumn_loot
+23:52:45.499 !!! [CE][Point] Removing 254.374283, 293.853546 from Land_jmc_ruinecolumn_loot
+23:52:49.617 !!! [CE][Point] Removing 6362.286621, 6671.538574 from Haybale
+23:53:13.419 !!! [CE][Point] Removing 348.887329, 819.365906 from Land_jmc_ruinecolumn_loot
+23:53:13.821 !!! [CE][Point] Removing 7133.672363, 11524.971680 from Land_Mil_Fortified_Nest_Big
+23:53:14.696 !!! [CE][Point] Removing 6295.343262, 9580.204102 from SambucusBush1
+23:53:14.697 !!! [CE][Point] Removing 7402.190430, 8415.333984 from SambucusBush2
+23:53:14.697 !!! [CE][Point] Removing 6270.125000, 9689.064453 from SambucusBush2
+23:53:14.697 !!! [CE][Point] Removing 6286.768555, 9725.939453 from SambucusBush2
+23:53:40.512 !!! [CE][Point] Removing 7132.990234, 11524.939453 from Land_Mil_Fortified_Nest_Big
+23:53:47.988 [Disconnect]: Start script disconnect 337059983 (dbCharacterId 7 dbPlayerId 7) logoutTime 15
+23:53:50.489 [Disconnect]: Client 337059983 disconnecting
+23:53:50.489 [Disconnect]: Client 337059983 early disconnect
+23:53:50.489 [Disconnect]: Start script disconnect 337059983 (dbCharacterId 7 dbPlayerId 7) logoutTime 15
+23:54:00.529 [Disconnect]: No packets from 337059983
+23:54:00.529 [Disconnect]: Already in progress 337059983 
+23:54:02.990 [Disconnect]: Finish script disconnect 337059983
+23:54:02.990 [Disconnect]: DisconnectPlayerFinish 337059983
+23:54:02.990 [Disconnect]: Remove player info 337059983
+23:54:03.28 [Disconnect]: Player destroy 337059983 
+23:54:11.527 !!! [CE][Point] Removing 6361.950195, 6673.580566 from Haybale
+23:54:36.432 !!! [CE][Point] Removing 6296.910645, 9579.506836 from SambucusBush1
+23:54:36.433 !!! [CE][Point] Removing 6270.125000, 9689.064453 from SambucusBush2
+23:54:36.433 !!! [CE][Point] Removing 6287.193359, 9728.022461 from SambucusBush2
+23:55:01.619 !!! [CE][Point] Removing 7319.944824, 11523.548828 from Land_Mil_Fortified_Nest_Big
+23:55:28.02 !!! [CE][Point] Removing 7321.591797, 11525.989258 from Land_Mil_Fortified_Nest_Big
+23:55:28.703 !!! [CE][Point] Removing 7319.224121, 11523.508789 from Land_Mil_Fortified_Nest_Big
+23:55:58.11 !!! [CE][Point] Removing 6296.480957, 9578.105469 from SambucusBush1
+23:55:58.12 !!! [CE][Point] Removing 6269.716797, 9687.397461 from SambucusBush2
+23:55:58.12 !!! [CE][Point] Removing 6326.049316, 9685.562500 from SambucusBush2
+23:55:58.12 !!! [CE][Point] Removing 6286.768555, 9725.939453 from SambucusBush2
+23:56:22.512 !!! [CE][Point] Removing 7321.584473, 11525.086914 from Land_Mil_Fortified_Nest_Big
+23:57:19.603 !!! [CE][Point] Removing 6296.910645, 9579.506836 from SambucusBush1
+23:57:59.338 [LOCK] Server was locked.
+23:58:09.680 !!! [CE][Point] Removing 8587.530273, 3483.797363 from Land_Boat_Small1
+23:58:41.206 !!! [CE][Point] Removing 6295.343262, 9580.204102 from SambucusBush1
+23:58:41.206 !!! [CE][Point] Removing 6271.154785, 9686.807617 from SambucusBush2
+23:58:59.342 Player alesshole (71001585) kicked from server: 240 ( (Admin Kick (Server restart)))
+23:58:59.343 [Disconnect]: Client 71001585 early disconnect
+23:58:59.343 [Disconnect]: Start script disconnect 71001585 (dbCharacterId 20 dbPlayerId 20) logoutTime 15
+23:58:59.344 Player BnYrB (14434624) kicked from server: 240 ( (Admin Kick (Server restart)))
+23:58:59.344 [Disconnect]: Client 14434624 early disconnect
+23:58:59.345 [Disconnect]: Start script disconnect 14434624 (dbCharacterId 1 dbPlayerId 1) logoutTime 15
+23:58:59.345 Player Blue (17112392) kicked from server: 240 ( (Admin Kick (Server restart)))
+23:58:59.346 [Disconnect]: Client 17112392 early disconnect
+23:58:59.347 [Disconnect]: Start script disconnect 17112392 (dbCharacterId 38 dbPlayerId 38) logoutTime 15
+23:58:59.347 Player Raider 2-2 (1628019298) kicked from server: 240 ( (Admin Kick (Server restart)))
+23:58:59.347 [Disconnect]: Client 1628019298 early disconnect
+23:58:59.348 [Disconnect]: Start script disconnect 1628019298 (dbCharacterId 11 dbPlayerId 11) logoutTime 15
+23:58:59.349 Player Jimmy Nickels (48437000) kicked from server: 240 ( (Admin Kick (Server restart)))
+23:58:59.349 Player Skif (1494544388) kicked from server: 240 ( (Admin Kick (Server restart)))
+23:58:59.352 [Disconnect]: Client 1494544388 early disconnect
+23:58:59.352 [Disconnect]: Client 48437000 early disconnect
+23:58:59.354 [Disconnect]: Start script disconnect 1494544388 (dbCharacterId 13 dbPlayerId 13) logoutTime 15
+23:58:59.354 [Disconnect]: Start script disconnect 48437000 (dbCharacterId 12 dbPlayerId 12) logoutTime 15
+23:58:59.654 [Disconnect]: Remove player info 14434624
+23:58:59.677 [Disconnect]: Remove player info 1494544388
+23:58:59.678 [Disconnect]: Remove player info 1628019298
+23:58:59.678 [Disconnect]: Remove player info 17112392
+23:58:59.679 [Disconnect]: Remove player info 71001585
+23:58:59.679 [Disconnect]: Remove player info 48437000
+23:58:59.682 [Disconnect]: Player destroy 14434624 
+23:58:59.687 [Disconnect]: Player destroy 1494544388 
+23:58:59.694 [Disconnect]: Player destroy 1628019298 
+23:58:59.700 [Disconnect]: Player destroy 17112392 
+23:58:59.706 [Disconnect]: Player destroy 71001585 
+23:58:59.711 [Disconnect]: Player destroy 48437000 
+23:59:03.696 !!! [CE][Point] Removing 7192.578125, 11554.485352 from Land_jmc_militarycase_c_12
+23:59:14.344 [Disconnect]: Finish script disconnect -1
+23:59:14.358 [Disconnect]: Finish script disconnect -1
+23:59:14.359 [Disconnect]: Finish script disconnect -1
+23:59:14.359 [Disconnect]: Finish script disconnect -1
+23:59:14.360 [Disconnect]: Finish script disconnect -1
+23:59:14.361 [Disconnect]: Finish script disconnect -1
+23:59:32.346 !!! [CE][Point] Removing 255.119766, 294.168762 from Land_jmc_ruinecolumn_loot
+=======================================================
+-------------------------------------------------------
+Time:  0:00:02
+Exception code: C0000005 ACCESS_VIOLATION at FFFFFFFF
+Version 1.12.153904
+Fault address:  FFFFFFFF 8643C408:8643C430 Unknown module
+file:     Expansion
+world:    deerisle
+=======================================================
+note: Minidump has been generated into the file myprofile\DayZServer_x64_2021-05-21_22-48-05_2021-05-22_00-00-02.mdmp

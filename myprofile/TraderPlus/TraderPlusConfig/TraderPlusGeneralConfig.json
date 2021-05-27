@@ -1,14 +1,19 @@
 {
     "ConvertTraderConfigToTraderPlus": 0,
-    "TraderUIText": "It cannot be sold !,Trade Quantity is superior to item quantity !,Trade Quantity is over stock capacity!,Trade Quantity is below wanted quantity!,Item quantity:,Not too fast !,You cannot trade that item!,You need to empty that item first !,You can't trade that!,Trade Quantity is superior to Stock,STOCK QUANTITY:,PRICE:,INVENTORY, STOCK, PRODUCT INFORMATIONS, TRADE QUANTITY: ,INVENTORY COUNT: ,STORAGE COUNT: ,ALL,SELLABLE,You don't have enough money!,There is not enough quantity in stock!,The sell was a success ! thanks again !,The sell has failed ! try again !,You successfully got your good ! thanks again !,Your good wasn't being able to be given to you ! try again !,SLOTS:,HAND ATTACHMENTS",
-    "MaxItemsStockPerId": 500,
+    "TraderUIText": "It cannot be sold !,Trade Quantity is superior to item quantity !,Trade Quantity is over stock capacity!,Trade Quantity is below wanted quantity!,Item quantity:,Not too fast !,You cannot trade that item!,You need to empty that item first !,You can't trade that!,Trade Quantity is superior to Stock,STOCK QUANTITY:,PRICE:,INVENTORY, STOCK, PRODUCT INFORMATIONS, TRADE QUANTITY: ,INVENTORY COUNT: ,STORAGE COUNT: ,ALL,SELLABLE,You don't have enough money!,There is not enough quantity in stock!,The sell was a success ! thanks again !,The sell has failed ! try again !,You successfully got your good ! thanks again !,Your good wasn't being able to be given to you ! try again !,SLOTS:,HAND ATTACHMENTS,You don't have the following licences to be able to use the trader :,You don't have the following licences to be able to use the trader :",
+    "MaxItemsStockPerId": 1000,
     "MaxPlayerPerID": 3,
     "IsReceiptTraderOnly": 1,
-    "LockPickChance": 0.30000001192092898,
+    "LockPickChance": 0.10000001192092898,
     "UITimer": 60,
+    "LicenceKeyWord": "Licence",
+    "Licences": [
+        "Weapon Licence",
+        "Admin Licence"
+    ],
     "AcceptedStates": {
         "AcceptWorn": 1,
-        "AcceptDamaged": 1,
+        "AcceptDamaged": 0,
         "AcceptBadlyDamaged": 0
     },
     "Currencies": [
@@ -52,14 +57,14 @@
             "GivenName": "QuickStop",
             "Role": "Food Trader",
             "Position": [
-                6252.1201171875,
-                5.823890209197998,
-                9653.5
+                6255.009765625,
+                5.800000190734863,
+                9593.8798828125
             ],
             "Orientation": [
-                -172.0,
-                -0.0,
-                -0.0
+                60.0,
+                0.0,
+                0.0
             ],
             "Clothes": []
         },
@@ -69,12 +74,12 @@
             "GivenName": "QuickStop",
             "Role": "Weapon Trader",
             "Position": [
-                6247.27978515625,
-                5.828770160675049,
-                9654.5400390625
+                6254.8701171875,
+                5.800000190734863,
+                9590.5703125
             ],
             "Orientation": [
-                -81.0,
+                65.0,
                 0.0,
                 0.0
             ],
@@ -86,12 +91,12 @@
             "GivenName": "QuickStop",
             "Role": "Tool Trader",
             "Position": [
-                6248.0400390625,
-                5.813350200653076,
-                9659.6298828125
+                6247.7001953125,
+                5.800000190734863,
+                9591.490234375
             ],
             "Orientation": [
-                -81.0,
+                -50.0,
                 0.0,
                 0.0
             ],
@@ -103,16 +108,17 @@
             "GivenName": "QuickStop",
             "Role": "Clothes Trader",
             "Position": [
-                6251.6201171875,
-                5.833960056304932,
-                9659.1103515625
+                6248.22021484375,
+                5.800000190734863,
+                9594.51953125
             ],
             "Orientation": [
-                7.5,
+                -50.0,
                 0.0,
                 0.0
             ],
             "Clothes": []
         }
-    ]
+    ],
+    "TraderObjects": []
 }
